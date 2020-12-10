@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DEPEND=dev-vcs/git
+DESCRIPTION=A heads up display for Git.
+EAPI=7
+HOMEPAGE=https://github.com/michaeldfallen/git-radar
+KEYWORDS=~x86 ~amd64
+LICENSE=MIT
+RDEPEND=dev-vcs/git
+SLOT=0
+SRC_URI=https://github.com/michaeldfallen/git-radar/archive/2ac25e3d1047cdf19f15bc894ff39449b83d65d4.tar.gz -> git-radar-0.6_p20170108.tar.gz
+_md5_=5b1081a6a7b238199cfa3871d285aadd

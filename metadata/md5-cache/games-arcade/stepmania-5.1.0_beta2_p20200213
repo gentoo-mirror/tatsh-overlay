@@ -1,0 +1,13 @@
+BDEPEND=dev-util/ninja dev-util/cmake >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=gtk? ( x11-libs/gtk+:2 ) alsa? ( media-libs/alsa-lib ) mp3? ( media-libs/libmad ) ogg? ( media-libs/libogg media-libs/libvorbis ) pulseaudio? ( media-sound/pulseaudio ) media-libs/libpng jpeg? ( virtual/jpeg ) xinerama? ( x11-libs/libXinerama ) sdl? ( media-libs/libsdl2 ) >=media-video/ffmpeg-4.2.4 media-libs/glew xrandr? ( x11-libs/libXrandr ) X? ( x11-libs/libX11 ) jack? ( virtual/jack ) virtual/opengl
+DESCRIPTION=Advanced rhythm game. Designed for both home and arcade use
+EAPI=7
+HOMEPAGE=http://www.stepmania.com/
+IUSE=+alsa +crash-handler debug +gles2 +gpl +gtk +jpeg +mp3 +networking +ogg +wav +xinerama +sdl +xrandr +X bundled-songs bundled-courses lto minimaid parallel-port profiling pulseaudio jack
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/stepmania/stepmania/archive/caf2f6522eaafb30a3369717fcf59ec437f71f56.tar.gz -> stepmania-5.1.0_beta2_p20200213.tar.gz
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	cmake	ac7cb516f6a288b6a82bc0649ce49878	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	l10n	8cdd85e169b835d518bc2fd59f780d8e	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=b7f9936e87306a111a439865ccafa23f

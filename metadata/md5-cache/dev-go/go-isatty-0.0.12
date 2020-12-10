@@ -1,0 +1,12 @@
+BDEPEND=>=dev-lang/go-1.10 >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=isatty for Go.
+EAPI=7
+HOMEPAGE=https://github.com/mattn/go-isatty
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RESTRICT=strip strip
+SLOT=0
+SRC_URI=https://github.com/mattn/go-isatty/archive/v0.0.12.tar.gz -> go-isatty-0.0.12.tar.gz mirror://goproxy//golang.org/x/sys/@v/v0.0.0-20200116001909-b77594299b42.zip -> golang.org%2Fx%2Fsys%2F@v%2Fv0.0.0-20200116001909-b77594299b42.zip mirror://goproxy//golang.org/x/sys/@v/v0.0.0-20200116001909-b77594299b42.mod -> golang.org%2Fx%2Fsys%2F@v%2Fv0.0.0-20200116001909-b77594299b42.mod
+_eclasses_=go-module	92660621959e7fab813173772987588b	golang-base	c57d2c3f9e1a02d0feb8b87c7b689892
+_md5_=eaf244050be68e99f78ce2d61157a5d9

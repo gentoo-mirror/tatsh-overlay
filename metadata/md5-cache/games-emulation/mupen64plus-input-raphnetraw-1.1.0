@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-libs/hidapi
+DESCRIPTION=Plugin to let the emulator communicate with the controllers directly.
+EAPI=7
+HOMEPAGE=https://www.raphnet-tech.com/products/raphnetraw/index.php
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/hidapi
+SLOT=0
+SRC_URI=https://www.raphnet-tech.com/downloads/mupen64plus-input-raphnetraw-1.1.0.tar.gz
+_md5_=926ba9ada1b8376aad21fa5cd880d239

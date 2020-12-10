@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=>=dev-python/python-evdev-0.6.1 >=media-libs/alsa-lib-1.0.29 >=x11-base/xorg-server-1.12.4-r5 ao? ( media-libs/libao ) pulseaudio? ( media-sound/pulseaudio )
+DESCRIPTION=Sega Dreamcast emulator.
+EAPI=6
+HOMEPAGE=http://reicast.com/
+IUSE=+alsa ao +evdev joystick pulseaudio
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-python/python-evdev-0.6.1 >=media-libs/alsa-lib-1.0.29 >=x11-base/xorg-server-1.12.4-r5 ao? ( media-libs/libao ) pulseaudio? ( media-sound/pulseaudio )
+SLOT=0
+SRC_URI=https://github.com/reicast/reicast-emulator/archive/r8.1.tar.gz
+_md5_=4f978bc5a5a9034a7006efda9e89cf58

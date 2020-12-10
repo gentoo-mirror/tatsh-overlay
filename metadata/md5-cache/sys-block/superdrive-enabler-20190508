@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst prepare setup
+DESCRIPTION=Hack for Apple's Superdrive to work with other systems than OS X.
+EAPI=7
+HOMEPAGE=https://github.com/onmomo/superdrive-enabler
+IUSE=+udev kernel_linux
+KEYWORDS=~x86 ~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/onmomo/superdrive-enabler/archive/c5e430077d361283311080fd1ff4cb94e6896553.tar.gz -> superdrive-enabler-20190508.tar.gz
+_eclasses_=linux-info	c90a203b1c14cfa77bd3e37a0e96c955	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=54dabeff82001ca9270455c531b27c83

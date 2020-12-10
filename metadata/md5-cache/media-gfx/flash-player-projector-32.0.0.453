@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm
+DEPEND=virtual/opengl x11-libs/gtk+:2
+DESCRIPTION=Stand-alone viewer of SWF files.
+EAPI=7
+HOMEPAGE=https://www.adobe.com/support/flashplayer/debug_downloads.html
+KEYWORDS=~amd64
+LICENSE=AdobeFlash-11.x
+RDEPEND=virtual/opengl x11-libs/gtk+:2
+SLOT=0
+SRC_URI=https://fpdownload.macromedia.com/pub/flashplayer/updaters/32/flash_player_sa_linux.x86_64.tar.gz -> flash-player-projector-32.0.0.453.tar.gz https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.453/flash_player_npapi_linux.x86_64.tar.gz -> flash-player-projector-32.0.0.453-assets.tar.gz
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=3d2abc74291846d400944f80463ea9cf

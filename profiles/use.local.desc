@@ -1,0 +1,76 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+dev-libs/hidapi:fox - Build a x11-libs/fox GUI
+games-arcade/stepmania:bundled-courses - Install bundled courses.
+games-arcade/stepmania:bundled-songs - Installed bundled songs.
+games-arcade/stepmania:crash-handler - Enable crash handler
+games-arcade/stepmania:gles2 - Enable GLES2 support
+games-arcade/stepmania:gpl - Enable GPL-compatible build
+games-arcade/stepmania:lto - Enable LTO build.
+games-arcade/stepmania:minimaid - Enable support for Minimaid hardware.
+games-arcade/stepmania:networking - Enable networking support.
+games-arcade/stepmania:parallel-port - Enable parallel port-based input devices.
+games-arcade/stepmania:profiling - Enable profiling.
+games-arcade/stepmania:wav - Enable WAV file support.
+games-arcade/stepmania:xrandr - Enable XRandR support.
+games-emulation/reicast:evdev - Enable support for input devices via evdev
+games-emulation/rpcs3:evdev - Enable support for input devices with evdev
+games-emulation/rpcs3:vulkan - Enable Vulkan graphics library support
+media-fonts/noto:ancient - Install fonts for historical scripts
+media-fonts/noto:brahmi - Install font for Brahmi script
+media-fonts/noto:coptic - Install Coptic font
+media-fonts/noto:cuneiform - Install Cuneiform font
+media-fonts/noto:cypriot - Install Cypriot font
+media-fonts/noto:deseret - Install Deseret font
+media-fonts/noto:display - Install Display variant fonts
+media-fonts/noto:duployan - Install Duployan font
+media-fonts/noto:hieroglyphs - Install fonts for hieroglyphs
+media-fonts/noto:l10n_ban - Install fonts for Balinese script
+media-fonts/noto:l10n_bax - Install fonts for Bamum syllabary
+media-fonts/noto:l10n_ber - Install fonts for Berber script
+media-fonts/noto:l10n_bho - Install fonts for Kaithi script
+media-fonts/noto:l10n_bku - Install fonts for Buhid
+media-fonts/noto:l10n_blt - Install fonts for Tai Viet
+media-fonts/noto:l10n_bsq - Install fonts for Bassa alphabet (Vah)
+media-fonts/noto:l10n_bug - Install fonts for Buginese
+media-fonts/noto:l10n_bya - Install fonts for Tagbanwa alphabet
+media-fonts/noto:l10n_ccp - Install fonts for Chakma
+media-fonts/noto:l10n_cja - Install fonts for Cham
+media-fonts/noto:l10n_cmr - Install fonts for Mro
+media-fonts/noto:l10n_dv - Install fonts for Thaana
+media-fonts/noto:l10n_eky - Instal fonts for Kayah Li
+media-fonts/noto:l10n_hnn - Install fonts for Hanunó'o
+media-fonts/noto:l10n_hoc - Install fonts for Warang Citi
+media-fonts/noto:l10n_ii - Install fonts for Yi syllabary
+media-fonts/noto:l10n_iu - Install fonts for Canadian Aboriginal script
+media-fonts/noto:l10n_jv - Install fonts for Javanese script
+media-fonts/noto:l10n_khb - Install fonts for Tai Tham alphabet
+media-fonts/noto:l10n_kv - Install fonts for Old Permic script
+media-fonts/noto:l10n_lep - Install fonts for Lepcha
+media-fonts/noto:l10n_lif - Install fonts for Limbu
+media-fonts/noto:l10n_lis - Install fonts for Lisu (Fraser alphabet)
+media-fonts/noto:l10n_men - Install fonts for Mende Kikakui script
+media-fonts/noto:l10n_mjl - Install fonts for Takri script
+media-fonts/noto:l10n_mww - Install fonts for Pahawh Hmong and Miao
+media-fonts/noto:l10n_new - Install fonts for Newar
+media-fonts/noto:l10n_nod - Install fonts for Thai Tham alphabet
+media-fonts/noto:l10n_nqo - Install fonts for N'Ko alphabet
+media-fonts/noto:l10n_osa - Install fonts for Osage
+media-fonts/noto:l10n_rej - Install fonts for Rejang
+media-fonts/noto:l10n_saz - Install fonts for Saurashtra script
+media-fonts/noto:l10n_skr - Install fonts for Saraiki
+media-fonts/noto:l10n_srb - Install fonts for Sora Sompeng
+media-fonts/noto:l10n_su - Install fonts for Sundanese
+media-fonts/noto:l10n_syl - Install fonts for Sylheti
+media-fonts/noto:l10n_tbw - Install fonts for Tagbanwa alphabet
+media-fonts/noto:l10n_vai - Install fonts for Vai syllabary
+media-fonts/noto:linear - Install Linear (Minoan) fonts
+media-fonts/noto:mono - Install monospace fonts
+media-fonts/noto:music - Install font for music notation
+media-fonts/noto:old-arabian - Install fonts for Old North and Old South Arabian
+media-fonts/noto:pau-cin-hau - Install font for Pau Cin Hau script
+media-fonts/noto:phagspa - Install for 'Phags-pa script
+media-fonts/noto:runic - Install Runic font
+media-fonts/noto:symbols - Install Symbols fonts

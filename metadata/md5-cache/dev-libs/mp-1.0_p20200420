@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=A small, 0BSD-licensed metaprogramming library for C++17.
+EAPI=7
+HOMEPAGE=https://github.com/MerryMage/mp
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-0
+SLOT=0
+SRC_URI=https://github.com/MerryMage/mp/archive/649fde1e814f9ce5b04d7ddeb940244d9f63cb2f.tar.gz -> mp-1.0_p20200420.tar.gz
+_md5_=bd691cb0d87f7f44714bf98805324dd7

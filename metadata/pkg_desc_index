@@ -1,0 +1,80 @@
+app-cdr/cdi2nero 0.9.9: Converts DiscJuggler CDI files to NRG (Nero).
+app-cdr/cdirip 0.6.2: Converts DiscJuggler CDI files to various disc image formats.
+app-misc/cmdpack 1.0_p20160421 9999: Neill Corlett's command-Line pack.
+app-misc/usps-track 0.0.1: Tools for Xirvik servers.
+app-misc/wakatime 13.1.0: Fully automatic time tracking for programmers
+app-misc/wego 2.0_p20190211: Weather app for the terminal
+app-pda/ipad_charge 20181231: Helper utility to enable charging with Apple mobile devices such as the iPad.
+app-pda/libirecovery 1.0.0: Library and utility to talk to iBoot/iBSS via USB.
+app-pda/tsschecker 304_p20201007: A powerful tool to check TSS signing status of various devices and firmwares.
+app-portage/gcrud 9999: Clean up cruft on your file system.
+app-portage/upkeep 1.2.7-r3: Helper commands to automate updating with Portage.
+app-vim/vim-wakatime 8.0.0: vim plugin: automatic time tracking with WakaTime
+app-vim/youcompleteme 20201125: A code-completion engine for Vim.
+dev-cpp/catch 2.13.0: Modern C++ header-only framework for unit-tests
+dev-cpp/nlohmann_json 3.9.1: JSON for Modern C++
+dev-db/dbeaver-ce-bin 7.3.0: Free universal database tool (community edition).
+dev-db/dbeaver-creds 20201107-r1: Recover your DBeaver saved credentials.
+dev-db/litecli 1.4.1: CLI for SQLite Databases with auto-completion and syntax highlighting.
+dev-go/go-colorable 0.1.7: Colorable writer for Windows.
+dev-go/go-isatty 0.0.12: isatty for Go.
+dev-go/go-runewidth 0.0.9: Provides functions to get fixed width of the character or string.
+dev-go/ingo 20170402: Simple Go library to persist flags in an INI-like config file.
+dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
+dev-libs/cubeb 0.2_p20201116: Cross platform audio library.
+dev-libs/discord-rpc 3.4.0: Library to interface with a locally running Discord desktop client.
+dev-libs/glbinding 3.0.2_p20190208: A C++ binding for the OpenGL API, generated using the gl.xml specification.
+dev-libs/hidapi 0.10.0: A multi-platform library for USB and Bluetooth HID-Class devices
+dev-libs/libfragmentzip 60: A library allowing to download single files from a remote zip archive
+dev-libs/mp 1.0_p20200420: A small, 0BSD-licensed metaprogramming library for C++17.
+dev-libs/teakra 20200913-r1: Emulator, (dis-)assembler, tools and documentation for XpertTeak, the DSP used by DSi/3DS.
+dev-libs/tihmstar-libgeneral 40: Stuff used in tsschecker.
+dev-libs/unicorn 1.0.1_p20200627: A lightweight, multi-platform, multi-architecture CPU emulator framework based on QEMU.
+dev-libs/xbyak 5.991: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
+dev-python/hidapi 0.10.0: Python wrapper for hidapi.
+dev-python/requests-futures 1.0.0-r1: Asynchronous Python HTTP for Humans.
+dev-ruby/fileutils 1.4.1_p20201123: Several file utility methods for copying, moving, removing, etc.
+dev-ruby/pry 0.12.2: Pry is a powerful alternative to the standard IRB shell for Ruby
+dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
+dev-util/ycmd 20201125-r1: A code-completion & code-comprehension server.
+dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
+dev-vcs/git-extras 6.1.0: Git utilties: repo summary, repl, changelog population, author commit percentages and more.
+dev-vcs/git-filter-repo 2.29.0: Quickly rewrite git repository history (filter-branch replacement)
+dev-vcs/git-radar 0.6_p20170108: A heads up display for Git.
+dev-vcs/git-secrets 1.3.0_p20200529: Prevents you from committing passwords and other sensitive information to a git repository.
+dev-vcs/git-up 2.0.1_p1: Python implementation of git-up
+games-action/re3 20201005: GTA III decompiled and re-built.
+games-arcade/clone-hero 23.2.2: Clone of Guitar Hero and similar games.
+games-arcade/stepmania 5.1.0_beta2_p20200213: Advanced rhythm game. Designed for both home and arcade use
+games-emulation/citra 20201124: A Nintendo 3DS emulator.
+games-emulation/melonds 0.9: A fast and accurate Nintendo DS emulator.
+games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
+games-emulation/mupen64plus-video-gliden64 4.0_p20201119: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/reicast 8.1: Sega Dreamcast emulator.
+games-emulation/rpcs3 0.0.6_alpha_p20190228: PS3 emulator and debugger.
+games-util/hid-retrobit 1.0.0: Linux driver for the Retro-bit controller adapter USB cable
+games-util/raphnet-tech-adapter-manager 2.1.21: Graphical user interface and command-line tools to manage raphnet adapters.
+kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
+kde-misc/kate-stuff 20201104: Updated and improved Kate editor syntax files and code snippets.
+kde-misc/kate-wakatime 1.3.4-r1: Time tracking with WakaTime for Kate.
+media-fonts/amiri 0.113: High quality Arabic Naskh-style font
+media-fonts/iosevka 4.0.0: Slender typeface for code, from code
+media-fonts/noto 20201118: Google's font family that aims to support all the world's languages
+media-gfx/flash-player-projector 32.0.0.453: Stand-alone viewer of SWF files.
+media-gfx/pngdefry 1.2: A fork of Jongware's pngdefry (for converting iOS PNGs to normal ones)
+media-sound/yamaha-xg-soundfont 20140604: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
+media-video/magewell-pro-capture 1.3.0.4186: Magewell Pro Capture driver.
+media-video/vapoursynth-nnedi3-weights 11: nnedi3 weights.bin file
+net-im/ripcord 0.4.27: Desktop chat client for Slack and Discord (not web-based).
+net-p2p/xirvik-tools 0.3.1-r2: Tools for Xirvik servers.
+net-proxy/charles 4.6.1-r1: Web debugging proxy application.
+sys-apps/liquidctl 1.4.2_p20201117: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices.
+sys-apps/systemd-utils 20200731: Random systemd utilities.
+sys-apps/taw-unix-utilities 20201105: Various small Unix utilities
+sys-apps/usbkill 1.0_rc4_p20160730-r1: An anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.
+sys-auth/fprintd 1.90.1_p20200131: D-Bus service to access fingerprint readers
+sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
+sys-devel/asmjit 20171210: Complete x86/x64 JIT and AOT assembler for C++
+x11-misc/mimeo 2019.7-r1: Open files by MIME-type or file name using regular expressions.
+x11-themes/shere-khan-x 20070505-r1: The dreaded beachball.

@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Git utilties: repo summary, repl, changelog population, author commit percentages and more.
+EAPI=7
+HOMEPAGE=https://github.com/tj/git-extras
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/tj/git-extras/archive/6.1.0.tar.gz -> git-extras-6.1.0.tar.gz
+_md5_=1edd5efa9fcc90de4635080d18b2e22f

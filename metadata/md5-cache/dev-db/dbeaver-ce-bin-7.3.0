@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DEPEND=x11-libs/gtk+ virtual/jre
+DESCRIPTION=Free universal database tool (community edition).
+EAPI=7
+HOMEPAGE=https://dbeaver.io/
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 EPL-1.0 BSD
+RDEPEND=x11-libs/gtk+ virtual/jre
+SLOT=0
+SRC_URI=https://dbeaver.io/files/7.3.0/dbeaver-ce-7.3.0-linux.gtk.x86_64.tar.gz
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8
+_md5_=ea6dbbdff4b2eb597a91e1fef798f37f
