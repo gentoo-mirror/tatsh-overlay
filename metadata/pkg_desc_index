@@ -14,7 +14,7 @@ app-vim/youcompleteme 20201125: A code-completion engine for Vim.
 dev-db/dbeaver-ce-bin 7.3.0: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201107-r1: Recover your DBeaver saved credentials.
 dev-db/litecli 1.5.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
-dev-go/go-colorable 0.1.8: Colorable writer for Windows.
+dev-go/go-colorable 0.1.8-r1: Colorable writer for Windows.
 dev-go/go-isatty 0.0.12: isatty for Go.
 dev-go/go-runewidth 0.0.9: Provides functions to get fixed width of the character or string.
 dev-go/ingo 20170402: Simple Go library to persist flags in an INI-like config file.
