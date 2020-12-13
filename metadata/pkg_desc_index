@@ -71,7 +71,7 @@ sys-apps/liquidctl 1.4.2_p20201117: Cross-platform CLI and Python drivers for AI
 sys-apps/systemd-utils 20200731: Random systemd utilities.
 sys-apps/taw-unix-utilities 20201105: Various small Unix utilities
 sys-apps/usbkill 1.0_rc4_p20160730-r1: An anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.
-sys-auth/fprintd 1.90.1_p20200131: D-Bus service to access fingerprint readers
+sys-auth/fprintd 1.90.8: D-Bus service to access fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-devel/asmjit 20171210: Complete x86/x64 JIT and AOT assembler for C++
 x11-misc/mimeo 2019.7-r1: Open files by MIME-type or file name using regular expressions.
