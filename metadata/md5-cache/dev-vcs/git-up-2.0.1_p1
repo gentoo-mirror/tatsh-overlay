@@ -11,5 +11,5 @@ RDEPEND=>=dev-python/GitPython-3.1.8 >=dev-python/colorama-0.3.7 >=dev-python/te
 REQUIRED_USE=|| ( python_targets_python3_6 python_targets_python3_7 python_targets_python3_8 python_targets_python3_9 )
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/6b/d6/177fc6cea5f34653fb9931e763d7b441ce35b0d7fbb95d5ac0e5e28f7a18/git-up-2.0.1.post1.tar.gz
-_eclasses_=distutils-r1	6492ae184ebb9d8124e5e0b23db93433	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	8d03325e7e3cf3e1465d9c32031e2517	python-utils-r1	e41e32d357e5bdd388b5be2ce24f3883	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=distutils-r1	6a128a9211d714bf9dfb5c0c9e72558e	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	8d03325e7e3cf3e1465d9c32031e2517	python-utils-r1	e41e32d357e5bdd388b5be2ce24f3883	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=28e19cdbb3f88a95d53727c5b84143e6
