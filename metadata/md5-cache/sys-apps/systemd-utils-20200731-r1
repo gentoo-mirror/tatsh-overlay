@@ -10,4 +10,4 @@ RDEPEND=sys-apps/systemd cmsis-dap? ( dev-embedded/openocd[cmsis-dap] ) btrfs? (
 SLOT=0
 SRC_URI=https://github.com/kylemanna/systemd-utils/archive/f9917695629350effdea8a86f650a71a7d4b6a23.tar.gz -> systemd-utils-20200731.tar.gz
 _eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	udev	452708c3f55cf6e918b045adb949a9e6
-_md5_=2ee306b5f91da3da641a5dbd608cd336
+_md5_=417fc440101f5044e5076a42c4775a56
