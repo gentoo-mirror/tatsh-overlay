@@ -10,5 +10,5 @@ RDEPEND=l10n_zh-CN? ( media-fonts/noto-cjk ) l10n_zh-TW? ( media-fonts/noto-cjk 
 RESTRICT=binchecks strip
 SLOT=0
 SRC_URI=https://github.com/googlei18n/noto-fonts/archive/725acad90efba063890acb942c02e0caf0ed3c5c.tar.gz -> noto-20201118.tar.gz
-_eclasses_=font	e052246186f22bd6a37797238374613b
+_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
 _md5_=b971d51eb3cef1d511585e0c8aec4b40
