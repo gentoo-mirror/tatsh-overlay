@@ -26,9 +26,9 @@ dev-libs/glbinding 3.0.2_p20190208: A C++ binding for the OpenGL API, generated 
 dev-libs/hidapi 0.10.0: A multi-platform library for USB and Bluetooth HID-Class devices
 dev-libs/libfragmentzip 60: A library allowing to download single files from a remote zip archive
 dev-libs/mp 1.0_p20200420: A small, 0BSD-licensed metaprogramming library for C++17.
-dev-libs/teakra 20200913-r1: Emulator, (dis-)assembler, tools and documentation for XpertTeak, the DSP used by DSi/3DS.
+dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/tihmstar-libgeneral 49: Stuff used in tsschecker.
-dev-libs/unicorn 1.0.1_p20200627: A lightweight, multi-platform, multi-architecture CPU emulator framework based on QEMU.
+dev-libs/unicorn 1.0.1_p20200627: A CPU emulator framework based on QEMU.
 dev-libs/xbyak 5.991: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
 dev-python/hidapi 0.10.0: Python wrapper for hidapi.
