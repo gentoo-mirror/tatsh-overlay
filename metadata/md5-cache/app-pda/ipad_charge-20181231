@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=virtual/libusb:1
 SLOT=0
 SRC_URI=https://github.com/Tatsh/ipad_charge/archive/20181231.tar.gz -> ipad_charge-20181231.tar.gz
-_md5_=17aa9959713b70b3643210522942fc90
+_md5_=b9b732bbc36a758dd8a960a38a3633ea

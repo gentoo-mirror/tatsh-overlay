@@ -9,7 +9,7 @@ app-pda/ipad_charge 20181231: Helper utility to enable charging with Apple mobil
 app-pda/libirecovery 1.0.0: Library and utility to talk to iBoot/iBSS via USB.
 app-pda/tsschecker 304_p20201007: A powerful tool to check TSS signing status of various devices and firmwares.
 app-portage/gcrud 9999: Clean up cruft on your file system.
-app-portage/upkeep 1.2.7-r3: Helper commands to automate updating with Portage.
+app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/vim-wakatime 8.0.0-r1: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20201125: A code-completion engine for Vim.
 dev-db/dbeaver-ce-bin 7.3.1: Free universal database tool (community edition).
