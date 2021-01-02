@@ -45,9 +45,9 @@ dev-vcs/git-secrets 1.3.0_p20200529: Prevents you from committing passwords and 
 dev-vcs/git-up 2.0.2: Python implementation of git-up
 games-action/re3 20201005: GTA III decompiled and re-built.
 games-arcade/clone-hero 23.2.2: Clone of Guitar Hero and similar games.
-games-arcade/stepmania 5.1.0_beta2_p20200213: Advanced rhythm game. Designed for both home and arcade use
+games-arcade/stepmania 5.1.0_beta2_p20201217: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/citra 20201124: A Nintendo 3DS emulator.
-games-emulation/melonds 0.9: A fast and accurate Nintendo DS emulator.
+games-emulation/melonds 0.9.1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20201230: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/reicast 8.1: Sega Dreamcast emulator.
@@ -60,7 +60,7 @@ media-fonts/amiri 0.113: High quality Arabic Naskh-style font
 media-fonts/iosevka 4.2.0: Slender typeface for code, from code
 media-fonts/noto 20201225: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465: Stand-alone viewer of SWF files.
-media-gfx/pngdefry 1.2: A fork of Jongware's pngdefry (for converting iOS PNGs to normal ones)
+media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
 media-sound/yamaha-xg-soundfont 20140604: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
 media-video/magewell-pro-capture 1.3.0.4186: Magewell Pro Capture driver.
 media-video/open-in-mpv 20201224: Host-side script for the Open in mpv Chrome extension.
