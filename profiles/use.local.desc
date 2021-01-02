@@ -74,3 +74,4 @@ media-fonts/noto:pau-cin-hau - Install font for Pau Cin Hau script
 media-fonts/noto:phagspa - Install for 'Phags-pa script
 media-fonts/noto:runic - Install Runic font
 media-fonts/noto:symbols - Install Symbols fonts
+media-video/magewell-pro-capture:weave - Do not enable deinterlacing on start of capture.
