@@ -38,7 +38,7 @@ dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
 dev-ruby/fileutils 1.5.0: Several file utility methods for copying, moving, removing, etc.
 dev-ruby/pry 0.12.2: Pry is a powerful alternative to the standard IRB shell for Ruby
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
-dev-util/ycmd 20210108: A code-completion & code-comprehension server.
+dev-util/ycmd 20210108-r1: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/git-extras 6.1.0: Git utilties: repo summary, repl, changelog population, author commit percentages and more.
 dev-vcs/git-filter-repo 2.29.0: Quickly rewrite git repository history (filter-branch replacement)
@@ -72,7 +72,7 @@ net-dns/pihole-ftl 5.3.4: The Pi-hole FTL engine
 net-im/ripcord 0.4.28: Desktop chat client for Slack and Discord (not web-based).
 net-p2p/xirvik-tools 0.3.1-r2: Tools for Xirvik servers.
 net-proxy/charles 4.6.1-r1: Web debugging proxy application.
-sys-apps/liquidctl 1.4.2_p20210105: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices.
+sys-apps/liquidctl 1.4.2_p20210105-r1: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices.
 sys-apps/systemd-utils 20200731-r1: Random systemd utilities.
 sys-apps/taw-unix-utilities 20201105: Various small Unix utilities
 sys-apps/usbkill 1.0_rc4_p20160730-r1: An anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.
