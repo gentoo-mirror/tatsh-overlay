@@ -36,6 +36,7 @@ media-fonts/noto:cypriot - Install Cypriot font
 media-fonts/noto:deseret - Install Deseret font
 media-fonts/noto:display - Install Display variant fonts
 media-fonts/noto:duployan - Install Duployan font
+media-fonts/noto:extra - Keep extra fonts
 media-fonts/noto:hieroglyphs - Install fonts for hieroglyphs
 media-fonts/noto:l10n_ban - Install fonts for Balinese script
 media-fonts/noto:l10n_bax - Install fonts for Bamum syllabary
