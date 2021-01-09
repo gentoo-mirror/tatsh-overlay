@@ -9,11 +9,11 @@ app-misc/wakatime 13.1.0: Fully automatic time tracking for programmers
 app-misc/wego 2.0_p20190211: Weather app for the terminal
 app-pda/ipad_charge 20181231: Helper utility to enable charging with Apple mobile devices such as the iPad.
 app-pda/libirecovery 1.0.0: Library and utility to talk to iBoot/iBSS via USB.
-app-pda/tsschecker 304_p20201007: A powerful tool to check TSS signing status of various devices and firmwares.
+app-pda/tsschecker 304_p20201122: A powerful tool to check TSS signing status of various devices and firmwares.
 app-portage/gcrud 9999: Clean up cruft on your file system.
 app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/vim-wakatime 8.0.0-r1: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20201125: A code-completion engine for Vim.
+app-vim/youcompleteme 20201231: A code-completion engine for Vim.
 dev-db/dbeaver-ce-bin 7.3.2: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.5.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
@@ -22,23 +22,23 @@ dev-go/go-isatty 0.0.12: isatty for Go.
 dev-go/go-runewidth 0.0.9: Provides functions to get fixed width of the character or string.
 dev-go/ingo 20170402: Simple Go library to persist flags in an INI-like config file.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
-dev-libs/cubeb 0.2_p20201116: Cross platform audio library.
+dev-libs/cubeb 0.2_p20201208: Cross platform audio library.
 dev-libs/discord-rpc 3.4.0: Library to interface with a locally running Discord desktop client.
-dev-libs/glbinding 3.0.2_p20190208: A C++ binding for the OpenGL API, generated using the gl.xml specification.
+dev-libs/glbinding 3.1.0_p20200812: A C++ binding for the OpenGL API, generated using the gl.xml specification.
 dev-libs/hidapi 0.10.1: A multi-platform library for USB and Bluetooth HID-Class devices
-dev-libs/libfragmentzip 60: A library allowing to download single files from a remote zip archive
+dev-libs/libfragmentzip 60_p20201230: A library allowing to download single files from a remote zip archive
 dev-libs/mp 1.0_p20200420: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/tihmstar-libgeneral 49: Stuff used in tsschecker.
-dev-libs/unicorn 1.0.1_p20200627: A CPU emulator framework based on QEMU.
+dev-libs/unicorn 1.0.2_p20201231: A CPU emulator framework based on QEMU.
 dev-libs/xbyak 5.991: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
-dev-python/hidapi 0.10.0: Python wrapper for hidapi.
+dev-python/hidapi 0.10.1: Python wrapper for hidapi.
 dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
-dev-ruby/fileutils 1.4.1_p20201123: Several file utility methods for copying, moving, removing, etc.
+dev-ruby/fileutils 1.5.0: Several file utility methods for copying, moving, removing, etc.
 dev-ruby/pry 0.12.2: Pry is a powerful alternative to the standard IRB shell for Ruby
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
-dev-util/ycmd 20201125-r1: A code-completion & code-comprehension server.
+dev-util/ycmd 20210108: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/git-extras 6.1.0: Git utilties: repo summary, repl, changelog population, author commit percentages and more.
 dev-vcs/git-filter-repo 2.29.0: Quickly rewrite git repository history (filter-branch replacement)
@@ -47,16 +47,16 @@ dev-vcs/git-secrets 1.3.0_p20200529: Prevents you from committing passwords and 
 dev-vcs/git-up 2.0.2: Python implementation of git-up
 games-action/re3 20201005: GTA III decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2: Clone of Guitar Hero and similar games.
-games-arcade/stepmania 5.1.0_beta2_p20201217: Advanced rhythm game. Designed for both home and arcade use
+games-arcade/stepmania 5.1.0_beta2_p20210108: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/citra 20201124: A Nintendo 3DS emulator.
 games-emulation/melonds 0.9.1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20201230: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20210108: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/reicast 8.1: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.6_alpha_p20190228: PS3 emulator and debugger.
 games-util/raphnet-tech-adapter-manager 2.1.22: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
-kde-misc/kate-stuff 20201104: Updated and improved Kate editor syntax files and code snippets.
+kde-misc/kate-stuff 20201217: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.4-r1: Time tracking with WakaTime for Kate.
 media-fonts/amiri 0.113: High quality Arabic Naskh-style font
 media-fonts/iosevka 4.3.0: Slender typeface for code, from code
