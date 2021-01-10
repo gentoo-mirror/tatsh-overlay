@@ -33,7 +33,7 @@ dev-libs/tihmstar-libgeneral 49: Stuff used in tsschecker.
 dev-libs/unicorn 1.0.2_p20201231: A CPU emulator framework based on QEMU.
 dev-libs/xbyak 5.991: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
-dev-python/hidapi 0.10.1: Python wrapper for hidapi.
+dev-python/hidapi 0.10.1_p20201210: Python wrapper for hidapi.
 dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
 dev-ruby/fileutils 1.5.0: Several file utility methods for copying, moving, removing, etc.
 dev-ruby/pry 0.12.2: Pry is a powerful alternative to the standard IRB shell for Ruby
