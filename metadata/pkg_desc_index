@@ -38,6 +38,7 @@ dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
 dev-ruby/fileutils 1.5.0: Several file utility methods for copying, moving, removing, etc.
 dev-ruby/pry 0.12.2: Pry is a powerful alternative to the standard IRB shell for Ruby
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
+dev-util/nihstro 20180113: 3DS shader assembler and disassembler
 dev-util/ycmd 20210108-r1: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/git-extras 6.1.0: Git utilties: repo summary, repl, changelog population, author commit percentages and more.
