@@ -19,7 +19,7 @@ dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.5.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-go/go-colorable 0.1.8-r1: Colorable writer for Windows.
 dev-go/go-isatty 0.0.12: isatty for Go.
-dev-go/go-runewidth 0.0.9: Provides functions to get fixed width of the character or string.
+dev-go/go-runewidth 0.0.10: Provides functions to get fixed width of the character or string.
 dev-go/ingo 20170402: Simple Go library to persist flags in an INI-like config file.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/cubeb 0.2_p20201208: Cross platform audio library.
@@ -49,7 +49,7 @@ dev-vcs/git-up 2.0.2: Python implementation of git-up
 games-action/re3 20201005: GTA III decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20210108: Advanced rhythm game. Designed for both home and arcade use
-games-emulation/citra 20201124-r1: A Nintendo 3DS emulator.
+games-emulation/citra 20201124-r1 20210109: A Nintendo 3DS emulator.
 games-emulation/melonds 0.9.1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20210108: A new generation, open-source graphics plugin for N64 emulators.
