@@ -5,9 +5,9 @@ DESCRIPTION=GTA III decompiled and re-built.
 EAPI=7
 HOMEPAGE=https://github.com/GTAmodding/re3
 IUSE=extra
-KEYWORDS=~amd64 ~x86 ~arm64 ~arm
+KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=media-libs/libsndfile media-libs/openal media-libs/glew media-sound/mpg123 >=media-libs/glfw-3.3.2
 SLOT=0
-SRC_URI=https://github.com/Tatsh/re3/archive/fa94ee2e08ac7e54e9add83025a7b1aeb4bd215f.tar.gz -> re3-20201005.tar.gz https://github.com/aap/librw/archive/30b77b0b32b4113b5dce2b67813ce9b85d1e1e57.tar.gz -> re3-librw-30b77b0b32b4113b5dce2b67813ce9b85d1e1e57.tar.gz
-_md5_=eea1213bf13d4d8dc06d5dad26694d1b
+SRC_URI=https://github.com/GTAmodding/re3/archive/be1e09aad465878645768a1e515d6c7fa8a68e89.tar.gz -> re3-20210111.tar.gz https://github.com/aap/librw/archive/61b288a9fe72ae4073c0ac5fd2a5815ed510c8c8.tar.gz -> re3-librw-61b288a9fe72ae4073c0ac5fd2a5815ed510c8c8.tar.gz
+_md5_=65eafa0de9de488140044f6256cec7cd
