@@ -49,7 +49,7 @@ games-emulation/citra 20210109: A Nintendo 3DS emulator.
 games-emulation/melonds 0.9.1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20210108: A new generation, open-source graphics plugin for N64 emulators.
-games-emulation/reicast 8.1: Sega Dreamcast emulator.
+games-emulation/reicast 20.04: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.6_alpha_p20190228: PS3 emulator and debugger.
 games-util/raphnet-tech-adapter-manager 2.1.22: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
