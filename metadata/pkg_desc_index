@@ -50,7 +50,7 @@ games-emulation/melonds 0.9.1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20210108: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
-games-emulation/rpcs3 0.0.6_alpha_p20190228: PS3 emulator and debugger.
+games-emulation/rpcs3 0.0.14_alpha: PS3 emulator and debugger.
 games-util/raphnet-tech-adapter-manager 2.1.22: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20201217: Updated and improved Kate editor syntax files and code snippets.
@@ -75,6 +75,5 @@ sys-apps/taw-unix-utilities 20210111: Various small Unix utilities
 sys-apps/usbkill 1.0_rc4_p20160730-r1: An anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.
 sys-auth/fprintd 1.90.8: D-Bus service to access fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
-sys-devel/asmjit 20200102: Complete x86/x64 JIT and AOT assembler for C++
 x11-misc/mimeo 2019.7-r1: Open files by MIME-type or file name using regular expressions.
 x11-themes/shere-khan-x 20070505-r1: The dreaded beachball.
