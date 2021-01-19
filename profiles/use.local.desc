@@ -23,6 +23,7 @@ games-emulation/citra:web-service - Enable web services (telemetry, etc.)
 games-emulation/reicast:evdev - Enable support for input devices via evdev
 games-emulation/reicast:ta-lle - Enable TA LLE
 games-emulation/rpcs3:evdev - Enable support for input devices with evdev
+games-emulation/rpcs3:faudio - Enable audio rendering with app-emulation/faudio
 games-emulation/rpcs3:vulkan - Enable Vulkan graphics library support
 media-fonts/noto:ancient - Install fonts for historical scripts
 media-fonts/noto:brahmi - Install font for Brahmi script
