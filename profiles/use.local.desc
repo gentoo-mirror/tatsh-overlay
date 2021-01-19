@@ -6,12 +6,6 @@ app-misc/wakatime:ntlm - Enable NTLM authentication
 dev-libs/bincookie:tools - Install extra tools
 dev-libs/glbinding:tools - Install extra tools
 dev-libs/hidapi:fox - Build a x11-libs/fox GUI
-dev-libs/unicorn:unicorn_targets_aarch64 - Add AArch64 target
-dev-libs/unicorn:unicorn_targets_arm - Add ARM target
-dev-libs/unicorn:unicorn_targets_m68k - Add m68k target
-dev-libs/unicorn:unicorn_targets_mips - Add MIPS target
-dev-libs/unicorn:unicorn_targets_sparc - Add SPARC target
-dev-libs/unicorn:unicorn_targets_x86 - Add x86 target
 games-action/re3:extra - Install extra game files (does not automatically affect gameplay)
 games-arcade/stepmania:bundled-courses - Install bundled courses.
 games-arcade/stepmania:bundled-songs - Installed bundled songs.
