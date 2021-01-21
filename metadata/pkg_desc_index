@@ -18,8 +18,6 @@ dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.5.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/cubeb 0.2_p20201208: Cross platform audio library.
-dev-libs/discord-rpc 3.4.0: Library to interface with a locally running Discord desktop client.
-dev-libs/glbinding 3.1.0_p20200812: A C++ binding for the OpenGL API, generated using the gl.xml specification.
 dev-libs/hidapi 0.10.1: A multi-platform library for USB and Bluetooth HID-Class devices
 dev-libs/libfragmentzip 60_p20201230: A library allowing to download single files from a remote zip archive
 dev-libs/mp 1.0_p20200420: A small, 0BSD-licensed metaprogramming library for C++17.
