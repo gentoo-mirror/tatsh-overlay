@@ -6,7 +6,7 @@ inherit cmake
 
 DESCRIPTION="Nintendo Switch emulator"
 HOMEPAGE="https://yuzu-emu.org/"
-MY_SHA="2ef4591e5849b5a1a4d6c65ed2d6ee19b4aec665"
+MY_SHA="a175ba1089240f31e70b86c0c220f99ab02ec450"
 DYNARMIC_SHA="3806284cbefc4115436dcdc687776a45ec313093"
 MBEDTLS_SHA="a280e602f3a4ae001d3a83cbc3e6e04c99c22277"
 SIRIT_SHA="eefca56afd49379bdebc97ded8b480839f930881"
@@ -46,12 +46,12 @@ BDEPEND="dev-util/vulkan-headers"
 S="${WORKDIR}/${PN}-${MY_SHA}"
 
 PATCHES=(
-	"${FILESDIR}/${P}-0001-Allow-use-of-system-Opus-and-inih.patch"
-	"${FILESDIR}/${P}-0002-Fix-libzip-typo.patch"
-	"${FILESDIR}/${P}-0003-fix-INIReader.h-includes.patch"
-	"${FILESDIR}/${P}-0004-minimalise-finding-Boost-components.patch"
-	"${FILESDIR}/${P}-0005-Support-newer-Vulkan-headers.patch"
-	"${FILESDIR}/${P}-0006-Allow-system-cubeb.patch"
+	"${FILESDIR}/${PN}-0001-Allow-use-of-system-Opus-and-inih.patch"
+	"${FILESDIR}/${PN}-0002-Fix-libzip-typo.patch"
+	"${FILESDIR}/${PN}-0003-fix-INIReader.h-includes.patch"
+	"${FILESDIR}/${PN}-0004-minimalise-finding-Boost-components.patch"
+	"${FILESDIR}/${PN}-0005-Support-newer-Vulkan-headers.patch"
+	"${FILESDIR}/${PN}-0006-Allow-system-cubeb.patch"
 )
 
 src_prepare() {
@@ -65,7 +65,7 @@ src_prepare() {
 	mv "${WORKDIR}/sirit-${SIRIT_SHA}" "${S}/externals/sirit" || die
 	mv "${WORKDIR}/xbyak-${XBYAK_SHA}" "${S}/externals/xbyak" || die
 	cmake_src_prepare
-	{ pushd "${S}/externals/dynarmic" && eapply "${FILESDIR}/${P}-0099-dynarmic-include-xbyak.patch" && popd; } || die
+	{ pushd "${S}/externals/dynarmic" && eapply "${FILESDIR}/${PN}-0099-dynarmic-include-xbyak.patch" && popd; } || die
 	# Force sirit and dynarmic to be static libs
 	for i in sirit dynarmic; do
 		sed -r -e "s/add_library\(${i}/add_library(${i} STATIC/" -i "${S}/externals/${i}/src/CMakeLists.txt" || die
