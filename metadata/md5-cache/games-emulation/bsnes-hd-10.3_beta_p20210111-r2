@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst postrm preinst prepare
+DEPEND=x11-libs/gtk+:2 x11-libs/gtksourceview:2.0 x11-libs/libX11 x11-libs/libXext ao? ( media-libs/libao ) openal? ( media-libs/openal ) alsa? ( media-libs/alsa-lib ) xv? ( x11-libs/libXv ) opengl? ( virtual/opengl ) pulseaudio? ( media-sound/pulseaudio ) sdl? ( media-libs/libsdl[X,joystick,video] ) udev? ( virtual/udev )
+DESCRIPTION=bsnes fork that adds HD video features.
+EAPI=7
+HOMEPAGE=https://github.com/DerKoun/bsnes-hd
+IUSE=ao +alsa openal opengl oss pulseaudio +sdl udev xv
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=x11-libs/gtk+:2 x11-libs/gtksourceview:2.0 x11-libs/libX11 x11-libs/libXext ao? ( media-libs/libao ) openal? ( media-libs/openal ) alsa? ( media-libs/alsa-lib ) xv? ( x11-libs/libXv ) opengl? ( virtual/opengl ) pulseaudio? ( media-sound/pulseaudio ) sdl? ( media-libs/libsdl[X,joystick,video] ) udev? ( virtual/udev )
+REQUIRED_USE=|| ( ao openal alsa pulseaudio oss ) || ( xv opengl sdl )
+SLOT=0
+SRC_URI=https://github.com/DerKoun/bsnes-hd/archive/ad7a9ef0cbfe66466289bb8d62d6a4885af209d5.tar.gz -> bsnes-hd-10.3_beta_p20210111.tar.gz
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=4f0aa75509d6c4e233082c63073b8b28
