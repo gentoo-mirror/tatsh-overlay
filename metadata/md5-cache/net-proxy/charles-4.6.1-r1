@@ -9,4 +9,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=https://www.charlesproxy.com/assets/release/4.6.1/charles-proxy-4.6.1_amd64.tar.gz
 _eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8
-_md5_=1846c2e137ba73887d6cfdd4696eba22
+_md5_=2f8a2b89e71e6e660bf46ea7803bc2a6

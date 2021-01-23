@@ -5,4 +5,4 @@ HOMEPAGE=https://github.com/Pitmairen/kate-jinja2-highlighting
 KEYWORDS=~amd64 ~x86
 SLOT=0
 SRC_URI=https://github.com/Pitmairen/kate-jinja2-highlighting/archive/8ab9b0d40c54425d6a6b3e5f5ca9bf9f163389d9.tar.gz -> kate-jinja2-highlighting-20190428.tar.gz
-_md5_=b97ecd421a207140def0c8b07d7550b5
+_md5_=d1b8b49ebd56b5f25589a950c77c4b9b

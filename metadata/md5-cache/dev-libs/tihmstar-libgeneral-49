@@ -8,4 +8,4 @@ LICENSE=LGPL-2.1
 SLOT=0
 SRC_URI=https://github.com/tihmstar/libgeneral/archive/b7802ee057ef760cced74b6ae68123e7ee7ce75f.tar.gz -> tihmstar-libgeneral-49.tar.gz
 _eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=a5682ddefe7f0de0e27403e57a75fa67
+_md5_=ef9adeff3d46ba3af413d816a05f5fad

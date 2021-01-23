@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 SLOT=0
 SRC_URI=https://github.com/herumi/xbyak/archive/v5.991.tar.gz -> xbyak-5.991.tar.gz
-_md5_=1a2f1a4e8ac527829b1e4613d503c240
+_md5_=03040b333b6cacf625321b0d902b705e

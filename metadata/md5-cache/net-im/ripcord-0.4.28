@@ -9,4 +9,4 @@ RESTRICT=bindist
 SLOT=0
 SRC_URI=https://cancel.fm/dl/Ripcord-0.4.28-x86_64.AppImage
 _eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8
-_md5_=6a25024f42bb3920109aa03d50062f53
+_md5_=4bdc16a6625586bf3d8f7b1609ba1e66

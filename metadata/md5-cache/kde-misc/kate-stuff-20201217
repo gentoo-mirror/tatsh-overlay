@@ -8,4 +8,4 @@ LICENSE=MIT
 RDEPEND=kde-apps/kate
 SLOT=0
 SRC_URI=https://github.com/zaufi/kate-stuff/archive/d0dce304aaffff9d40abea67f00c7fbc6d0c4109.tar.gz -> kate-stuff-20201217.tar.gz
-_md5_=770ac1a320d8abe6975e8a8d3ec05dca
+_md5_=378c5b242cbc63c23b386dbf858cf8e6
