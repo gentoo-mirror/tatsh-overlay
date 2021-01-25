@@ -58,7 +58,7 @@ media-fonts/noto 20210121: Google's font family that aims to support all the wor
 media-gfx/flash-player-projector 32.0.0.465: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
 media-sound/yamaha-xg-soundfont 20140604: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
-media-video/magewell-pro-capture 1.3.0.4186: Magewell Pro Capture driver.
+media-video/magewell-pro-capture 1.3.0.4186-r1: Magewell Pro Capture driver.
 media-video/open-in-mpv 0.0.4: Host-side script for the Open in mpv Chrome extension.
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
 net-dns/pihole 5.2.4: Network-wide ad blocking (core).
