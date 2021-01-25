@@ -2,12 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-inherit cmake-utils
+inherit cmake
 
 DESCRIPTION="A new generation, open-source graphics plugin for N64 emulators."
 HOMEPAGE="https://github.com/gonetz/GLideN64"
-MY_SHA="85ad11bbddd8c774c0d430405e29026e5e4f3a50"
-SRC_URI="https://github.com/gonetz/GLideN64/archive/${MY_SHA}.tar.gz"
+MY_SHA="7d237650ef34753e80ef7dce8d9f7b153337485b"
+SRC_URI="https://github.com/gonetz/GLideN64/archive/${MY_SHA}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -22,7 +22,7 @@ CMAKE_USE_DIR="${S}/src"
 CMAKE_BUILD_TYPE=Release
 
 src_prepare() {
-	cmake-utils_src_prepare
+	cmake_src_prepare
 	rm -rf src/GLideNHQ/inc
 }
 
@@ -35,7 +35,7 @@ src_configure() {
 		-DMUPENPLUSAPI=ON
 		-DUSE_SYSTEM_LIBS=ON
 	)
-	cmake-utils_src_configure
+	cmake_src_configure
 }
 
 src_install() {
