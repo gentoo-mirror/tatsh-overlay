@@ -1,4 +1,4 @@
-This is stuff I make randomly. There is no real (free) support whatsoever, but if you find a bug, please file an issue.
+This is stuff I make randomly. If you find a bug, please [file an issue](https://github.com/Tatsh/tatsh-overlay/issues/new).
 
 # Installation
 
