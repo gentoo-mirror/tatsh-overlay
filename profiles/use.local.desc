@@ -19,6 +19,7 @@ games-arcade/stepmania:profiling - Enable profiling.
 games-arcade/stepmania:wav - Enable WAV file support.
 games-arcade/stepmania:xrandr - Enable XRandR support.
 games-emulation/citra:web-service - Enable web services (telemetry, etc.)
+games-emulation/play:vulkan - Enable Vulkan graphics library support
 games-emulation/reicast:evdev - Enable support for input devices via evdev
 games-emulation/reicast:ta-lle - Enable TA LLE
 games-emulation/rpcs3:faudio - Enable audio rendering with app-emulation/faudio
