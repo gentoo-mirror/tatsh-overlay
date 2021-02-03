@@ -28,6 +28,9 @@ games-emulation/rpcs3:faudio - Enable audio rendering with app-emulation/faudio
 games-emulation/rpcs3:joystick - Enable support for input devices with evdev
 games-emulation/rpcs3:llvm - LLVM recompiler support
 games-emulation/rpcs3:vulkan - Enable Vulkan graphics library support
+games-emulation/yuzu:compat-list - Download compatibility list during build.
+games-emulation/yuzu:cubeb - Build with cubeb audio backend
+games-emulation/yuzu:web-service - Enable web-serviceds
 media-fonts/noto:ancient - Install fonts for historical scripts
 media-fonts/noto:brahmi - Install font for Brahmi script
 media-fonts/noto:coptic - Install Coptic font
