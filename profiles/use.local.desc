@@ -18,6 +18,8 @@ games-arcade/stepmania:parallel-port - Enable parallel port-based input devices.
 games-arcade/stepmania:profiling - Enable profiling.
 games-arcade/stepmania:wav - Enable WAV file support.
 games-arcade/stepmania:xrandr - Enable XRandR support.
+games-arcade/stepmania-outfox:bundled-courses - Install bundled courses.
+games-arcade/stepmania-outfox:bundled-songs - Installed bundled songs.
 games-emulation/citra:web-service - Enable web services (telemetry, etc.)
 games-emulation/play:vulkan - Enable Vulkan graphics library support
 games-emulation/reicast:evdev - Enable support for input devices via evdev

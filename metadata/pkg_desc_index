@@ -40,6 +40,7 @@ dev-vcs/git-up 2.0.2: Python implementation of git-up
 games-action/re3 20210131: GTA III decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20210128: Advanced rhythm game. Designed for both home and arcade use
+games-arcade/stepmania-outfox 5.3.4.9.6_alpha: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/bsnes-hd 10.3_beta_p20210111-r2: bsnes fork that adds HD video features.
 games-emulation/citra 20210126: A Nintendo 3DS emulator.
 games-emulation/melonds 0.9.1: A fast and accurate Nintendo DS emulator.
