@@ -1,9 +1,9 @@
-BDEPEND=dev-util/patchelf
+BDEPEND=!arm? ( dev-util/patchelf )
 DEFINED_PHASES=install postinst postrm prepare setup
 DESCRIPTION=Advanced rhythm game. Designed for both home and arcade use
 EAPI=7
 HOMEPAGE=http://www.stepmania.com/
-IUSE=bundled-songs bundled-courses doc
+IUSE=+bundled-songs +bundled-courses doc
 KEYWORDS=~amd64 ~arm ~arm64
 LICENSE=MIT
 RDEPEND=app-arch/bzip2 app-arch/lz4 media-libs/alsa-lib media-libs/flac media-libs/libogg media-libs/libsndfile media-libs/libsdl2 media-libs/libvorbis media-libs/vulkan-loader media-sound/pulseaudio virtual/glu virtual/jack virtual/opengl virtual/udev
@@ -11,4 +11,4 @@ RESTRICT=splitdebug
 SLOT=0
 SRC_URI=amd64? ( https://github.com/TeamRizu/OutFox/releases/download/OF4.9.6/Stepmania-Outfox-Alpha-4.9.6-amd64-date-20201216.tar.gz -> stepmania-outfox-5.3.4.9.6_alpha-amd64.tar.gz ) arm64? ( https://github.com/TeamRizu/OutFox/releases/download/OF4.9.6/Stepmania-Outfox-Alpha-4.9.6-arm64v8-date-20201217.tar.gz -> stepmania-outfox-5.3.4.9.6_alpha-arm64.tar.gz ) arm? ( https://github.com/TeamRizu/OutFox/releases/download/OF4.9.6/Stepmania-Outfox-Alpha-4.9.6-arm32v7-date-20201216.tar.gz -> stepmania-outfox-5.3.4.9.6_alpha-arm.tar.gz )
 _eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=9f621651e204633e759c63a973c41301
+_md5_=1f46d95fa07847d2324c1b074ec5f7e5
