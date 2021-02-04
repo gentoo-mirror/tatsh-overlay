@@ -10,4 +10,4 @@ RDEPEND=dev-libs/libzip net-misc/curl dev-libs/tihmstar-libgeneral
 SLOT=0
 SRC_URI=https://github.com/tihmstar/libfragmentzip/archive/6c8f5156558d83485c984b23a88e04845440fea2.tar.gz -> libfragmentzip-60_p20201230.tar.gz
 _eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=db4408e0a09ca7e26957fee2da005f84
+_md5_=f3c19a58215c5dccdd105a6a3b20d33b
