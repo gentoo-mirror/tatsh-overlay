@@ -1,0 +1,13 @@
+BDEPEND=dev-util/premake:5
+DEFINED_PHASES=compile configure install postinst prepare unpack
+DEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123 >=media-libs/glfw-3.3.2
+DESCRIPTION=GTA III decompiled and re-built.
+EAPI=7
+HOMEPAGE=https://github.com/GTAmodding/re3
+IUSE=extra
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123 >=media-libs/glfw-3.3.2
+SLOT=0
+SRC_URI=https://github.com/GTAmodding/re3/archive/263a766d8ed0daf6d720f9a0e0ff90d22c214711.tar.gz -> re3-20210204.tar.gz https://github.com/aap/librw/archive/60a5ace16309ccd3d174a3ec14a1062540934066.tar.gz -> re3-librw-60a5ace16309ccd3d174a3ec14a1062540934066.tar.gz
+_md5_=f26a93f64b7d065fa6a04290c61bb3e0
