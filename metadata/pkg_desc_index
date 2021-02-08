@@ -12,7 +12,7 @@ app-pda/tsschecker 304_p20201122: A powerful tool to check TSS signing status of
 app-portage/gcrud 9999: Clean up cruft on your file system.
 app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/vim-wakatime 8.0.0-r1: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20210205: A code-completion engine for Vim.
+app-vim/youcompleteme 20210207: A code-completion engine for Vim.
 dev-db/dbeaver-bin 7.3.4: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.5.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
@@ -30,26 +30,26 @@ dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
 dev-ruby/fileutils 1.5.0: Several file utility methods for copying, moving, removing, etc.
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/nihstro 20180113: 3DS shader assembler and disassembler
-dev-util/ycmd 20210121: A code-completion & code-comprehension server.
+dev-util/ycmd 20210206: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/git-extras 6.1.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.29.0: Quickly rewrite git repository history (filter-branch replacement)
 dev-vcs/git-radar 0.6_p20170108: A heads up display for Git.
 dev-vcs/git-secrets 1.3.0_p20200529: Prevents you from committing sensitive info to a git repository.
 dev-vcs/git-up 2.0.2: Python implementation of git-up
-games-action/re3 20210205: GTA III decompiled and re-built.
+games-action/re3 20210206: GTA III decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20210203: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox 5.3.4.9.6_alpha-r2: Advanced rhythm game. Designed for both home and arcade use
-games-emulation/bsnes-hd 10.3_beta_p20210111-r2: bsnes fork that adds HD video features.
-games-emulation/citra 20210204: A Nintendo 3DS emulator.
+games-emulation/bsnes-hd 10.3_beta_p20210206: bsnes fork that adds HD video features.
+games-emulation/citra 20210207: A Nintendo 3DS emulator.
 games-emulation/melonds 0.9.1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20210204: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20210207: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.37: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.14-r3: PS3 emulator and debugger.
-games-emulation/yuzu 0.528: Nintendo Switch emulator
+games-emulation/yuzu 0.530: Nintendo Switch emulator
 games-util/raphnet-tech-adapter-manager 2.1.22: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20201217: Updated and improved Kate editor syntax files and code snippets.
@@ -68,7 +68,7 @@ net-dns/pihole-ftl 5.6: The Pi-hole FTL engine
 net-im/ripcord 0.4.28: Desktop chat client for Slack and Discord (not web-based).
 net-p2p/xirvik-tools 0.3.1-r2: Tools for Xirvik servers.
 net-proxy/charles 4.6.1-r1: Web debugging proxy application.
-sys-apps/liquidctl 1.5.0_p20210203: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices.
+sys-apps/liquidctl 1.5.0_p20210207: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices.
 sys-apps/systemd-utils 20200731-r1: Random systemd utilities.
 sys-apps/taw-unix-utilities 20210113: Various small Unix utilities
 sys-apps/usbkill 1.0_rc4_p20160730-r1: An kill-switch that waits for a change on your USB ports.
