@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=BSD-0
 SLOT=0
 SRC_URI=https://github.com/MerryMage/mp/archive/649fde1e814f9ce5b04d7ddeb940244d9f63cb2f.tar.gz -> mp-1.0_p20200420.tar.gz
-_md5_=a94325ec9cb0631880d11c0413b33fc4
+_md5_=3a02bd9656e4cfef8e2c37a767c83902

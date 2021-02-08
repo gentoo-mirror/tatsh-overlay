@@ -1,11 +1,9 @@
 DEFINED_PHASES=install
-DEPEND=kde-apps/kate
 DESCRIPTION=Updated and improved Kate editor syntax files and code snippets.
 EAPI=7
 HOMEPAGE=https://github.com/zaufi/kate-stuff
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=kde-apps/kate
 SLOT=0
 SRC_URI=https://github.com/zaufi/kate-stuff/archive/d0dce304aaffff9d40abea67f00c7fbc6d0c4109.tar.gz -> kate-stuff-20201217.tar.gz
-_md5_=9625221d0634a40aa2c738ab9e742dc6
+_md5_=b76211726ac105fa46dd7801525b5205

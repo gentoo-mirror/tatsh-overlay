@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/hidapi
 SLOT=0
 SRC_URI=https://www.raphnet-tech.com/downloads/mupen64plus-input-raphnetraw-1.1.0.tar.gz
-_md5_=6fb0464ac6eea20a0218275413d41c04
+_md5_=26ccdc1f17a6c8c8d5199c0973057765

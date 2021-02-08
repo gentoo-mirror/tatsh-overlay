@@ -9,5 +9,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123 >=media-libs/glfw-3.3.2
 SLOT=0
-SRC_URI=https://github.com/GTAmodding/re3/archive/6662e60b63d3765ad703d23c28a2c17822b58348.tar.gz -> re3-20210206.tar.gz https://github.com/aap/librw/archive/60a5ace16309ccd3d174a3ec14a1062540934066.tar.gz -> re3-librw-60a5ace16309ccd3d174a3ec14a1062540934066.tar.gz
-_md5_=0d9d022000b54ed51122e2d7a1e32488
+SRC_URI=https://github.com/GTAmodding/re3/archive/6662e60b63d3765ad703d23c28a2c17822b58348.tar.gz -> re3-20210206.tar.gz https://github.com/aap/librw/archive/5c95300890559c85a2764bc200361f904cd4f9f4.tar.gz -> re3-librw-5c95300890559c85a2764bc200361f904cd4f9f4.tar.gz
+_md5_=3dbbd899dd627a082b9ddfbb247d8f6b
