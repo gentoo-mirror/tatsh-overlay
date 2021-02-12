@@ -49,7 +49,7 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20210207: A new generation, open
 games-emulation/play 0.37: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.14-r3: PS3 emulator and debugger.
-games-emulation/yuzu 0.530: Nintendo Switch emulator
+games-emulation/yuzu 0.536: Nintendo Switch emulator
 games-util/raphnet-tech-adapter-manager 2.1.22: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20201217: Updated and improved Kate editor syntax files and code snippets.
