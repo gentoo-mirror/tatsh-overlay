@@ -74,5 +74,5 @@ sys-apps/taw-unix-utilities 20210113: Various small Unix utilities
 sys-apps/usbkill 1.0_rc4_p20160730-r1: An kill-switch that waits for a change on your USB ports.
 sys-auth/fprintd 1.90.9: D-Bus service to access fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
-x11-misc/mimeo 2021.2: Open files by MIME-type or file name using regular expressions.
+x11-misc/mimeo 2021.2-r1: Open files by MIME-type or file name using regular expressions.
 x11-themes/shere-khan-x 20070505-r1: The dreaded beachball.
