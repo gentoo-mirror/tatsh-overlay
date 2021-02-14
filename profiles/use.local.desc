@@ -6,6 +6,7 @@ app-misc/wakatime:ntlm - Enable NTLM authentication
 dev-libs/bincookie:tools - Install extra tools
 dev-libs/hidapi:fox - Build a x11-libs/fox GUI
 games-action/re3:extra - Install extra game files (does not automatically affect gameplay)
+games-action/re3:sanitizer - Build with address sanitiser for better crash logs
 games-arcade/stepmania:bundled-courses - Install bundled courses.
 games-arcade/stepmania:bundled-songs - Installed bundled songs.
 games-arcade/stepmania:crash-handler - Enable crash handler
