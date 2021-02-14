@@ -2,12 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-inherit cmake
+inherit cmake wrapper
 
 DESCRIPTION="GTA III decompiled and re-built."
 HOMEPAGE="https://github.com/GTAmodding/re3"
-MY_RE3_HASH="f407c5a25f907882eb3f291bc0455060433da563"
-MY_LIBRW_HASH="4c77fb57546e89da1e6f3bad3c582848de9f5c93"
+MY_RE3_HASH="0dd5be788ff41d7acced3f0a5c5b7a024c2f1749"
+MY_LIBRW_HASH="41ae7b9b61c6736b34269df0f0350d1b5bcff4df"
 SRC_URI="https://github.com/GTAmodding/${PN}/archive/${MY_RE3_HASH}.tar.gz -> ${P}.tar.gz
 	https://github.com/aap/librw/archive/${MY_LIBRW_HASH}.tar.gz -> ${PN}-librw-${MY_LIBRW_HASH}.tar.gz"
 
@@ -59,8 +59,16 @@ src_configure() {
 		-DRE3_VENDORED_LIBRW=ON
 		-DRE3_WITH_LIBSNDFILE=$(usex sndfile)
 		-DRE3_INSTALL=ON
+		"-DCMAKE_INSTALL_PREFIX=${EPREFIX}/usr/share/${PN}"
 	)
 	cmake_src_configure
+}
+
+src_install() {
+	cmake_src_install
+	einstalldocs
+	make_wrapper re3 "${EPREFIX}/usr/share/${PN}/${PN}" \
+		"${EPREFIX}/usr/share/${PN}"
 }
 
 pkg_postinst() {
