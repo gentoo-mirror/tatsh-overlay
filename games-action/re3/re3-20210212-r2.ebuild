@@ -14,7 +14,7 @@ SRC_URI="https://github.com/GTAmodding/${PN}/archive/${MY_RE3_HASH}.tar.gz -> ${
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86"
-IUSE="extra opus sanitizer sndfile"
+IUSE="opus sanitizer sndfile"
 
 DEPEND="media-libs/libsndfile
 	media-libs/openal
@@ -58,17 +58,9 @@ src_configure() {
 		-DRE3_AUDIO=OAL
 		-DRE3_VENDORED_LIBRW=ON
 		-DRE3_WITH_LIBSNDFILE=$(usex sndfile)
+		-DRE3_INSTALL=ON
 	)
 	cmake_src_configure
-}
-
-src_install() {
-	dobin "${BUILD_DIR}/src/${PN}"
-	if use extra; then
-		insinto /usr/share/${PN}/gamefiles
-		doins -r gamefiles/*
-	fi
-	einstalldocs
 }
 
 pkg_postinst() {
