@@ -7,7 +7,7 @@ dev-libs/bincookie:tools - Install extra tools
 dev-libs/hidapi:fox - Build a x11-libs/fox GUI
 dev-libs/librw:tools - Install extra tools
 games-action/re3:sanitizer - Build with address sanitiser for better crash logs
-games-action/revc:extra - Install extra game files (does not automatically affect gameplay)
+games-action/relcs:sanitizer - Build with address sanitiser for better crash logs
 games-action/revc:sanitizer - Build with address sanitiser for better crash logs
 games-arcade/stepmania:bundled-courses - Install bundled courses.
 games-arcade/stepmania:bundled-songs - Installed bundled songs.
