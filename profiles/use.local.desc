@@ -5,7 +5,7 @@
 app-misc/wakatime:ntlm - Enable NTLM authentication
 dev-libs/bincookie:tools - Install extra tools
 dev-libs/hidapi:fox - Build a x11-libs/fox GUI
-games-action/re3:extra - Install extra game files (does not automatically affect gameplay)
+dev-libs/librw:tools - Install extra tools
 games-action/re3:sanitizer - Build with address sanitiser for better crash logs
 games-action/revc:extra - Install extra game files (does not automatically affect gameplay)
 games-action/revc:sanitizer - Build with address sanitiser for better crash logs

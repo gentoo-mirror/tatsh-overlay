@@ -20,6 +20,7 @@ dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/cubeb 0.2_p20210121: Cross platform audio library.
 dev-libs/hidapi 0.10.1: A multi-platform library for USB and Bluetooth HID-Class devices
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
+dev-libs/librw 20210212: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20200420: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/tihmstar-libgeneral 54: Stuff used in tsschecker.
@@ -37,7 +38,7 @@ dev-vcs/git-filter-repo 2.29.0: Quickly rewrite git repository history (filter-b
 dev-vcs/git-radar 0.6_p20170108: A heads up display for Git.
 dev-vcs/git-secrets 1.3.0_p20200529: Prevents you from committing sensitive info to a git repository.
 dev-vcs/git-up 2.0.2: Python implementation of git-up
-games-action/re3 20210212-r1: GTA III decompiled and re-built.
+games-action/re3 20210212-r2: GTA III decompiled and re-built.
 games-action/revc 20210214: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20210203: Advanced rhythm game. Designed for both home and arcade use
