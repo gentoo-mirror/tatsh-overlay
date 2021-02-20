@@ -20,7 +20,7 @@ dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/cubeb 0.2_p20210217: Cross platform audio library.
 dev-libs/hidapi 0.10.1: A multi-platform library for USB and Bluetooth HID-Class devices
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
-dev-libs/librw 20210218: A re-implementation of the RenderWare Graphics engine.
+dev-libs/librw 20210219: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20200420: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/tihmstar-libgeneral 54: Stuff used in tsschecker.
@@ -31,7 +31,7 @@ dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
 dev-ruby/fileutils 1.5.0: Several file utility methods for copying, moving, removing, etc.
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/nihstro 20180113: 3DS shader assembler and disassembler
-dev-util/ycmd 20210217: A code-completion & code-comprehension server.
+dev-util/ycmd 20210219: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/git-extras 6.1.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.29.0: Quickly rewrite git repository history (filter-branch replacement)
@@ -44,7 +44,7 @@ games-action/revc 1.0: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20210215: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox 5.3.4.9.6_alpha-r2: Advanced rhythm game. Designed for both home and arcade use
-games-emulation/bsnes-hd 10.3_beta_p20210206: bsnes fork that adds HD video features.
+games-emulation/bsnes-hd 10.3_beta_p20210220: bsnes fork that adds HD video features.
 games-emulation/citra 20210212-r1: A Nintendo 3DS emulator.
 games-emulation/melonds 0.9.1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
