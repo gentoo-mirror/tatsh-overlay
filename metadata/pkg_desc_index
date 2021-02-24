@@ -43,7 +43,7 @@ games-action/relcs 20210218: GTA Liberty City Stories decompiled and re-built.
 games-action/revc 1.0: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20210215: Advanced rhythm game. Designed for both home and arcade use
-games-arcade/stepmania-outfox 5.3.0.4.9.7_alpha: Advanced rhythm game. Designed for both home and arcade use
+games-arcade/stepmania-outfox 5.3.0.4.9.7_alpha2: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/bsnes-hd 10.3_beta_p20210220-r1: bsnes fork that adds HD video features.
 games-emulation/citra 20210212-r1: A Nintendo 3DS emulator.
 games-emulation/melonds 0.9.1: A fast and accurate Nintendo DS emulator.
