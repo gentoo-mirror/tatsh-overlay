@@ -20,7 +20,7 @@ dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/cubeb 0.2_p20210217: Cross platform audio library.
 dev-libs/hidapi 0.10.1: A multi-platform library for USB and Bluetooth HID-Class devices
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
-dev-libs/librw 20210219: A re-implementation of the RenderWare Graphics engine.
+dev-libs/librw 20210221: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20200420: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/tihmstar-libgeneral 54: Stuff used in tsschecker.
@@ -45,14 +45,14 @@ games-arcade/clone-hero 0.23.2.2: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20210215: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox 5.3.0.4.9.7_alpha2: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/bsnes-hd 10.3_beta_p20210220-r1: bsnes fork that adds HD video features.
-games-emulation/citra 20210212-r1: A Nintendo 3DS emulator.
+games-emulation/citra 20210221: A Nintendo 3DS emulator.
 games-emulation/melonds 0.9.1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20210221: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20210222: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.37: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.14-r3: PS3 emulator and debugger.
-games-emulation/yuzu 0.545: Nintendo Switch emulator
+games-emulation/yuzu 0.549: Nintendo Switch emulator
 games-util/raphnet-tech-adapter-manager 2.1.22: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20201217: Updated and improved Kate editor syntax files and code snippets.
