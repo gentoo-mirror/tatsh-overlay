@@ -44,7 +44,7 @@ games-action/revc 1.0: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20210215: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox 5.3.0.4.9.7_alpha2: Advanced rhythm game. Designed for both home and arcade use
-games-emulation/bsnes-hd 10.3_beta_p20210220-r1: bsnes fork that adds HD video features.
+games-emulation/bsnes-hd 10.4_beta: bsnes fork that adds HD video features.
 games-emulation/citra 20210221: A Nintendo 3DS emulator.
 games-emulation/melonds 0.9.1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
@@ -59,7 +59,7 @@ kde-misc/kate-stuff 20201217: Updated and improved Kate editor syntax files and 
 kde-misc/kate-wakatime 1.3.4-r1: Time tracking with WakaTime for Kate.
 media-fonts/amiri 0.113: High quality Arabic Naskh-style font
 media-fonts/iosevka 5.0.3: Slender typeface for code, from code
-media-fonts/noto 20210210: Google's font family that aims to support all the world's languages
+media-fonts/noto 20210225: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
 media-sound/yamaha-xg-soundfont 20140604: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
