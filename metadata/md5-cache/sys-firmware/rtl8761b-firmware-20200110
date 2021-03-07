@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Firmware for the Realtek RTL8761B Bluetooth chipset.
+EAPI=7
+HOMEPAGE=https://github.com/Realtek-OpenSource/android_hardware_realtek
+KEYWORDS=~amd64 ~arm64 ~x86
+LICENSE=all-rights-reserved
+SLOT=0
+SRC_URI=https://github.com/Realtek-OpenSource/android_hardware_realtek/raw/e58b611f34f2f5ff57bb0d8cdf1b2e4751e3ccbd/bt/rtkbt/Firmware/BT/rtl8761b_fw https://github.com/Realtek-OpenSource/android_hardware_realtek/raw/e58b611f34f2f5ff57bb0d8cdf1b2e4751e3ccbd/bt/rtkbt/Firmware/BT/rtl8761b_config
+_md5_=9c242a2ff6ac5dd8da0b5aa48b45d9cb
