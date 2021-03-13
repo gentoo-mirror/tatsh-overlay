@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DEPEND=dev-java/openjdk-bin:11
+DESCRIPTION=Free universal database tool (community edition).
+EAPI=7
+HOMEPAGE=https://dbeaver.io/
+KEYWORDS=~amd64 ~arm64
+LICENSE=Apache-2.0 EPL-1.0 BSD
+RDEPEND=dev-java/openjdk-bin:11
+SLOT=0
+SRC_URI=amd64? ( https://dbeaver.io/files/21.0.0/dbeaver-ce-21.0.0-linux.gtk.x86_64-nojdk.tar.gz -> dbeaver-bin-21.0.0-amd64.tar.gz ) arm64? ( https://dbeaver.io/files/21.0.0/dbeaver-ce-21.0.0-linux.gtk.aarch64-nojdk.tar.gz -> dbeaver-bin-21.0.0-arm64.tar.gz )
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=ede412c3cfd3275600bb8ca30ebe0b42
