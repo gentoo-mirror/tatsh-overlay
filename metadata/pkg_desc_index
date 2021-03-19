@@ -4,6 +4,7 @@ app-cdr/cdi2nero 0.9.9: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2: Converts DiscJuggler CDI files to various disc image formats.
 app-editors/imhex 1.7.0: A Hex Editor for people that value their eye sight when working at 3 AM.
 app-misc/cmdpack 1.0_p20160421: Neill Corlett's command-Line pack.
+app-misc/pyrescene 0.7: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1: Tools for Xirvik servers.
 app-misc/wakatime 13.1.0-r1: Fully automatic time tracking for programmers
