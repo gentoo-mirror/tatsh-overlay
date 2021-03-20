@@ -14,7 +14,7 @@ app-pda/tsschecker 304_p20201122: A powerful tool to check TSS signing status of
 app-portage/gcrud 9999: Clean up cruft on your file system.
 app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/vim-wakatime 8.0.0-r1: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20210207: A code-completion engine for Vim.
+app-vim/youcompleteme 20210319: A code-completion engine for Vim.
 dev-db/dbeaver-bin 21.0.0-r1: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.6.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
@@ -50,18 +50,18 @@ games-emulation/bsnes-hd 10.4_beta: bsnes fork that adds HD video features.
 games-emulation/citra 20210306: A Nintendo 3DS emulator.
 games-emulation/melonds 0.9.1-r1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20210315: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20210318: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.38: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.15: PS3 emulator and debugger.
-games-emulation/yuzu 0.565: Nintendo Switch emulator
+games-emulation/yuzu 0.567: Nintendo Switch emulator
 games-util/raphnet-tech-adapter-manager 2.1.23-r1: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20201217: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.4-r1: Time tracking with WakaTime for Kate.
 media-fonts/amiri 0.113: High quality Arabic Naskh-style font
 media-fonts/iosevka 5.0.8: Slender typeface for code, from code
-media-fonts/noto 20210304: Google's font family that aims to support all the world's languages
+media-fonts/noto 20210318: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
 media-sound/sony-headphones-client 1.2: Client recreating the functionality of the Sony Headphones app.
