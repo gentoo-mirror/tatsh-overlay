@@ -14,7 +14,7 @@ app-pda/tsschecker 304_p20201122: A powerful tool to check TSS signing status of
 app-portage/gcrud 9999: Clean up cruft on your file system.
 app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/vim-wakatime 8.0.0-r1: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20210319: A code-completion engine for Vim.
+app-vim/youcompleteme 20210320: A code-completion engine for Vim.
 dev-db/dbeaver-bin 21.0.0-r1: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.6.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
@@ -54,7 +54,7 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20210318: A new generation, open
 games-emulation/play 0.38: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.15: PS3 emulator and debugger.
-games-emulation/yuzu 0.567: Nintendo Switch emulator
+games-emulation/yuzu 0.570: Nintendo Switch emulator
 games-util/raphnet-tech-adapter-manager 2.1.23-r1: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20201217: Updated and improved Kate editor syntax files and code snippets.
