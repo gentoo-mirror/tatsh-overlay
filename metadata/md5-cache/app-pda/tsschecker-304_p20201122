@@ -10,5 +10,5 @@ LICENSE=LGPL-3 MIT
 RDEPEND=>=dev-libs/libfragmentzip-48 >=app-pda/libplist-2.2.0 net-misc/curl dev-libs/openssl:0 >=app-pda/libirecovery-1.0.0
 SLOT=0
 SRC_URI=https://github.com/tihmstar/tsschecker/archive/10440005e2ab5f950f76368a0456ad69677da71b.tar.gz -> tsschecker-304_p20201122.tar.gz https://github.com/tihmstar/jssy/archive/e17d3c8ec5216692efbbe59bbe9801bb7661e07d.tar.gz -> tsschecker-304_p20201122-jssy.tar.gz
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	6ff8412ccf96444868b310b0a28973ba
 _md5_=055097c93a22cf007c5ddc9dfee416d2
