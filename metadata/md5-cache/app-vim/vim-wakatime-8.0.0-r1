@@ -3,6 +3,7 @@ DEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
 DESCRIPTION=vim plugin: automatic time tracking with WakaTime
 EAPI=7
 HOMEPAGE=https://github.com/wakatime/vim-wakatime
+INHERIT=vim-plugin
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 RDEPEND=app-misc/wakatime || ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )

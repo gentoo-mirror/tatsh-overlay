@@ -2,6 +2,7 @@ DEFINED_PHASES=install postinst postrm prepare
 DESCRIPTION=Web debugging proxy application.
 EAPI=7
 HOMEPAGE=https://www.charlesproxy.com/
+INHERIT=desktop
 KEYWORDS=~amd64
 LICENSE=Charles Apache-2.0 MIT GPL-2
 RDEPEND=virtual/jre:1.8

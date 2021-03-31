@@ -3,6 +3,7 @@ DEFINED_PHASES=install postinst postrm prepare setup
 DESCRIPTION=Advanced rhythm game. Designed for both home and arcade use
 EAPI=7
 HOMEPAGE=http://www.stepmania.com/
+INHERIT=desktop wrapper
 IUSE=+bundled-songs +bundled-courses doc
 KEYWORDS=~amd64 ~arm ~arm64
 LICENSE=MIT

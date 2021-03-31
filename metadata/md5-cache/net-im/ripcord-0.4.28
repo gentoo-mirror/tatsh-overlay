@@ -2,6 +2,7 @@ DEFINED_PHASES=install unpack
 DESCRIPTION=Desktop chat client for Slack and Discord (not web-based).
 EAPI=7
 HOMEPAGE=https://cancel.fm/ripcord/
+INHERIT=desktop
 KEYWORDS=~amd64
 LICENSE=Ripcord
 RDEPEND=dev-libs/libsodium:0/23 dev-qt/qtconcurrent:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5[gstreamer] dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwebsockets:5 dev-qt/qtwidgets:5 media-libs/opus virtual/opengl
