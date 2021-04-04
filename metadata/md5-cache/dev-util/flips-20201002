@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install
+DEPEND=gtk? ( x11-libs/gtk+:3 )
+DESCRIPTION=Floating IPS is a patcher for IPS and BPS files.
+EAPI=7
+HOMEPAGE=https://github.com/Alcaro/Flips
+IUSE=gtk
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=GPL-3
+RDEPEND=gtk? ( x11-libs/gtk+:3 )
+SLOT=0
+SRC_URI=https://github.com/Alcaro/Flips/archive/5a3d2012b8ea53ae777c24b8ac4edb9a6bdb9761.tar.gz -> flips-20201002.tar.gz
+_md5_=c2bb395228234e37f1738751488b4e87
