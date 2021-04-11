@@ -35,7 +35,7 @@ dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/flips 20201002: Floating IPS is a patcher for IPS and BPS files.
 dev-util/idea-community 2021.1.211.6693.111: A complete toolset for web, mobile and enterprise development
 dev-util/nihstro 20180113: 3DS shader assembler and disassembler
-dev-util/ycmd 20210409: A code-completion & code-comprehension server.
+dev-util/ycmd 20210409-r1: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/git-extras 6.2.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.29.0: Quickly rewrite git repository history (filter-branch replacement)
