@@ -1,5 +1,6 @@
 acct-group/pihole 0: System group: pihole
 acct-user/pihole 0: user for pihole
+app-arch/unalz 0.65: Unpack ALZ archives.
 app-cdr/cdi2nero 0.9.9: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2: Converts DiscJuggler CDI files to various disc image formats.
 app-editors/imhex 1.7.0: A Hex Editor for people that value their eye sight when working at 3 AM.
