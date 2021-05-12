@@ -14,6 +14,7 @@ app-pda/libirecovery 1.0.0: Library and utility to talk to iBoot/iBSS via USB.
 app-pda/tsschecker 304_p20201122: A powerful tool to check TSS signing status of various devices and firmwares.
 app-portage/gcrud 9999: Clean up cruft on your file system.
 app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
+app-vim/kotlin-vim 20210420: Kotlin plugin for Vim.
 app-vim/vim-wakatime 8.0.0-r1: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20210504: A code-completion engine for Vim.
 dev-db/dbeaver-bin 21.0.4: Free universal database tool (community edition).

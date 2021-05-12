@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm
+DEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
+DESCRIPTION=Kotlin plugin for Vim.
+EAPI=7
+HOMEPAGE=https://github.com/udalov/kotlin-vim
+INHERIT=vim-plugin
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
+SLOT=0
+SRC_URI=https://github.com/udalov/kotlin-vim/archive/e043f6a2ddcb0611e4afcb1871260a520e475c74.tar.gz -> kotlin-vim-20210420.tar.gz
+_eclasses_=vim-doc	dd0828b15877b2a09c07f4719e45891f	vim-plugin	93be71a1efbbf62981fcd40ee0db6e3f
+_md5_=6532e831eb6ce5841d7c7a4c1e1af14a
