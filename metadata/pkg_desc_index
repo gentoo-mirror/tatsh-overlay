@@ -16,7 +16,7 @@ app-portage/gcrud 9999: Clean up cruft on your file system.
 app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20210420: Kotlin plugin for Vim.
 app-vim/vim-wakatime 8.0.0-r1: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20210504: A code-completion engine for Vim.
+app-vim/youcompleteme 20210518: A code-completion engine for Vim.
 dev-db/dbeaver-bin 21.0.5: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.6.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
@@ -34,7 +34,7 @@ dev-python/hidapi 0.10.1_p20210303: Python wrapper for hidapi.
 dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
 dev-ruby/fileutils 1.5.0: Several file utility methods for copying, moving, removing, etc.
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
-dev-util/flips 20201002: Floating IPS is a patcher for IPS and BPS files.
+dev-util/flips 20210518: Floating IPS is a patcher for IPS and BPS files.
 dev-util/idea-community 2021.1.1.211.7142.45: A complete toolset for web, mobile and enterprise development
 dev-util/nihstro 20180113: 3DS shader assembler and disassembler
 dev-util/ycmd 20210517: A code-completion & code-comprehension server.
@@ -58,7 +58,7 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20210515: A new generation, open
 games-emulation/play 0.40: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.16: PS3 emulator and debugger.
-games-emulation/yuzu 0.626: Nintendo Switch emulator
+games-emulation/yuzu 0.630: Nintendo Switch emulator
 games-util/raphnet-tech-adapter-manager 2.1.23-r1: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20210326: Updated and improved Kate editor syntax files and code snippets.

@@ -9,6 +9,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 ) || ( sys-devel/clang:10 sys-devel/clang:11 sys-devel/clang:12 ) python_single_target_python3_7? ( dev-python/requests-futures[python_targets_python3_7(-)] ) python_single_target_python3_8? ( dev-python/requests-futures[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/requests-futures[python_targets_python3_9(-)] ) python_single_target_python3_7? ( dev-python/requests[python_targets_python3_7(-)] ) python_single_target_python3_8? ( dev-python/requests[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/requests[python_targets_python3_9(-)] ) python_single_target_python3_7? ( dev-util/ycmd[python_single_target_python3_7(-)?,python_single_target_python3_8(-)?,python_single_target_python3_9(-)?] ) python_single_target_python3_8? ( dev-util/ycmd[python_single_target_python3_7(-)?,python_single_target_python3_8(-)?,python_single_target_python3_9(-)?] ) python_single_target_python3_9? ( dev-util/ycmd[python_single_target_python3_7(-)?,python_single_target_python3_8(-)?,python_single_target_python3_9(-)?] )
 SLOT=0
-SRC_URI=https://github.com/ycm-core/YouCompleteMe/archive/7c4d05375a09a871f618f9688c7af517d4e69b76.tar.gz -> youcompleteme-20210504.tar.gz
+SRC_URI=https://github.com/ycm-core/YouCompleteMe/archive/ab73ca25467625ea71f1ee9103fca55cc10ba27a.tar.gz -> youcompleteme-20210518.tar.gz
 _eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	d273d56dc725880edbeb1f6389faf5f1	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a
-_md5_=026a97193f6732c4a78ae2bfccb4afe0
+_md5_=e24a3d5676301b13cab33c45154eebb7
