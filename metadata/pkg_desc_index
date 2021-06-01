@@ -34,7 +34,7 @@ dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
 dev-ruby/fileutils 1.5.0: Several file utility methods for copying, moving, removing, etc.
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/flips 20210518: Floating IPS is a patcher for IPS and BPS files.
-dev-util/idea-community 2021.1.1.211.7142.45: A complete toolset for web, mobile and enterprise development
+dev-util/idea-community 2021.1.2.211.7442.40: A complete toolset for web, mobile and enterprise development
 dev-util/nihstro 20180113: 3DS shader assembler and disassembler
 dev-util/ycmd 20210517: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
@@ -54,7 +54,7 @@ games-emulation/citra 20210516: A Nintendo 3DS emulator.
 games-emulation/melonds 0.9.2: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20210526: A new generation, open-source graphics plugin for N64 emulators.
-games-emulation/play 0.40: PlayStation 2 emulator.
+games-emulation/play 0.41: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.16: PS3 emulator and debugger.
 games-emulation/yuzu 0.640: Nintendo Switch emulator
