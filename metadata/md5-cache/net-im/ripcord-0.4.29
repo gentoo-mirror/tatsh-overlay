@@ -8,6 +8,6 @@ LICENSE=Ripcord
 RDEPEND=dev-libs/libsodium:0/23 dev-qt/qtconcurrent:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5[gstreamer] dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwebsockets:5 dev-qt/qtwidgets:5 media-libs/opus virtual/opengl
 RESTRICT=bindist
 SLOT=0
-SRC_URI=https://cancel.fm/dl/Ripcord-0.4.28-x86_64.AppImage
+SRC_URI=https://cancel.fm/dl/Ripcord-0.4.29-x86_64.AppImage
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28
 _md5_=d1ca64a4e46d2969fef3b939067e4ed6
