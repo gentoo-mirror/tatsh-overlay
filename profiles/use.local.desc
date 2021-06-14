@@ -94,6 +94,8 @@ media-fonts/noto:phagspa - Install for 'Phags-pa script
 media-fonts/noto:runic - Install Runic font
 media-fonts/noto:symbols - Install Symbols fonts
 media-video/magewell-pro-capture:weave - Do not enable deinterlacing. Warning: this stops "mwcap-control --video-output-deinterlace ..." from working.
+net-dns/pihole:cron - Installs cron job
+net-dns/pihole:www - Install www files (requires PHP hosting)
 sys-apps/systemd-utils:amazon - Install Amazon Cloud Drive service
 sys-apps/systemd-utils:btrfs - Install units for btrfs
 sys-apps/systemd-utils:cmsis-dap - 
