@@ -7,8 +7,8 @@ INHERIT=bash-completion-r1
 IUSE=cron www
 KEYWORDS=~amd64 ~x86
 LICENSE=EUPL-1.2
-RDEPEND=acct-user/pihole acct-group/pihole net-dns/pihole-ftl app-admin/sudo
+RDEPEND=acct-user/pihole acct-group/pihole >=net-dns/pihole-ftl-5.8.1 app-admin/sudo
 SLOT=0
 SRC_URI=https://github.com/pi-hole/pi-hole/archive/v5.3.1.tar.gz -> pihole-5.3.1.tar.gz
 _eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	bash-completion-r1	8e7c071081c68c2c398b77fe3a1d6908
-_md5_=203a849568e2ddc88878e93ee6db7d1c
+_md5_=1fed12ca702536e5178e125fe227bc38
