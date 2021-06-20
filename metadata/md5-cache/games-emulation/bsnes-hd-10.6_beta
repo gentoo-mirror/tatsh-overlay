@@ -10,6 +10,6 @@ LICENSE=GPL-3
 RDEPEND=x11-libs/gtk+:2 x11-libs/gtksourceview:2.0 x11-libs/libX11 x11-libs/libXext ao? ( media-libs/libao ) openal? ( media-libs/openal ) alsa? ( media-libs/alsa-lib ) xv? ( x11-libs/libXv ) opengl? ( virtual/opengl ) pulseaudio? ( media-sound/pulseaudio ) sdl? ( media-libs/libsdl[X,joystick,video] ) udev? ( virtual/udev )
 REQUIRED_USE=|| ( ao openal alsa pulseaudio oss ) || ( xv opengl sdl )
 SLOT=0
-SRC_URI=https://github.com/DerKoun/bsnes-hd/archive/beta_10_5.tar.gz -> bsnes-hd-10.5_beta.tar.gz
+SRC_URI=https://github.com/DerKoun/bsnes-hd/archive/beta_10_6.tar.gz -> bsnes-hd-10.6_beta.tar.gz
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=05208f33b744029c03a410b13b044025
