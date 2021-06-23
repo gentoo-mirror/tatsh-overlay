@@ -86,6 +86,6 @@ sys-apps/usbkill 1.0_rc4_p20160730-r1: An kill-switch that waits for a change on
 sys-auth/fprintd 1.90.9-r1: D-Bus service to access fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-firmware/rtl8761b-firmware 20200110: Firmware for the Realtek RTL8761B Bluetooth chipset.
-www-apps/wakapi 1.28.2: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+www-apps/wakapi 1.29.0: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 x11-misc/mimeo 2021.2-r1: Open files by MIME-type or file name using regular expressions.
 x11-themes/apple-cursor 1.1.4: macOS cursor theme.
