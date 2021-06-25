@@ -60,6 +60,7 @@ games-emulation/rpcs3 0.0.16: PS3 emulator and debugger.
 games-emulation/yuzu 0.663: Nintendo Switch emulator
 games-util/hid-nintendo 20210323: A Nintendo HID kernel module
 games-util/joycond 0.1.0_p20210327: Combine joy-cons using hid-nintendo
+games-util/joycond-cemuhook 20210419: Support for cemuhook's UDP protocol for joycond devices.
 games-util/joystickwake 0.2.4: Joystick-aware screen waker.
 games-util/raphnet-tech-adapter-manager 2.1.23-r1: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
