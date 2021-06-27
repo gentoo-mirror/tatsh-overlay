@@ -36,7 +36,7 @@ dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/flips 20210518: Floating IPS is a patcher for IPS and BPS files.
 dev-util/idea-community 2021.1.2.211.7442.40: A complete toolset for web, mobile and enterprise development
 dev-util/nihstro 20180113: 3DS shader assembler and disassembler
-dev-util/ycmd 20210613: A code-completion & code-comprehension server.
+dev-util/ycmd 20210627: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/git-extras 6.2.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.32.0: Quickly rewrite git repository history (filter-branch replacement)
@@ -57,7 +57,7 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20210613: A new generation, open
 games-emulation/play 0.41: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.16: PS3 emulator and debugger.
-games-emulation/yuzu 0.668: Nintendo Switch emulator
+games-emulation/yuzu 0.670: Nintendo Switch emulator
 games-util/hid-nintendo 20210323: A Nintendo HID kernel module
 games-util/joycond 0.1.0_p20210327: Combine joy-cons using hid-nintendo
 games-util/joycond-cemuhook 20210419: Support for cemuhook's UDP protocol for joycond devices.
