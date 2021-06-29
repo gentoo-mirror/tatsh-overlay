@@ -2,6 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-office/glabels:barcode - Enable barcode support with app-text/barcode
+app-office/glabels:qrcode - Enables QR code support with media-gfx/qrencode
 dev-libs/bincookie:tools - Install extra tools
 dev-libs/hidapi:fox - Build a x11-libs/fox GUI
 dev-libs/librw:tools - Install extra tools
