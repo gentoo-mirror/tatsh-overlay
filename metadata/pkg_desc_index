@@ -58,7 +58,7 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator c
 games-emulation/mupen64plus-video-gliden64 4.0_p20210613: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.41: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
-games-emulation/rpcs3 0.0.16: PS3 emulator and debugger.
+games-emulation/rpcs3 0.0.17: PS3 emulator and debugger.
 games-emulation/yuzu 0.675: Nintendo Switch emulator
 games-util/hid-nintendo 20210323: A Nintendo HID kernel module
 games-util/joycond 0.1.0_p20210327: Combine joy-cons using hid-nintendo
