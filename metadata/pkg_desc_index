@@ -24,7 +24,7 @@ dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/cubeb 0.2_p20210524: Cross platform audio library.
 dev-libs/hidapi 0.10.1: A multi-platform library for USB and Bluetooth HID-Class devices
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
-dev-libs/librw 20210622: A re-implementation of the RenderWare Graphics engine.
+dev-libs/librw 20210629: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20200420: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/tihmstar-libgeneral 55: Stuff used in tsschecker.
@@ -38,7 +38,7 @@ dev-util/ffs 0.1.0: Lets you mount semi-structured data (like JSON) as a filesys
 dev-util/flips 20210518: Floating IPS is a patcher for IPS and BPS files.
 dev-util/idea-community 2021.1.2.211.7442.40: A complete toolset for web, mobile and enterprise development
 dev-util/nihstro 20180113: 3DS shader assembler and disassembler
-dev-util/ycmd 20210627: A code-completion & code-comprehension server.
+dev-util/ycmd 20210702: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/git-extras 6.2.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.32.0: Quickly rewrite git repository history (filter-branch replacement)
@@ -59,7 +59,7 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20210613: A new generation, open
 games-emulation/play 0.41: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.16: PS3 emulator and debugger.
-games-emulation/yuzu 0.670: Nintendo Switch emulator
+games-emulation/yuzu 0.675: Nintendo Switch emulator
 games-util/hid-nintendo 20210323: A Nintendo HID kernel module
 games-util/joycond 0.1.0_p20210327: Combine joy-cons using hid-nintendo
 games-util/joycond-cemuhook 20210419: Support for cemuhook's UDP protocol for joycond devices.
@@ -69,8 +69,8 @@ kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting 
 kde-misc/kate-stuff 20210326: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.9: Time tracking with WakaTime for Kate.
 media-fonts/amiri 0.113: High quality Arabic Naskh-style font
-media-fonts/iosevka 7.1.1: Slender typeface for code, from code
-media-fonts/noto 20210622: Google's font family that aims to support all the world's languages
+media-fonts/iosevka 7.2.3: Slender typeface for code, from code
+media-fonts/noto 20210629: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
 media-sound/sony-headphones-client 1.2: Client recreating the functionality of the Sony Headphones app.
@@ -87,7 +87,7 @@ sys-apps/liquidctl 1.6.1: Cross-platform CLI and Python drivers for AIO liquid c
 sys-apps/systemd-utils 20210509: Random systemd utilities.
 sys-apps/taw-unix-utilities 20210325: Various small Unix utilities
 sys-apps/usbkill 1.0_rc4_p20160730-r1: An kill-switch that waits for a change on your USB ports.
-sys-auth/fprintd 1.90.9-r1: D-Bus service to access fingerprint readers
+sys-auth/fprintd 1.92.0: D-Bus service to access fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-firmware/rtl8761b-firmware 20200110: Firmware for the Realtek RTL8761B Bluetooth chipset.
 www-apps/wakapi 1.29.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
