@@ -88,6 +88,7 @@ sys-apps/systemd-utils 20210509: Random systemd utilities.
 sys-apps/taw-unix-utilities 20210325: Various small Unix utilities
 sys-apps/usbkill 1.0_rc4_p20160730-r1: An kill-switch that waits for a change on your USB ports.
 sys-auth/fprintd 1.92.0: D-Bus service to access fingerprint readers
+sys-auth/libfprint 1.92.0: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-firmware/rtl8761b-firmware 20200110: Firmware for the Realtek RTL8761B Bluetooth chipset.
 www-apps/wakapi 1.29.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
