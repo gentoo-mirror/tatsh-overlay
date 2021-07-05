@@ -11,4 +11,4 @@ REQUIRED_USE=^^ ( python_single_target_python3_9 )
 SLOT=0
 SRC_URI=https://github.com/k4yt3x/video2x/archive/refs/tags/4.8.1.tar.gz -> video2x-4.8.1.tar.gz https://github.com/k4yt3x/avalon-framework/archive/4c70d635442a8d11a38fce6fc3de42340027cc7e.tar.gz -> video2x-avalon-4c70d63.tar.gz
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	2f5967e7ced9abfa71ff7b0ea8d61b3a	python-single-r1	73f113f91928e0d16bceb65ecbcd8e75
-_md5_=c57c47c15a6fc1534bba444904d6bd0c
+_md5_=1bed44bdf13036d8c9c7f89b781c249e
