@@ -36,7 +36,6 @@ dev-ruby/fileutils 1.5.0: Several file utility methods for copying, moving, remo
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/ffs 0.1.0: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20210518: Floating IPS is a patcher for IPS and BPS files.
-dev-util/idea-community 2021.1.2.211.7442.40: A complete toolset for web, mobile and enterprise development
 dev-util/nihstro 20180113: 3DS shader assembler and disassembler
 dev-util/ycmd 20210702: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
