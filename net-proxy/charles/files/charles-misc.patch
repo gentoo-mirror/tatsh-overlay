@@ -18,13 +18,14 @@
  fi
  
  # Find Java binary
-@@ -32,6 +34,11 @@
+@@ -32,6 +34,12 @@
      JAVA="$JAVA_HOME/bin/java"
  fi
  
 +shopt -s extglob
 +if [ -n "$_JAVA_OPTIONS" ]; then
 +    _JAVA_OPTIONS="${_JAVA_OPTIONS/?( )-Dsun.java2d.uiScale=+([^ ])}"
++    export _JAVA_OPTIONS
 +fi
 +
  # HiDPI
