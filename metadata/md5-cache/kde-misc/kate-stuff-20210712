@@ -5,5 +5,5 @@ HOMEPAGE=https://github.com/zaufi/kate-stuff
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=0
-SRC_URI=https://github.com/zaufi/kate-stuff/archive/d73d628a4969231d4f6e5a02d3ab4bf738c09444.tar.gz -> kate-stuff-20210326.tar.gz
-_md5_=bdbd3c5f21a0e3b086c8d490804e701e
+SRC_URI=https://github.com/zaufi/kate-stuff/archive/4b5af1d0d03940e37829fb34e11de626b8981999.tar.gz -> kate-stuff-20210712.tar.gz
+_md5_=784330525a35db3d6e748ff4adc66192
