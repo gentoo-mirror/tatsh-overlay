@@ -115,3 +115,10 @@ sys-apps/taw-unix-utilities:progress - Install progress
 sys-apps/taw-unix-utilities:soup - Install since_soup
 sys-apps/taw-unix-utilities:tfl - Install tfl_travel_time
 sys-apps/taw-unix-utilities:youtube - Install open_youtube
+x11-misc/rom-properties:achievements - Enable achievement pop-ups.
+x11-misc/rom-properties:cli - Build rpcli command.
+x11-misc/rom-properties:lto - Enable link-time optimization.
+x11-misc/rom-properties:pvr - Enable the PowerVR Native SDK subset for PVRTC decompression.
+x11-misc/rom-properties:unice68 - Enable UnICE68 for Atari ST SNDH files (GPLv3).
+x11-misc/rom-properties:xbox-360 - Enable support for reading from Xbox 360 binaries
+x11-misc/rom-properties:xfce - Enable support for XFCE widget.
