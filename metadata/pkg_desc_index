@@ -4,6 +4,7 @@ app-arch/unalz 0.65: Unpack ALZ archives.
 app-cdr/cdi2nero 0.9.9: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2: Converts DiscJuggler CDI files to various disc image formats.
 app-misc/cmdpack 1.0_p20160421: Neill Corlett's command-Line pack.
+app-misc/liquidctl 1.7.1: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices.
 app-misc/pyrescene 0.7: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1: Tools for Xirvik servers.
@@ -87,7 +88,6 @@ net-dns/pihole-ftl 5.8.1: The Pi-hole FTL engine
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-p2p/xirvik-tools 0.3.1-r2: Tools for Xirvik servers.
 net-proxy/charles 4.6.2-r4: Web debugging proxy application.
-sys-apps/liquidctl 1.7.1: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices.
 sys-apps/systemd-utils 20210509: Random systemd utilities.
 sys-apps/taw-unix-utilities 20210325: Various small Unix utilities
 sys-apps/usbkill 1.0_rc4_p20160730-r1: An kill-switch that waits for a change on your USB ports.
