@@ -9,5 +9,5 @@ LICENSE=Apache-2.0
 RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
 SLOT=0
 SRC_URI=https://github.com/udalov/kotlin-vim/archive/9122b2805499fbde06f27116f4b7a2a30d6996f5.tar.gz -> kotlin-vim-20210703.tar.gz
-_eclasses_=vim-doc	e063cddf18e5d2f2cfb21388252579ec	vim-plugin	93be71a1efbbf62981fcd40ee0db6e3f
+_eclasses_=vim-doc	e063cddf18e5d2f2cfb21388252579ec	vim-plugin	a7b5f19bc94a311ca1cf7127c8b84c41
 _md5_=68599bf7e588b6fcc75bd613b953ff65
