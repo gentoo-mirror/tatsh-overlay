@@ -1,15 +1,15 @@
 BDEPEND=dev-util/ninja dev-util/cmake
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123 >=media-libs/glfw-3.3.2 opus? ( media-libs/opus ) sndfile? ( media-libs/libsndfile )
-DESCRIPTION=GTA Vice City decompiled and re-built.
+DESCRIPTION=GTA Liberty City Stories decompiled and re-built.
 EAPI=7
-HOMEPAGE=https://github.com/GTAmodding/re3/tree/miami
+HOMEPAGE=https://github.com/GTAmodding/re3/tree/lcs
 INHERIT=cmake
 IUSE=opus sanitizer sndfile
 KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=MIT
 RDEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123 >=media-libs/glfw-3.3.2 opus? ( media-libs/opus ) sndfile? ( media-libs/libsndfile )
 SLOT=0
-SRC_URI=https://github.com/GTAmodding/re3/archive/reVC_1.0.tar.gz -> revc-1.0.tar.gz https://github.com/aap/librw/archive/41ae7b9b61c6736b34269df0f0350d1b5bcff4df.tar.gz -> revc-librw-41ae7b9b61c6736b34269df0f0350d1b5bcff4df.tar.gz
+SRC_URI=https://github.com/GTAmodding/re3/archive/cc13e31264730502d2055912d223a36d3733f9cd.tar.gz -> relcs-20210722.tar.gz https://github.com/aap/librw/archive/a5bc97232293250ae1bbd6ef6642532a541034ca.tar.gz -> relcs-librw-a5bc97232293250ae1bbd6ef6642532a541034ca.tar.gz
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	xdg-utils	27f9a2f19502b925ac117bd657aa2979	cmake	518e4c9a6a38dfd7afc54b6a7c5de3da
-_md5_=00e1757a6753a79abe3b633455ad76f3
+_md5_=692ae3f7db6805640fd3eb3737044d27
