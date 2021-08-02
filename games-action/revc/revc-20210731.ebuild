@@ -4,11 +4,11 @@
 EAPI=7
 inherit cmake
 
-DESCRIPTION="GTA III decompiled and re-built."
-HOMEPAGE="https://github.com/GTAmodding/re3"
-MY_RE3_HASH="3adf37a3a94d1a7d2cbef5156b9b17f11b01b551"
+DESCRIPTION="GTA Vice City decompiled and re-built."
+HOMEPAGE="https://github.com/GTAmodding/re3/tree/miami"
+MY_REVC_HASH="e80cbf8bb2abbe3edb7a604ae5b0af366bf10a9a"
 MY_LIBRW_HASH="a5bc97232293250ae1bbd6ef6642532a541034ca"
-SRC_URI="https://github.com/GTAmodding/${PN}/archive/${MY_RE3_HASH}.tar.gz -> ${P}.tar.gz
+SRC_URI="https://github.com/GTAmodding/re3/archive/${MY_REVC_HASH}.tar.gz -> ${P}.tar.gz
 	https://github.com/aap/librw/archive/${MY_LIBRW_HASH}.tar.gz -> ${PN}-librw-${MY_LIBRW_HASH}.tar.gz"
 
 LICENSE="MIT"
@@ -25,12 +25,9 @@ DEPEND="media-libs/libsndfile
 	sndfile? ( media-libs/libsndfile )"
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}/${PN}-${MY_RE3_HASH}"
+S="${WORKDIR}/re3-${MY_REVC_HASH}"
 
-PATCHES=(
-	"${FILESDIR}/${PN}-xdg.patch"
-	"${FILESDIR}/relcs-link-x11.patch"
-)
+PATCHES=( "${FILESDIR}/relcs-link-x11.patch" )
 
 src_unpack() {
 	default
@@ -48,20 +45,19 @@ src_prepare() {
 	echo '#define PEDS_REPORT_CRIMES_ON_PHONE' >> src/core/config.h
 	echo '#define SIMPLIER_MISSIONS' >> src/core/config.h
 	echo '#define VC_PED_PORTS' >> src/core/config.h
-	echo '#define XDG_ROOT' >> src/core/config.h
 }
 
 src_configure() {
 	local mycmakeargs=(
-		-DRE3_WITH_ASAN=$(usex sanitizer)
-		-DRE3_WITH_OPUS=$(usex opus)
+		-DREVC_WITH_ASAN=$(usex sanitizer)
+		-DREVC_WITH_LIBSNDFILE=$(usex sndfile)
+		-DREVC_WITH_OPUS=$(usex opus)
 		-DLIBRW_PLATFORM=GL3
 		-DBUILD_SHARED_LIBS=OFF
 		-DLIBRW_TOOLS=OFF
-		-DRE3_AUDIO=OAL
-		-DRE3_VENDORED_LIBRW=ON
-		-DRE3_WITH_LIBSNDFILE=$(usex sndfile)
-		-DRE3_INSTALL=ON
+		-DREVC_AUDIO=OAL
+		-DREVC_INSTALL=ON
+		-DREVC_VENDORED_LIBRW=ON
 		"-DCMAKE_INSTALL_PREFIX=${EPREFIX}/usr/share/${PN}"
 	)
 	cmake_src_configure
@@ -69,15 +65,6 @@ src_configure() {
 
 src_install() {
 	cmake_src_install
+	dosym ../share/${PN}/reVC /usr/bin/reVC
 	einstalldocs
-	dosym ../share/${PN}/${PN} /usr/bin/re3
-}
-
-pkg_postinst() {
-	einfo
-	einfo "Store your GTA III game files from an installation in the"
-	einfo "following directory (create if necessary):"
-	einfo
-	einfo "~/.local/share/re3"
-	einfo
 }
