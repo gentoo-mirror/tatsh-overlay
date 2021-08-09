@@ -71,7 +71,7 @@ media-fonts/amiri 0.113: High quality Arabic Naskh-style font
 media-fonts/iosevka 9.0.1: Slender typeface for code, from code
 media-fonts/noto 20210802: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465: Stand-alone viewer of SWF files.
-media-gfx/gifski 1.4.3: pngquant-based GIF maker for nice-looking animGIFs
+media-gfx/gifski 1.5.0: pngquant-based GIF maker for nice-looking animGIFs
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20210210: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20210210-r1: SRMD super resolution implemented with ncnn library.
@@ -93,7 +93,7 @@ sys-auth/fprintd 1.92.0: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.92.1: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-firmware/rtl8761b-firmware 20200110: Firmware for the Realtek RTL8761B Bluetooth chipset.
-www-apps/wakapi 1.29.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+www-apps/wakapi 1.29.3: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 x11-misc/mimeo 2021.2-r1: Open files by MIME-type or file name using regular expressions.
 x11-misc/rom-properties 1.8.3: Shell extension for file managers to manage game ROMs and disc images.
 x11-themes/apple-cursor 1.1.5: macOS cursor theme.
