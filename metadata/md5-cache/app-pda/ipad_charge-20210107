@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/libusb:1
 SLOT=0
 SRC_URI=https://github.com/mkorenkov/ipad_charge/archive/f070404d27affea6963024d852dd2e4941153792.tar.gz -> ipad_charge-20210107.tar.gz
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	udev	26207b5d4f4708920b9fcb7302d94068
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	udev	0a92682c0f65a60d01453db598fc6490
 _md5_=403b7a1be2f43454ee823983e8c081c9
