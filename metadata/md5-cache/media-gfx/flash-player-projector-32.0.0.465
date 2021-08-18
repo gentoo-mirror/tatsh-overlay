@@ -9,5 +9,5 @@ LICENSE=AdobeFlash-11.x
 RDEPEND=virtual/opengl x11-libs/gtk+:2
 SLOT=0
 SRC_URI=https://fpdownload.macromedia.com/pub/flashplayer/updaters/32/flash_player_sa_linux.x86_64.tar.gz -> flash-player-projector-32.0.0.465.tar.gz https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.465/flash_player_npapi_linux.x86_64.tar.gz -> flash-player-projector-32.0.0.465-assets.tar.gz
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	27f9a2f19502b925ac117bd657aa2979	xdg	c7ba313ea1eaf266f95cc6235f7d6a07
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	27f9a2f19502b925ac117bd657aa2979	xdg	e73b9df80596ab8f9c542c01196dec23
 _md5_=bc1bcf461db72e71af8a192fcf359b39
