@@ -1,15 +1,15 @@
 BDEPEND=dev-util/ninja dev-util/cmake
-DEFINED_PHASES=compile configure install postinst prepare test unpack
+DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123 >=media-libs/glfw-3.3.2 opus? ( media-libs/opus ) sndfile? ( media-libs/libsndfile )
-DESCRIPTION=GTA III decompiled and re-built.
+DESCRIPTION=GTA Liberty City Stories decompiled and re-built.
 EAPI=7
-HOMEPAGE=https://github.com/GTAmodding/re3
+HOMEPAGE=https://github.com/GTAmodding/re3/tree/lcs
 INHERIT=cmake
 IUSE=opus sanitizer sndfile
 KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=MIT
 RDEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123 >=media-libs/glfw-3.3.2 opus? ( media-libs/opus ) sndfile? ( media-libs/libsndfile )
 SLOT=0
-SRC_URI=https://github.com/GTAmodding/re3/archive/4b4aefe339e5d90230ea86e85b6c35bc51fed050.tar.gz -> re3-20210815.tar.gz https://github.com/aap/librw/archive/a5bc97232293250ae1bbd6ef6642532a541034ca.tar.gz -> re3-librw-a5bc97232293250ae1bbd6ef6642532a541034ca.tar.gz
+SRC_URI=https://github.com/GTAmodding/re3/archive/3cbf84f98be6c07df52f103d56ec347d35740963.tar.gz -> relcs-20210822.tar.gz https://github.com/aap/librw/archive/5501c4fdc7425ff926be59369a13593bb6c81b54.tar.gz -> relcs-librw-5501c4fdc7425ff926be59369a13593bb6c81b54.tar.gz
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	xdg-utils	27f9a2f19502b925ac117bd657aa2979	cmake	518e4c9a6a38dfd7afc54b6a7c5de3da
-_md5_=14a52e2f0e95bc29a0b1c743788b9a2a
+_md5_=9e3aca1428d3a6c64fab8affa979abcf
