@@ -4,11 +4,11 @@
 EAPI=7
 inherit cmake
 
-DESCRIPTION="GTA Vice City decompiled and re-built."
-HOMEPAGE="https://github.com/GTAmodding/re3/tree/miami"
-MY_REVC_HASH="09f693b9b908c844701502befeb549fda27ff24c"
+DESCRIPTION="GTA Liberty City Stories decompiled and re-built."
+HOMEPAGE="https://github.com/GTAmodding/re3/tree/lcs"
+MY_RELCS_HASH="47c23ba9170ab6df457516292eda100bc09ac2eb"
 MY_LIBRW_HASH="5501c4fdc7425ff926be59369a13593bb6c81b54"
-SRC_URI="https://github.com/GTAmodding/re3/archive/${MY_REVC_HASH}.tar.gz -> ${P}.tar.gz
+SRC_URI="https://github.com/GTAmodding/re3/archive/${MY_RELCS_HASH}.tar.gz -> ${P}.tar.gz
 	https://github.com/aap/librw/archive/${MY_LIBRW_HASH}.tar.gz -> ${PN}-librw-${MY_LIBRW_HASH}.tar.gz"
 
 LICENSE="MIT"
@@ -25,9 +25,9 @@ DEPEND="media-libs/libsndfile
 	sndfile? ( media-libs/libsndfile )"
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}/re3-${MY_REVC_HASH}"
+PATCHES=( "${FILESDIR}/${PN}-link-x11.patch" )
 
-PATCHES=( "${FILESDIR}/relcs-link-x11.patch" )
+S="${WORKDIR}/re3-${MY_RELCS_HASH}"
 
 src_unpack() {
 	default
@@ -49,15 +49,15 @@ src_prepare() {
 
 src_configure() {
 	local mycmakeargs=(
-		-DREVC_WITH_ASAN=$(usex sanitizer)
-		-DREVC_WITH_LIBSNDFILE=$(usex sndfile)
-		-DREVC_WITH_OPUS=$(usex opus)
+		-DRELCS_WITH_ASAN=$(usex sanitizer)
+		-DRELCS_WITH_LIBSNDFILE=$(usex sndfile)
+		-DRELCS_WITH_OPUS=$(usex opus)
 		-DLIBRW_PLATFORM=GL3
 		-DBUILD_SHARED_LIBS=OFF
 		-DLIBRW_TOOLS=OFF
-		-DREVC_AUDIO=OAL
-		-DREVC_INSTALL=ON
-		-DREVC_VENDORED_LIBRW=ON
+		-DRELCS_AUDIO=OAL
+		-DRELCS_INSTALL=ON
+		-DRELCS_VENDORED_LIBRW=ON
 		"-DCMAKE_INSTALL_PREFIX=${EPREFIX}/usr/share/${PN}"
 	)
 	cmake_src_configure
@@ -65,6 +65,6 @@ src_configure() {
 
 src_install() {
 	cmake_src_install
-	dosym ../share/${PN}/reVC /usr/bin/reVC
+	dosym ../share/${PN}/reLCS /usr/bin/reLCS
 	einstalldocs
 }
