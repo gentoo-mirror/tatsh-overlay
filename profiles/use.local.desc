@@ -37,6 +37,7 @@ games-emulation/rpcs3:vulkan - Enable Vulkan graphics library support
 games-emulation/yuzu:compat-list - Download compatibility list during build.
 games-emulation/yuzu:cubeb - Build with cubeb audio backend
 games-emulation/yuzu:web-service - Enable web-serviceds
+games-util/raphnet-tech-adapter-manager:firmware - Install firmware
 media-fonts/noto:ancient - Install fonts for historical scripts
 media-fonts/noto:brahmi - Install font for Brahmi script
 media-fonts/noto:coptic - Install Coptic font
