@@ -1,0 +1,15 @@
+BDEPEND=dev-lang/nasm sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure prepare
+DEPEND=debug? ( sys-libs/ncurses:0= ) ffmpeg? ( media-video/ffmpeg ) fluidsynth? ( media-sound/fluid-soundfont media-sound/fluidsynth ) mt-32? ( media-libs/munt-mt32emu ) media-libs/sdl2-net opengl? ( virtual/opengl ) screenshots? ( media-libs/libpng:0= ) sys-libs/zlib net-libs/libpcap media-libs/alsa-lib X? ( x11-libs/libX11 )
+DESCRIPTION=Cross-platform DOS emulation package.
+EAPI=8
+HOMEPAGE=https://dosbox-x.com/
+INHERIT=autotools
+IUSE=X +core-inline debug dynrec ffmpeg +fluidsynth +freetype +fpu hardened midi mt-32 opengl printer +screenshots slirp unaligned +xbrz
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=debug? ( sys-libs/ncurses:0= ) ffmpeg? ( media-video/ffmpeg ) fluidsynth? ( media-sound/fluid-soundfont media-sound/fluidsynth ) mt-32? ( media-libs/munt-mt32emu ) media-libs/sdl2-net opengl? ( virtual/opengl ) screenshots? ( media-libs/libpng:0= ) sys-libs/zlib net-libs/libpcap media-libs/alsa-lib X? ( x11-libs/libX11 )
+SLOT=0
+SRC_URI=https://github.com/joncampbell123/dosbox-x/archive/refs/tags/dosbox-x-v0.83.16.tar.gz
+_eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	libtool	241a8f577b9781a42a7421e53448a44e	autotools	c7052b276346587968d52ea8eaf5aca1
+_md5_=ee2bbee829f16b5b370caaa012938e80

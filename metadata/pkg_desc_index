@@ -52,6 +52,7 @@ games-arcade/stepmania 5.1.0_beta2_p20210814: Advanced rhythm game. Designed for
 games-arcade/stepmania-outfox 5.3.0.4.9.9.3: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/bsnes-hd 10.6_beta-r1: bsnes fork that adds HD video features.
 games-emulation/citra 20210822: A Nintendo 3DS emulator.
+games-emulation/dosbox-x 0.83.16: Cross-platform DOS emulation package.
 games-emulation/melonds 0.9.2-r1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20210828: A new generation, open-source graphics plugin for N64 emulators.
