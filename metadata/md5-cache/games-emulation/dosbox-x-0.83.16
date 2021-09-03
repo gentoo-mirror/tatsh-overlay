@@ -11,5 +11,5 @@ LICENSE=GPL-2
 RDEPEND=debug? ( sys-libs/ncurses:0= ) ffmpeg? ( media-video/ffmpeg ) fluidsynth? ( media-sound/fluid-soundfont media-sound/fluidsynth ) mt-32? ( media-libs/munt-mt32emu ) media-libs/sdl2-net opengl? ( virtual/opengl ) screenshots? ( media-libs/libpng:0= ) sys-libs/zlib net-libs/libpcap media-libs/alsa-lib X? ( x11-libs/libX11 )
 SLOT=0
 SRC_URI=https://github.com/joncampbell123/dosbox-x/archive/refs/tags/dosbox-x-v0.83.16.tar.gz
-_eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	libtool	241a8f577b9781a42a7421e53448a44e	autotools	c7052b276346587968d52ea8eaf5aca1
+_eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	libtool	241a8f577b9781a42a7421e53448a44e	autotools	c7052b276346587968d52ea8eaf5aca1
 _md5_=ee2bbee829f16b5b370caaa012938e80
