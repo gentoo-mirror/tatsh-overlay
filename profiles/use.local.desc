@@ -24,6 +24,12 @@ games-arcade/stepmania:wav - Enable WAV file support.
 games-arcade/stepmania:xrandr - Enable XRandR support.
 games-arcade/stepmania-outfox:bundled-courses - Install bundled courses.
 games-arcade/stepmania-outfox:bundled-songs - Installed bundled songs.
+games-emulation/86box:discord - Enable Discord support
+games-emulation/86box:dynrec - Enable dynamic recompiler
+games-emulation/86box:fluidsynth - Use media-sound/fluidsynth for MIDI emulation
+games-emulation/86box:mt-32 - Use media-libs/munt-mt32emu for MT-32 emulation
+games-emulation/86box:new-dynrec - Use the PCem v15 ("new") dynamic recompiler
+games-emulation/86box:vramdump - Enable video RAM dumping
 games-emulation/bsnes-hd:libretro - Build libretro core
 games-emulation/citra:web-service - Enable web services (telemetry, etc.)
 games-emulation/dosbox-x:core-inline - Enable memory-increasing inlines for better performance but requiring more build time

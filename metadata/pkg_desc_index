@@ -50,6 +50,7 @@ games-action/revc 20210829: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2-r1: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20210814: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox 5.3.0.4.9.9.3: Advanced rhythm game. Designed for both home and arcade use
+games-emulation/86box 2.07_p20210904: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r1: bsnes fork that adds HD video features.
 games-emulation/citra 20210822: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.83.16: Cross-platform DOS emulation package.
