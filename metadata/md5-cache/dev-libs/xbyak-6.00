@@ -5,5 +5,5 @@ HOMEPAGE=https://github.com/herumi/xbyak
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 SLOT=0
-SRC_URI=https://github.com/herumi/xbyak/archive/v5.997.tar.gz -> xbyak-5.997.tar.gz
+SRC_URI=https://github.com/herumi/xbyak/archive/v6.00.tar.gz -> xbyak-6.00.tar.gz
 _md5_=73a49a7f9921dff5e03651debb0ef7f6
