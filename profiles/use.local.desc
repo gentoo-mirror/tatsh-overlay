@@ -52,7 +52,11 @@ games-emulation/rpcs3:faudio - Enable audio rendering with app-emulation/faudio
 games-emulation/rpcs3:joystick - Enable support for input devices with evdev
 games-emulation/rpcs3:llvm - LLVM recompiler support
 games-emulation/rpcs3:vulkan - Enable Vulkan graphics library support
+games-emulation/xemu:aio - Add support for AIO
+games-emulation/xemu:io-uring - Enable efficient I/O via sys-libs/liburing
 games-emulation/xemu:lto - Enable link time optimisation (highly recommended)
+games-emulation/xemu:malloc-trim - Enable malloc_trim() support
+games-emulation/xemu:membarrier - Enable membarrier syscall support
 games-emulation/yuzu:compat-list - Download compatibility list during build.
 games-emulation/yuzu:cubeb - Build with cubeb audio backend
 games-emulation/yuzu:web-service - Enable web-serviceds
