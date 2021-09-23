@@ -6,7 +6,7 @@ EAPI=7
 PYTHON_COMPAT=( python3_{7,8,9,10} )
 PYTHON_REQ_USE="ncurses,readline"
 
-inherit eutils flag-o-matic python-r1
+inherit eutils flag-o-matic python-r1 xdg-utils
 
 DESCRIPTION="Original Xbox emulator."
 HOMEPAGE="https://xemu.app/ https://github.com/mborgerson/xemu"
@@ -31,9 +31,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="xattr aio alsa cpu_flags_x86_avx2 cpu_flags_x86_avx512f debug io-uring jack +lto malloc-trim membarrier nls doc pulseaudio sdl test"
 REQUIRED_USE="debug? ( !lto  )"
+RESTRICT="!test? ( test )"
 
 DEPEND="media-libs/libepoxy
-	dev-libs/libxml2[static-libs(+)]
+	dev-libs/libxml2
 	media-libs/libsdl2
 	net-libs/libslirp
 	media-libs/libsamplerate
@@ -43,12 +44,12 @@ DEPEND="media-libs/libepoxy
 	dev-libs/glib
 	net-libs/libpcap
 	pulseaudio? ( media-sound/pulseaudio )
-	io-uring? ( sys-libs/liburing:=[static-libs(+)] )
+	io-uring? ( sys-libs/liburing )
 	sys-libs/zlib
 	alsa? ( media-libs/alsa-lib )
 	jack? ( virtual/jack )
 	aio? ( dev-libs/libaio )
-	xattr? ( sys-apps/attr[static-libs(+)] )"
+	xattr? ( sys-apps/attr )"
 RDEPEND="${DEPEND}"
 BDEPEND="dev-util/meson
 	dev-lang/perl
@@ -65,6 +66,7 @@ BDEPEND="dev-util/meson
 			sys-devel/bc
 	)"
 
+PATCHES=( "${FILESDIR}/${PN}-bin-name.patch" )
 DOCS=( README.md )
 
 S="${WORKDIR}/${PN}-${SHA}"
@@ -140,10 +142,25 @@ src_configure() {
 
 src_compile() {
 	MAKEOPTS+=" V=1"
-	emake qemu-system-i386
+	emake "${PN}"
 }
 
 src_install() {
-	newbin build/qemu-system-i386 xemu
+	default
+	rm -r "${ED}/usr/share/qemu" || die
+	while IFS=$'\n' read -r name; do
+		mv "${name}" "${name/qemu/${PN}}" || die
+	done < <(find "${ED}/usr/share" -name 'qemu.*')
 	einstalldocs
+}
+
+src_test() {
+	cd "${S}/build"
+	pax-mark m */xemu #515550
+	emake check
+}
+
+pkg_postinst() {
+	xdg_desktop_database_update
+	xdg_icon_cache_update
 }
