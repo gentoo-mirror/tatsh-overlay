@@ -56,7 +56,7 @@ games-emulation/citra 20210920: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.83.17: Cross-platform DOS emulation package.
 games-emulation/melonds 0.9.3: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20210907: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20210926: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.44.1: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.18: PS3 emulator and debugger.
