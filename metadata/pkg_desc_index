@@ -85,7 +85,7 @@ media-video/open-in-mpv 0.0.4-r1: Host-side script for the Open in mpv Chrome ex
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
 media-video/video2x 4.8.1-r3: A lossless video/GIF/image upscaler.
 net-dns/pihole 5.3.1-r2: Network-wide ad blocking (core).
-net-dns/pihole-ftl 5.8.1: The Pi-hole FTL engine
+net-dns/pihole-ftl 5.10.2: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r2: Desktop chat client for Slack and Discord (not web-based).
 net-p2p/xirvik-tools 0.3.1-r2: Tools for Xirvik servers.
 net-proxy/charles 4.6.2-r4: Web debugging proxy application.
