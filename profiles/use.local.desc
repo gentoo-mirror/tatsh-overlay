@@ -7,6 +7,8 @@ app-office/glabels:qrcode - Enables QR code support with media-gfx/qrencode
 dev-libs/bincookie:tools - Install extra tools
 dev-libs/hidapi:fox - Build a x11-libs/fox GUI
 dev-libs/librw:tools - Install extra tools
+dev-libs/wolfssl:debug - Debug support
+dev-libs/wolfssl:sniffer - Enable sniffer via libpcap
 games-action/re3:sanitizer - Build with address sanitiser for better crash logs
 games-action/relcs:sanitizer - Build with address sanitiser for better crash logs
 games-action/revc:sanitizer - Build with address sanitiser for better crash logs
