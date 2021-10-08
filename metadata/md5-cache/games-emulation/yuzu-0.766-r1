@@ -1,0 +1,15 @@
+BDEPEND=dev-cpp/catch dev-cpp/nlohmann_json dev-util/glslang dev-util/vulkan-headers dev-util/ninja >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
+DEPEND=app-arch/lz4 >=app-arch/zstd-1.5.0 dev-libs/boost:=[context] cubeb? ( dev-libs/cubeb ) dev-libs/inih >=dev-libs/libfmt-8.0.0 dev-libs/libzip dev-libs/openssl dev-qt/qtcore dev-qt/qtgui dev-qt/qtwebengine dev-qt/qtwidgets >=media-libs/libsdl2-2.0.16[haptic,joystick,video,sound] media-libs/opus media-video/ffmpeg sys-libs/zlib virtual/libusb:= dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Nintendo Switch emulator
+EAPI=7
+HOMEPAGE=https://yuzu-emu.org/ https://github.com/yuzu-emu/yuzu-mainline
+INHERIT=cmake xdg
+IUSE=+compat-list +cubeb +web-service
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD GPL-2 GPL-2+ LGPL-2.1
+RDEPEND=app-arch/lz4 >=app-arch/zstd-1.5.0 dev-libs/boost:=[context] cubeb? ( dev-libs/cubeb ) dev-libs/inih >=dev-libs/libfmt-8.0.0 dev-libs/libzip dev-libs/openssl dev-qt/qtcore dev-qt/qtgui dev-qt/qtwebengine dev-qt/qtwidgets >=media-libs/libsdl2-2.0.16[haptic,joystick,video,sound] media-libs/opus media-video/ffmpeg sys-libs/zlib virtual/libusb:= media-libs/vulkan-loader
+SLOT=0
+SRC_URI=https://github.com/yuzu-emu/yuzu-mainline/archive/mainline-0-766.tar.gz -> yuzu-0.766.tar.gz https://github.com/yuzu-emu/mbedtls/archive/8c88150ca139e06aa2aae8349df8292a88148ea1.tar.gz -> yuzu-mbedtls-8c88150.tar.gz https://github.com/MerryMage/dynarmic/archive/517e35f845e010788b6febe42fd6ddb187b8c236.tar.gz -> yuzu-dynarmic-517e35f.tar.gz https://github.com/ReinUsesLisp/sirit/archive/a39596358a3a5488c06554c0c15184a6af71e433.tar.gz -> yuzu-sirit-a395963.tar.gz https://github.com/KhronosGroup/SPIRV-Headers/archive/a3fdfe81465d57efc97cfd28ac6c8190fb31a6c8.tar.gz -> yuzu-sirit-spirv-headers-a3fdfe8.tar.gz https://github.com/citra-emu/ext-soundtouch/archive/060181eaf273180d3a7e87349895bd0cb6ccbf4a.tar.gz -> yuzu-soundtouch-060181e.tar.gz https://github.com/yhirose/cpp-httplib/archive/9648f950f5a8a41d18833cf4a85f5821b1bcac54.tar.gz -> yuzu-httplib-9648f95.tar.gz
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	xdg-utils	27f9a2f19502b925ac117bd657aa2979	cmake	11fee991ab428a3370e5c20fa8231fb6	xdg	6024fbc93167fad782e2032933654857
+_md5_=ff77b138b2f8d197d58ff7406aaf690a
