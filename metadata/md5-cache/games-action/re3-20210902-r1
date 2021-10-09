@@ -1,6 +1,6 @@
 BDEPEND=dev-util/ninja >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install postinst prepare test unpack
-DEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123 >=media-libs/glfw-3.3.2 opus? ( media-libs/opus ) sndfile? ( media-libs/libsndfile )
+DEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123 >=media-libs/glfw-3.3.2 opus? ( media-libs/opus media-libs/opusfile ) sndfile? ( media-libs/libsndfile )
 DESCRIPTION=GTA III decompiled and re-built.
 EAPI=7
 HOMEPAGE=https://github.com/GTAmodding/re3
@@ -8,8 +8,8 @@ INHERIT=cmake
 IUSE=opus sanitizer sndfile
 KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=MIT
-RDEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123 >=media-libs/glfw-3.3.2 opus? ( media-libs/opus ) sndfile? ( media-libs/libsndfile )
+RDEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123 >=media-libs/glfw-3.3.2 opus? ( media-libs/opus media-libs/opusfile ) sndfile? ( media-libs/libsndfile )
 SLOT=0
 SRC_URI=https://web.archive.org/web/20210906122012/https://github.com/GTAmodding/re3/archive/3233ffe1c4b99e8efb4c41c6794b4fce880cf503.zip -> re3-20210902.zip https://github.com/aap/librw/archive/5501c4fdc7425ff926be59369a13593bb6c81b54.tar.gz -> re3-librw-5501c4fdc7425ff926be59369a13593bb6c81b54.tar.gz
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	xdg-utils	27f9a2f19502b925ac117bd657aa2979	cmake	11fee991ab428a3370e5c20fa8231fb6
-_md5_=6d357ab0b2a2939e2e2f37f3073ecb2d
+_md5_=eb9ddb2fa32df5c61561fb54758fce62
