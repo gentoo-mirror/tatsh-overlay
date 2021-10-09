@@ -1,13 +1,13 @@
 DEFINED_PHASES=install postinst postrm preinst prepare
-DEPEND=virtual/opengl x11-libs/gtk+:2 dev-util/desktop-file-utils x11-misc/shared-mime-info
+DEPEND=dev-libs/glib dev-libs/nspr dev-libs/nss media-libs/fontconfig media-libs/freetype media-libs/libglvnd virtual/opengl x11-libs/gdk-pixbuf x11-libs/gtk+:2 x11-libs/libX11 x11-libs/libXcursor x11-libs/libXrender x11-libs/pango dev-util/desktop-file-utils x11-misc/shared-mime-info
 DESCRIPTION=Stand-alone viewer of SWF files.
 EAPI=7
 HOMEPAGE=https://www.adobe.com/support/flashplayer/debug_downloads.html
 INHERIT=desktop xdg
 KEYWORDS=~amd64
 LICENSE=AdobeFlash-11.x
-RDEPEND=virtual/opengl x11-libs/gtk+:2
+RDEPEND=dev-libs/glib dev-libs/nspr dev-libs/nss media-libs/fontconfig media-libs/freetype media-libs/libglvnd virtual/opengl x11-libs/gdk-pixbuf x11-libs/gtk+:2 x11-libs/libX11 x11-libs/libXcursor x11-libs/libXrender x11-libs/pango
 SLOT=0
 SRC_URI=https://fpdownload.macromedia.com/pub/flashplayer/updaters/32/flash_player_sa_linux.x86_64.tar.gz -> flash-player-projector-32.0.0.465.tar.gz https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.465/flash_player_npapi_linux.x86_64.tar.gz -> flash-player-projector-32.0.0.465-assets.tar.gz
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	27f9a2f19502b925ac117bd657aa2979	xdg	6024fbc93167fad782e2032933654857
-_md5_=bc1bcf461db72e71af8a192fcf359b39
+_md5_=39aaa3f92cc0b31c8da5e799b9a6945d
