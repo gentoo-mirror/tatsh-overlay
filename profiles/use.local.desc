@@ -59,7 +59,6 @@ games-emulation/xemu:io-uring - Enable efficient I/O via sys-libs/liburing
 games-emulation/xemu:lto - Enable link time optimisation (highly recommended)
 games-emulation/xemu:malloc-trim - Enable malloc_trim() support
 games-emulation/xemu:membarrier - Enable membarrier syscall support
-games-emulation/yuzu:compat-list - Download compatibility list during build.
 games-emulation/yuzu:cubeb - Build with cubeb audio backend
 games-emulation/yuzu:web-service - Enable web-serviceds
 games-util/raphnet-tech-adapter-manager:firmware - Install firmware
