@@ -60,7 +60,7 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator c
 games-emulation/mupen64plus-video-gliden64 4.0_p20211004: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.45: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
-games-emulation/rpcs3 0.0.18-r3: PS3 emulator and debugger.
+games-emulation/rpcs3 0.0.18-r4: PS3 emulator and debugger.
 games-emulation/ryujinx 1.0.7066: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.6.1_p20211004-r2: Original Xbox emulator.
 games-emulation/yuzu 0.775-r1: Nintendo Switch emulator
