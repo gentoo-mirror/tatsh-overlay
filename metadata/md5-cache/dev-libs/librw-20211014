@@ -1,14 +1,15 @@
 BDEPEND=dev-util/ninja >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=virtual/opengl media-libs/freetype sys-libs/zlib
-DESCRIPTION=A new generation, open-source graphics plugin for N64 emulators.
+DEPEND=media-libs/glfw media-libs/libsdl2
+DESCRIPTION=A re-implementation of the RenderWare Graphics engine.
 EAPI=7
-HOMEPAGE=https://github.com/gonetz/GLideN64
+HOMEPAGE=https://github.com/aap/librw
 INHERIT=cmake
-KEYWORDS=~amd64 ~x86
-LICENSE=GPL-2
-RDEPEND=virtual/opengl media-libs/freetype sys-libs/zlib
+IUSE=tools
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=MIT
+RDEPEND=media-libs/glfw media-libs/libsdl2
 SLOT=0
-SRC_URI=https://github.com/gonetz/GLideN64/archive/e6d754a5d1c10ddeaf7dac5d8eb454d3d8e541b3.tar.gz -> mupen64plus-video-gliden64-4.0_p20211004.tar.gz
+SRC_URI=https://github.com/aap/librw/archive/453ae4b9ee8697a0e5601183f19a57b9bad4c74c.tar.gz -> librw-20211014.tar.gz
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	xdg-utils	27f9a2f19502b925ac117bd657aa2979	cmake	11fee991ab428a3370e5c20fa8231fb6
-_md5_=f254f536155dd74ca08f2ae57f5ac69d
+_md5_=47590926c4eaaee4c8a28de5a761a0db
