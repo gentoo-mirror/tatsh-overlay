@@ -31,7 +31,7 @@ dev-libs/tihmstar-libgeneral 56: Stuff used in tsschecker.
 dev-libs/wolfssl 4.8.1: Embedded SSL library.
 dev-libs/xbyak 6.00: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
-dev-python/hidapi 0.11.0: Python wrapper for hidapi.
+dev-python/hidapi 0.11.0.2: Python wrapper for hidapi.
 dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
 dev-ruby/fileutils 1.5.0: Several file utility methods for copying, moving, removing, etc.
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
