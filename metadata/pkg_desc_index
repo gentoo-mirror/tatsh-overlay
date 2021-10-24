@@ -16,7 +16,7 @@ app-portage/gcrud 9999: Clean up cruft on your file system.
 app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20210703: Kotlin plugin for Vim.
 app-vim/vim-wakatime 8.0.0-r1: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20211016: A code-completion engine for Vim.
+app-vim/youcompleteme 20211020: A code-completion engine for Vim.
 dev-db/dbeaver-bin 21.2.3: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.6.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
@@ -24,7 +24,7 @@ dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/cubeb 0.2_p20211015: Cross platform audio library.
 dev-libs/hidapi 0.11.0: A multi-platform library for USB and Bluetooth HID-Class devices
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
-dev-libs/librw 20211014: A re-implementation of the RenderWare Graphics engine.
+dev-libs/librw 20211023: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/tihmstar-libgeneral 56: Stuff used in tsschecker.
@@ -33,7 +33,7 @@ dev-libs/xbyak 6.00: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
 dev-python/hidapi 0.11.0.2: Python wrapper for hidapi.
 dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
-dev-ruby/fileutils 1.5.0: Several file utility methods for copying, moving, removing, etc.
+dev-ruby/fileutils 1.6.0: Several file utility methods for copying, moving, removing, etc.
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20210518: Floating IPS is a patcher for IPS and BPS files.
@@ -53,7 +53,7 @@ games-arcade/stepmania 5.1.0_beta2_p20211001: Advanced rhythm game. Designed for
 games-arcade/stepmania-outfox 5.3.0.4.10.0_alpha: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 2.07_p20211016: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
-games-emulation/citra 20211013: A Nintendo 3DS emulator.
+games-emulation/citra 20211023: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.83.18-r1: Cross-platform DOS emulation package.
 games-emulation/melonds 0.9.3-r1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
