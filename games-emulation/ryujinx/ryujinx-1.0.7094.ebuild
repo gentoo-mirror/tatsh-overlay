@@ -236,13 +236,25 @@ SRC_URI="https://github.com/${MY_PN}/${MY_PN}/archive/c6015daf8ddbd8a08e0adff8d3
 	https://api.nuget.org/v3-flatcontainer/ryujinx.audio.openal.dependencies/1.21.0.1/ryujinx.audio.openal.dependencies.1.21.0.1.nupkg"
 
 BDEPEND="virtual/dotnet-sdk:5.0"
+DEPEND="app-crypt/mit-krb5
+	sys-libs/zlib"
+RDEPEND="${DEPEND}
+	dev-libs/icu
+	dev-libs/openssl
+	media-libs/libsdl2
+	media-libs/libsoundio
+	media-libs/openal
+	media-video/ffmpeg
+	x11-libs/gtk+:3
+	virtual/opengl"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
+IUSE="alsa jack pulseaudio"
 
 S="${WORKDIR}/${MY_PN}-${SHA}"
 
-# FIXME Figure out how to disable this with dotnet
+# FIXME Figure out how to disable dotnet's stripping
 RESTRICT="strip"
 
 src_unpack() {
@@ -298,5 +310,8 @@ src_install() {
 	exeinto "/usr/$(get_libdir)/${PN}"
 	doexe "${MY_PN}"
 	insopts -m755
-	doins *.so
+	doins libMonoPosixHelper.so
+	# Don't use bundled versions
+	dosym "${EPREFIX}/usr/$(get_libdir)/libSDL2.so" "/usr/$(get_libdir)/${PN}/libSDL2.so"
+	dosym "${EPREFIX}/usr/$(get_libdir)/libsoundio.so" "/usr/$(get_libdir)/${PN}/libsoundio.so"
 }
