@@ -14,7 +14,7 @@ app-pda/tsschecker 304_p20211029: A powerful tool to check TSS signing status of
 app-portage/gcrud 9999: Clean up cruft on your file system.
 app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20211030: Kotlin plugin for Vim.
-app-vim/vim-wakatime 8.0.0-r1: vim plugin: automatic time tracking with WakaTime
+app-vim/vim-wakatime 8.0.0-r2: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20211031: A code-completion engine for Vim.
 dev-db/dbeaver-bin 21.2.3: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.

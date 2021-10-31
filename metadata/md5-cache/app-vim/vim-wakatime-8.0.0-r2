@@ -4,10 +4,10 @@ DESCRIPTION=vim plugin: automatic time tracking with WakaTime
 EAPI=7
 HOMEPAGE=https://github.com/wakatime/vim-wakatime
 INHERIT=vim-plugin
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=app-misc/wakatime || ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
+RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
 SLOT=0
 SRC_URI=https://github.com/wakatime/vim-wakatime/archive/8.0.0.tar.gz -> vim-wakatime-8.0.0.tar.gz
 _eclasses_=vim-doc	e063cddf18e5d2f2cfb21388252579ec	vim-plugin	a7b5f19bc94a311ca1cf7127c8b84c41
-_md5_=e3ad2a2751b034779c3b3a0f0dde6c80
+_md5_=e4b1ddfaf52049748c275fa020ace76b
