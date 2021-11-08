@@ -110,6 +110,7 @@ media-fonts/noto:l10n_srb - Install fonts for Sora Sompeng
 media-fonts/noto:l10n_su - Install fonts for Sundanese
 media-fonts/noto:l10n_syl - Install fonts for Sylheti
 media-fonts/noto:l10n_tbw - Install fonts for Tagbanwa alphabet
+media-fonts/noto:l10n_tmh - Install fonts for Tifinagh alphabet
 media-fonts/noto:l10n_vai - Install fonts for Vai syllabary
 media-fonts/noto:linear - Install Linear (Minoan) fonts
 media-fonts/noto:mono - Install monospace fonts
