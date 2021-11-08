@@ -15,7 +15,7 @@ app-portage/gcrud 9999: Clean up cruft on your file system.
 app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20211107: Kotlin plugin for Vim.
 app-vim/vim-wakatime 8.0.0-r2: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20211105: A code-completion engine for Vim.
+app-vim/youcompleteme 20211105-r1: A code-completion engine for Vim.
 dev-db/dbeaver-bin 21.2.4: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.6.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
@@ -37,7 +37,7 @@ dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20211027: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
-dev-util/ycmd 20211105: A code-completion & code-comprehension server.
+dev-util/ycmd 20211105-r1: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/git-extras 6.3.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.33.0: Quickly rewrite git repository history (filter-branch replacement)
