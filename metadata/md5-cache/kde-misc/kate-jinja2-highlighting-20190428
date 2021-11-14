@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-3+
 SLOT=0
 SRC_URI=https://github.com/Pitmairen/kate-jinja2-highlighting/archive/8ab9b0d40c54425d6a6b3e5f5ca9bf9f163389d9.tar.gz -> kate-jinja2-highlighting-20190428.tar.gz
-_md5_=18917f4831107b8fd06ca33622106f6c
+_md5_=3475e83bc9d320dca92919a2f462d8f8
