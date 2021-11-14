@@ -91,7 +91,7 @@ net-im/ripcord 0.4.29-r2: Desktop chat client for Slack and Discord (not web-bas
 net-p2p/xirvik-tools 0.3.1-r2: Tools for Xirvik servers.
 net-proxy/charles 4.6.2-r4: Web debugging proxy application.
 net-vpn/forticlient 7.0.0.0018-r1: Free VPN-only version of FortiClient.
-sys-apps/nvidia-fake-powerd 0.1.0: dbus blackhole for nvidia.powerd.server for working around a bug in nvidia-495 drivers.
+sys-apps/nvidia-fake-powerd 0.1.0: Workaround for bug in >=x11-drivers/nvidia-drivers-495.44
 sys-apps/systemd-utils 20210509: Random systemd utilities.
 sys-apps/taw-unix-utilities 20210325: Various small Unix utilities
 sys-apps/usbkill 1.0_rc4_p20160730-r1: An kill-switch that waits for a change on your USB ports.

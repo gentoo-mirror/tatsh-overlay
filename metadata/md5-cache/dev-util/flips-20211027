@@ -9,4 +9,4 @@ LICENSE=GPL-3
 RDEPEND=gtk? ( x11-libs/gtk+:3 )
 SLOT=0
 SRC_URI=https://github.com/Alcaro/Flips/archive/3a8733e74c9bdbb6b89da2b45913a0be3d0e1866.tar.gz -> flips-20211027.tar.gz
-_md5_=e841cc57ffdf1e1195e743f4bb52af94
+_md5_=28d4def39a2d9be29e27d702955f75ed

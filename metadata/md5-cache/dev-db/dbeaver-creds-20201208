@@ -7,4 +7,4 @@ LICENSE=MIT
 RDEPEND=dev-libs/openssl
 SLOT=0
 SRC_URI=https://github.com/Tatsh/dbeaver-creds/archive/35a83a6a1c12b39bc0790fa363d7c59bf7c19427.tar.gz -> dbeaver-creds-20201208.tar.gz
-_md5_=b81bef9142a3fcaedf4e9f105fb6cbf8
+_md5_=951f82229cdba46887a3a0579ca97c28

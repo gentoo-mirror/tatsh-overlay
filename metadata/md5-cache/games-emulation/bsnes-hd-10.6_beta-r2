@@ -12,4 +12,4 @@ REQUIRED_USE=|| ( ao openal alsa pulseaudio oss ) || ( xv opengl sdl )
 SLOT=0
 SRC_URI=https://github.com/DerKoun/bsnes-hd/archive/beta_10_6.tar.gz -> bsnes-hd-10.6_beta.tar.gz
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	xdg	6024fbc93167fad782e2032933654857
-_md5_=b2731921ed148f8933b28160c84e30de
+_md5_=9eccb32e376af1ca91413597a37b820f
