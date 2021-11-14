@@ -8,6 +8,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
 RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
 SLOT=0
-SRC_URI=https://github.com/udalov/kotlin-vim/archive/e2fd6fbe98a85be28e75fe9c7cc341cfbba3ac23.tar.gz -> kotlin-vim-20211107.tar.gz
+SRC_URI=https://github.com/udalov/kotlin-vim/archive/6fec676fe552cb30165dc8977dab9353c4c3ab26.tar.gz -> kotlin-vim-20211108.tar.gz
 _eclasses_=vim-doc	e063cddf18e5d2f2cfb21388252579ec	vim-plugin	a7b5f19bc94a311ca1cf7127c8b84c41
-_md5_=d8064f49841377d2b5dcb945edaab04c
+_md5_=c3e74146a1944d8b3bd3b9289c060618
