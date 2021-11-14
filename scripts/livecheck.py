@@ -26,7 +26,7 @@ PropTuple = Tuple[str, str, str, str, str, Optional[str], bool]
 Response = Union['TextDataResponse', requests.Response]
 T = TypeVar('T')
 
-LOG_NAME = 'livecheck'
+LOG_NAME: Final[str] = 'livecheck'
 P = portage.db[portage.root]['porttree'].dbapi
 PREFIX_RE: Final[str] = r'(^[^0-9]+)[0-9]'
 RSS_NS = {'': 'http://www.w3.org/2005/Atom'}
@@ -80,6 +80,19 @@ SUBMODULES: Final[Mapping[str, Set[Union[str, Tuple[str, str]]]]] = {
 }
 
 
+def prepend_v(s: str) -> str:
+    return f'v{s}'
+
+
+TAG_NAME_FUNCTIONS: Final[Mapping[str, Callable[[str], str]]] = {
+    'app-misc/tasksh': prepend_v,
+    'games-emulation/rpcs3': prepend_v,
+    'games-emulation/xemu': lambda s: f'xemu-v{s}',
+    'games-emulation/yuzu': lambda x: f'mainline-{x.replace(".", "-")}',
+    'media-sound/sony-headphones-client': prepend_v,
+}
+
+
 @lru_cache()
 def get_github_api_credentials() -> str:
     with open(expanduser('~/.config/gh/hosts.yml')) as f:
@@ -87,14 +100,12 @@ def get_github_api_credentials() -> str:
     return data['github.com']['oauth_token']
 
 
-def process_submodules(pkg_name: str, tag_name: str, ebuild: str,
-                       repo_uri: str) -> None:
+def process_submodules(pkg_name: str, ref: str, contents: str,
+                       repo_uri: str) -> str:
     if pkg_name not in SUBMODULES:
-        return
-    repo_root = urlparse(repo_uri).path
-    replacements = []
-    with open(ebuild) as f:
-        ebuild_lines = f.readlines()
+        return contents
+    repo_root = '/'.join([''] + urlparse(repo_uri).path.split('/')[1:3])
+    ebuild_lines = contents.splitlines(keepends=True)
     for item in SUBMODULES[pkg_name]:
         name = item
         if isinstance(item, tuple):
@@ -104,7 +115,7 @@ def process_submodules(pkg_name: str, tag_name: str, ebuild: str,
             grep_for = f"{basename(item).upper().replace('-', '_')}_SHA=\""
         r = requests.get(
             (f'https://api.github.com/repos{repo_root}/contents/{name}'
-             f'?ref={tag_name}'),
+             f'?ref={ref}'),
             headers=dict(
                 Authorization=f'token {get_github_api_credentials()}'))
         r.raise_for_status()
@@ -113,14 +124,8 @@ def process_submodules(pkg_name: str, tag_name: str, ebuild: str,
             if line.startswith(grep_for):
                 local_sha = line.split('=')[1].replace('"', '').strip()
                 if local_sha != remote_sha:
-                    replacements.append((local_sha, remote_sha))
-    if replacements:
-        with open(ebuild, 'r+') as f:
-            contents = f.read()
-            f.seek(0)
-            for find, replace in replacements:
-                contents = contents.replace(find, replace)
-            f.write(contents)
+                    contents = contents.replace(local_sha, remote_sha)
+    return contents
 
 
 def get_highest_matches(search_dir: str) -> Iterator[str]:
@@ -503,6 +508,10 @@ def main() -> int:
                     with open(ebuild, 'r') as f:
                         old_content = f.read()
                     content = old_content.replace(version, top_hash)
+                    ps_ref = top_hash
+                    if not is_sha(top_hash) and cp in TAG_NAME_FUNCTIONS:
+                        ps_ref = TAG_NAME_FUNCTIONS[cp](top_hash)
+                    content = process_submodules(cp, ps_ref, content, url)
                     dn = dirname(ebuild)
                     new_filename = f'{dn}/{pkg}-{top_hash}.ebuild'
                     if is_sha(top_hash):
