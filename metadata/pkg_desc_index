@@ -15,8 +15,8 @@ app-portage/gcrud 9999: Clean up cruft on your file system.
 app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20211108: Kotlin plugin for Vim.
 app-vim/vim-wakatime 8.0.0-r2: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20211105-r1: A code-completion engine for Vim.
-dev-db/dbeaver-bin 21.2.4: Free universal database tool (community edition).
+app-vim/youcompleteme 20211113: A code-completion engine for Vim.
+dev-db/dbeaver-bin 21.2.5: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.6.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
@@ -34,9 +34,9 @@ dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
 dev-ruby/fileutils 1.6.0: Several file utility methods for copying, moving, removing, etc.
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesystem
-dev-util/flips 20211027: Floating IPS is a patcher for IPS and BPS files.
+dev-util/flips 20211114: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
-dev-util/ycmd 20211105-r1: A code-completion & code-comprehension server.
+dev-util/ycmd 20211114: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/git-extras 6.3.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.33.0: Quickly rewrite git repository history (filter-branch replacement)
@@ -49,7 +49,7 @@ games-action/revc 20210902-r1: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2-r1: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20211001: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox 5.3.0.4.10.0_alpha: Advanced rhythm game. Designed for both home and arcade use
-games-emulation/86box 2.07_p20211113: Emulator of x86-based machines based on PCem.
+games-emulation/86box 2.07_p20211114: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
 games-emulation/citra 20211106: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.83.19: Cross-platform DOS emulation package.
@@ -59,9 +59,9 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20211113: A new generation, open
 games-emulation/play 0.46: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.19: PS3 emulator and debugger.
-games-emulation/ryujinx 1.0.7098: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.0.7104: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.6.2: Original Xbox emulator.
-games-emulation/yuzu 0.802: Nintendo Switch emulator
+games-emulation/yuzu 0.809: Nintendo Switch emulator
 games-util/hid-nintendo 20210726: A Nintendo HID kernel module
 games-util/joycond 0.1.0_p20210730: Combine joy-cons using hid-nintendo
 games-util/joystickwake 0.2.5: Joystick-aware screen waker.
