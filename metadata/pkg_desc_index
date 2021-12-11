@@ -88,6 +88,7 @@ net-dns/pihole 5.3.1-r2: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.10.2: The Pi-hole FTL engine
 net-fs/ksmbd-tools 3.4.2: cifsd kernel server userspace utilities
 net-im/ripcord 0.4.29-r2: Desktop chat client for Slack and Discord (not web-based).
+net-mail/gmailctl 0.10.0: Declarative configuration for Gmail filters
 net-p2p/xirvik-tools 0.3.1-r2: Tools for Xirvik servers.
 net-proxy/charles 4.6.2-r4: Web debugging proxy application.
 sys-apps/systemd-utils 20210509: Random systemd utilities.
