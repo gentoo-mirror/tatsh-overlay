@@ -78,18 +78,12 @@ SUBMODULES: Final[Mapping[str, Set[Union[str, Tuple[str, str]]]]] = {
     },
     'media-sound/sony-headphones-client': {'Client/imgui'},
 }
-
-
-def prepend_v(s: str) -> str:
-    return f'v{s}'
-
-
 TAG_NAME_FUNCTIONS: Final[Mapping[str, Callable[[str], str]]] = {
-    'app-misc/tasksh': prepend_v,
-    'games-emulation/rpcs3': prepend_v,
+    'app-misc/tasksh': lambda s: f'v{s}',
+    'games-emulation/rpcs3': lambda s: f'v{s}',
     'games-emulation/xemu': lambda s: f'xemu-v{s}',
     'games-emulation/yuzu': lambda x: f'mainline-{x.replace(".", "-")}',
-    'media-sound/sony-headphones-client': prepend_v,
+    'media-sound/sony-headphones-client': lambda s: f'v{s}',
 }
 
 
@@ -281,14 +275,6 @@ def get_props(search_dir: str,
         elif 'download.jetbrains.com' in src_uri:
             yield (cat, pkg, ebuild_version, ebuild_version,
                    'https://www.jetbrains.com/updates/updates.xml', None, True)
-        elif '/forticlient/downloads/' in src_uri:
-            r = requests.get(
-                'https://links.fortinet.com/forticlient/rhel/vpnagent',
-                allow_redirects=False)
-            r.raise_for_status()
-            yield (cat, pkg, ebuild_version, ebuild_version,
-                   'https://links.fortinet.com/forticlient/rhel/vpnagent',
-                   None, True)
         else:
             home = P.aux_get(match, ['HOMEPAGE'])[0]
             raise RuntimeError(
@@ -464,14 +450,6 @@ def main() -> int:
                         raise NotImplementedError(
                             'Unhandled state: '
                             f'regex=None, cat={cat}, pkg={pkg}, url={url}')
-                elif 'fortinet.com/forticlient' in url:
-                    r = requests.get(url, allow_redirects=False)
-                    r.raise_for_status()
-                    results = [
-                        re.split(r'^forticlient_vpn_',
-                                 basename(
-                                     r.headers['location']))[1].split('_')[0]
-                    ]
                 else:
                     raise NotImplementedError(
                         'Unhandled state: non-JetBrains URI, regex=None, '
@@ -494,6 +472,8 @@ def main() -> int:
                 top_hash = tf(top_hash)
             if cp == 'games-emulation/play':
                 top_hash = top_hash.replace('-', '.')
+            # elif cp == 'games-emulation/ryujinx':
+            #     top_hash = r.json()['build']['commitId']
             if prefixes:
                 assert top_hash in prefixes
                 top_hash = f'{prefixes[top_hash]}{top_hash}'
@@ -508,6 +488,12 @@ def main() -> int:
                     with open(ebuild, 'r') as f:
                         old_content = f.read()
                     content = old_content.replace(version, top_hash)
+                    if cp == 'games-emulation/ryujinx':
+                        commit = cast(requests.Response,
+                                      r).json()['build']['commitId']
+                        content = re.sub(r'^SHA="[^"]+"', f'SHA="{commit}"',
+                                         content, 1, re.MULTILINE)
+                    
                     ps_ref = top_hash
                     if not is_sha(top_hash) and cp in TAG_NAME_FUNCTIONS:
                         ps_ref = TAG_NAME_FUNCTIONS[cp](top_hash)
