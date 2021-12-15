@@ -26,6 +26,7 @@ PATCHES=(
 	"${FILESDIR}/${PN}-0002-path-changes-02.patch"
 	"${FILESDIR}/${PN}-0002-path-changes-03.patch"
 	"${FILESDIR}/${PN}-0003-logrotate-add-missingok-fix-paths.patch"
+	"${FILESDIR}/${PN}-0004-more-path-fixes.patch"
 )
 
 src_prepare() {
@@ -90,7 +91,6 @@ src_install() {
 	# make sure the working directory exists
 	diropts -m0755
 	keepdir /var/lib/${PN}
-	sqlite3 "${D}/var/lib/${PN}/gravity.db" < advanced/Templates/gravity.db.sql || die
 }
 
 pkg_config() {
