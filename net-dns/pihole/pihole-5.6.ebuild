@@ -27,6 +27,8 @@ PATCHES=(
 	"${FILESDIR}/${PN}-0002-path-changes-03.patch"
 	"${FILESDIR}/${PN}-0003-logrotate-add-missingok-fix-paths.patch"
 	"${FILESDIR}/${PN}-0004-more-path-fixes.patch"
+	"${FILESDIR}/${PN}-0005-add-rc-service-to-restartdns.patch"
+	"${FILESDIR}/${PN}-0006-advanced-scripts-piholelogflush-change-statefile.patch"
 )
 
 src_prepare() {
@@ -92,10 +94,12 @@ src_install() {
 	# make sure the working directory exists
 	diropts -m0755
 	keepdir /var/lib/${PN}
+	insinto /var/lib/${PN}
+	doins "${FILESDIR}/setupVars.conf"
 }
 
-pkg_config() {
-	if ! [ -d /var/lib/${PN} ]; then
+# pkg_config() {
+# 	if ! [ -d /var/lib/${PN} ]; then
 		# if ! [ -f /etc/${PN}/setupVars.conf ]; then
 		# fi
 		# Questions:
@@ -107,6 +111,6 @@ pkg_config() {
 		# - Select protocols https://github.com/pi-hole/pi-hole/blob/master/automated%20install/basic-install.sh#L820
 		# - Select interface ${PN}_INTERFACE
 		# - CACHE_SIZE int, default 10000
-		/usr/libexec/${PN}/gravity.sh --force
-	fi
-}
+# 		/usr/libexec/${PN}/gravity.sh --force
+# 	fi
+# }
