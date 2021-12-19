@@ -13,4 +13,4 @@ RESTRICT=splitdebug
 SLOT=0
 SRC_URI=amd64? ( https://github.com/TeamRizu/OutFox/releases/download/OF4.11.0/OutFox-5.3.0-alpha-4.11-amd64-date-20211212.tar.gz -> stepmania-outfox-5.3.0.4.11.0_alpha-amd64.tar.gz ) arm64? ( https://github.com/TeamRizu/OutFox/releases/download/OF4.11.0/OutFox-5.3.0-alpha-4.11.0-arm64v8-date-20211215.tar.gz -> stepmania-outfox-5.3.0.4.11.0_alpha-arm64.tar.gz )
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	wrapper	4251d4c84c25f59094fd557e0063a974	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	xdg	6024fbc93167fad782e2032933654857
-_md5_=678aea20453301c2c4a9e1bf41068e21
+_md5_=d2f238daf31ce915b6a6a212b1fbefd2
