@@ -24,12 +24,13 @@ SRC_URI="https://github.com/yuzu-emu/yuzu-mainline/archive/${MY_PV}.tar.gz -> ${
 LICENSE="BSD GPL-2 GPL-2+ LGPL-2.1"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="+cubeb +web-service"
+IUSE="+compatibility-reporting +web-service"
+REQUIRED_USE="compatibility-reporting? ( web-service )"
 
 DEPEND="app-arch/lz4
 	>=app-arch/zstd-1.5.0
 	dev-libs/boost:=[context]
-	cubeb? ( dev-libs/cubeb )
+	dev-libs/cubeb
 	dev-libs/inih
 	>=dev-libs/libfmt-8.0.0
 	dev-libs/libzip
@@ -39,7 +40,7 @@ DEPEND="app-arch/lz4
 	dev-qt/qtwebengine
 	dev-qt/qtwidgets
 	media-libs/opus
-	media-video/ffmpeg
+	>=media-video/ffmpeg-4.3
 	sys-libs/libunwind
 	sys-libs/zlib
 	x11-libs/libva
@@ -86,18 +87,18 @@ src_configure() {
 		-DBUILD_SHARED_LIBS=OFF
 		-DCONAN_REQUIRED_LIBS=OFF
 		-DENABLE_COMPATIBILITY_LIST_DOWNLOAD=OFF
-		-DENABLE_CUBEB=$(usex cubeb)
+		-DENABLE_CUBEB=ON
 		-DENABLE_WEB_SERVICE=$(usex web-service)
 		-DGIT_BRANCH="${PN}"
 		-DGIT_DESC="${PV}"
 		-DGIT_REV="${PV}"
 		-DUSE_DISCORD_PRESENCE=OFF
-		-DUSE_SYSTEM_CUBEB=$(usex cubeb)
+		-DUSE_SYSTEM_CUBEB=ON
 		-DUSE_SYSTEM_INIH=ON
 		-DUSE_SYSTEM_OPUS=ON
 		-DUSE_SYSTEM_XBYAK=ON
 		-DYUZU_USE_EXTERNAL_SDL2=ON
-		-DYUZU_ENABLE_COMPATIBILITY_REPORTING=ON
+		-DYUZU_ENABLE_COMPATIBILITY_REPORTING=$(usex compatibility-reporting)
 		-DYUZU_USE_BUNDLED_BOOST=OFF
 		-DYUZU_USE_QT_WEB_ENGINE=ON
 		-Wno-dev
