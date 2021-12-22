@@ -40,6 +40,7 @@ dev-util/flips 20211118: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/ycmd 20211210: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
+dev-vcs/gickup 0.9.8.2: Mirror Git repositories to other Git providers.
 dev-vcs/git-extras 6.3.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.33.0: Quickly rewrite git repository history (filter-branch replacement)
 dev-vcs/git-radar 0.6_p20170108: A heads up display for Git.
