@@ -64,7 +64,7 @@ games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.19: PS3 emulator and debugger.
 games-emulation/ryujinx 1.0.7129: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.6.2-r1: Original Xbox emulator.
-games-emulation/yuzu 0.855: Nintendo Switch emulator
+games-emulation/yuzu 0.858: Nintendo Switch emulator
 games-util/hid-nintendo 20210726: A Nintendo HID kernel module
 games-util/joycond 0.1.0_p20210730-r1: Combine joy-cons using hid-nintendo
 games-util/joystickwake 0.2.5: Joystick-aware screen waker.
