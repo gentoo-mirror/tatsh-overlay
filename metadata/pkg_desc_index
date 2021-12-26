@@ -18,7 +18,7 @@ app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20211108: Kotlin plugin for Vim.
 app-vim/vim-wakatime 9.0.1: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20211213: A code-completion engine for Vim.
-dev-db/dbeaver-bin 21.3.1: Free universal database tool (community edition).
+dev-db/dbeaver-bin 21.3.2: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.6.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
@@ -52,19 +52,19 @@ games-action/revc 20210902-r1: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2-r1: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20211216: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox 5.3.0.4.11.0_alpha: Advanced rhythm game. Designed for both home and arcade use
-games-emulation/86box 2.07_p20211219: Emulator of x86-based machines based on PCem.
+games-emulation/86box 2.07_p20211225: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
 games-emulation/citra 20211218: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.83.20: Cross-platform DOS emulation package.
 games-emulation/melonds 0.9.3-r1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20211219: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20211220: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.47: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.19: PS3 emulator and debugger.
-games-emulation/ryujinx 1.0.7129: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.0.7140: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.6.2-r1: Original Xbox emulator.
-games-emulation/yuzu 0.858: Nintendo Switch emulator
+games-emulation/yuzu 0.860: Nintendo Switch emulator
 games-util/hid-nintendo 20210726: A Nintendo HID kernel module
 games-util/joycond 0.1.0_p20210730-r1: Combine joy-cons using hid-nintendo
 games-util/joystickwake 0.2.5: Joystick-aware screen waker.
@@ -73,8 +73,8 @@ kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting 
 kde-misc/kate-stuff 20211016: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.9: Time tracking with WakaTime for Kate.
 media-fonts/amiri 0.113: High quality Arabic Naskh-style font
-media-fonts/iosevka 11.2.2: Slender typeface for code, from code
-media-fonts/noto 20211217: Google's font family that aims to support all the world's languages
+media-fonts/iosevka 11.2.3: Slender typeface for code, from code
+media-fonts/noto 20211223: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r1: Stand-alone viewer of SWF files.
 media-gfx/gifski 1.5.1: pngquant-based GIF maker for nice-looking animGIFs
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
@@ -84,7 +84,7 @@ media-libs/rtmidi 5.0.0: A set of C++ classes that provide a common API for real
 media-sound/sony-headphones-client 1.2-r1: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
 media-video/magewell-pro-capture 1.3.0.4236-r1: Magewell Pro Capture driver.
-media-video/mpv-sponsorblock 20210401: mpv script to skip sponsored segments of YouTube videos
+media-video/mpv-sponsorblock 20211223: mpv script to skip sponsored segments of YouTube videos
 media-video/open-in-mpv 0.0.4-r1: Host-side script for the Open in mpv Chrome extension.
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
 media-video/video2x 4.8.1-r3: A lossless video/GIF/image upscaler.
