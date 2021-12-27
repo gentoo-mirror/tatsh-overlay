@@ -59,6 +59,7 @@ games-emulation/xemu:malloc-trim - Enable malloc_trim() support
 games-emulation/xemu:membarrier - Enable membarrier syscall support
 games-emulation/yuzu:compatibility-reporting - Enable compatibility reporting
 games-emulation/yuzu:cubeb - Build with cubeb audio backend
+games-emulation/yuzu:experimental - Enable experimental patches
 games-emulation/yuzu:web-service - Enable web-services
 games-util/raphnet-tech-adapter-manager:firmware - Install firmware
 media-fonts/noto:ancient - Install fonts for historical scripts
