@@ -142,6 +142,7 @@ sys-apps/taw-unix-utilities:progress - Install progress
 sys-apps/taw-unix-utilities:soup - Install since_soup
 sys-apps/taw-unix-utilities:tfl - Install tfl_travel_time
 sys-apps/taw-unix-utilities:youtube - Install open_youtube
+www-plugins/bypass-paywalls:chrome - Install file for Chrome and Chrome Beta
 x11-misc/rom-properties:achievements - Enable achievement pop-ups.
 x11-misc/rom-properties:cli - Build rpcli command.
 x11-misc/rom-properties:lto - Enable link-time optimization.

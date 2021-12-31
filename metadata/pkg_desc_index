@@ -102,6 +102,7 @@ sys-auth/fprintd 1.94.1: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.2: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
 www-apps/wakapi 1.30.3: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+www-plugins/bypass-paywalls 9999: Bypass Paywalls browser extension.
 x11-misc/mimeo 2021.11: Open files by MIME-type or file name using regular expressions.
 x11-misc/rom-properties 1.8.3-r1: Shell extension for file managers to manage game ROMs and disc images.
 x11-themes/apple-cursor 1.2.3: macOS cursor theme.
