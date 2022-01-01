@@ -5,5 +5,6 @@ HOMEPAGE=https://github.com/iamadamdev/bypass-paywalls-chrome
 IUSE=chrome chromium
 KEYWORDS=~amd64 ~arm64
 LICENSE=all-rights-reserved
+REQUIRED_USE=|| ( chrome chromium )
 SLOT=0
-_md5_=325f0e75aa6fb8c1c864f13b10bfb3d7
+_md5_=6129142e642ff21648f39eb1dd6f6fee
