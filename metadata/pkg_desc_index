@@ -22,7 +22,6 @@ dev-db/dbeaver-bin 21.3.2: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.6.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
-dev-libs/cubeb 0.2_p20211207: Cross platform audio library.
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
 dev-libs/librw 20211126: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
@@ -52,19 +51,19 @@ games-action/revc 20210902-r1: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2-r1: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20211216: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox 5.3.0.4.12.0_alpha: Advanced rhythm game. Designed for both home and arcade use
-games-emulation/86box 2.07_p20211229: Emulator of x86-based machines based on PCem.
+games-emulation/86box 2.07_p20220102: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
-games-emulation/citra 20211218: A Nintendo 3DS emulator.
+games-emulation/citra 20211218-r1: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.83.21: Cross-platform DOS emulation package.
 games-emulation/melonds 0.9.3-r1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20211220: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.47: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
-games-emulation/rpcs3 0.0.20: PS3 emulator and debugger.
+games-emulation/rpcs3 0.0.20-r1: PS3 emulator and debugger.
 games-emulation/ryujinx 1.0.7152: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.6.2-r1: Original Xbox emulator.
-games-emulation/yuzu 0.867: Nintendo Switch emulator
+games-emulation/yuzu 0.867-r1: Nintendo Switch emulator
 games-util/hid-nintendo 20210726: A Nintendo HID kernel module
 games-util/joycond 0.1.0_p20210730-r1: Combine joy-cons using hid-nintendo
 games-util/joystickwake 0.3: Joystick-aware screen waker.
