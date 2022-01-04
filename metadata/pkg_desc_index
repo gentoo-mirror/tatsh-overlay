@@ -27,7 +27,7 @@ dev-libs/librw 20211126: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/tihmstar-libgeneral 63: Stuff used in tsschecker.
-dev-libs/wolfssl 5.1.0: Embedded SSL library.
+dev-libs/wolfssl 5.1.1: Embedded SSL library.
 dev-libs/xbyak 6.01-r1: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
 dev-python/hidapi 0.11.0.3: Python wrapper for hidapi.
