@@ -100,7 +100,7 @@ sys-apps/usbkill 1.0_rc4_p20160730-r1: An kill-switch that waits for a change on
 sys-auth/fprintd 1.94.1: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.2: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
-www-apps/pihole-admin-lte 5.9: Pi-hole Dashboard for stats and more
+www-apps/pihole-admin-lte 5.10: Pi-hole Dashboard for stats and more
 www-apps/wakapi 1.30.3: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999: Bypass Paywalls browser extension.
 x11-misc/mimeo 2021.11: Open files by MIME-type or file name using regular expressions.
