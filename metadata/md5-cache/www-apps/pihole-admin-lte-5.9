@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prepare prerm setup
+DEPEND=|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) app-admin/webapp-config
+DESCRIPTION=Pi-hole Dashboard for stats and more
+EAPI=8
+HOMEPAGE=https://github.com/pi-hole/AdminLTE
+INHERIT=webapp
+IUSE=vhosts
+KEYWORDS=~amd64
+LICENSE=EUPL-1.2
+RDEPEND=dev-lang/php[fileinfo,filter,gd,intl,session,sqlite,tokenizer] virtual/httpd-php app-admin/webapp-config
+SLOT=0
+SRC_URI=https://github.com/pi-hole/AdminLTE/archive/refs/tags/v5.9.tar.gz -> pihole-admin-lte-5.9.tar.gz
+_eclasses_=webapp	60f2eb31dec733d05e8114cc078ebc33
+_md5_=9d86acff001e574edae2b58c8feeb959
