@@ -12,4 +12,4 @@ RDEPEND=app-admin/sudo dev-lang/php[fileinfo,filter,gd,intl,session,sqlite,token
 SLOT=0
 SRC_URI=https://github.com/pi-hole/AdminLTE/archive/refs/tags/v5.10.tar.gz -> pihole-admin-lte-5.10.tar.gz
 _eclasses_=webapp	60f2eb31dec733d05e8114cc078ebc33
-_md5_=106e038334604a4cc472ceb681f2a69a
+_md5_=03439fed01352002154d3f7de6852f68
