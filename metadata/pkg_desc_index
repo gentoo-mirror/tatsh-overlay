@@ -1,6 +1,6 @@
 acct-group/pihole 0: System group: pihole
 acct-user/pihole 0: user for pihole
-app-admin/padd 3.6.2: PADD provides in-depth information about your Pi-hole.
+app-admin/padd 3.6.3: PADD provides in-depth information about your Pi-hole.
 app-arch/unalz 0.65: Unpack ALZ archives.
 app-cdr/cdi2nero 0.9.9: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2: Converts DiscJuggler CDI files to various disc image formats.
@@ -63,7 +63,7 @@ games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.20-r1: PS3 emulator and debugger.
 games-emulation/ryujinx 1.0.7152: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.6.2-r1: Original Xbox emulator.
-games-emulation/yuzu 0.867-r1: Nintendo Switch emulator
+games-emulation/yuzu 0.872: Nintendo Switch emulator
 games-util/hid-nintendo 20210726: A Nintendo HID kernel module
 games-util/joycond 0.1.0_p20210730-r1: Combine joy-cons using hid-nintendo
 games-util/joystickwake 0.3: Joystick-aware screen waker.
@@ -87,8 +87,8 @@ media-video/mpv-sponsorblock 20211223: mpv script to skip sponsored segments of 
 media-video/open-in-mpv 0.0.4-r1: Host-side script for the Open in mpv Chrome extension.
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
 media-video/video2x 4.8.1-r3: A lossless video/GIF/image upscaler.
-net-dns/pihole 5.7: Network-wide ad blocking (core).
-net-dns/pihole-ftl 5.12.1: The Pi-hole FTL engine
+net-dns/pihole 5.8.1: Network-wide ad blocking (core).
+net-dns/pihole-ftl 5.13: The Pi-hole FTL engine
 net-fs/ksmbd-tools 3.4.3: cifsd kernel server userspace utilities
 net-im/ripcord 0.4.29-r2: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.10.0: Declarative configuration for Gmail filters
@@ -100,7 +100,7 @@ sys-apps/usbkill 1.0_rc4_p20160730-r1: An kill-switch that waits for a change on
 sys-auth/fprintd 1.94.1: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.2: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
-www-apps/pihole-admin-lte 5.10: Pi-hole Dashboard for stats and more
+www-apps/pihole-admin-lte 5.10.1: Pi-hole Dashboard for stats and more
 www-apps/wakapi 1.30.3: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999: Bypass Paywalls browser extension.
 x11-misc/mimeo 2021.11: Open files by MIME-type or file name using regular expressions.
