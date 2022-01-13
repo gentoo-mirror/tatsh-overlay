@@ -87,7 +87,7 @@ media-video/mpv-sponsorblock 20211223: mpv script to skip sponsored segments of 
 media-video/open-in-mpv 0.0.4-r1: Host-side script for the Open in mpv Chrome extension.
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
 media-video/video2x 4.8.1-r3: A lossless video/GIF/image upscaler.
-net-dns/pihole 5.8.1: Network-wide ad blocking (core).
+net-dns/pihole 5.8.1-r2: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.13: The Pi-hole FTL engine
 net-fs/ksmbd-tools 3.4.3: cifsd kernel server userspace utilities
 net-im/ripcord 0.4.29-r2: Desktop chat client for Slack and Discord (not web-based).
