@@ -17,10 +17,10 @@ app-portage/gcrud 9999: Clean up cruft on your file system.
 app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20211108: Kotlin plugin for Vim.
 app-vim/vim-wakatime 9.0.1: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20220103: A code-completion engine for Vim.
+app-vim/youcompleteme 20220111: A code-completion engine for Vim.
 dev-db/dbeaver-bin 21.3.2: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
-dev-db/litecli 1.6.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
+dev-db/litecli 1.7.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
 dev-libs/librw 20211126: A re-implementation of the RenderWare Graphics engine.
@@ -37,7 +37,7 @@ dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20211118: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
-dev-util/ycmd 20211210: A code-completion & code-comprehension server.
+dev-util/ycmd 20220111: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.9.9: Mirror Git repositories to other Git providers.
 dev-vcs/git-extras 6.3.0: Git utilties: repo summary, repl, changelog population, and more.
@@ -51,14 +51,14 @@ games-action/revc 20210902-r1: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2-r1: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20211216: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox 5.3.0.4.12.0_alpha: Advanced rhythm game. Designed for both home and arcade use
-games-emulation/86box 2.07_p20220109: Emulator of x86-based machines based on PCem.
+games-emulation/86box 2.07_p20220113: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
-games-emulation/citra 20220108: A Nintendo 3DS emulator.
+games-emulation/citra 20220112: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.83.21: Cross-platform DOS emulation package.
 games-emulation/melonds 0.9.3-r1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20220108: A new generation, open-source graphics plugin for N64 emulators.
-games-emulation/play 0.47: PlayStation 2 emulator.
+games-emulation/mupen64plus-video-gliden64 4.0_p20220116: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/play 0.48: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.20-r1: PS3 emulator and debugger.
 games-emulation/ryujinx 1.0.7162: Experimental Nintendo Switch emulator written in C#
@@ -73,9 +73,9 @@ kde-misc/kate-stuff 20211016: Updated and improved Kate editor syntax files and 
 kde-misc/kate-wakatime 1.3.9: Time tracking with WakaTime for Kate.
 media-fonts/amiri 0.113: High quality Arabic Naskh-style font
 media-fonts/iosevka 11.2.6: Slender typeface for code, from code
-media-fonts/noto 20220109: Google's font family that aims to support all the world's languages
+media-fonts/noto 20220114: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r1: Stand-alone viewer of SWF files.
-media-gfx/gifski 1.6.0: pngquant-based GIF maker for nice-looking animGIFs
+media-gfx/gifski 1.6.3: pngquant-based GIF maker for nice-looking animGIFs
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20210210: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20210210-r1: SRMD super resolution implemented with ncnn library.
@@ -94,14 +94,14 @@ net-im/ripcord 0.4.29-r2: Desktop chat client for Slack and Discord (not web-bas
 net-mail/gmailctl 0.10.0: Declarative configuration for Gmail filters
 net-p2p/xirvik-tools 0.3.1-r2: Tools for Xirvik servers.
 net-proxy/charles 4.6.2-r4: Web debugging proxy application.
-sys-apps/systemd-utils 20210509: Random systemd utilities.
+sys-apps/systemd-utils 20220116: Random systemd utilities.
 sys-apps/taw-unix-utilities 20211215: Various small Unix utilities
 sys-apps/usbkill 1.0_rc4_p20160730-r1: An kill-switch that waits for a change on your USB ports.
 sys-auth/fprintd 1.94.1: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.2: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
 www-apps/pihole-admin-lte 5.10.1: Pi-hole Dashboard for stats and more
-www-apps/wakapi 2.0.0: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+www-apps/wakapi 2.0.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999: Bypass Paywalls browser extension.
 x11-misc/mimeo 2021.11: Open files by MIME-type or file name using regular expressions.
 x11-misc/rom-properties 1.8.3-r1: Shell extension for file managers to manage game ROMs and disc images.
