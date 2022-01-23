@@ -5,7 +5,7 @@ app-arch/unalz 0.65: Unpack ALZ archives.
 app-cdr/cdi2nero 0.9.9: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2: Converts DiscJuggler CDI files to various disc image formats.
 app-misc/cmdpack 1.0_p20160421: Neill Corlett's command-Line pack.
-app-misc/fq 0.0.3: jq for binary formats
+app-misc/fq 0.0.4: jq for binary formats
 app-misc/pyrescene 0.7: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1: Tools for Xirvik servers.
@@ -51,19 +51,19 @@ games-action/revc 20210902-r1: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2-r1: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20211216: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox 5.3.0.4.12.0_alpha: Advanced rhythm game. Designed for both home and arcade use
-games-emulation/86box 2.07_p20220113: Emulator of x86-based machines based on PCem.
+games-emulation/86box 2.07_p20220121: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
 games-emulation/citra 20220112: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.83.21: Cross-platform DOS emulation package.
 games-emulation/melonds 0.9.3-r1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20220116: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20220122: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.48: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.20-r1: PS3 emulator and debugger.
 games-emulation/ryujinx 1.0.7175: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.6.2-r1: Original Xbox emulator.
-games-emulation/yuzu 0.881: Nintendo Switch emulator
+games-emulation/yuzu 0.887: Nintendo Switch emulator
 games-util/hid-nintendo 20210726: A Nintendo HID kernel module
 games-util/joycond 0.1.0_p20210730-r1: Combine joy-cons using hid-nintendo
 games-util/joystickwake 0.3: Joystick-aware screen waker.
@@ -75,7 +75,7 @@ media-fonts/amiri 0.113: High quality Arabic Naskh-style font
 media-fonts/iosevka 11.2.6: Slender typeface for code, from code
 media-fonts/noto 20220114: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r1: Stand-alone viewer of SWF files.
-media-gfx/gifski 1.6.3: pngquant-based GIF maker for nice-looking animGIFs
+media-gfx/gifski 1.6.4: pngquant-based GIF maker for nice-looking animGIFs
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20210210: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20210210-r1: SRMD super resolution implemented with ncnn library.
@@ -89,7 +89,6 @@ media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
 media-video/video2x 4.8.1-r3: A lossless video/GIF/image upscaler.
 net-dns/pihole 5.8.1-r3: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.13: The Pi-hole FTL engine
-net-fs/ksmbd-tools 3.4.3: cifsd kernel server userspace utilities
 net-im/ripcord 0.4.29-r2: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.10.0: Declarative configuration for Gmail filters
 net-p2p/xirvik-tools 0.3.1-r2: Tools for Xirvik servers.
