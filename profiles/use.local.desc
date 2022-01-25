@@ -120,6 +120,7 @@ media-fonts/noto:pau-cin-hau - Install font for Pau Cin Hau script
 media-fonts/noto:phagspa - Install for 'Phags-pa script
 media-fonts/noto:runic - Install Runic font
 media-fonts/noto:symbols - Install Symbols fonts
+media-plugins/nvidia-vaapi-driver:av1 - Enable experimental AV1 support
 media-plugins/nvidia-vaapi-driver:experimental - Apply experimental patches that mostly apply to Chrome usage
 media-video/magewell-pro-capture:weave - Do not enable deinterlacing. Warning: this stops "mwcap-control --video-output-deinterlace ..." from working.
 net-dns/pihole:cron - Installs cron job
