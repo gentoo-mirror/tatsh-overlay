@@ -1,0 +1,11 @@
+BDEPEND=app-arch/unrar
+DEFINED_PHASES=install unpack
+DESCRIPTION=The community pack content for Project OutFox (includes volume 1.5)
+EAPI=8
+HOMEPAGE=https://github.com/TeamRizu/OutFox-Serenity
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=games-arcade/stepmania-outfox
+SLOT=0
+SRC_URI=https://github.com/TeamRizu/OutFox-Serenity/releases/download/v1.5-rc2/OutFox.Serenity.Winter.Update.RC2.rar -> stepmania-outfox-serenity-1.5_rc2.rar
+_md5_=807862340a57e838524dfa80ac646ef2
