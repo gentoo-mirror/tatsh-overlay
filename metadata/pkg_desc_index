@@ -18,7 +18,7 @@ app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20211108: Kotlin plugin for Vim.
 app-vim/vim-wakatime 9.0.1: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20220111: A code-completion engine for Vim.
-dev-db/dbeaver-bin 21.3.2: Free universal database tool (community edition).
+dev-db/dbeaver-bin 21.3.3: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.7.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
@@ -28,7 +28,7 @@ dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C+
 dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/tihmstar-libgeneral 63: Stuff used in tsschecker.
 dev-libs/wolfssl 5.1.1: Embedded SSL library.
-dev-libs/xbyak 6.01-r1: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-libs/xbyak 6.02: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
 dev-python/hidapi 0.11.0.3: Python wrapper for hidapi.
 dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
@@ -52,9 +52,9 @@ games-arcade/clone-hero 0.23.2.2-r1: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20211216: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox 5.3.0.4.12.0_alpha: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox-serenity 1.5_rc2: The community pack content for Project OutFox (includes volume 1.5)
-games-emulation/86box 2.07_p20220121: Emulator of x86-based machines based on PCem.
+games-emulation/86box 2.07_p20220130: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
-games-emulation/citra 20220112: A Nintendo 3DS emulator.
+games-emulation/citra 20220124: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.83.21: Cross-platform DOS emulation package.
 games-emulation/melonds 0.9.3-r1: A fast and accurate Nintendo DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
@@ -62,9 +62,9 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20220122: A new generation, open
 games-emulation/play 0.48: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.20-r1: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.10: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.13: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.6.2-r1: Original Xbox emulator.
-games-emulation/yuzu 0.887: Nintendo Switch emulator
+games-emulation/yuzu 0.900: Nintendo Switch emulator
 games-util/hid-nintendo 20210726: A Nintendo HID kernel module
 games-util/joycond 0.1.0_p20210730-r1: Combine joy-cons using hid-nintendo
 games-util/joystickwake 0.3: Joystick-aware screen waker.
@@ -73,8 +73,8 @@ kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting 
 kde-misc/kate-stuff 20211016: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.9: Time tracking with WakaTime for Kate.
 media-fonts/amiri 0.113: High quality Arabic Naskh-style font
-media-fonts/iosevka 11.2.6: Slender typeface for code, from code
-media-fonts/noto 20220114: Google's font family that aims to support all the world's languages
+media-fonts/iosevka 11.2.7: Slender typeface for code, from code
+media-fonts/noto 20220129: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r1: Stand-alone viewer of SWF files.
 media-gfx/gifski 1.6.4: pngquant-based GIF maker for nice-looking animGIFs
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
@@ -82,7 +82,7 @@ media-gfx/realsr-ncnn-vulkan 20210210: RealSR super resolution implemented with 
 media-gfx/srmd-ncnn-vulkan 20210210-r1: SRMD super resolution implemented with ncnn library.
 media-libs/nv-codec-headers 11.1.5.1: FFmpeg version of headers required to interface with Nvidias codec APIs
 media-libs/rtmidi 5.0.0: A set of C++ classes that provide a common API for realtime MIDI input/output
-media-plugins/nvidia-vaapi-driver 0.0.3-r2: A VA-API implemention using NVIDIA's NVDEC
+media-plugins/nvidia-vaapi-driver 0.0.3-r3: A VA-API implemention using NVIDIA's NVDEC
 media-sound/sony-headphones-client 1.2-r1: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
 media-video/magewell-pro-capture 1.3.0.4236-r1: Magewell Pro Capture driver.
