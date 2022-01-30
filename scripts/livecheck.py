@@ -311,6 +311,8 @@ def gather_settings(search_dir: str) -> LivecheckSettings:
                 tf = ls['transformation_function']
                 if tf == 'dotize':
                     transformations[catpkg] = dotize
+                elif tf == 'dash_to_underscore':
+                    transformations[catpkg] = lambda s: s.replace('-', '_')
                 elif tf == 'handle_stepmania_outfox':
                     transformations[catpkg] = handle_stepmania_outfox
                 elif tf == 'handle_re':
@@ -489,11 +491,6 @@ def main() -> int:
                     with open(ebuild, 'r') as f:
                         old_content = f.read()
                     content = old_content.replace(version, top_hash)
-                    if cp == 'games-emulation/ryujinx':
-                        commit = cast(requests.Response,
-                                      r).json()['build']['commitId']
-                        content = re.sub(r'^SHA="[^"]+"', f'SHA="{commit}"',
-                                         content, 1, re.MULTILINE)
                     ps_ref = top_hash
                     if not is_sha(top_hash) and cp in TAG_NAME_FUNCTIONS:
                         ps_ref = TAG_NAME_FUNCTIONS[cp](top_hash)
