@@ -1,14 +1,14 @@
 DEFINED_PHASES=install postinst prepare setup
 DEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
 DESCRIPTION=A code-completion engine for Vim.
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/ycm-core/YouCompleteMe
 INHERIT=python-single-r1
-IUSE=python_single_target_python3_8 python_single_target_python3_9
+IUSE=python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 ) || ( sys-devel/clang:11 sys-devel/clang:12 sys-devel/clang:13 ) python_single_target_python3_8? ( dev-python/requests-futures[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/requests-futures[python_targets_python3_9(-)] ) python_single_target_python3_8? ( dev-python/requests[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/requests[python_targets_python3_9(-)] ) python_single_target_python3_8? ( dev-util/ycmd[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?] ) python_single_target_python3_9? ( dev-util/ycmd[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?] )
+RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 ) || ( sys-devel/clang:11 sys-devel/clang:12 sys-devel/clang:13 ) python_single_target_python3_8? ( dev-python/requests-futures[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/requests-futures[python_targets_python3_9(-)] ) python_single_target_python3_10? ( dev-python/requests-futures[python_targets_python3_10(-)] ) python_single_target_python3_8? ( dev-python/requests[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/requests[python_targets_python3_9(-)] ) python_single_target_python3_10? ( dev-python/requests[python_targets_python3_10(-)] ) python_single_target_python3_8? ( dev-util/ycmd[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?] ) python_single_target_python3_9? ( dev-util/ycmd[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?] ) python_single_target_python3_10? ( dev-util/ycmd[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?] )
 SLOT=0
 SRC_URI=https://github.com/ycm-core/YouCompleteMe/archive/7684b6c6b49f8d3bdbd17ecdc9ee7d228039808e.tar.gz -> youcompleteme-20220111.tar.gz
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	7ee47726753a2bd062a05f6643d849da	python-single-r1	003123b4d7119cfd295a7566b1830904
-_md5_=2586ad37003f403838e8fa400b9d2ec9
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	7ee47726753a2bd062a05f6643d849da	python-single-r1	003123b4d7119cfd295a7566b1830904
+_md5_=eb9a5f58e6f4e31b02a9bcee1e5b818e
