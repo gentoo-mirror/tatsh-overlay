@@ -65,6 +65,7 @@ games-emulation/rpcs3 0.0.20-r1: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.13: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.6.2-r1: Original Xbox emulator.
 games-emulation/yuzu 0.900: Nintendo Switch emulator
+games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
 games-util/hid-nintendo 20210726: A Nintendo HID kernel module
 games-util/joycond 0.1.0_p20210730-r2: Combine joy-cons using hid-nintendo
 games-util/joystickwake 0.3: Joystick-aware screen waker.

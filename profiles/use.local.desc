@@ -61,6 +61,14 @@ games-emulation/yuzu:compatibility-reporting - Enable compatibility reporting
 games-emulation/yuzu:cubeb - Build with cubeb audio backend
 games-emulation/yuzu:experimental - Enable experimental patches
 games-emulation/yuzu:web-service - Enable web-services
+games-misc/render96ex:discord - Enable Discord presence
+games-misc/render96ex:eu - Use the EU ROM
+games-misc/render96ex:goddard - Enable enhancements to Mario's face
+games-misc/render96ex:jp - Use the Japanese ROM
+games-misc/render96ex:models - Enable higher quality models
+games-misc/render96ex:texture-fix - Enable texture bug fixes
+games-misc/render96ex:textures - Install high quality texture replacements
+games-misc/render96ex:us - Use the North American ROM
 games-util/raphnet-tech-adapter-manager:firmware - Install firmware
 media-fonts/noto:ancient - Install fonts for historical scripts
 media-fonts/noto:brahmi - Install font for Brahmi script
