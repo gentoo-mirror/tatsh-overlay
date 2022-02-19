@@ -62,7 +62,7 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20220213: A new generation, open
 games-emulation/play 0.49: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.20-r1: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.27: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.27-r1: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.6.2-r1: Original Xbox emulator.
 games-emulation/yuzu 0.915: Nintendo Switch emulator
 games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
