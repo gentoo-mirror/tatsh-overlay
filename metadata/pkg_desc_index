@@ -67,7 +67,6 @@ games-emulation/xemu 0.6.2-r1: Original Xbox emulator.
 games-emulation/yuzu 0.915: Nintendo Switch emulator
 games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
 games-util/hid-nintendo 20210726: A Nintendo HID kernel module
-games-util/joycond 0.1.0_p20210730-r2: Combine joy-cons using hid-nintendo
 games-util/joystickwake 0.3: Joystick-aware screen waker.
 games-util/raphnet-tech-adapter-manager 2.1.25-r1: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
