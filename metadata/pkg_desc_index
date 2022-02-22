@@ -29,8 +29,11 @@ dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP use
 dev-libs/tihmstar-libgeneral 63: Stuff used in tsschecker.
 dev-libs/wolfssl 5.1.1: Embedded SSL library.
 dev-libs/xbyak 6.02: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-python/asn1 2.4.2: Simple ASN.1 encoder/decoder.
 dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
 dev-python/hidapi 0.11.0.3: Python wrapper for hidapi.
+dev-python/pycryptoplus 0.0.1: Cipher extension (used by games-util/nut).
+dev-python/qt-range-slider 0.2.7: Qt widget-slider with two thumbs (min/max values).
 dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
 dev-ruby/fileutils 1.6.0: Several file utility methods for copying, moving, removing, etc.
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
@@ -68,6 +71,7 @@ games-emulation/yuzu 0.923: Nintendo Switch emulator
 games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
 games-util/hid-nintendo 20210726: A Nintendo HID kernel module
 games-util/joystickwake 0.3: Joystick-aware screen waker.
+games-util/nut 3.3_p20220221: Multi-purpose utility to manage and install Switch files (NSP, NSZ, XCI, XCZ).
 games-util/raphnet-tech-adapter-manager 2.1.25-r1: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20211016: Updated and improved Kate editor syntax files and code snippets.
