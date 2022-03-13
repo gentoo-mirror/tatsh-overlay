@@ -13,7 +13,6 @@ app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107: Helper utility to enable charging with Apple mobile devices such as the iPad.
 app-pda/libirecovery 1.0.0: Library and utility to talk to iBoot/iBSS via USB.
 app-pda/tsschecker 304_p20211029: A powerful tool to check TSS signing status of various devices and firmwares.
-app-portage/gcrud 9999: Clean up cruft on your file system.
 app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20211108: Kotlin plugin for Vim.
 app-vim/vim-wakatime 9.0.1: vim plugin: automatic time tracking with WakaTime
@@ -25,7 +24,6 @@ dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
 dev-libs/librw 20211126: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
-dev-libs/teakra 20220224: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/tihmstar-libgeneral 63: Stuff used in tsschecker.
 dev-libs/wolfssl 5.2.0: Embedded SSL library.
 dev-libs/xbyak 6.02: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
