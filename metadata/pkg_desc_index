@@ -82,7 +82,6 @@ media-gfx/gifski 1.6.4: pngquant-based GIF maker for nice-looking animGIFs
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20210210: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20210210-r1: SRMD super resolution implemented with ncnn library.
-media-libs/nv-codec-headers 11.1.5.1: FFmpeg version of headers required to interface with Nvidias codec APIs
 media-libs/rtmidi 5.0.0: A set of C++ classes that provide a common API for realtime MIDI input/output
 media-plugins/nvidia-vaapi-driver 0.0.5: A VA-API implemention using NVIDIA's NVDEC
 media-sound/sony-headphones-client 1.2-r1: Client recreating the functionality of the Sony Headphones app.
