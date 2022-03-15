@@ -57,6 +57,7 @@ games-emulation/86box 3.2.1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
 games-emulation/citra 20220305: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.83.23: Cross-platform DOS emulation package.
+games-emulation/libretro-db 1.10.1: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20220313: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.50: PlayStation 2 emulator.
