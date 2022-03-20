@@ -83,7 +83,7 @@ media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20210210: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20210210-r1: SRMD super resolution implemented with ncnn library.
 media-plugins/nvidia-vaapi-driver 0.0.5: A VA-API implemention using NVIDIA's NVDEC
-media-sound/sony-headphones-client 1.2-r1: Client recreating the functionality of the Sony Headphones app.
+media-sound/sony-headphones-client 1.2-r2: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
 media-video/magewell-pro-capture 1.3.0.4236-r1: Magewell Pro Capture driver.
 media-video/mpv-sponsorblock 20211223: mpv script to skip sponsored segments of YouTube videos
