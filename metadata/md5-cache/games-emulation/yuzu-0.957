@@ -1,6 +1,6 @@
 BDEPEND=>=dev-cpp/catch-2.13.7 dev-cpp/nlohmann_json dev-util/glslang dev-util/vulkan-headers dev-util/spirv-headers dev-util/ninja >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
-DEPEND=app-arch/lz4 >=app-arch/zstd-1.5.0 dev-libs/boost:=[context] cubeb? ( media-libs/cubeb ) experimental? ( dev-libs/openssl ) !experimental? ( <net-libs/mbedtls-3.1.0[cmac] ) dev-libs/inih >=dev-libs/libfmt-8.0.0 dev-libs/libzip dev-cpp/robin-map dev-qt/qtcore dev-qt/qtdbus dev-qt/qtgui dev-qt/qtwebengine dev-qt/qtwidgets media-libs/opus >=media-video/ffmpeg-4.3 sys-libs/libunwind sys-libs/zlib x11-libs/libva virtual/libusb:= dev-util/desktop-file-utils x11-misc/shared-mime-info
+DEPEND=app-arch/lz4 >=app-arch/zstd-1.5.0 dev-libs/boost:=[context] cubeb? ( media-libs/cubeb ) experimental? ( dev-libs/openssl ) !experimental? ( <net-libs/mbedtls-3.1.0[cmac] ) dev-libs/inih >=dev-libs/libfmt-8.0.0 dev-libs/libzip >=dev-libs/xbyak-6.03 dev-cpp/robin-map dev-qt/qtcore dev-qt/qtdbus dev-qt/qtgui dev-qt/qtwebengine dev-qt/qtwidgets media-libs/opus >=media-video/ffmpeg-4.3 sys-libs/libunwind sys-libs/zlib x11-libs/libva virtual/libusb:= dev-util/desktop-file-utils x11-misc/shared-mime-info
 DESCRIPTION=Nintendo Switch emulator
 EAPI=7
 HOMEPAGE=https://yuzu-emu.org/ https://github.com/yuzu-emu/yuzu-mainline
@@ -8,9 +8,9 @@ INHERIT=cmake xdg
 IUSE=+compatibility-reporting +cubeb experimental +web-service
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD GPL-2 GPL-2+ LGPL-2.1
-RDEPEND=app-arch/lz4 >=app-arch/zstd-1.5.0 dev-libs/boost:=[context] cubeb? ( media-libs/cubeb ) experimental? ( dev-libs/openssl ) !experimental? ( <net-libs/mbedtls-3.1.0[cmac] ) dev-libs/inih >=dev-libs/libfmt-8.0.0 dev-libs/libzip dev-cpp/robin-map dev-qt/qtcore dev-qt/qtdbus dev-qt/qtgui dev-qt/qtwebengine dev-qt/qtwidgets media-libs/opus >=media-video/ffmpeg-4.3 sys-libs/libunwind sys-libs/zlib x11-libs/libva virtual/libusb:= media-libs/vulkan-loader
+RDEPEND=app-arch/lz4 >=app-arch/zstd-1.5.0 dev-libs/boost:=[context] cubeb? ( media-libs/cubeb ) experimental? ( dev-libs/openssl ) !experimental? ( <net-libs/mbedtls-3.1.0[cmac] ) dev-libs/inih >=dev-libs/libfmt-8.0.0 dev-libs/libzip >=dev-libs/xbyak-6.03 dev-cpp/robin-map dev-qt/qtcore dev-qt/qtdbus dev-qt/qtgui dev-qt/qtwebengine dev-qt/qtwidgets media-libs/opus >=media-video/ffmpeg-4.3 sys-libs/libunwind sys-libs/zlib x11-libs/libva virtual/libusb:= media-libs/vulkan-loader
 REQUIRED_USE=compatibility-reporting? ( web-service )
 SLOT=0
 SRC_URI=https://github.com/yuzu-emu/yuzu-mainline/archive/mainline-0-957.tar.gz -> yuzu-0.957.tar.gz https://github.com/MerryMage/dynarmic/archive/039ca8b1b4630ad1f56e544d7fa575147a6cb464.tar.gz -> yuzu-dynarmic-039ca8b.tar.gz https://github.com/ReinUsesLisp/sirit/archive/a39596358a3a5488c06554c0c15184a6af71e433.tar.gz -> yuzu-sirit-a395963.tar.gz https://github.com/citra-emu/ext-soundtouch/archive/060181eaf273180d3a7e87349895bd0cb6ccbf4a.tar.gz -> yuzu-soundtouch-060181e.tar.gz https://github.com/yhirose/cpp-httplib/archive/9648f950f5a8a41d18833cf4a85f5821b1bcac54.tar.gz -> yuzu-httplib-9648f95.tar.gz https://github.com/libsdl-org/SDL/archive/e2ade2bfc46d915cd306c63c830b81d800b2575f.tar.gz -> yuzu-sdl-e2ade2b.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	cmake	9f12546ab831b81c615d90e6b9e34e68	xdg	6024fbc93167fad782e2032933654857
-_md5_=83f3546d50eb0f57573b1d21a1b6235b
+_md5_=831c87fed74988709e595ff209def1bf
