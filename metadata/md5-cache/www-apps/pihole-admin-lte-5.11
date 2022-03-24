@@ -11,5 +11,5 @@ LICENSE=EUPL-1.2
 RDEPEND=app-admin/sudo dev-lang/php[fileinfo,filter,gd,intl,session,sqlite,tokenizer] net-dns/pihole virtual/httpd-php app-admin/webapp-config
 SLOT=0
 SRC_URI=https://github.com/pi-hole/AdminLTE/archive/refs/tags/v5.11.tar.gz -> pihole-admin-lte-5.11.tar.gz
-_eclasses_=webapp	60f2eb31dec733d05e8114cc078ebc33
+_eclasses_=webapp	cbf94d7383f416c5ead4634aa89916a9
 _md5_=8a4a3a99b01d4f6bf4d99c63e310875f
