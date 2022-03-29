@@ -51,7 +51,7 @@ games-action/relcs 20210902-r1: GTA Liberty City Stories decompiled and re-built
 games-action/revc 20210902-r1: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2-r1: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20220325: Advanced rhythm game. Designed for both home and arcade use
-games-arcade/stepmania-outfox 0.4.14.0_p20220325 5.3.0.4.13.0_alpha: Advanced rhythm game. Designed for both home and arcade use
+games-arcade/stepmania-outfox 0.4.14.1_p20220327: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox-serenity 1.5_rc2: The community pack content for Project OutFox (includes volume 1.5)
 games-emulation/86box 3.3: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
@@ -65,7 +65,7 @@ games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.21: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.85: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.6.2-r1: Original Xbox emulator.
-games-emulation/yuzu 0.957: Nintendo Switch emulator
+games-emulation/yuzu 0.967: Nintendo Switch emulator
 games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
 games-util/hid-nintendo 20210726: A Nintendo HID kernel module
 games-util/joystickwake 0.3: Joystick-aware screen waker.
