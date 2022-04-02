@@ -16,10 +16,10 @@ app-pda/tsschecker 304_p20211029: A powerful tool to check TSS signing status of
 app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20211108: Kotlin plugin for Vim.
 app-vim/vim-wakatime 9.0.1: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20220323: A code-completion engine for Vim.
+app-vim/youcompleteme 20220330: A code-completion engine for Vim.
 dev-db/dbeaver-bin 22.0.1: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
-dev-db/litecli 1.7.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
+dev-db/litecli 1.8.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
 dev-libs/librw 20211126: A re-implementation of the RenderWare Graphics engine.
@@ -38,7 +38,7 @@ dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20211118: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
-dev-util/ycmd 20220324: A code-completion & code-comprehension server.
+dev-util/ycmd 20220401: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.2: Mirror Git repositories to other Git providers.
 dev-vcs/git-extras 6.3.0: Git utilties: repo summary, repl, changelog population, and more.
@@ -56,7 +56,7 @@ games-arcade/stepmania-outfox-serenity 1.5_rc2: The community pack content for P
 games-emulation/86box 3.3: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
 games-emulation/citra 20220305: A Nintendo 3DS emulator.
-games-emulation/dosbox-x 0.83.23: Cross-platform DOS emulation package.
+games-emulation/dosbox-x 0.83.24: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.10.2: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20220327: A new generation, open-source graphics plugin for N64 emulators.
@@ -90,7 +90,7 @@ media-video/mpv-sponsorblock 20211223: mpv script to skip sponsored segments of 
 media-video/open-in-mpv 0.0.4-r1: Host-side script for the Open in mpv Chrome extension.
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
 media-video/video2x 4.8.1-r3: A lossless video/GIF/image upscaler.
-net-dns/pihole 5.9: Network-wide ad blocking (core).
+net-dns/pihole 5.9.1: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.14: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r2: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.10.0: Declarative configuration for Gmail filters
