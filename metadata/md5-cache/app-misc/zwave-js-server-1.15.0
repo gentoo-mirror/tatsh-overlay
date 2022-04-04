@@ -11,4 +11,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/Tatsh/tatsh-overlay/releases/download/20220402/zwave-js-server-1.15.0.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	systemd	2736b403a83f194b59b767f3b344c2c1
-_md5_=c6a9e32c63e87e9dc6f1409c308356be
+_md5_=bb3b0dc2d3a3b96169df42f2d13ea3a4
