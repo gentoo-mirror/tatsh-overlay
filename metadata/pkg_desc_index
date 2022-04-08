@@ -14,7 +14,7 @@ app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107: Helper utility to enable charging with Apple mobile devices such as the iPad.
 app-pda/libirecovery 1.0.0: Library and utility to talk to iBoot/iBSS via USB.
 app-pda/tsschecker 304_p20211029: A powerful tool to check TSS signing status of various devices and firmwares.
-app-portage/upkeep 1.2.7-r4: Helper commands to automate updating with Portage.
+app-portage/upkeep 1.3.0: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20211108: Kotlin plugin for Vim.
 app-vim/vim-wakatime 9.0.1: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20220402: A code-completion engine for Vim.
