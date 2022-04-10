@@ -27,7 +27,7 @@ dev-libs/librw 20211126: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/tihmstar-libgeneral 63: Stuff used in tsschecker.
 dev-libs/wolfssl 5.2.0: Embedded SSL library.
-dev-libs/xbyak 6.03: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-libs/xbyak 6.04: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/asn1 2.5.0: Simple ASN.1 encoder/decoder.
 dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
 dev-python/hidapi 0.11.0.3: Python wrapper for hidapi.
@@ -61,23 +61,23 @@ games-emulation/dosbox-x 0.83.24: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.10.2: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20220402: A new generation, open-source graphics plugin for N64 emulators.
-games-emulation/play 0.50: PlayStation 2 emulator.
+games-emulation/play 0.51: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.21: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.85: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.101: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.6.2-r1: Original Xbox emulator.
-games-emulation/yuzu 0.973: Nintendo Switch emulator
+games-emulation/yuzu 0.980: Nintendo Switch emulator
 games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
 games-util/hid-nintendo 20210726: A Nintendo HID kernel module
 games-util/joystickwake 0.3: Joystick-aware screen waker.
 games-util/nut 3.3_p20220221: Multi-purpose utility to manage and install Switch files (NSP, NSZ, XCI, XCZ).
 games-util/raphnet-tech-adapter-manager 2.1.25-r1: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
-kde-misc/kate-stuff 20211016: Updated and improved Kate editor syntax files and code snippets.
+kde-misc/kate-stuff 20220404: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.9: Time tracking with WakaTime for Kate.
 media-fonts/amiri 0.114: High quality Arabic Naskh-style font
 media-fonts/iosevka 15.1.0: Slender typeface for code, from code
-media-fonts/noto 20220401: Google's font family that aims to support all the world's languages
+media-fonts/noto 20220405: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r1: Stand-alone viewer of SWF files.
 media-gfx/gifski 1.6.4: pngquant-based GIF maker for nice-looking animGIFs
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
@@ -88,7 +88,7 @@ media-sound/sony-headphones-client 1.2-r3: Client recreating the functionality o
 media-sound/yamaha-xg-soundfont 20140604: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
 media-video/magewell-pro-capture 1.3.0.4236-r1: Magewell Pro Capture driver.
 media-video/mpv-sponsorblock 20211223: mpv script to skip sponsored segments of YouTube videos
-media-video/open-in-mpv 0.0.5: Host-side script for the Open in mpv Chrome extension.
+media-video/open-in-mpv 0.0.6: Host-side script for the Open in mpv Chrome extension.
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
 media-video/video2x 4.8.1-r3: A lossless video/GIF/image upscaler.
 net-dns/pihole 5.9.1: Network-wide ad blocking (core).
