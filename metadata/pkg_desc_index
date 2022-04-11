@@ -65,7 +65,7 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20220402: A new generation, open
 games-emulation/play 0.51: PlayStation 2 emulator.
 games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.21: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.101: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.102: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.6.2-r1: Original Xbox emulator.
 games-emulation/yuzu 0.980: Nintendo Switch emulator
 games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
@@ -105,7 +105,7 @@ sys-auth/fprintd 1.94.2: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.3: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
 www-apps/pihole-admin-lte 5.11: Pi-hole Dashboard for stats and more
-www-apps/wakapi 2.3.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+www-apps/wakapi 2.3.3: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999: Bypass Paywalls browser extension.
 x11-misc/mimeo 2021.11: Open files by MIME-type or file name using regular expressions.
 x11-misc/rom-properties 1.8.3-r1: Shell extension for file managers to manage game ROMs and disc images.
