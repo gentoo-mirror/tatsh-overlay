@@ -9,7 +9,7 @@ app-misc/fq 0.0.6: jq for binary formats
 app-misc/pyrescene 0.7: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1: Tools for Xirvik servers.
-app-misc/zwave-js-server 1.15.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
+app-misc/zwave-js-server 1.16.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107: Helper utility to enable charging with Apple mobile devices such as the iPad.
 app-pda/libirecovery 1.0.0: Library and utility to talk to iBoot/iBSS via USB.
@@ -39,6 +39,7 @@ dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20211118: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
+dev-util/node-gyp 9.0.0: Node.js native addon build tool
 dev-util/ycmd 20220401: A code-completion & code-comprehension server.
 dev-vcs/blackbox 2.0.0: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.2: Mirror Git repositories to other Git providers.
