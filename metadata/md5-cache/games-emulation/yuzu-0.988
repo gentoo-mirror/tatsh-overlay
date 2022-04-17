@@ -1,0 +1,16 @@
+BDEPEND=>=dev-cpp/catch-2.13.7 dev-cpp/nlohmann_json dev-util/glslang dev-util/vulkan-headers dev-util/spirv-headers dev-util/ninja >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
+DEPEND=app-arch/lz4 >=app-arch/zstd-1.5.0 dev-libs/boost:=[context] cubeb? ( media-libs/cubeb ) dev-libs/openssl dev-libs/inih >=dev-libs/libfmt-8.0.0 dev-libs/libzip >=dev-libs/xbyak-6.03 dev-cpp/robin-map dev-qt/qtcore dev-qt/qtdbus dev-qt/qtgui dev-qt/qtwebengine dev-qt/qtwidgets media-libs/opus >=media-video/ffmpeg-4.3 sys-libs/libunwind sys-libs/zlib x11-libs/libva virtual/libusb:= dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Nintendo Switch emulator
+EAPI=7
+HOMEPAGE=https://yuzu-emu.org/ https://github.com/yuzu-emu/yuzu-mainline
+INHERIT=cmake xdg
+IUSE=+compatibility-reporting +cubeb +web-service
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD GPL-2 GPL-2+ LGPL-2.1
+RDEPEND=app-arch/lz4 >=app-arch/zstd-1.5.0 dev-libs/boost:=[context] cubeb? ( media-libs/cubeb ) dev-libs/openssl dev-libs/inih >=dev-libs/libfmt-8.0.0 dev-libs/libzip >=dev-libs/xbyak-6.03 dev-cpp/robin-map dev-qt/qtcore dev-qt/qtdbus dev-qt/qtgui dev-qt/qtwebengine dev-qt/qtwidgets media-libs/opus >=media-video/ffmpeg-4.3 sys-libs/libunwind sys-libs/zlib x11-libs/libva virtual/libusb:= media-libs/vulkan-loader
+REQUIRED_USE=compatibility-reporting? ( web-service )
+SLOT=0
+SRC_URI=https://github.com/yuzu-emu/yuzu-mainline/archive/mainline-0-988.tar.gz -> yuzu-0.988.tar.gz https://github.com/MerryMage/dynarmic/archive/644172477eaf0d822178cb7e96c62b75caa96573.tar.gz -> yuzu-dynarmic-6441724.tar.gz https://github.com/ReinUsesLisp/sirit/archive/a39596358a3a5488c06554c0c15184a6af71e433.tar.gz -> yuzu-sirit-a395963.tar.gz https://github.com/yhirose/cpp-httplib/archive/9648f950f5a8a41d18833cf4a85f5821b1bcac54.tar.gz -> yuzu-httplib-9648f95.tar.gz https://github.com/libsdl-org/SDL/archive/e2ade2bfc46d915cd306c63c830b81d800b2575f.tar.gz -> yuzu-sdl-e2ade2b.tar.gz
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	fef481272d4a8e136a7d8a0fb1329384	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	3c38df051095289667b6f09ebd0cc149	xdg	6024fbc93167fad782e2032933654857
+_md5_=4fa896cd6879ab29ee9327a56da2e7de

@@ -58,7 +58,6 @@ games-emulation/xemu:malloc-trim - Enable malloc_trim() support
 games-emulation/xemu:membarrier - Enable membarrier syscall support
 games-emulation/yuzu:compatibility-reporting - Enable compatibility reporting
 games-emulation/yuzu:cubeb - Build with cubeb audio backend
-games-emulation/yuzu:experimental - Enable experimental patches
 games-emulation/yuzu:web-service - Enable web-services
 games-misc/render96ex:discord - Enable Discord presence
 games-misc/render96ex:eu - Use the EU ROM
@@ -141,14 +140,6 @@ sys-apps/systemd-utils:rssh - Install rssh service
 sys-apps/systemd-utils:storj - Install storj-dataserv-client.service
 sys-apps/systemd-utils:tahoe - Install Tahoe-related services
 sys-apps/systemd-utils:youtube - Install YouTube TV service
-sys-apps/taw-unix-utilities:extras - Install even more utilities
-sys-apps/taw-unix-utilities:google - Install process_gplus_takeout
-sys-apps/taw-unix-utilities:kindle - Install kindle_sync
-sys-apps/taw-unix-utilities:lastfm - Install lastfm_status
-sys-apps/taw-unix-utilities:progress - Install progress
-sys-apps/taw-unix-utilities:soup - Install since_soup
-sys-apps/taw-unix-utilities:tfl - Install tfl_travel_time
-sys-apps/taw-unix-utilities:youtube - Install open_youtube
 www-plugins/bypass-paywalls:chrome - Install file for Chrome and Chrome Beta
 www-plugins/bypass-paywalls:chromium - Install file for Chromium-based browsers
 x11-misc/rom-properties:achievements - Enable achievement pop-ups.
