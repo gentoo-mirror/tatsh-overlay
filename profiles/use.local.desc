@@ -130,16 +130,16 @@ media-plugins/nvidia-vaapi-driver:av1 - Enable experimental AV1 support
 media-video/magewell-pro-capture:weave - Do not enable deinterlacing. Warning: this stops "mwcap-control --video-output-deinterlace ..." from working.
 net-dns/pihole:cron - Installs cron job
 net-dns/pihole:www - Install www files (requires PHP hosting)
-sys-apps/systemd-utils:amazon - Install Amazon Cloud Drive service
-sys-apps/systemd-utils:btrfs - Install units for btrfs
-sys-apps/systemd-utils:cmsis-dap - 
-sys-apps/systemd-utils:crashplan - Install timer for Crashplan
-sys-apps/systemd-utils:kodi - Install service to start Kodi
-sys-apps/systemd-utils:papertrail - Install Papertrail service
-sys-apps/systemd-utils:rssh - Install rssh service
-sys-apps/systemd-utils:storj - Install storj-dataserv-client.service
-sys-apps/systemd-utils:tahoe - Install Tahoe-related services
-sys-apps/systemd-utils:youtube - Install YouTube TV service
+sys-apps/kylemanna-systemd-utils:amazon - Install Amazon Cloud Drive service
+sys-apps/kylemanna-systemd-utils:btrfs - Install units for btrfs
+sys-apps/kylemanna-systemd-utils:cmsis-dap - 
+sys-apps/kylemanna-systemd-utils:crashplan - Install timer for Crashplan
+sys-apps/kylemanna-systemd-utils:kodi - Install service to start Kodi
+sys-apps/kylemanna-systemd-utils:papertrail - Install Papertrail service
+sys-apps/kylemanna-systemd-utils:rssh - Install rssh service
+sys-apps/kylemanna-systemd-utils:storj - Install storj-dataserv-client.service
+sys-apps/kylemanna-systemd-utils:tahoe - Install Tahoe-related services
+sys-apps/kylemanna-systemd-utils:youtube - Install YouTube TV service
 www-plugins/bypass-paywalls:chrome - Install file for Chrome and Chrome Beta
 www-plugins/bypass-paywalls:chromium - Install file for Chromium-based browsers
 x11-misc/rom-properties:achievements - Enable achievement pop-ups.
