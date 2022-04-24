@@ -5,5 +5,5 @@ HOMEPAGE=https://github.com/tj/git-extras
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=0
-SRC_URI=https://github.com/tj/git-extras/archive/6.3.0.tar.gz -> git-extras-6.3.0.tar.gz
-_md5_=19cb80c9edc5c714e24d6993a00039ac
+SRC_URI=https://github.com/tj/git-extras/archive/6.4.0.tar.gz -> git-extras-6.4.0.tar.gz
+_md5_=0a2062b34a3eb785768789831d611608
