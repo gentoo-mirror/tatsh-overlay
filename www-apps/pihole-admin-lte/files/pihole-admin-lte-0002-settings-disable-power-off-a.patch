@@ -1,4 +1,4 @@
-From 4dbc1a961fa40ce2813f1cd4e82d2bac424d2373 Mon Sep 17 00:00:00 2001
+From 4c23fe6794ff1c8d9c35d90ce304afdc3c153820 Mon Sep 17 00:00:00 2001
 From: Andrew Udvare <audvare@gmail.com>
 Date: Thu, 13 Jan 2022 12:46:13 -0500
 Subject: [PATCH 2/4] settings: disable power off and restart system buttons
@@ -9,7 +9,7 @@ Update paths
  1 file changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/settings.php b/settings.php
-index 420aae36..0e625cc6 100644
+index 420aae36..7591ce9a 100644
 --- a/settings.php
 +++ b/settings.php
 @@ -9,8 +9,8 @@ require "scripts/pi-hole/php/header.php";
@@ -19,7 +19,7 @@ index 420aae36..0e625cc6 100644
 -$setupVars = parse_ini_file("/etc/pihole/setupVars.conf");
 -$piholeFTLConf = piholeFTLConfig(true);
 +$setupVars = parse_ini_file("/var/lib/pihole/setupVars.conf");
-+$piholeFTLConf = piholeFTLConfig();
++$piholeFTLConf = piholeFTLConfig(DEFAULT_FTLCONFFILE, true);
  
  // Handling of PHP internal errors
  $last_error = error_get_last();
