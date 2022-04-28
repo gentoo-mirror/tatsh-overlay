@@ -1,6 +1,6 @@
 BDEPEND=openmp? ( sys-devel/gcc:=[openmp] ) dev-util/glslang dev-util/ninja >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=media-libs/vulkan-loader media-libs/libwebp dev-libs/ncnn[vulkan]
+DEPEND=media-libs/vulkan-loader media-libs/libwebp:= dev-libs/ncnn:=[vulkan]
 DESCRIPTION=RealSR super resolution implemented with ncnn library.
 EAPI=7
 HOMEPAGE=https://github.com/nihui/realsr-ncnn-vulkan
@@ -8,8 +8,8 @@ INHERIT=cmake
 IUSE=openmp
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=media-libs/vulkan-loader media-libs/libwebp dev-libs/ncnn[vulkan]
+RDEPEND=media-libs/vulkan-loader media-libs/libwebp:= dev-libs/ncnn:=[vulkan]
 SLOT=0
 SRC_URI=https://github.com/nihui/realsr-ncnn-vulkan/archive/refs/tags/20210210.tar.gz -> realsr-ncnn-vulkan-20210210.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	fef481272d4a8e136a7d8a0fb1329384	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	3c38df051095289667b6f09ebd0cc149
-_md5_=a0b634951670e3fe07dc96a23e702922
+_md5_=01f6c4488fd3f095e6e0edf322f0b13d
