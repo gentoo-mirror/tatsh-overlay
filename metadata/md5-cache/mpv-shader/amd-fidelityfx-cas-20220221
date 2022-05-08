@@ -1,0 +1,9 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=AMD FidelityFX Contrast Adaptive Sharpening.
+EAPI=8
+HOMEPAGE=https://gist.github.com/agyild/bbb4e58298b2f86aa24da3032a0d2ee6
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://gist.github.com/agyild/bbb4e58298b2f86aa24da3032a0d2ee6/archive/10e4ca1b6ef173b64391ce2c81b9a95fcd095931.zip -> amd-fidelityfx-cas-20220221.zip
+_md5_=bd903ab69845414c499c593bc2caec44
