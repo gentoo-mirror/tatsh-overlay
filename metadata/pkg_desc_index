@@ -94,7 +94,6 @@ media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
 media-video/video2x 4.8.1-r3: A lossless video/GIF/image upscaler.
 mpv-plugin/mpv-libunity 20211123: Shows progress on a panel following libunity specification.
 mpv-plugin/reload 20220127: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/unseen-playlistmaker 20191117: Keeps track of your watched files.
 net-dns/pihole 5.10: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.15: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r2: Desktop chat client for Slack and Discord (not web-based).

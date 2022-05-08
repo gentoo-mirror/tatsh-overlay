@@ -130,7 +130,6 @@ media-plugins/nvidia-vaapi-driver:av1 - Enable experimental AV1 support
 media-video/magewell-pro-capture:weave - Do not enable deinterlacing. Warning: this stops "mwcap-control --video-output-deinterlace ..." from working.
 mpv-plugin/mpv-libunity:autoload - Auto-load the plugin
 mpv-plugin/reload:autoload - Auto-load the plugin
-mpv-plugin/unseen-playlistmaker:autoload - Auto-load the plugin
 net-dns/pihole:cron - Installs cron job
 net-dns/pihole:www - Install www files (requires PHP hosting)
 sys-apps/kylemanna-systemd-utils:amazon - Install Amazon Cloud Drive service
