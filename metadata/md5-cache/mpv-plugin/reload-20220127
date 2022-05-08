@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=mpv plugin for automatic reloading of slow/stuck video streams
+EAPI=8
+HOMEPAGE=https://github.com/4e6/mpv-reload
+INHERIT=mpv-plugin
+IUSE=+autoload
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=media-video/mpv:=
+SLOT=0
+SRC_URI=https://github.com/4e6/mpv-reload/archive/c1219b6ac3ee3de887e6a36ae41a8e478835ae92.tar.gz -> reload-20220127.tar.gz
+_eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758
+_md5_=1a11d4dfeddf4ecddec1ea2656b7b6ac

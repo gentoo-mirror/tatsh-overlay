@@ -1,0 +1,14 @@
+BDEPEND=dev-qt/qtdbus
+DEFINED_PHASES=compile install postinst
+DESCRIPTION=Shows progress on a panel following libunity specification.
+EAPI=8
+HOMEPAGE=https://github.com/mrlotfi/mpv-libunity
+INHERIT=mpv-plugin toolchain-funcs
+IUSE=+autoload
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=media-video/mpv:=[cplugins,libmpv]
+SLOT=0
+SRC_URI=https://github.com/mrlotfi/mpv-libunity/archive/e111b49e7d4ace2c6b19baf5ff0a70353aa28776.tar.gz -> mpv-libunity-20211123.tar.gz
+_eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b
+_md5_=9c08b172da1a0424ede8eb3eb39723c8
