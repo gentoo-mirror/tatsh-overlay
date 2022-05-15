@@ -58,7 +58,7 @@ games-arcade/stepmania-outfox-serenity 1.5_rc2: The community pack content for P
 games-emulation/86box 3.4.1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
 games-emulation/citra 20220513: A Nintendo 3DS emulator.
-games-emulation/dosbox-x 0.83.25: Cross-platform DOS emulation package.
+games-emulation/dosbox-x 0.83.25-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.10.3: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20220423: A new generation, open-source graphics plugin for N64 emulators.
