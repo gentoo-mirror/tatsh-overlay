@@ -9,7 +9,7 @@ app-misc/fq 0.0.7: jq for binary formats
 app-misc/pyrescene 0.7: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1: Tools for Xirvik servers.
-app-misc/zwave-js-server 1.16.1: Small server wrapper around Z-Wave JS to access it via a WebSocket.
+app-misc/zwave-js-server 1.16.1-r1: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107: Helper utility to enable charging with Apple mobile devices such as the iPad.
 app-pda/libirecovery 1.0.0: Library and utility to talk to iBoot/iBSS via USB.
@@ -106,7 +106,7 @@ sys-apps/usbkill 1.0_rc4_p20160730-r1: An kill-switch that waits for a change on
 sys-auth/fprintd 1.94.2: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.3: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
-www-apps/pihole-admin-lte 5.12: Pi-hole Dashboard for stats and more
+www-apps/pihole-admin-lte 5.12-r1: Pi-hole Dashboard for stats and more
 www-apps/wakapi 2.3.1 2.3.4: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999: Bypass Paywalls browser extension.
 x11-misc/mimeo 2021.11: Open files by MIME-type or file name using regular expressions.
