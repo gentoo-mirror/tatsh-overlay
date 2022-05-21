@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=API to allow scripts to create interactive scrollable lists in mpv player.
+EAPI=8
+HOMEPAGE=https://github.com/CogentRedTester/mpv-dvd-browser
+INHERIT=mpv-plugin
+IUSE=+autoload
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=media-video/mpv:=
+SLOT=0
+SRC_URI=https://github.com/CogentRedTester/mpv-dvd-browser/archive/114417bbfa1fc6dd17162fa84cd1c0e5d78cc0dd.tar.gz -> mpv-dvd-browser-20210709.tar.gz
+_eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758
+_md5_=6c56fb47026aa67cb51cb02510825382

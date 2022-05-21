@@ -1,0 +1,9 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=AMD FidelityFX Super Resolution v1.0.2 for mpv.
+EAPI=8
+HOMEPAGE=https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5/archive/2623d743b9c23f500ba086f05b385dcb1557e15d.zip -> amd-fidelityfx-super-resolution-20220305.zip
+_md5_=ec20be1232459ef71a83c8e9e1523b9e
