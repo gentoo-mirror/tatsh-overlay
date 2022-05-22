@@ -5,4 +5,7 @@
 		<email>audvare@gmail.com</email>
 		<name>Andrew Udvare</name>
 	</maintainer>
+	<use>
+		<flag name="autoload">Auto-load the plugin</flag>
+	</use>
 </pkgmetadata>
