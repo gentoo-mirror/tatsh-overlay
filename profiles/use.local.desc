@@ -132,6 +132,7 @@ mpv-plugin/delete-file:autoload - Auto-load the plugin
 mpv-plugin/mpv-dvd-browser:autoload - Auto-load the plugin
 mpv-plugin/mpv-libunity:autoload - Auto-load the plugin
 mpv-plugin/mpv-netrc:autoload - Auto-load the plugin
+mpv-plugin/mpv-sponsorblock:autoload - Auto-load the plugin
 mpv-plugin/mpv-youtube-upnext:autoload - Auto-load the plugin
 mpv-plugin/reload:autoload - Auto-load the plugin
 mpv-plugin/shutup:autoload - Auto-load the plugin
