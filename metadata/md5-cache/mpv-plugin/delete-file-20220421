@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Queue files for deletion on quit.
+EAPI=8
+HOMEPAGE=https://github.com/zenyd/mpv-scripts
+INHERIT=mpv-plugin
+IUSE=+autoload
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=media-video/mpv:=[lua]
+SLOT=0
+SRC_URI=https://github.com/zenyd/mpv-scripts/archive/19ea069abcb794d1bf8fac2f59b50d71ab992130.tar.gz -> zenyd-mpv-scripts-19ea069.tar.gz
+_eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758
+_md5_=c97000a450cc3888afeb7f6d576d9eed
