@@ -5,9 +5,9 @@ HOMEPAGE=https://github.com/dfaker/VR-reversal
 INHERIT=mpv-plugin
 IUSE=+autoload
 KEYWORDS=~amd64
-LICENSE=all-rights-reserved
+LICENSE=Unlicense
 RDEPEND=media-video/mpv:=[lua]
 SLOT=0
 SRC_URI=https://github.com/dfaker/VR-reversal/archive/de5ba0fc41ef9475189cc0a1064c5f2c90b88c87.tar.gz -> vr-reversal-20220213.tar.gz
 _eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758
-_md5_=d1ce18834ba4acf16b6236c8c231effb
+_md5_=4a3287f2d8cc4f94bc1149d5a947fa8e
