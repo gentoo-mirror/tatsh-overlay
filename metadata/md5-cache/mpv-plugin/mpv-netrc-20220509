@@ -6,8 +6,8 @@ INHERIT=mpv-plugin
 IUSE=+autoload
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=media-video/mpv:=
+RDEPEND=media-video/mpv:=[lua]
 SLOT=0
 SRC_URI=https://github.com/Tatsh/mpv-netrc/archive/da40a39a32a1f1cf27a3abbc73ac2faceded06c6.tar.gz -> mpv-netrc-20220509.tar.gz
 _eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758
-_md5_=317cf531f938c7a3f0e3b03afd959a57
+_md5_=9250d06521542beff085d4a156edf2c6
