@@ -152,6 +152,7 @@ sys-apps/kylemanna-systemd-utils:youtube - Install YouTube TV service
 www-plugins/bypass-paywalls:chrome - Install file for Chrome and Chrome Beta
 www-plugins/bypass-paywalls:chromium - Install file for Chromium-based browsers
 x11-misc/rom-properties:achievements - Enable achievement pop-ups.
+x11-misc/rom-properties:astc - Enable ASTC texture support
 x11-misc/rom-properties:cli - Build rpcli command.
 x11-misc/rom-properties:lto - Enable link-time optimization.
 x11-misc/rom-properties:pvr - Enable the PowerVR Native SDK subset for PVRTC decompression.
