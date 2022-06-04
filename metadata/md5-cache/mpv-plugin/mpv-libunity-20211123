@@ -5,10 +5,10 @@ EAPI=8
 HOMEPAGE=https://github.com/mrlotfi/mpv-libunity
 INHERIT=mpv-plugin toolchain-funcs
 IUSE=+autoload
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~ppc64
 LICENSE=all-rights-reserved
 RDEPEND=media-video/mpv:=[cplugins,libmpv]
 SLOT=0
 SRC_URI=https://github.com/mrlotfi/mpv-libunity/archive/e111b49e7d4ace2c6b19baf5ff0a70353aa28776.tar.gz -> mpv-libunity-20211123.tar.gz
 _eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85
-_md5_=9c08b172da1a0424ede8eb3eb39723c8
+_md5_=363f78a20da0b6c2e6f759fd73004fd6

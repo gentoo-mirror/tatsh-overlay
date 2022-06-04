@@ -5,11 +5,11 @@ DESCRIPTION=Fork of sm64-port with additional features (alpha branch).
 EAPI=8
 HOMEPAGE=https://github.com/Render96/Render96ex/tree/alpha
 IUSE=+goddard +models +texture-fix +textures debug discord eu jp us
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~ppc64
 LICENSE=all-rights-reserved
 RDEPEND=media-libs/glew:= media-libs/libsdl2 virtual/opengl
 REQUIRED_USE=|| ( eu jp us )
 RESTRICT=fetch
 SLOT=0
 SRC_URI=https://github.com/Render96/Render96ex/archive/8e2eea106dd94e5c05b5f08ad989ace01efe701e.tar.gz -> render96ex-20211128.tar.gz textures? ( https://github.com/pokeheadroom/RENDER96-HD-TEXTURE-PACK/archive/7ad93cfbdde449cc07e86ebf17985ee9c157f36f.tar.gz -> render96ex-texture-pack-7ad93cf.tar.gz ) models? ( https://github.com/Render96/ModelPack/archive/f4f438447748782b7c824cee903594706a3941e2.tar.gz -> render96ex-models-vanilla-f4f4384.tar.gz ) us? ( sm64.us.z64 ) eu? ( sm64.eu.z64 ) jp? ( sm64.jp.z64 )
-_md5_=5b55ebdf8a8f26371eb0b7790b3bfcd4
+_md5_=bc65da4b8075d591a5bbe1c2fd3cbd2b

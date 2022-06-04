@@ -4,10 +4,10 @@ EAPI=8
 HOMEPAGE=https://github.com/4e6/mpv-reload
 INHERIT=mpv-plugin
 IUSE=+autoload
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~ppc64
 LICENSE=all-rights-reserved
 RDEPEND=media-video/mpv:=[lua]
 SLOT=0
 SRC_URI=https://github.com/4e6/mpv-reload/archive/c1219b6ac3ee3de887e6a36ae41a8e478835ae92.tar.gz -> reload-20220127.tar.gz
 _eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758
-_md5_=3746d26cff77966cbf57ded10011e6a7
+_md5_=8c2b7c72333f2b439054a5d263151ed8

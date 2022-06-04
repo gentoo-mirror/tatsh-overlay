@@ -4,10 +4,10 @@ EAPI=8
 HOMEPAGE=https://github.com/Tatsh/mpv-netrc
 INHERIT=mpv-plugin
 IUSE=+autoload
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~ppc64
 LICENSE=MIT
 RDEPEND=media-video/mpv:=[lua]
 SLOT=0
 SRC_URI=https://github.com/Tatsh/mpv-netrc/archive/da40a39a32a1f1cf27a3abbc73ac2faceded06c6.tar.gz -> mpv-netrc-20220509.tar.gz
 _eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758
-_md5_=f8e85639c4375fd02a66a96f483af6c3
+_md5_=61d36e20d09e7f1c4753bc945ef05238
