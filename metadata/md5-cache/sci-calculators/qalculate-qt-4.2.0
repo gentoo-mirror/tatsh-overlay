@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare
+DEPEND=>=sci-libs/libqalculate-4.2.0 dev-qt/qtnetwork:= dev-qt/qtwidgets:=
+DESCRIPTION=Qt-based UI for libqalculate.
+EAPI=8
+HOMEPAGE=https://github.com/Qalculate/qalculate-qt
+INHERIT=qmake-utils
+KEYWORDS=~amd64 ~ppc64
+LICENSE=GPL-2
+RDEPEND=>=sci-libs/libqalculate-4.2.0 dev-qt/qtnetwork:= dev-qt/qtwidgets:=
+SLOT=0
+SRC_URI=https://github.com/Qalculate/qalculate-qt/releases/download/v4.2.0/qalculate-qt-4.2.0b.tar.gz -> qalculate-qt-4.2.0.tar.gz
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	qmake-utils	59420c906278d16deaaa629f9d115707
+_md5_=94a547da8f1d4938fa7367907fea180f

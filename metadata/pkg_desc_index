@@ -110,6 +110,7 @@ net-im/ripcord 0.4.29-r2: Desktop chat client for Slack and Discord (not web-bas
 net-mail/gmailctl 0.10.3: Declarative configuration for Gmail filters
 net-p2p/xirvik-tools 0.3.1-r2: Tools for Xirvik servers.
 net-proxy/charles 4.6.2-r4: Web debugging proxy application.
+sci-calculators/qalculate-qt 4.2.0: Qt-based UI for libqalculate.
 sys-apps/kylemanna-systemd-utils 20220116: Random systemd utilities.
 sys-apps/usbkill 1.0_rc4_p20160730-r1: An kill-switch that waits for a change on your USB ports.
 sys-auth/fprintd 1.94.2: D-Bus service to access fingerprint readers
