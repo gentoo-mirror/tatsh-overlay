@@ -45,8 +45,6 @@ games-emulation/dosbox-x:unaligned - Enable unaligned memory access
 games-emulation/dosbox-x:xbrz - Enable support for xBRZ pixel scaler
 games-emulation/play:libretro - Build libretro core
 games-emulation/play:vulkan - Enable Vulkan graphics library support
-games-emulation/reicast:evdev - Enable support for input devices via evdev
-games-emulation/reicast:ta-lle - Enable TA LLE
 games-emulation/rpcs3:faudio - Enable audio rendering with app-emulation/faudio
 games-emulation/rpcs3:joystick - Enable support for input devices with evdev
 games-emulation/rpcs3:llvm - LLVM recompiler support

@@ -63,7 +63,6 @@ games-emulation/libretro-db 1.10.3: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20220515: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.52: PlayStation 2 emulator.
-games-emulation/reicast 20.04-r2: Sega Dreamcast emulator.
 games-emulation/rpcs3 0.0.22-r1: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.132: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.7.24: Original Xbox emulator.
