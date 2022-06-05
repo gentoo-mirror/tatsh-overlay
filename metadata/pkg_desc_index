@@ -27,7 +27,7 @@ dev-libs/librw 20220515: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/tihmstar-libgeneral 63-r1: Stuff used in tsschecker.
 dev-libs/wolfssl 5.3.0: Embedded SSL library.
-dev-libs/xbyak 6.052: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-libs/xbyak 6.06: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/asn1 2.5.0: Simple ASN.1 encoder/decoder.
 dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
 dev-python/hidapi 0.11.2: Python wrapper for hidapi.
@@ -52,21 +52,21 @@ games-action/re3 20210902-r1: GTA III decompiled and re-built.
 games-action/relcs 20210902-r1: GTA Liberty City Stories decompiled and re-built.
 games-action/revc 20210902-r1: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2-r1: Clone of Guitar Hero and similar games.
-games-arcade/stepmania 5.1.0_beta2_p20220325: Advanced rhythm game. Designed for both home and arcade use
+games-arcade/stepmania 5.1.0_beta2_p20220530: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox 0.4.14.1_p20220327: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox-serenity 1.5_rc2: The community pack content for Project OutFox (includes volume 1.5)
 games-emulation/86box 3.5: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
-games-emulation/citra 20220520: A Nintendo 3DS emulator.
-games-emulation/dosbox-x 0.83.25-r2: Cross-platform DOS emulation package.
+games-emulation/citra 20220604: A Nintendo 3DS emulator.
+games-emulation/dosbox-x 0.84.0: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.10.3: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20220515: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.52: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.22-r1: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.132: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.138: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.7.24: Original Xbox emulator.
-games-emulation/yuzu 0.1034: Nintendo Switch emulator
+games-emulation/yuzu 0.1043: Nintendo Switch emulator
 games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
 games-util/hid-nintendo 20220512: A Nintendo HID kernel module
 games-util/joystickwake 0.3: Joystick-aware screen waker.
@@ -76,8 +76,8 @@ kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting 
 kde-misc/kate-stuff 20220404: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.9: Time tracking with WakaTime for Kate.
 media-fonts/amiri 0.114: High quality Arabic Naskh-style font
-media-fonts/iosevka 15.4.1: Slender typeface for code, from code
-media-fonts/noto 20220524: Google's font family that aims to support all the world's languages
+media-fonts/iosevka 15.5.0: Slender typeface for code, from code
+media-fonts/noto 20220531: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r1: Stand-alone viewer of SWF files.
 media-gfx/gifski 1.6.4: pngquant-based GIF maker for nice-looking animGIFs
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
@@ -106,7 +106,7 @@ mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 net-dns/pihole 5.10: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.15: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r2: Desktop chat client for Slack and Discord (not web-based).
-net-mail/gmailctl 0.10.3: Declarative configuration for Gmail filters
+net-mail/gmailctl 0.10.4: Declarative configuration for Gmail filters
 net-p2p/xirvik-tools 0.3.1-r2: Tools for Xirvik servers.
 net-proxy/charles 4.6.2-r4: Web debugging proxy application.
 sci-calculators/qalculate-qt 4.2.0: Qt-based UI for libqalculate.
