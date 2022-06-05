@@ -25,7 +25,7 @@ dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
 dev-libs/librw 20220515: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
-dev-libs/tihmstar-libgeneral 63: Stuff used in tsschecker.
+dev-libs/tihmstar-libgeneral 63-r1: Stuff used in tsschecker.
 dev-libs/wolfssl 5.3.0: Embedded SSL library.
 dev-libs/xbyak 6.052: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/asn1 2.5.0: Simple ASN.1 encoder/decoder.
