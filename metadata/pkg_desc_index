@@ -79,7 +79,7 @@ media-fonts/amiri 0.114: High quality Arabic Naskh-style font
 media-fonts/iosevka 15.5.0: Slender typeface for code, from code
 media-fonts/noto 20220607: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r1: Stand-alone viewer of SWF files.
-media-gfx/gifski 1.6.4: pngquant-based GIF maker for nice-looking animGIFs
+media-gfx/gifski 1.7.0: pngquant-based GIF maker for nice-looking animGIFs
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20210210: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20210210-r1: SRMD super resolution implemented with ncnn library.
