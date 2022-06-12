@@ -8,6 +8,6 @@ KEYWORDS=~amd64 ~arm64
 LICENSE=Apache-2.0 EPL-1.0 BSD
 RDEPEND=|| ( dev-java/openjdk:11 dev-java/openjdk-bin:11 )
 SLOT=0
-SRC_URI=amd64? ( https://dbeaver.io/files/22.0.5/dbeaver-ce-22.0.5-linux.gtk.x86_64-nojdk.tar.gz -> dbeaver-bin-22.0.5-amd64.tar.gz ) arm64? ( https://dbeaver.io/files/22.0.5/dbeaver-ce-22.0.5-linux.gtk.aarch64-nojdk.tar.gz -> dbeaver-bin-22.0.5-arm64.tar.gz )
+SRC_URI=amd64? ( https://dbeaver.io/files/22.1.0/dbeaver-ce-22.1.0-linux.gtk.x86_64-nojdk.tar.gz -> dbeaver-bin-22.1.0-amd64.tar.gz ) arm64? ( https://dbeaver.io/files/22.1.0/dbeaver-ce-22.1.0-linux.gtk.aarch64-nojdk.tar.gz -> dbeaver-bin-22.1.0-arm64.tar.gz )
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
 _md5_=e5b46d17135a5563ba51cb205388b382
