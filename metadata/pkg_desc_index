@@ -65,7 +65,7 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20220612: A new generation, open
 games-emulation/play 0.52: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.23: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.162: Experimental Nintendo Switch emulator written in C#
-games-emulation/xemu 0.7.24: Original Xbox emulator.
+games-emulation/xemu 0.7.57: Original Xbox emulator.
 games-emulation/yuzu 0.1073: Nintendo Switch emulator
 games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
 games-util/hid-nintendo 20220512: A Nintendo HID kernel module
