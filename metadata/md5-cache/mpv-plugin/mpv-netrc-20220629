@@ -8,6 +8,6 @@ KEYWORDS=~amd64 ~ppc64
 LICENSE=MIT
 RDEPEND=media-video/mpv:=[lua]
 SLOT=0
-SRC_URI=https://github.com/Tatsh/mpv-netrc/archive/d4c915e0deeb695f2da2045fbd88bc719de41de3.tar.gz -> mpv-netrc-20220609.tar.gz
+SRC_URI=https://github.com/Tatsh/mpv-netrc/archive/baab7f4a70439b9d8f2a007a12abe6113a3cbc89.tar.gz -> mpv-netrc-20220629.tar.gz
 _eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758
-_md5_=8dcc9cb0069ab3e7c4c65d776f703df1
+_md5_=69c44bf91132fb96ad9683799662000a
