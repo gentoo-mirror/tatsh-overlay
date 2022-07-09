@@ -1,6 +1,7 @@
 acct-group/pihole 0: System group: pihole
 acct-user/pihole 0: user for pihole
 app-admin/padd 3.7.1: PADD provides in-depth information about your Pi-hole.
+app-arch/bitrock-unpacker 20210930: Bitrock unpacking script.
 app-arch/unalz 0.65: Unpack ALZ archives.
 app-cdr/cdi2nero 0.9.9: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2: Converts DiscJuggler CDI files to various disc image formats.
@@ -34,6 +35,8 @@ dev-python/hidapi 0.12.0.2: Python wrapper for hidapi.
 dev-python/pycryptoplus 0.0.1: Cipher extension (used by games-util/nut).
 dev-python/qt-range-slider 0.2.7: Qt widget-slider with two thumbs (min/max values).
 dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
+dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
+dev-tcltk/tclkit 8.6.4.9: Single file executable that provides a complete Tcl and Tk runtime.
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20211118: Floating IPS is a patcher for IPS and BPS files.
