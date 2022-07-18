@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=!media-sound/vb2rip !app-cdr/bin2iso
 SLOT=0
 SRC_URI=https://github.com/cmdpack/cmdpack/archive/480428199a1c92e0ad0d8b1a5f5ddbaaad5d7b64.tar.gz -> cmdpack-1.0_p20160421.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257
 _md5_=6c044cb2c33e4a7bf163344f19e5791d
