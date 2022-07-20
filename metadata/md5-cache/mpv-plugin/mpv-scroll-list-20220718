@@ -10,6 +10,6 @@ LICENSE=MIT
 RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) media-video/mpv[lua]
 REQUIRED_USE=|| ( lua_targets_luajit lua_targets_lua5-1 )
 SLOT=0
-SRC_URI=https://github.com/CogentRedTester/mpv-scroll-list/archive/36a37c0ce6c33cce1470df0f535300d0cf698eff.tar.gz -> mpv-scroll-list-20220109.tar.gz
+SRC_URI=https://github.com/CogentRedTester/mpv-scroll-list/archive/72a23966760641b89d5b73e44cd8a4d9b4884884.tar.gz -> mpv-scroll-list-20220718.tar.gz
 _eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	lua-utils	e69ff116248d78546ae1a234c086fe80	lua	d5c7dbcaf69f3065f5d7ce3b172c2214
-_md5_=f58f636f2bb985a4cabc9e81df907a61
+_md5_=e3e00fe7e1aece3407ee056ad30b255d

@@ -7,5 +7,5 @@ KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=games-arcade/stepmania-outfox
 SLOT=0
-SRC_URI=https://github.com/TeamRizu/OutFox-Serenity/releases/download/v1.5-rc2/OutFox.Serenity.Winter.Update.RC2.rar -> stepmania-outfox-serenity-1.5_rc2.rar
+SRC_URI=https://github.com/TeamRizu/OutFox-Serenity/releases/download/v1.5-rc2/OutFox.Serenity.Winter.Update.RC2.rar -> stepmania-outfox-serenity-2.0_rc2.rar
 _md5_=807862340a57e838524dfa80ac646ef2
