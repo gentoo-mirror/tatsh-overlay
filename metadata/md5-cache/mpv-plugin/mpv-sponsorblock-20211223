@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=media-video/mpv:=[lua]
 SLOT=0
 SRC_URI=https://github.com/po5/mpv_sponsorblock/archive/6743bd47d4cfce3ae3d5dd4f587f3193bd4fb9b2.tar.gz -> mpv-sponsorblock-20211223.tar.gz
-_eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	667174e2df1036a5520d3b3b3fb33e98	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
+_eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	6f8f68a64a4304f487bb725227f2fdac	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
 _md5_=f4d9aa6fa46493bf7d7bc494d2d6ed72
