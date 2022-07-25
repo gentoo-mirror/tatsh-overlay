@@ -66,13 +66,13 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator c
 games-emulation/mupen64plus-video-gliden64 4.0_p20220612: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.52: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.23: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.182: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.191: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.7.64: Original Xbox emulator.
 games-emulation/yuzu 0.1073: Nintendo Switch emulator
 games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
 games-util/hid-nintendo 20220722: A Nintendo HID kernel module
 games-util/joystickwake 0.3: Joystick-aware screen waker.
-games-util/nut 3.3_p20220522: Multi-purpose utility to manage and install Switch files (NSP, NSZ, XCI, XCZ).
+games-util/nut 3.3_p20220710: Multi-purpose utility to manage and install Switch files (NSP, NSZ, XCI, XCZ).
 games-util/raphnet-tech-adapter-manager 2.1.26: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20220404: Updated and improved Kate editor syntax files and code snippets.
