@@ -41,7 +41,7 @@ dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20220716: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
-dev-util/node-gyp 9.0.0: Node.js native addon build tool
+dev-util/node-gyp 9.1.0: Node.js native addon build tool
 dev-util/ycmd 20220706: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.2: Mirror Git repositories to other Git providers.
