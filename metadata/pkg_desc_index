@@ -28,7 +28,7 @@ dev-libs/librw 20220708: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/tihmstar-libgeneral 63-r1: Stuff used in tsschecker.
 dev-libs/wolfssl 5.4.0: Embedded SSL library.
-dev-libs/xbyak 6.60.2: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-libs/xbyak 6.61: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/asn1 2.6.0: Simple ASN.1 encoder/decoder.
 dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
 dev-python/hidapi 0.12.0.2: Python wrapper for hidapi.
@@ -56,17 +56,17 @@ games-action/revc 20210902-r1: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2-r1: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20220704: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox 0.4.15.1_p20220619: Advanced rhythm game. Designed for both home and arcade use
-games-arcade/stepmania-outfox-serenity 2.0_rc3: The community pack content for Project OutFox (includes volume 1.5)
-games-emulation/86box 3.6: Emulator of x86-based machines based on PCem.
+games-arcade/stepmania-outfox-serenity 2.0_rc6: The community pack content for Project OutFox (includes volume 1.5)
+games-emulation/86box 3.7: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
-games-emulation/citra 20220723: A Nintendo 3DS emulator.
+games-emulation/citra 20220728: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.84.1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.10.3: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20220612: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.52 0.54: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.23: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.191: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.200: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.7.64: Original Xbox emulator.
 games-emulation/yuzu 0.1073: Nintendo Switch emulator
 games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
@@ -78,13 +78,13 @@ kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting 
 kde-misc/kate-stuff 20220404: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.9: Time tracking with WakaTime for Kate.
 media-fonts/amiri 0.117: High quality Arabic Naskh-style font
-media-fonts/iosevka 15.6.1: Slender typeface for code, from code
+media-fonts/iosevka 15.6.2: Slender typeface for code, from code
 media-fonts/noto 20220630: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r1: Stand-alone viewer of SWF files.
 media-gfx/gifski 1.7.0: pngquant-based GIF maker for nice-looking animGIFs
 media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
-media-gfx/realsr-ncnn-vulkan 20210210: RealSR super resolution implemented with ncnn library.
-media-gfx/srmd-ncnn-vulkan 20210210-r1: SRMD super resolution implemented with ncnn library.
+media-gfx/realsr-ncnn-vulkan 20220728: RealSR super resolution implemented with ncnn library.
+media-gfx/srmd-ncnn-vulkan 20220728: SRMD super resolution implemented with ncnn library.
 media-plugins/nvidia-vaapi-driver 0.0.6: A VA-API implemention using NVIDIA's NVDEC
 media-sound/sony-headphones-client 1.2-r3: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
