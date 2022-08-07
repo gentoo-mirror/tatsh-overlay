@@ -68,7 +68,7 @@ games-emulation/play 0.52 0.54: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.23: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.208: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.7.64: Original Xbox emulator.
-games-emulation/yuzu 0.1073: Nintendo Switch emulator
+games-emulation/yuzu 0.1124: Nintendo Switch emulator
 games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
 games-util/hid-nintendo 20220722: A Nintendo HID kernel module
 games-util/joystickwake 0.3: Joystick-aware screen waker.
