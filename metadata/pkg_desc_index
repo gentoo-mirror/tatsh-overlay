@@ -10,7 +10,7 @@ app-misc/fq 0.0.8: jq for binary formats
 app-misc/pyrescene 0.7: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1: Tools for Xirvik servers.
-app-misc/zwave-js-server 1.20.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
+app-misc/zwave-js-server 1.21.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107: Helper utility to enable charging with Apple mobile devices such as the iPad.
 app-pda/libirecovery 1.0.0: Library and utility to talk to iBoot/iBSS via USB.
@@ -28,7 +28,7 @@ dev-libs/librw 20220708: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/tihmstar-libgeneral 63-r1: Stuff used in tsschecker.
 dev-libs/wolfssl 5.4.0: Embedded SSL library.
-dev-libs/xbyak 6.61: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-libs/xbyak 6.61.1: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/asn1 2.6.0: Simple ASN.1 encoder/decoder.
 dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
 dev-python/hidapi 0.12.0.2: Python wrapper for hidapi.
@@ -55,18 +55,18 @@ games-action/relcs 20210902-r1: GTA Liberty City Stories decompiled and re-built
 games-action/revc 20210902-r1: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2-r1: Clone of Guitar Hero and similar games.
 games-arcade/stepmania 5.1.0_beta2_p20220704: Advanced rhythm game. Designed for both home and arcade use
-games-arcade/stepmania-outfox 0.4.15.1_p20220619: Advanced rhythm game. Designed for both home and arcade use
+games-arcade/stepmania-outfox 0.4.16.0_p20220801: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/stepmania-outfox-serenity 2.0_rc6: The community pack content for Project OutFox (includes volume 1.5)
-games-emulation/86box 3.7: Emulator of x86-based machines based on PCem.
+games-emulation/86box 3.7.1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
-games-emulation/citra 20220728: A Nintendo 3DS emulator.
+games-emulation/citra 20220804: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.84.1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.10.3: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20220612: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20220806: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.52 0.54: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.23: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.200: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.208: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.7.64: Original Xbox emulator.
 games-emulation/yuzu 0.1073: Nintendo Switch emulator
 games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
@@ -78,7 +78,7 @@ kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting 
 kde-misc/kate-stuff 20220404: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.9: Time tracking with WakaTime for Kate.
 media-fonts/amiri 0.117: High quality Arabic Naskh-style font
-media-fonts/iosevka 15.6.2: Slender typeface for code, from code
+media-fonts/iosevka 15.6.3: Slender typeface for code, from code
 media-fonts/noto 20220630: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r1: Stand-alone viewer of SWF files.
 media-gfx/gifski 1.7.0: pngquant-based GIF maker for nice-looking animGIFs
@@ -100,7 +100,7 @@ mpv-plugin/mpv-scroll-list 20220718: API to allow scripts to create interactive 
 mpv-plugin/mpv-sponsorblock 20211223: mpv script to skip sponsored segments of YouTube videos
 mpv-plugin/mpv-youtube-upnext 20210620: Play upcoming videos from YouTube.
 mpv-plugin/reload 20220127: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/shutup 20220724: Set mpv to quiet when stdout/stdout is not a TTY.
+mpv-plugin/shutup 20220802: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-plugin/vr-reversal 20220718: Play 3D side-by-side video as a 2D video and look around.
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
 mpv-shader/amd-fidelityfx-super-resolution 20220306: AMD FidelityFX Super Resolution v1.0.2 for mpv.
