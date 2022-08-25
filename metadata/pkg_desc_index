@@ -70,6 +70,7 @@ games-emulation/ryujinx 1.1.227: Experimental Nintendo Switch emulator written i
 games-emulation/xemu 0.7.67: Original Xbox emulator.
 games-emulation/yuzu 0.1140: Nintendo Switch emulator
 games-misc/render96ex 20211128: Fork of sm64-port with additional features (alpha branch).
+games-util/cdecrypt 4.7: Decrypt Wii U NUS content
 games-util/hid-nintendo 20220722: A Nintendo HID kernel module
 games-util/joystickwake 0.3: Joystick-aware screen waker.
 games-util/nut 3.3_p20220710: Multi-purpose utility to manage and install Switch files (NSP, NSZ, XCI, XCZ).
