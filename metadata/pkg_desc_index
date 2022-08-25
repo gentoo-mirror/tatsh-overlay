@@ -59,6 +59,7 @@ games-arcade/stepmania-outfox 0.4.16.0_p20220731: Advanced rhythm game. Designed
 games-arcade/stepmania-outfox-serenity 2.0_rc7: The community pack content for Project OutFox (includes volume 1.5)
 games-emulation/86box 3.7.1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r2: bsnes fork that adds HD video features.
+games-emulation/cemu 2.0_p20220825: Wii U emulator.
 games-emulation/citra 20220814: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.84.1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.10.3: libretro-db tools from RetroArch.
