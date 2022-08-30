@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Convert iOS and macOS compressed PNG files to normal.
+EAPI=7
+HOMEPAGE=https://web.archive.org/web/20211120053356/http://www.jongware.com/pngdefry.html
+INHERIT=toolchain-funcs
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=https://web.archive.org/web/20211205021959/http://www.jongware.com/binaries/pngdefry.zip -> pngdefry-1.2.zip
+_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_md5_=c67cc0ad93bae99086c445e2b6285152

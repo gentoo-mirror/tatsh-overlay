@@ -1,0 +1,10 @@
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=Bypass Paywalls browser extension.
+EAPI=8
+HOMEPAGE=https://github.com/iamadamdev/bypass-paywalls-chrome
+IUSE=chrome chromium
+KEYWORDS=~amd64 ~arm64
+LICENSE=all-rights-reserved
+REQUIRED_USE=|| ( chrome chromium )
+SLOT=0
+_md5_=6129142e642ff21648f39eb1dd6f6fee

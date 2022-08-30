@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DEPEND=sys-libs/zlib
+DESCRIPTION=Unpack ALZ archives.
+EAPI=7
+HOMEPAGE=https://web.archive.org/web/20201025202521/http://kippler.com/win/unalz/
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~x86
+LICENSE=ZLIB
+RDEPEND=sys-libs/zlib
+SLOT=0
+SRC_URI=https://web.archive.org/web/20150107141553if_/http://www.kippler.com/win/unalz/unalz-0.65.tgz
+_md5_=ce6fc90f7ec69f273f72d3f0effdbf29

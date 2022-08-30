@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm preinst prepare
+DEPEND=|| ( dev-java/openjdk:11 dev-java/openjdk-bin:11 ) dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Free universal database tool (community edition).
+EAPI=7
+HOMEPAGE=https://dbeaver.io/
+INHERIT=desktop eutils xdg
+KEYWORDS=~amd64 ~arm64
+LICENSE=Apache-2.0 EPL-1.0 BSD
+RDEPEND=|| ( dev-java/openjdk:11 dev-java/openjdk-bin:11 )
+SLOT=0
+SRC_URI=amd64? ( https://dbeaver.io/files/22.1.5/dbeaver-ce-22.1.5-linux.gtk.x86_64-nojdk.tar.gz -> dbeaver-bin-22.1.5-amd64.tar.gz ) arm64? ( https://dbeaver.io/files/22.1.5/dbeaver-ce-22.1.5-linux.gtk.aarch64-nojdk.tar.gz -> dbeaver-bin-22.1.5-arm64.tar.gz )
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
+_md5_=e5b46d17135a5563ba51cb205388b382
