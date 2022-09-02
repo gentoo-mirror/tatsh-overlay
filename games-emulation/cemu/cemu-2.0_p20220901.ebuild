@@ -77,8 +77,10 @@ src_configure() {
 
 src_install() {
 	newbin "${BUILD_DIR}/src/${MY_PN}2" "${PN}"
+	insinto /usr/share/${PN}/gameProfiles
+	doins -r bin/gameProfiles/default/*
 	insinto /usr/share/${PN}
-	doins -r bin/*
+	doins -r bin/resources bin/shaderCache
 	einstalldocs
 	newicon -s 128 src/resource/logo_icon.png "info.${PN}.${MY_PN}.png"
 	domenu "dist/linux/info.${PN}.${MY_PN}.desktop"
