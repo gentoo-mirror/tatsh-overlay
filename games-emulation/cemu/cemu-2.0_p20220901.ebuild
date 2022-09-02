@@ -7,7 +7,7 @@ inherit cmake desktop wrapper xdg
 
 DESCRIPTION="Wii U emulator."
 HOMEPAGE="https://cemu.info/ https://github.com/cemu-project/Cemu"
-SHA="15b71c57ddc6e30783ef8ca7fd2ac8d4f4db59de"
+SHA="d3a7b3b5a615b57cc9473c38683f5ec02d997825"
 MY_PN="Cemu"
 FMT_PV="7.1.3"
 GLSLANG_PV="11.8.0"
@@ -39,8 +39,13 @@ RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/${MY_PN}-${SHA}"
 
-PATCHES=( "${FILESDIR}/${PN}-deps.patch"
-	"${FILESDIR}/${PN}-126-xdg.patch" )
+PATCHES=(
+	"${FILESDIR}/${PN}-0001-add-ability-to-save-read-fil.patch"
+	"${FILESDIR}/${PN}-0002-remove-default-from-system-g.patch"
+	"${FILESDIR}/${PN}-0003-change-output-bin.patch"
+	"${FILESDIR}/${PN}-0004-switch-to-submodules-for-som.patch"
+	"${FILESDIR}/${PN}-0005-remove-link-to-sdl2main.patch"
+)
 
 src_prepare() {
 	cmake_src_prepare
