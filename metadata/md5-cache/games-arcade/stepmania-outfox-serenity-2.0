@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/TeamRizu/OutFox-Serenity
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 SLOT=0
-SRC_URI=https://github.com/TeamRizu/OutFox-Serenity/releases/download/v1.5-rc2/OutFox.Serenity.Winter.Update.RC2.rar -> stepmania-outfox-serenity-2.0_rc7.rar
+SRC_URI=https://github.com/TeamRizu/OutFox-Serenity/releases/download/v1.5-rc2/OutFox.Serenity.Winter.Update.RC2.rar -> stepmania-outfox-serenity-2.0.rar
 _md5_=20598463f24a2ef228f95c23cc9cecfe

@@ -8,6 +8,6 @@ KEYWORDS=~amd64 ~ppc64 ~x86
 LICENSE=GPL-3
 RDEPEND=media-video/mpv:=[lua]
 SLOT=0
-SRC_URI=https://github.com/po5/mpv_sponsorblock/archive/6743bd47d4cfce3ae3d5dd4f587f3193bd4fb9b2.tar.gz -> mpv-sponsorblock-20211223.tar.gz
+SRC_URI=https://github.com/po5/mpv_sponsorblock/archive/b6468d0a662e0a5aa8dedfe251a7050c3d12efe3.tar.gz -> mpv-sponsorblock-20220911.tar.gz
 _eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	b9fc5e97e886514e5132f50465185401	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
-_md5_=f4d9aa6fa46493bf7d7bc494d2d6ed72
+_md5_=431969b30c5a1c72da6e1a25447415d4
