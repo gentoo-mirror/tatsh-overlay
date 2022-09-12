@@ -11,5 +11,5 @@ RDEPEND=btrfs? ( sys-fs/btrfs-progs ) multilib? ( cmsis-dap? ( dev-embedded/open
 REQUIRED_USE=cmsis-dap? ( multilib )
 SLOT=0
 SRC_URI=https://github.com/kylemanna/systemd-utils/archive/eadaa1c9878553b7c032bf2911321fd6374fdeaa.tar.gz -> kylemanna-systemd-utils-20220116.tar.gz
-_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	udev	f3a0a3964e2028a140c181f00eea9712
+_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	udev	eec0bbab06977f1cfc5597269c1fa152
 _md5_=2b31401c1f85aff62f68bb3b9aec7a68
