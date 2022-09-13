@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DEPEND=media-libs/zvbi
+DESCRIPTION=A quick-and-dirty tool for capturing vertical blanking interval data using libzvbi.
+EAPI=8
+HOMEPAGE=https://github.com/codeman38/zvbi2raw
+KEYWORDS=~amd64
+LICENSE=BSD-2
+RDEPEND=media-libs/zvbi
+SLOT=0
+SRC_URI=https://github.com/codeman38/zvbi2raw/archive/765156d3c54cafd26d696f81cfa78fc12023a7bf.tar.gz -> zvbi2raw-20150529.tar.gz
+_md5_=ac4605f3e05c0fa08feca25c4f8b5340

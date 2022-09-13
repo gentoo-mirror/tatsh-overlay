@@ -95,6 +95,7 @@ media-video/magewell-pro-capture 1.3.0.4236-r2: Magewell Pro Capture driver.
 media-video/open-in-mpv 0.0.6: Host-side script for the Open in mpv Chrome extension.
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
 media-video/video2x 4.8.1-r3: A lossless video/GIF/image upscaler.
+media-video/zvbi2raw 20150529: A quick-and-dirty tool for capturing vertical blanking interval data using libzvbi.
 mpv-plugin/delete-file 20220421: Queue files for deletion on quit.
 mpv-plugin/mpv-dvd-browser 20210709-r1: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/mpv-libunity 20211123: Shows progress on a panel following libunity specification.
