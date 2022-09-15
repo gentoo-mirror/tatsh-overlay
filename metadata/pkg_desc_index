@@ -91,6 +91,7 @@ media-gfx/srmd-ncnn-vulkan 20220728: SRMD super resolution implemented with ncnn
 media-plugins/nvidia-vaapi-driver 0.0.6: A VA-API implemention using NVIDIA's NVDEC
 media-sound/sony-headphones-client 1.2-r3: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
+media-video/domesday-duplicator 20220911: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
 media-video/magewell-pro-capture 1.3.0.4236-r2: Magewell Pro Capture driver.
 media-video/open-in-mpv 0.0.6: Host-side script for the Open in mpv Chrome extension.
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file

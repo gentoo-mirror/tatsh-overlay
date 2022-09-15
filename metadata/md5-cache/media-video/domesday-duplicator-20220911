@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install
+DEPEND=dev-qt/qtserialport:= dev-qt/qtwidgets:= dev-qt/qtgui:= dev-qt/qtcore:= virtual/libusb:1
+DESCRIPTION=Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
+EAPI=8
+HOMEPAGE=https://github.com/harrypm/DomesdayDuplicator
+INHERIT=desktop qmake-utils
+KEYWORDS=~amd64
+RDEPEND=dev-qt/qtserialport:= dev-qt/qtwidgets:= dev-qt/qtgui:= dev-qt/qtcore:= virtual/libusb:1
+SLOT=0
+SRC_URI=https://github.com/harrypm/DomesdayDuplicator/archive/4c079ccf06d7a879196ed5a9a6a357abb1c98b25.tar.gz -> domesday-duplicator-20220911.tar.gz
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707
+_md5_=98de138078a95a8f536c2bbda6556a5a
