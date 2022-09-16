@@ -86,7 +86,7 @@ games-util/nut 3.3_p20220710: Multi-purpose utility to manage and install Switch
 games-util/raphnet-tech-adapter-manager 2.1.27: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20220902: Updated and improved Kate editor syntax files and code snippets.
-kde-misc/kate-wakatime 1.3.9: Time tracking with WakaTime for Kate.
+kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 media-fonts/amiri 0.117: High quality Arabic Naskh-style font
 media-fonts/iosevka 16.2.0: Slender typeface for code, from code
 media-fonts/noto 20220810: Google's font family that aims to support all the world's languages
