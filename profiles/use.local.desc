@@ -126,6 +126,20 @@ media-fonts/noto:runic - Install Runic font
 media-fonts/noto:symbols - Install Symbols fonts
 media-plugins/nvidia-vaapi-driver:av1 - Enable experimental AV1 support
 media-video/magewell-pro-capture:weave - Do not enable deinterlacing. Warning: this stops "mwcap-control --video-output-deinterlace ..." from working.
+media-video/vapoursynth:eedi3 - Enable the eedi3 plugin.
+media-video/vapoursynth:guard-pattern - Adds 32 bytes on the left and the right sides of each frame, fills them with a certain value, and checks their integrity after each filter. It can be used to detect buggy filters that write a little outside the frame.
+media-video/vapoursynth:imwri - Enable the image reader/writer plugin. Requires media-gfx/imagemagick.
+media-video/vapoursynth:miscfilters - Enable the miscellaneous filters plugin.
+media-video/vapoursynth:morpho - Enable the morpho plugin.
+media-video/vapoursynth:ocr - Enable the ocr plugin. Requires app-text/tesseract.
+media-video/vapoursynth:plugins - Enable all included plugins.
+media-video/vapoursynth:removegrain - Enable the removegrain plugin.
+media-video/vapoursynth:subtext - Enable the subtitle rendering plugin. Requires media-libs/libass and virtual/ffmpeg.
+media-video/vapoursynth:vinverse - Enable the vinverse plugin.
+media-video/vapoursynth:vivtc - Enable the vivtc plugin.
+media-video/vapoursynth:vspipe - Build vspipe command.
+media-video/vapoursynth:vsscript - Enable VSScript.
+media-video/vapoursynth:x86-asm - Enable assembler code for x86 CPUs (requires dev-lang/yasm).
 mpv-plugin/delete-file:autoload - Auto-load the plugin
 mpv-plugin/mpv-dvd-browser:autoload - Auto-load the plugin
 mpv-plugin/mpv-libunity:autoload - Auto-load the plugin

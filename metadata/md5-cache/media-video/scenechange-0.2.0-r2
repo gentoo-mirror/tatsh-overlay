@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=Scene change detection plugin for VapourSynth
+EAPI=6
+HOMEPAGE=https://forum.doom9.org/showthread.php?t=166769
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=>=media-video/vapoursynth-37
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://raw.githubusercontent.com/Tatsh/scenechange/60c6ad25f33950ac3f11803197d915b110e32458/src/Makefile -> scenechange-0.2.0-Makefile https://github.com/Tatsh/scenechange/archive/v0.2.0-2.tar.gz -> scenechange-0.2.0.tar.gz
+_md5_=b1e737843316ff08dba28ec083867dfd
