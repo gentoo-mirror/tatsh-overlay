@@ -11,6 +11,8 @@ dev-libs/wolfssl:sniffer - Enable sniffer via libpcap
 games-action/re3:sanitizer - Build with address sanitiser for better crash logs
 games-action/relcs:sanitizer - Build with address sanitiser for better crash logs
 games-action/revc:sanitizer - Build with address sanitiser for better crash logs
+games-arcade/outfox:bundled-courses - Install bundled courses.
+games-arcade/outfox:bundled-songs - Installed bundled songs.
 games-arcade/stepmania:bundled-courses - Install bundled courses.
 games-arcade/stepmania:bundled-songs - Installed bundled songs.
 games-arcade/stepmania:crash-handler - Enable crash handler
@@ -23,8 +25,6 @@ games-arcade/stepmania:parallel-port - Enable parallel port-based input devices.
 games-arcade/stepmania:profiling - Enable profiling.
 games-arcade/stepmania:wav - Enable WAV file support.
 games-arcade/stepmania:xrandr - Enable XRandR support.
-games-arcade/stepmania-outfox:bundled-courses - Install bundled courses.
-games-arcade/stepmania-outfox:bundled-songs - Installed bundled songs.
 games-emulation/86box:dynrec - Enable dynamic recompiler
 games-emulation/86box:fluidsynth - Use media-sound/fluidsynth for MIDI emulation
 games-emulation/86box:mt-32 - Use media-libs/munt-mt32emu for MT-32 emulation
