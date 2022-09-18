@@ -2,7 +2,7 @@ BDEPEND=virtual/pkgconfig
 DEFINED_PHASES=install postrm preinst prepare
 DEPEND=acct-user/pihole acct-group/pihole
 DESCRIPTION=Network-wide ad blocking (core).
-EAPI=7
+EAPI=8
 HOMEPAGE=https://pi-hole.net/
 INHERIT=bash-completion-r1 systemd
 IUSE=cron www
@@ -12,4 +12,4 @@ RDEPEND=acct-user/pihole acct-group/pihole >=net-dns/pihole-ftl-5.12 app-admin/s
 SLOT=0
 SRC_URI=https://github.com/pi-hole/pi-hole/archive/v5.12.tar.gz -> pihole-5.12.tar.gz
 _eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	systemd	2736b403a83f194b59b767f3b344c2c1
-_md5_=841e342b14542d913709b400e6c8516f
+_md5_=b648baf6d9dc9572cf3ddf853ac8d9c7

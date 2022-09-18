@@ -1,9 +1,10 @@
 BDEPEND=dev-cpp/nlohmann_json >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
-DEPEND=app-arch/bzip2 dev-db/sqlite dev-libs/icu dev-libs/libevdev dev-libs/openssl dev-qt/qtgui dev-qt/qtwidgets dev-qt/qtx11extras media-libs/libglvnd media-libs/glu media-libs/openal net-misc/curl sys-libs/zlib vulkan? ( media-libs/vulkan-loader ) dev-util/desktop-file-utils x11-misc/shared-mime-info
+DEPEND=app-arch/bzip2 dev-db/sqlite dev-libs/icu dev-libs/libevdev dev-libs/openssl dev-qt/qtgui dev-qt/qtwidgets dev-qt/qtx11extras media-libs/libglvnd media-libs/glu media-libs/openal net-misc/curl sys-libs/zlib vulkan? ( media-libs/vulkan-loader )
 DESCRIPTION=PlayStation 2 emulator.
-EAPI=7
+EAPI=8
 HOMEPAGE=http://purei.org/ https://github.com/jpd002/Play-
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=cmake xdg
 IUSE=libretro vulkan
 KEYWORDS=~amd64 ~arm64 ~ppc64 ~x86
@@ -12,5 +13,5 @@ RDEPEND=app-arch/bzip2 dev-db/sqlite dev-libs/icu dev-libs/libevdev dev-libs/ope
 REQUIRED_USE=arm64? ( !vulkan )
 SLOT=0
 SRC_URI=https://github.com/jpd002/Play-/archive/0.56.tar.gz -> play-0.56.tar.gz https://github.com/jpd002/Play--CodeGen/archive/465f95fcffc89ff075625452e363f0053b6e3dd1.tar.gz -> play-codegen-465f95f.tar.gz https://github.com/jpd002/Play-Dependencies/archive/7d8bfd36fa609355e4087f7d661fc512bf77754c.tar.gz -> play-deps-7d8bfd3.tar.gz https://github.com/jpd002/Play--Framework/archive/4d63a1089a7991c3089d667446fcf6770a51d06b.tar.gz -> play-framework-4d63a10.tar.gz https://github.com/jpd002/Nuanceur/archive/8e2f8649b38322e1f97b05b87e2876c6de53462e.tar.gz -> play-nuanceur-8e2f864.tar.gz https://github.com/gulrak/filesystem/archive/2a8b380f8d4e77b389c42a194ab9c70d8e3a0f1e.tar.gz -> play-filesystem-2a8b380.tar.gz https://github.com/jpd002/libchdr/archive/532a3f60f75eec3454ff4e52cad8862afc40e65f.tar.gz -> play-libchdr-532a3f6.tar.gz https://github.com/facebook/zstd/archive/1e09cffd9b15b39379810a39ffae182b4a7e7b78.tar.gz -> play-zstd-1e09cff.tar.gz
-_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	flag-o-matic	29a755b1291d64133634d80b0328f153	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	44afbf15c35884f7c840470f1cf05d0d	xdg	6024fbc93167fad782e2032933654857
-_md5_=ac6fab1b4b7711f412b93dfb3b686630
+_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	29a755b1291d64133634d80b0328f153	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	44afbf15c35884f7c840470f1cf05d0d	xdg	6024fbc93167fad782e2032933654857
+_md5_=c430c722358bfa9b9e937ff580af5e20

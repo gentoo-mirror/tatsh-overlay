@@ -1,7 +1,7 @@
 BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DEFINED_PHASES=install postinst postrm prepare setup
 DESCRIPTION=Google's font family that aims to support all the world's languages
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.google.com/get/noto/ https://github.com/googlei18n/noto-fonts
 INHERIT=font
 IUSE=brahmi music coptic cuneiform cypriot deseret duployan linear +display +symbols runic phagspa pau-cin-hau old-arabian hieroglyphs +mono ancient +extra l10n_ar l10n_ban l10n_bax l10n_ber l10n_bku l10n_blt l10n_bn l10n_bo l10n_bsq l10n_bug l10n_bya l10n_ccp l10n_chr l10n_cja l10n_cmr l10n_dv l10n_eo l10n_ff l10n_gu l10n_he l10n_hi l10n_hoc l10n_hy l10n_ii l10n_ja l10n_jv l10n_ka l10n_khb l10n_km l10n_kn l10n_ko l10n_kv l10n_lo l10n_mai l10n_men l10n_mjl l10n_ml l10n_mn l10n_mni l10n_mww l10n_my l10n_new l10n_nod l10n_nqo l10n_or l10n_osa l10n_pa l10n_rej l10n_sa l10n_sat l10n_saz l10n_sd l10n_si l10n_so l10n_sq l10n_srb l10n_su l10n_syc l10n_syl l10n_ta l10n_tbw l10n_te l10n_th l10n_tl l10n_tmh l10n_ur l10n_vai l10n_zh-CN l10n_zh-TW l10n_iu l10n_hnn l10n_bho l10n_eky l10n_lep l10n_lif l10n_lis l10n_tbw l10n_skr l10n_mr l10n_pa l10n_tmh X
@@ -12,4 +12,4 @@ RESTRICT=binchecks strip
 SLOT=0
 SRC_URI=https://github.com/googlei18n/noto-fonts/archive/2725c70baa8b0176c7577093ba1fc6179aa79478.tar.gz -> noto-20220810.tar.gz
 _eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
-_md5_=2c3aa0e8f227f5c93762ecc00334fe90
+_md5_=4728451a94ab2b32699876dc2721397d

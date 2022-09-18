@@ -2,7 +2,7 @@ BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/
 DEFINED_PHASES=configure prepare
 DEPEND=sys-libs/readline virtual/libusb:1
 DESCRIPTION=Library and utility to talk to iBoot/iBSS via USB.
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/libimobiledevice/libirecovery
 INHERIT=autotools
 IUSE=udev
@@ -12,4 +12,4 @@ RDEPEND=sys-libs/readline virtual/libusb:1
 SLOT=0
 SRC_URI=https://github.com/libimobiledevice/libirecovery/releases/download/1.0.0/libirecovery-1.0.0.tar.bz2
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	9e6965bfaa00f52cc61e0d4bc44c87b3
-_md5_=7c6f65ed9ea0d8348e55dd808cc6c634
+_md5_=869bf5dbd849f6f8d3008ed627ae9c43

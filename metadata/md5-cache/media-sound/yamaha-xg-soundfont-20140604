@@ -1,9 +1,9 @@
 DEFINED_PHASES=install unpack
 DESCRIPTION=Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.ronimusic.com/smp_ios_dls_files.htm
 KEYWORDS=amd64 arm arm64 ~ppc64 x86
 LICENSE=Roni-Music
 SLOT=0
 SRC_URI=http://www.ronimusic.com/sf2/Yamaha_XG_Sound_Set.sf2
-_md5_=79ac378bf71f500a757462f0c3123536
+_md5_=ed6ceafa7c4a76deeb9856915d7902c1

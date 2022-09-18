@@ -2,7 +2,7 @@ BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/
 DEFINED_PHASES=install prepare
 DEPEND=>=dev-libs/libfragmentzip-48 >=app-pda/libplist-2.2.0 net-misc/curl dev-libs/openssl:0 >=app-pda/libirecovery-1.0.0
 DESCRIPTION=A powerful tool to check TSS signing status of various devices and firmwares.
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/tihmstar/tsschecker
 INHERIT=autotools
 KEYWORDS=~amd64 ~ppc64 ~x86
@@ -11,4 +11,4 @@ RDEPEND=>=dev-libs/libfragmentzip-48 >=app-pda/libplist-2.2.0 net-misc/curl dev-
 SLOT=0
 SRC_URI=https://github.com/tihmstar/tsschecker/archive/59554beb8e79319e12d8f373fd5bb9846b8c69c9.tar.gz -> tsschecker-304_p20211029.tar.gz https://github.com/tihmstar/jssy/archive/e17d3c8ec5216692efbbe59bbe9801bb7661e07d.tar.gz -> tsschecker-304_p20211029-jssy.tar.gz
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	9e6965bfaa00f52cc61e0d4bc44c87b3
-_md5_=190c9094040585f36adf69b737babac2
+_md5_=7000be0efbfcccedd568dfc7247ed70a

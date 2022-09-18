@@ -2,7 +2,7 @@ BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DEFINED_PHASES=install postinst postrm setup
 DEPEND=app-arch/unzip
 DESCRIPTION=Slender typeface for code, from code
-EAPI=7
+EAPI=8
 HOMEPAGE=https://be5invis.github.io/Iosevka/
 INHERIT=font
 IUSE=X
@@ -11,4 +11,4 @@ LICENSE=OFL-1.1
 SLOT=0
 SRC_URI=https://github.com/be5invis/iosevka/releases/download/v16.2.0/ttf-iosevka-16.2.0.zip https://github.com/be5invis/iosevka/releases/download/v16.2.0/ttf-iosevka-fixed-16.2.0.zip https://github.com/be5invis/iosevka/releases/download/v16.2.0/ttf-iosevka-term-16.2.0.zip
 _eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
-_md5_=14fe37e04f825eba868ad49b442b3e6e
+_md5_=58545997d3d56cc8f4904d22e337688b

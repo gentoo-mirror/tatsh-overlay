@@ -1,8 +1,8 @@
 DEFINED_PHASES=install postinst postrm preinst prepare
-DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 DESCRIPTION=Web debugging proxy application.
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.charlesproxy.com/
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=desktop xdg
 KEYWORDS=~amd64
 LICENSE=Charles Apache-2.0 MIT GPL-2
@@ -11,4 +11,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=https://www.charlesproxy.com/assets/release/4.6.2/charles-proxy-4.6.2_amd64.tar.gz
 _eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
-_md5_=38e9c4525de72fd2df9a6b7e90c4ecef
+_md5_=90320727fdbc9a6f3559f88865525352

@@ -1,7 +1,7 @@
 BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DEFINED_PHASES=install postinst postrm setup
 DESCRIPTION=High quality Arabic Naskh-style font
-EAPI=7
+EAPI=8
 HOMEPAGE=http://www.amirifont.org/
 INHERIT=font
 IUSE=X
@@ -10,4 +10,4 @@ LICENSE=GPL-2
 SLOT=0
 SRC_URI=https://github.com/alif-type/amiri/releases/download/0.117/Amiri-0.117.zip
 _eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
-_md5_=4f36d9657be79822c2b535acdaceaf3a
+_md5_=f3297074bef656dcefe67b87af907500

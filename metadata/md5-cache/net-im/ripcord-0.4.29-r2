@@ -1,6 +1,6 @@
 DEFINED_PHASES=install unpack
 DESCRIPTION=Desktop chat client for Slack and Discord (not web-based).
-EAPI=7
+EAPI=8
 HOMEPAGE=https://cancel.fm/ripcord/
 INHERIT=desktop wrapper
 KEYWORDS=~amd64
@@ -10,4 +10,4 @@ RESTRICT=bindist
 SLOT=0
 SRC_URI=https://cancel.fm/dl/Ripcord-0.4.29-x86_64.AppImage
 _eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	wrapper	4a1902f969e5718126434fc35f3a0d9c
-_md5_=46b48d2b3f3149d64104fd08f8a04510
+_md5_=eb0e343aee31ead487c44bcff5da807b
