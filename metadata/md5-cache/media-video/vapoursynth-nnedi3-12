@@ -1,15 +1,15 @@
 BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
-DEFINED_PHASES=configure install prepare
-DEPEND=>=virtual/ffmpeg-9-r2
-DESCRIPTION=An FFmpeg based library and VapourSynth plugin for easy frame accurate access
+DEFINED_PHASES=install prepare
+DEPEND=>=media-video/vapoursynth-37
+DESCRIPTION=nnedi3 filter for VapourSynth
 EAPI=8
-HOMEPAGE=https://github.com/FFMS/ffms2
+HOMEPAGE=https://github.com/dubhater/vapoursynth-nnedi3
 INHERIT=autotools
-IUSE=debug
 KEYWORDS=~amd64 ~x86
-LICENSE=MIT
-RDEPEND=>=virtual/ffmpeg-9-r2
+LICENSE=GPL-2
+RDEPEND=>=media-video/vapoursynth-37
+RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/FFMS/ffms2/archive/ff61bca13e2c5fb99c0450620c9244f415ec29c4.tar.gz -> ffms2-2.40_p20220618.tar.gz
+SRC_URI=https://github.com/dubhater/vapoursynth-nnedi3/archive/v12.tar.gz -> vapoursynth-nnedi3-12.tar.gz
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	9e6965bfaa00f52cc61e0d4bc44c87b3
-_md5_=cd9daf21707ce53eab09390bef20deef
+_md5_=d6b5bccd06c2a52f53155ffe5426021f

@@ -11,6 +11,6 @@ RDEPEND=>=media-video/ffms2-2.23.1 >=media-video/fmtconv-20 >=media-video/mvsfun
 REQUIRED_USE=|| ( python_targets_python3_9 python_targets_python3_10 )
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/HomeOfVapourSynthEvolution/havsfunc/archive/2c6d3fedc3c4c3f3ed2460f7014d1227fe2fe207.tar.gz -> havsfunc-33_p20220804.tar.gz
+SRC_URI=https://github.com/HomeOfVapourSynthEvolution/havsfunc/archive/1f483478f342aeb10109d956fb826189a060fa0a.tar.gz -> havsfunc-33_p20220918.tar.gz
 _eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	b9fc5e97e886514e5132f50465185401	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	e3b0f72d558eb613ff83262d22cbf887
-_md5_=394167716213ed13d61cd2c989f26ac7
+_md5_=142c165bfb5f2d12c8d2a1a2e4f66d48
