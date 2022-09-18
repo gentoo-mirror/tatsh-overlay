@@ -113,6 +113,7 @@ media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
 media-video/vhs-decode 20220917: Software defined VHS decoder.
 media-video/video2x 4.8.1-r3: A lossless video/GIF/image upscaler.
+media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/zvbi2raw 20150529: A quick-and-dirty tool for capturing vertical blanking interval data using libzvbi.
 mpv-plugin/delete-file 20220421: Queue files for deletion on quit.
 mpv-plugin/mpv-dvd-browser 20210709-r1: API to allow scripts to create interactive scrollable lists in mpv player.

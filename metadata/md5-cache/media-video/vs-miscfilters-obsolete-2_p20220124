@@ -1,0 +1,13 @@
+BDEPEND=>=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install test
+DEPEND=media-video/vapoursynth
+DESCRIPTION=Obsolete miscfilters package for VapourSynth.
+EAPI=8
+HOMEPAGE=https://github.com/vapoursynth/vs-miscfilters-obsolete
+INHERIT=meson
+KEYWORDS=~amd64
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=https://github.com/vapoursynth/vs-miscfilters-obsolete/archive/07e0589a381f7deb3bf533bb459a94482bccc5c7.tar.gz -> vs-miscfilters-obsolete-2_p20220124.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	b9fc5e97e886514e5132f50465185401	meson	1994a5aef5d4f5798b92f64d6f9a6003
+_md5_=c80f607d1c56f88a982cbb396e3c9ae0
