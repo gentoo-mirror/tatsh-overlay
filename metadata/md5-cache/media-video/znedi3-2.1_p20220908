@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=nnedi3 filter.
+EAPI=8
+HOMEPAGE=https://github.com/sekrit-twc/znedi3
+KEYWORDS=~amd64
+LICENSE=WTFPL GPL-2 LGPL-2.1
+SLOT=0
+SRC_URI=https://github.com/sekrit-twc/znedi3/archive/4e88a5d0c805b066ae84b29e55b648fb336cb2a4.tar.gz -> znedi3-2.1_p20220908.tar.gz https://github.com/sekrit-twc/graphengine/archive/ce722fdea018040bc38bec1c5ade70239455a564.tar.gz -> znedi3-2.1_p20220908-graphengine-ce722fd.tar.gz https://github.com/sekrit-twc/vsxx/archive/de38f0e128c85782494ae00565698a2b25e87869.tar.gz -> znedi3-2.1_p20220908-vsxx-de38f0e.tar.gz
+_md5_=e94f89dd3373b072bc62090f763f6549
