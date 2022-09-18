@@ -106,7 +106,7 @@ media-video/magewell-pro-capture 1.3.0.4236-r2: Magewell Pro Capture driver.
 media-video/mvsfunc 10_p20220915: mawen1250's VapourSynth functions
 media-video/open-in-mpv 0.0.6: Host-side script for the Open in mpv Chrome extension.
 media-video/scenechange 0.2.0.2: Scene change detection plugin for VapourSynth
-media-video/vapoursynth 60: A video processing framework with simplicity in mind.
+media-video/vapoursynth 60-r1: A video processing framework with simplicity in mind.
 media-video/vapoursynth-mvtools 23: 
 media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
