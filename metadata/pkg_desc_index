@@ -1,5 +1,6 @@
 acct-group/pihole 0: System group: pihole
 acct-user/pihole 0: user for pihole
+app-admin/awscli-plugin-endpoint 0.4: Provides service endpoint configuration per service on profile.
 app-admin/padd 3.8.0: PADD provides in-depth information about your Pi-hole.
 app-arch/bitrock-unpacker 20160622: Bitrock unpacking script.
 app-arch/unalz 0.65: Unpack ALZ archives.
