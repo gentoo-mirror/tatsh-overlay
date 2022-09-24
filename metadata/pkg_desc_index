@@ -64,7 +64,7 @@ games-action/re3 20210902-r1: GTA III decompiled and re-built.
 games-action/relcs 20210902-r1: GTA Liberty City Stories decompiled and re-built.
 games-action/revc 20210902-r1: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 0.23.2.2-r1: Clone of Guitar Hero and similar games.
-games-arcade/outfox 0.4.16.0_p20220731-r1: Advanced rhythm game. Designed for both home and arcade use
+games-arcade/outfox 0.4.16.0_p20220731-r2: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/outfox-serenity 2.0: The community pack content for Project OutFox (includes volume 1.5)
 games-arcade/stepmania 5.1.0_beta2_p20220904-r1: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.7.1-r1: Emulator of x86-based machines based on PCem.
@@ -113,7 +113,7 @@ media-video/vapoursynth-eedi3 4_p20190930: A very slow edge directed interpolati
 media-video/vapoursynth-mvtools 23: 
 media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
-media-video/vhs-decode 20220917-r1: Software defined VHS decoder.
+media-video/vhs-decode 20220918: Software defined VHS decoder.
 media-video/video2x 4.8.1-r4: A lossless video/GIF/image upscaler.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/znedi3 2.1_p20220908: nnedi3 filter.
