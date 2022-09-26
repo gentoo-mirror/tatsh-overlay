@@ -54,7 +54,7 @@ dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.1.0: Node.js native addon build tool
 dev-util/ycmd 20220829-r1: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
-dev-vcs/gickup 0.10.2: Mirror Git repositories to other Git providers.
+dev-vcs/gickup 0.10.3: Mirror Git repositories to other Git providers.
 dev-vcs/git-extras 6.4.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.33.0: Quickly rewrite git repository history (filter-branch replacement)
 dev-vcs/git-radar 0.6_p20170108: A heads up display for Git.
@@ -134,7 +134,7 @@ mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 net-dns/pihole 5.12.2: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.18.1: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r2: Desktop chat client for Slack and Discord (not web-based).
-net-mail/gmailctl 0.10.4: Declarative configuration for Gmail filters
+net-mail/gmailctl 0.10.5: Declarative configuration for Gmail filters
 net-p2p/xirvik-tools 0.3.1-r2: Tools for Xirvik servers.
 net-proxy/charles 4.6.2-r4: Web debugging proxy application.
 sci-calculators/qalculate-qt 4.3.0-r1: Qt-based UI for libqalculate.
