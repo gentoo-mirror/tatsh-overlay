@@ -118,7 +118,7 @@ media-video/vapoursynth-fluxsmooth 2: A filter for smoothing of fluctuations
 media-video/vapoursynth-hqdn3d 20180629: Port of hqdn3d from AviSynth
 media-video/vapoursynth-minideen 2: Spatial denoising filter for pourSynth
 media-video/vapoursynth-msmoosh 1.1: MSharpen and MSmooth for VapourSynth
-media-video/vapoursynth-mvtools 23: 
+media-video/vapoursynth-mvtools 23-r1: Motion compensation, etc for VapourSynth.
 media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
 media-video/vhs-decode 20220918: Software defined VHS decoder.
