@@ -109,6 +109,7 @@ media-video/mvsfunc 10_p20220915: mawen1250's VapourSynth functions
 media-video/open-in-mpv 0.0.6: Host-side script for the Open in mpv Chrome extension.
 media-video/scenechange 0.2.0.2: Scene change detection plugin for VapourSynth
 media-video/vapoursynth 60-r1: A video processing framework with simplicity in mind.
+media-video/vapoursynth-astdr 4: Derainbow function for VapourSynth.
 media-video/vapoursynth-eedi3 4_p20190930: A very slow edge directed interpolation filter (renewed).
 media-video/vapoursynth-fft3dfilter 2: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-video/vapoursynth-mvtools 23: 
