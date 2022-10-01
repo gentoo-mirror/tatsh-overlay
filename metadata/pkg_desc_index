@@ -105,11 +105,12 @@ media-video/ffms2 2.40_p20220618: An FFmpeg based library and VapourSynth plugin
 media-video/fmtconv 30_p20220902: Format conversion tools for Vapoursynth
 media-video/havsfunc 33_p20220918-r3: Holy's ported AviSynth functions for VapourSynth
 media-video/magewell-pro-capture 1.3.0.4236-r2: Magewell Pro Capture driver.
-media-video/mvsfunc 10_p20220915: mawen1250's VapourSynth functions
+media-video/mvsfunc 10_p20220915-r1: mawen1250's VapourSynth functions
 media-video/open-in-mpv 0.0.6: Host-side script for the Open in mpv Chrome extension.
 media-video/scenechange 0.2.0.2: Scene change detection plugin for VapourSynth
 media-video/vapoursynth 60-r1: A video processing framework with simplicity in mind.
 media-video/vapoursynth-astdr 4: Derainbow function for VapourSynth.
+media-video/vapoursynth-bm3d 9: BM3D denoising filter for VapourSynth
 media-video/vapoursynth-dfmderainbow 2: Derainbow function for VapourSynth.
 media-video/vapoursynth-eedi3 4_p20190930: A very slow edge directed interpolation filter (renewed).
 media-video/vapoursynth-fft3dfilter 2: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
