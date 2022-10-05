@@ -40,10 +40,12 @@ dev-python/llvmlite 0.39.1_p20220901: A lightweight LLVM python binding for writ
 dev-python/numba 0.56.2: NumPy aware dynamic Python compiler using LLVM
 dev-python/pycryptoplus 0.0.1: Cipher extension (used by games-util/nut).
 dev-python/pygtrie 2.5.0: A pure Python trie data structure implementation.
+dev-python/pyhht 0.1.0-r1: A Python module for the Hilbert Huang Transform.
 dev-python/qt-range-slider 0.2.7: Qt widget-slider with two thumbs (min/max values).
 dev-python/re-wx 0.0.10: A library for building modern declarative desktop applications in WX.
 dev-python/requests-futures 1.0.0-r2: Asynchronous Python HTTP for Humans.
 dev-python/samplerate 0.1.0: 
+dev-python/soundfile 0.10.3.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/vsutil 0.8.0: A collection of general purpose Vapoursynth functions
 dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9: Single file executable that provides a complete Tcl and Tk runtime.
@@ -98,6 +100,7 @@ media-gfx/pngdefry 1.2-r1: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728: SRMD super resolution implemented with ncnn library.
 media-plugins/nvidia-vaapi-driver 0.0.6: A VA-API implemention using NVIDIA's NVDEC
+media-sound/hifi-decode 20221001: Software defined VHS HiFi decoder.
 media-sound/sony-headphones-client 1.2-r3: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
 media-video/domesday-duplicator 20220911: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
