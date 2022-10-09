@@ -9,6 +9,6 @@ KEYWORDS=~amd64 ~ppc64 ~x86
 LICENSE=GPL-3
 RDEPEND=|| ( >=app-editors/vim-7.3[python] >=app-editors/gvim-7.3[python] ) sys-devel/clang:= python_single_target_python3_8? ( dev-python/requests-futures[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/requests-futures[python_targets_python3_9(-)] ) python_single_target_python3_10? ( dev-python/requests-futures[python_targets_python3_10(-)] ) python_single_target_python3_8? ( dev-python/requests[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/requests[python_targets_python3_9(-)] ) python_single_target_python3_10? ( dev-python/requests[python_targets_python3_10(-)] ) python_single_target_python3_8? ( dev-util/ycmd[python_single_target_python3_8(-)] ) python_single_target_python3_9? ( dev-util/ycmd[python_single_target_python3_9(-)] ) python_single_target_python3_10? ( dev-util/ycmd[python_single_target_python3_10(-)] )
 SLOT=0
-SRC_URI=https://github.com/ycm-core/YouCompleteMe/archive/8c173bc4d2c5b03cf53575092a7c5c2bc67afd9a.tar.gz -> youcompleteme-20220927.tar.gz
+SRC_URI=https://github.com/ycm-core/YouCompleteMe/archive/99ccab251fad7c8b235582b46752a0536d01b315.tar.gz -> youcompleteme-20221006.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	b9fc5e97e886514e5132f50465185401	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
-_md5_=4f7341453045a06fdc61c33588c5a58d
+_md5_=95c7bfc43344dc7b25df220f22804e2a
