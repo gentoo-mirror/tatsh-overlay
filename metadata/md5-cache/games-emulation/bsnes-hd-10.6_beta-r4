@@ -11,5 +11,5 @@ RDEPEND=dev-libs/atk dev-libs/glib media-libs/fontconfig media-libs/freetype med
 REQUIRED_USE=|| ( ao openal alsa pulseaudio oss ) || ( xv opengl sdl )
 SLOT=0
 SRC_URI=https://github.com/DerKoun/bsnes-hd/archive/beta_10_6.tar.gz -> bsnes-hd-10.6_beta.tar.gz
-_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157
 _md5_=7f08cc6e47aced79333ce88a7ecd5e29
