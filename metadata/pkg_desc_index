@@ -56,7 +56,7 @@ dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.2.0: Node.js native addon build tool
 dev-util/ycmd 20220929-r1: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
-dev-vcs/gickup 0.10.4: Mirror Git repositories to other Git providers.
+dev-vcs/gickup 0.10.5: Mirror Git repositories to other Git providers.
 dev-vcs/git-extras 6.4.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.33.0: Quickly rewrite git repository history (filter-branch replacement)
 dev-vcs/git-radar 0.6_p20170108: A heads up display for Git.
