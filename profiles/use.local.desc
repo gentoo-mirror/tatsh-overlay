@@ -8,6 +8,7 @@ dev-libs/bincookie:tools - Install extra tools
 dev-libs/librw:tools - Install extra tools
 dev-libs/wolfssl:debug - Debug support
 dev-libs/wolfssl:sniffer - Enable sniffer via libpcap
+dev-python/numba:tbb - Build with TBB support
 games-action/re3:sanitizer - Build with address sanitiser for better crash logs
 games-action/relcs:sanitizer - Build with address sanitiser for better crash logs
 games-action/revc:sanitizer - Build with address sanitiser for better crash logs
