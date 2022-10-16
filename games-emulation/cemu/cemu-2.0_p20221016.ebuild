@@ -52,8 +52,6 @@ src_prepare() {
 	mv "${WORKDIR}/glslang-${GLSLANG_PV}" glslang || die
 	rmdir dependencies/imgui || die
 	mv "${WORKDIR}/imgui-${IMGUI_PV}" dependencies/imgui || die
-	# cp "${FILESDIR}/${PN}-imgui-CMakeLists.txt" imgui/CMakeLists.txt || die
-	# cp "${FILESDIR}/${PN}-imgui-config.cmake.in" imgui/imgui-config.cmake.in || die
 }
 
 src_configure() {
