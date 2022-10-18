@@ -37,7 +37,7 @@ dev-python/colored 1.4.3: Very simple Python library for color and formatting in
 dev-python/gooey 1.0.8.1: Turn (almost) any command line program into a full GUI application with one line.
 dev-python/hidapi 0.12.0.2: Python wrapper for hidapi.
 dev-python/llvmlite 0.39.1_p20220901: A lightweight LLVM python binding for writing JIT compilers
-dev-python/numba 0.56.3-r1: NumPy aware dynamic Python compiler using LLVM
+dev-python/numba 0.56.3-r2: NumPy aware dynamic Python compiler using LLVM
 dev-python/pycryptoplus 0.0.1: Cipher extension (used by games-util/nut).
 dev-python/pygtrie 2.5.0: A pure Python trie data structure implementation.
 dev-python/pyhht 0.1.0-r1: A Python module for the Hilbert Huang Transform.
