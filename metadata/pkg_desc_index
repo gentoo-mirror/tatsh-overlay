@@ -54,6 +54,7 @@ dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesys
 dev-util/flips 20220716: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.3.0: Node.js native addon build tool
+dev-util/wakatime-cli 1.55.2: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20220929-r1: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.6: Mirror Git repositories to other Git providers.
