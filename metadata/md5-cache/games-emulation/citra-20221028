@@ -1,4 +1,4 @@
-BDEPEND=<dev-cpp/catch-3.0.0 >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+BDEPEND=<dev-cpp/catch-3.0.0 dev-cpp/robin-map >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
 DEPEND=app-arch/zstd dev-libs/boost:0 dev-libs/crypto++:= media-libs/cubeb dev-libs/inih dev-libs/mp dev-libs/teakra >=dev-libs/xbyak-5.941 dev-qt/qtconcurrent:= dev-qt/qtcore dev-qt/qtgui dev-qt/qtmultimedia dev-qt/qtwidgets dev-util/nihstro media-libs/libsdl2 media-video/ffmpeg net-libs/enet:= virtual/libusb:1
 DESCRIPTION=A Nintendo 3DS emulator.
@@ -13,4 +13,4 @@ RDEPEND=app-arch/zstd dev-libs/boost:0 dev-libs/crypto++:= media-libs/cubeb dev-
 SLOT=0
 SRC_URI=https://github.com/citra-emu/citra/archive/a93d7a8d3ab02e3ba72013cbf92d5cae84d555d3.tar.gz -> citra-20221028.tar.gz https://github.com/lvandeve/lodepng/archive/18964554bc769255401942e0e6dfd09f2fab2093.tar.gz -> citra-lodepng-1896455.tar.gz https://github.com/citra-emu/ext-soundtouch/archive/060181eaf273180d3a7e87349895bd0cb6ccbf4a.tar.gz -> citra-soundtouch-060181e.tar.gz https://github.com/citra-emu/dynarmic/archive/3946dcf005c6e8f3d91cfb0bc5debfd0446daa39.tar.gz -> citra-dynarmic-3946dcf.tar.gz https://github.com/fmtlib/fmt/archive/a33701196adfad74917046096bf5a2aa0ab0bb50.tar.gz -> citra-fmt-a337011.tar.gz https://github.com/herumi/xbyak/archive/48457bfa0ded67bb4ae2d4c141c36b35469257ee.tar.gz -> citra-xbyak-48457bf.tar.gz
 _eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	29a755b1291d64133634d80b0328f153	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	44afbf15c35884f7c840470f1cf05d0d	xdg	6024fbc93167fad782e2032933654857
-_md5_=b0d144f1dfa001d9b135adc056976387
+_md5_=d00c6210732af6897ec351fae4809321
