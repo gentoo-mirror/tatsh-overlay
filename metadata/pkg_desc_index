@@ -133,6 +133,7 @@ media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repa
 media-video/znedi3 2.1_p20220908: nnedi3 filter.
 media-video/zvbi2raw 20150529: A quick-and-dirty tool for capturing vertical blanking interval data using libzvbi.
 mpv-plugin/delete-file 20220421: Queue files for deletion on quit.
+mpv-plugin/mpv-copytime 20220308: Queue files for deletion on quit.
 mpv-plugin/mpv-dvd-browser 20210709-r1: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/mpv-libunity 20211123-r1: Shows progress on a panel following libunity specification.
 mpv-plugin/mpv-netrc 20220629: Reads ~/.netrc and sets up authorisation for URIs.
