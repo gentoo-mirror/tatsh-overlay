@@ -20,8 +20,8 @@ app-pda/tsschecker 304_p20211029: A powerful tool to check TSS signing status of
 app-portage/upkeep 1.3.0: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20220627: Kotlin plugin for Vim.
 app-vim/vim-wakatime 9.0.1: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20221101: A code-completion engine for Vim.
-dev-db/dbeaver-bin 22.2.3: Free universal database tool (community edition).
+app-vim/youcompleteme 20221112: A code-completion engine for Vim.
+dev-db/dbeaver-bin 22.2.4: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
@@ -33,7 +33,7 @@ dev-libs/wolfssl 5.5.3: Embedded SSL library.
 dev-libs/xbyak 6.64: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/asn1 2.6.0: Simple ASN.1 encoder/decoder.
 dev-python/benc 2019.8.1-r1: Bencoder in 100 lines of modern Python
-dev-python/colored 1.4.3: Very simple Python library for color and formatting in terminal
+dev-python/colored 1.4.4: Very simple Python library for color and formatting in terminal
 dev-python/gooey 1.0.8.1: Turn (almost) any command line program into a full GUI application with one line.
 dev-python/hidapi 0.12.0.2: Python wrapper for hidapi.
 dev-python/llvmlite 0.39.1_p20220901: A lightweight LLVM python binding for writing JIT compilers
@@ -54,7 +54,7 @@ dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesys
 dev-util/flips 20220716: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.3.0: Node.js native addon build tool
-dev-util/wakatime-cli 1.55.2: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.57.0: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20220929-r1: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.6: Mirror Git repositories to other Git providers.
@@ -72,15 +72,15 @@ games-arcade/outfox-serenity 2.0-r1: The community pack content for Project OutF
 games-arcade/stepmania 5.1.0_beta2_p20220904-r1: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.7.1-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r4: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20221105: Wii U emulator.
-games-emulation/citra 20221106: A Nintendo 3DS emulator.
+games-emulation/cemu 2.0_p20221112: Wii U emulator.
+games-emulation/citra 20221113: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.84.3: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.12.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20221030: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.57: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.25: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.338: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.343: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.7.71: Original Xbox emulator.
 games-emulation/yuzu 0.1226: Nintendo Switch emulator
 games-misc/render96ex 20211128-r1: Fork of sm64-port with additional features (alpha branch).
@@ -104,10 +104,10 @@ media-plugins/nvidia-vaapi-driver 0.0.7: A VA-API implemention using NVIDIA's NV
 media-sound/hifi-decode 20221008-r1: Software defined VHS HiFi decoder.
 media-sound/sony-headphones-client 1.2-r3: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
-media-video/domesday-duplicator 20220911: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
+media-video/domesday-duplicator 20221109: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
 media-video/ffms2 2.40_p20220618: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
-media-video/fmtconv 30_p20221106: Format conversion tools for Vapoursynth
+media-video/fmtconv 30_p20221107: Format conversion tools for Vapoursynth
 media-video/havsfunc 33_p20221023: Holy's ported AviSynth functions for VapourSynth
 media-video/magewell-pro-capture 1.3.0.4236-r2: Magewell Pro Capture driver.
 media-video/mvsfunc 10_p20220915-r1: mawen1250's VapourSynth functions
@@ -126,7 +126,7 @@ media-video/vapoursynth-msmoosh 1.1: MSharpen and MSmooth for VapourSynth
 media-video/vapoursynth-mvtools 23-r1: Motion compensation, etc for VapourSynth.
 media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12: nnedi3 weights.bin file
-media-video/vhs-decode 20221105: Software defined VHS decoder.
+media-video/vhs-decode 20221111: Software defined VHS decoder.
 media-video/video2x 4.8.1-r4: A lossless video/GIF/image upscaler.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth

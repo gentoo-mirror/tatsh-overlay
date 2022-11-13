@@ -8,6 +8,6 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=dev-qt/qtserialport:= dev-qt/qtwidgets:= dev-qt/qtgui:= dev-qt/qtcore:= virtual/libusb:1
 SLOT=0
-SRC_URI=https://github.com/harrypm/DomesdayDuplicator/archive/4c079ccf06d7a879196ed5a9a6a357abb1c98b25.tar.gz -> domesday-duplicator-20220911.tar.gz
+SRC_URI=https://github.com/harrypm/DomesdayDuplicator/archive/82be17444426836d2bd7ff22c0d12266b661a8f2.tar.gz -> domesday-duplicator-20221109.tar.gz
 _eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707
-_md5_=e62272d125b05b36556eec3fd2c0b636
+_md5_=bb788906eb5a8d751c375a1b0fdd8895
