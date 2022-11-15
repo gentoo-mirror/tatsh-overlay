@@ -52,6 +52,7 @@ dev-tcltk/tclkit 8.6.4.9: Single file executable that provides a complete Tcl an
 dev-util/cmake-format 0.6.13: Source code formatter for CMake files.
 dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20220716: Floating IPS is a patcher for IPS and BPS files.
+dev-util/intel-ocl-sdk 18.1.0.015: Intel's implementation of the OpenCL standard
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.3.0: Node.js native addon build tool
 dev-util/wakatime-cli 1.57.0: Command line interface to WakaTime used by all WakaTime plugins
