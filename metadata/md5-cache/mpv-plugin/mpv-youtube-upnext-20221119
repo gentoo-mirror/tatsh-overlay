@@ -8,6 +8,6 @@ KEYWORDS=~amd64 ~ppc64
 LICENSE=ISC
 RDEPEND=media-video/mpv:=[lua]
 SLOT=0
-SRC_URI=https://github.com/cvzi/mpv-youtube-upnext/archive/01d38b8d5ff325af873f6bcd8c78d284b0b21065.tar.gz -> mpv-youtube-upnext-20221012.tar.gz
+SRC_URI=https://github.com/cvzi/mpv-youtube-upnext/archive/a38a0a7337af6ab249dfdc0b27e993809f728eae.tar.gz -> mpv-youtube-upnext-20221119.tar.gz
 _eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758
-_md5_=16f1740e2fbf0227eff772416e43e954
+_md5_=8fbc625f88993b731f1660036052e4dd
