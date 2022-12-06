@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~x86
 LICENSE=public-domain
 SLOT=0
 SRC_URI=https://web.archive.org/web/20211205021959/http://www.jongware.com/binaries/pngdefry.zip -> pngdefry-1.2.zip
-_eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_eclasses_=toolchain-funcs	959e1d99122907eb98a3a660297a967e	multilib	5ca4e49abed8e3a2f7b56920eadee157
 _md5_=c55ef64c59db1b638f2ab1f4bee963f4
