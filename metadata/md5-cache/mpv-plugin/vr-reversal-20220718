@@ -9,5 +9,5 @@ LICENSE=Unlicense
 RDEPEND=media-video/mpv:=[lua]
 SLOT=0
 SRC_URI=https://github.com/dfaker/VR-reversal/archive/91f4aeed43b8febf099af10df13a24151256d8a7.tar.gz -> vr-reversal-20220718.tar.gz
-_eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758
+_eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a
 _md5_=10223ccb6e654ec75ec327cc59722061

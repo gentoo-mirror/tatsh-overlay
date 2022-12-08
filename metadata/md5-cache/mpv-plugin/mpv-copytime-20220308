@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=media-video/mpv:=[lua]
 SLOT=0
 SRC_URI=https://github.com/Arieleg/mpv-copyTime/archive/10b53d507085ba2deda301b6fab3397eee275b71.tar.gz -> mpv-copytime-10b53d5.tar.gz
-_eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758
+_eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a
 _md5_=79e961d29e2e3cce574bc7b8037d14c3

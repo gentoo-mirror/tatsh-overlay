@@ -9,5 +9,5 @@ LICENSE=ISC
 RDEPEND=media-video/mpv:=[lua]
 SLOT=0
 SRC_URI=https://github.com/cvzi/mpv-youtube-upnext/archive/cfc0f79e2e5e423d2899b997c9ac0785e175038b.tar.gz -> mpv-youtube-upnext-20221129.tar.gz
-_eclasses_=mpv-plugin	a2bb2493b1a6671120053543dc64f758
+_eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a
 _md5_=3fd1aff59872fe7d39469795f8b35a5b
