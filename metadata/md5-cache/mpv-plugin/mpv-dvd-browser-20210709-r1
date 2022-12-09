@@ -6,8 +6,8 @@ INHERIT=mpv-plugin
 IUSE=+autoload
 KEYWORDS=~amd64 ~ppc64
 LICENSE=MIT
-RDEPEND=media-video/lsdvd mpv-plugin/mpv-scroll-list media-video/mpv:=[lua]
+RDEPEND=media-video/lsdvd mpv-plugin/mpv-scroll-list media-video/mpv[lua]
 SLOT=0
 SRC_URI=https://github.com/CogentRedTester/mpv-dvd-browser/archive/114417bbfa1fc6dd17162fa84cd1c0e5d78cc0dd.tar.gz -> mpv-dvd-browser-20210709.tar.gz
 _eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a
-_md5_=8c148f408ae775bf459c5975ef26af8a
+_md5_=6ae7ee3b2131ac50dce4937669de1cdd

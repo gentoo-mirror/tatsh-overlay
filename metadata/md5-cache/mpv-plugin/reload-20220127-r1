@@ -6,8 +6,8 @@ INHERIT=mpv-plugin
 IUSE=+autoload
 KEYWORDS=~amd64 ~ppc64
 LICENSE=all-rights-reserved
-RDEPEND=media-video/mpv:=[lua]
+RDEPEND=media-video/mpv[lua]
 SLOT=0
 SRC_URI=https://github.com/4e6/mpv-reload/archive/c1219b6ac3ee3de887e6a36ae41a8e478835ae92.tar.gz -> reload-20220127.tar.gz
 _eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a
-_md5_=8c2b7c72333f2b439054a5d263151ed8
+_md5_=86c468074ef2d4388b5a3513fb937fba
