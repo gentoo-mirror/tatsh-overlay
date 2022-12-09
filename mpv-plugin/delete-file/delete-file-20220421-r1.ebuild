@@ -3,18 +3,21 @@
 
 EAPI=8
 MPV_REQ_USE="lua"
+USE_MPV="rdepend"
+USE_MPV="rdepend"
 inherit mpv-plugin
 
 DESCRIPTION="Queue files for deletion on quit."
 HOMEPAGE="https://github.com/zenyd/mpv-scripts"
-SHA="10b53d507085ba2deda301b6fab3397eee275b71"
-SPECIAL_NAME="copyTime"
-SRC_URI="https://github.com/Arieleg/mpv-${SPECIAL_NAME}/archive/${SHA}.tar.gz -> ${PN}-${SHA:0:7}.tar.gz"
+SHA="19ea069abcb794d1bf8fac2f59b50d71ab992130"
+SRC_URI="https://github.com/zenyd/mpv-scripts/archive/${SHA}.tar.gz -> zenyd-mpv-scripts-${SHA:0:7}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~ppc64"
 
-MPV_PLUGIN_FILES=( copyTime.lua )
+MPV_PLUGIN_FILES=(
+	"${PN/-/_}.lua"
+)
 
-S="${WORKDIR}/mpv-${SPECIAL_NAME}-${SHA}"
+S="${WORKDIR}/mpv-scripts-${SHA}"
