@@ -5,5 +5,5 @@ HOMEPAGE=https://gist.github.com/agyild/7e8951915b2bf24526a9343d951db214
 KEYWORDS=~amd64
 LICENSE=MIT
 SLOT=0
-SRC_URI=https://gist.github.com/agyild/7e8951915b2bf24526a9343d951db214/archive/05f00864228871ffd157daa9beb2db8fa7412cfa.zip -> nvscaler-20220224.zip
+SRC_URI=https://gist.github.com/agyild/7e8951915b2bf24526a9343d951db214/archive/05f00864228871ffd157daa9beb2db8fa7412cfa.zip -> nvscaler-20221202.zip
 _md5_=bb9583dfcfe4e0775cd8c13d742bf0f9
