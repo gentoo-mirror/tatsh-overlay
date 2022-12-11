@@ -73,16 +73,16 @@ games-arcade/stepmania 5.1.0_beta2_p20221114: Advanced rhythm game. Designed for
 games-emulation/86box 3.11: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r4: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20221209: Wii U emulator.
-games-emulation/citra 20221208: A Nintendo 3DS emulator.
+games-emulation/citra 20221211: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.84.3: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.13.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20221207: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.58: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.25: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.460: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.461: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.7.71: Original Xbox emulator.
-games-emulation/yuzu 0.1259: Nintendo Switch emulator
+games-emulation/yuzu 0.1267: Nintendo Switch emulator
 games-misc/render96ex 20211128-r1: Fork of sm64-port with additional features (alpha branch).
 games-util/cdecrypt 4.7: Decrypt Wii U NUS content
 games-util/hid-nintendo 20220722: A Nintendo HID kernel module
@@ -138,7 +138,7 @@ mpv-plugin/mpv-libunity 20211123-r3: Shows progress on a panel following libunit
 mpv-plugin/mpv-netrc 20220629-r1: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20220718: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/mpv-sponsorblock 20220924-r1: mpv script to skip sponsored segments of YouTube videos
-mpv-plugin/mpv-youtube-upnext 20221129-r1: Play upcoming videos from YouTube.
+mpv-plugin/mpv-youtube-upnext 20221211: Play upcoming videos from YouTube.
 mpv-plugin/reload 20220127-r1: mpv plugin for automatic reloading of slow/stuck video streams
 mpv-plugin/shutup 20221210: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-shader/amd-fidelityfx-cas 20221201: AMD FidelityFX Contrast Adaptive Sharpening.
