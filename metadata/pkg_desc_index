@@ -66,13 +66,13 @@ dev-vcs/git-up 2.1.0_p20221121: Python implementation of git-up
 games-action/re3 20210902-r1: GTA III decompiled and re-built.
 games-action/relcs 20210902-r1: GTA Liberty City Stories decompiled and re-built.
 games-action/revc 20210902-r1: GTA Vice City decompiled and re-built.
-games-arcade/clone-hero 1.0.0.4080: Clone of Guitar Hero and similar games.
+games-arcade/clone-hero 1.0.0.4080-r1: Clone of Guitar Hero and similar games.
 games-arcade/outfox 0.4.18.1: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/outfox-serenity 2.0-r1: The community pack content for Project OutFox (includes volume 1.5)
 games-arcade/stepmania 5.1.0_beta2_p20221114: Advanced rhythm game. Designed for both home and arcade use
-games-emulation/86box 3.11: Emulator of x86-based machines based on PCem.
+games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r4: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20221209: Wii U emulator.
+games-emulation/cemu 2.0_p20221209-r1: Wii U emulator.
 games-emulation/citra 20221211: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 0.84.3: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.13.0: libretro-db tools from RetroArch.
@@ -82,7 +82,7 @@ games-emulation/play 0.58: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.25: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.461: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.7.71: Original Xbox emulator.
-games-emulation/yuzu 0.1267: Nintendo Switch emulator
+games-emulation/yuzu 0.1267-r1: Nintendo Switch emulator
 games-misc/render96ex 20211128-r1: Fork of sm64-port with additional features (alpha branch).
 games-util/cdecrypt 4.7: Decrypt Wii U NUS content
 games-util/hid-nintendo 20220722: A Nintendo HID kernel module
