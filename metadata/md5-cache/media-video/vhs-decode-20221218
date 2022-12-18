@@ -11,6 +11,6 @@ LICENSE=GPL-3
 RDEPEND=x11-libs/qwt:6 dev-qt/qtcore:5 dev-qt/qtwidgets:5 dev-qt/qtprintsupport:5 dev-qt/qtgui:5 dev-qt/qtconcurrent:5 dev-qt/qtopengl:5 dev-qt/qtsvg:5 sci-libs/fftw python_targets_python3_10? ( >=dev-lang/python-3.10.9:3.10 ) dev-python/numpy[python_targets_python3_10(-)?] dev-python/pandas[python_targets_python3_10(-)?] media-video/ffmpeg dev-python/scipy[python_targets_python3_10(-)?] gtk? ( dev-python/gooey[python_targets_python3_10(-)?] ) dev-python/numba[python_targets_python3_10(-)?] dev-python/samplerate[python_targets_python3_10(-)?] python_targets_python3_10? ( >=dev-lang/python-3.10.9:3.10 )
 REQUIRED_USE=|| ( python_targets_python3_10 )
 SLOT=0
-SRC_URI=https://github.com/oyvindln/vhs-decode/archive/962df796d870b4850be01a1555540657c0a1f4e9.tar.gz -> vhs-decode-20221206.tar.gz
+SRC_URI=https://github.com/oyvindln/vhs-decode/archive/3d045e24ff866738b96ecf732f725e2a49da0a5a.tar.gz -> vhs-decode-20221218.tar.gz
 _eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	8ed38f92fe095be374d6c4c8d4c0dda7	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057	desktop	7eb20ad915a0a318176d51bc2508ff5c	multibuild	d26d81f242cb193d899a72bca423d0bd	python-utils-r1	6a75203e8a499f0fb42971452ce15388	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	9c5f8e35fdc556c29573796aca3e87ea
-_md5_=c8450a467af35bf17f685fb66cb46b19
+_md5_=21ab551685021e8acd60b50b9a68dc93
