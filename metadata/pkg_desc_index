@@ -82,7 +82,7 @@ games-emulation/play 0.58: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.25: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.476: Experimental Nintendo Switch emulator written in C#
 games-emulation/xemu 0.7.71: Original Xbox emulator.
-games-emulation/yuzu 0.1267-r2: Nintendo Switch emulator
+games-emulation/yuzu 0.1275: Nintendo Switch emulator
 games-misc/render96ex 20211128-r1: Fork of sm64-port with additional features (alpha branch).
 games-util/cdecrypt 4.7: Decrypt Wii U NUS content
 games-util/hid-nintendo 20220722: A Nintendo HID kernel module
