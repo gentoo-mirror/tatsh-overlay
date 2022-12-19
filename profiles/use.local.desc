@@ -19,7 +19,6 @@ games-arcade/stepmania:bundled-songs - Installed bundled songs.
 games-arcade/stepmania:crash-handler - Enable crash handler
 games-arcade/stepmania:gles2 - Enable GLES2 support
 games-arcade/stepmania:gpl - Enable GPL-compatible build
-games-arcade/stepmania:lto - Enable LTO build.
 games-arcade/stepmania:minimaid - Enable support for Minimaid hardware.
 games-arcade/stepmania:networking - Enable networking support.
 games-arcade/stepmania:parallel-port - Enable parallel port-based input devices.
@@ -52,7 +51,6 @@ games-emulation/rpcs3:llvm - LLVM recompiler support
 games-emulation/rpcs3:vulkan - Enable Vulkan graphics library support
 games-emulation/xemu:aio - Add support for AIO
 games-emulation/xemu:io-uring - Enable efficient I/O via sys-libs/liburing
-games-emulation/xemu:lto - Enable link time optimisation (highly recommended)
 games-emulation/xemu:malloc-trim - Enable malloc_trim() support
 games-emulation/xemu:membarrier - Enable membarrier syscall support
 games-emulation/yuzu:compatibility-reporting - Enable compatibility reporting
@@ -156,7 +154,6 @@ www-plugins/bypass-paywalls:chromium - Install file for Chromium-based browsers
 x11-misc/rom-properties:achievements - Enable achievement pop-ups.
 x11-misc/rom-properties:astc - Enable ASTC texture support
 x11-misc/rom-properties:cli - Build rpcli command.
-x11-misc/rom-properties:lto - Enable link-time optimization.
 x11-misc/rom-properties:pvr - Enable the PowerVR Native SDK subset for PVRTC decompression.
 x11-misc/rom-properties:unice68 - Enable UnICE68 for Atari ST SNDH files (GPLv3).
 x11-misc/rom-properties:xbox-360 - Enable support for reading from Xbox 360 binaries
