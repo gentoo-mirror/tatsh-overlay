@@ -1,0 +1,17 @@
+BDEPEND=test? ( dev-python/python-dbusmock pam? ( sys-libs/pam_wrapper ) ) >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array virtual/pkgconfig
+DEFINED_PHASES=compile configure install postinst prepare setup test
+DEPEND=dev-libs/dbus-glib dev-libs/glib:2 >=sys-auth/libfprint-1.94.2 sys-auth/polkit systemd? ( sys-apps/systemd ) pam? ( sys-libs/pam ) dev-util/intltool gtk-doc? ( dev-util/gtk-doc dev-util/gtk-doc-am dev-libs/libxml2 )
+DESCRIPTION=D-Bus service to access fingerprint readers
+EAPI=8
+HOMEPAGE=https://cgit.freedesktop.org/libfprint/fprintd/
+INHERIT=meson pam python-single-r1 systemd
+IUSE=gtk-doc +pam static-libs systemd test python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10 python_single_target_python3_11
+KEYWORDS=~amd64 ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/dbus-glib dev-libs/glib:2 >=sys-auth/libfprint-1.94.2 sys-auth/polkit systemd? ( sys-apps/systemd ) pam? ( sys-libs/pam )
+REQUIRED_USE=systemd? ( pam ) test? ( ^^ ( python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10 python_single_target_python3_11 ) )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://gitlab.freedesktop.org/libfprint/fprintd/-/archive/v1.94.2/fprintd-1.94.2.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	8ed38f92fe095be374d6c4c8d4c0dda7	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	6a75203e8a499f0fb42971452ce15388	meson	1994a5aef5d4f5798b92f64d6f9a6003	flag-o-matic	69394e25812406faa1f90edaf4969395	pam	e44a1dd98f13e1ad76de01e919bde1f1	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8	systemd	5f4bb0758df2e483babf68cd517078ca
+_md5_=e15907460b3ef50aaf6f0a5f98701ef9

@@ -1,0 +1,16 @@
+BDEPEND=dev-python/cython:0[python_targets_python3_11(-)?] dev-python/wheel[python_targets_python3_11(-)?] dev-python/setuptools_scm[python_targets_python3_11(-)?] >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 python_targets_python3_11? ( >=dev-lang/python-3.11.1:3.11 ) >=dev-python/gpep517-9[python_targets_python3_11(-)?] >=dev-python/setuptools-65.5.1[python_targets_python3_11(-)?] >=dev-python/wheel-0.38.4[python_targets_python3_11(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=x11-libs/qwt:6 dev-qt/qtcore:5 dev-qt/qtwidgets:5 dev-qt/qtprintsupport:5 dev-qt/qtgui:5 dev-qt/qtconcurrent:5 dev-qt/qtopengl:5 dev-qt/qtsvg:5 sci-libs/fftw
+DESCRIPTION=Software defined VHS decoder.
+EAPI=8
+HOMEPAGE=https://github.com/oyvindln/vhs-decode
+INHERIT=cmake desktop distutils-r1
+IUSE=gtk python_targets_python3_11
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=x11-libs/qwt:6 dev-qt/qtcore:5 dev-qt/qtwidgets:5 dev-qt/qtprintsupport:5 dev-qt/qtgui:5 dev-qt/qtconcurrent:5 dev-qt/qtopengl:5 dev-qt/qtsvg:5 sci-libs/fftw python_targets_python3_11? ( >=dev-lang/python-3.11.1:3.11 ) dev-python/numpy[python_targets_python3_11(-)?] dev-python/pandas[python_targets_python3_11(-)?] media-video/ffmpeg dev-python/scipy[python_targets_python3_11(-)?] gtk? ( dev-python/gooey[python_targets_python3_11(-)?] ) dev-python/numba[python_targets_python3_11(-)?] dev-python/samplerate[python_targets_python3_11(-)?] python_targets_python3_11? ( >=dev-lang/python-3.11.1:3.11 )
+REQUIRED_USE=|| ( python_targets_python3_11 )
+SLOT=0
+SRC_URI=https://github.com/oyvindln/vhs-decode/archive/3d045e24ff866738b96ecf732f725e2a49da0a5a.tar.gz -> vhs-decode-20221218.tar.gz
+_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	8ed38f92fe095be374d6c4c8d4c0dda7	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057	desktop	7eb20ad915a0a318176d51bc2508ff5c	multibuild	d26d81f242cb193d899a72bca423d0bd	python-utils-r1	6a75203e8a499f0fb42971452ce15388	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	9c5f8e35fdc556c29573796aca3e87ea
+_md5_=9d97106a729b9c8fbb89fb6a0ca0f1d4
