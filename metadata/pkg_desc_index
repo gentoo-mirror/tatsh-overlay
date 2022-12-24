@@ -86,7 +86,6 @@ games-misc/render96ex 20211128-r1: Fork of sm64-port with additional features (a
 games-util/cdecrypt 4.7: Decrypt Wii U NUS content
 games-util/hid-nintendo 20220722: A Nintendo HID kernel module
 games-util/joystickwake 0.3: Joystick-aware screen waker.
-games-util/nut 3.3_p20221125: Multi-purpose utility to manage and install Switch files (NSP, NSZ, XCI, XCZ).
 games-util/raphnet-tech-adapter-manager 2.1.27: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20221201: Updated and improved Kate editor syntax files and code snippets.
@@ -141,9 +140,9 @@ mpv-plugin/mpv-sponsorblock 20220924-r1: mpv script to skip sponsored segments o
 mpv-plugin/mpv-youtube-upnext 20221214: Play upcoming videos from YouTube.
 mpv-plugin/reload 20220127-r1: mpv plugin for automatic reloading of slow/stuck video streams
 mpv-plugin/shutup 20221217: Set mpv to quiet when stdout/stdout is not a TTY.
-mpv-shader/amd-fidelityfx-cas 20221217: AMD FidelityFX Contrast Adaptive Sharpening.
-mpv-shader/amd-fidelityfx-super-resolution 20221217: AMD FidelityFX Super Resolution v1.0.2 for mpv.
-mpv-shader/nvscaler 20221212: NVIDIA image scaling v1.0.2 for mpv.
+mpv-shader/amd-fidelityfx-cas 20221217-r1: AMD FidelityFX Contrast Adaptive Sharpening.
+mpv-shader/amd-fidelityfx-super-resolution 20221217-r1: AMD FidelityFX Super Resolution v1.0.2 for mpv.
+mpv-shader/nvscaler 20221212-r1: NVIDIA image scaling v1.0.2 for mpv.
 net-dns/pihole 5.14.2: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.19.2-r2: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r2: Desktop chat client for Slack and Discord (not web-based).
