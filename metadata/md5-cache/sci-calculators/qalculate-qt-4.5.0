@@ -8,6 +8,6 @@ KEYWORDS=~amd64 ~ppc64
 LICENSE=GPL-2
 RDEPEND=sci-libs/libqalculate dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5
 SLOT=0
-SRC_URI=https://github.com/Qalculate/qalculate-qt/releases/download/v4.4.0/qalculate-qt-4.4.0.tar.gz -> qalculate-qt-4.4.0.tar.gz
+SRC_URI=https://github.com/Qalculate/qalculate-qt/releases/download/v4.5.0/qalculate-qt-4.5.0.tar.gz -> qalculate-qt-4.5.0.tar.gz
 _eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707
 _md5_=a3523923c47cbf21f7c41d8bc021f47d
