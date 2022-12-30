@@ -30,6 +30,9 @@ games-emulation/86box:fluidsynth - Use media-sound/fluidsynth for MIDI emulation
 games-emulation/86box:mt-32 - Use media-libs/munt-mt32emu for MT-32 emulation
 games-emulation/86box:new-dynrec - Use the PCem v15 ("new") dynamic recompiler
 games-emulation/bsnes-hd:libretro - Build libretro core
+games-emulation/cemu:cubeb - Enable cubeb audio support
+games-emulation/cemu:discord - Enable rich Discord presence
+games-emulation/cemu:vulkan - Enable Vulkan graphics support
 games-emulation/citra:web-service - Enable web services (telemetry, etc.)
 games-emulation/dosbox-x:core-inline - Enable memory-increasing inlines for better performance but requiring more build time
 games-emulation/dosbox-x:dynrec - Use recompiling cpu core instead of dynamic x86/x64 specific cpu core
