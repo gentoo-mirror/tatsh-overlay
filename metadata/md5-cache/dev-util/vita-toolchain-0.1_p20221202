@@ -1,0 +1,14 @@
+BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-libs/libyaml dev-libs/libzip sys-libs/zlib virtual/libelf
+DESCRIPTION=PS Vita toolchain.
+EAPI=8
+HOMEPAGE=https://github.com/vitasdk/vita-toolchain
+INHERIT=cmake
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-libs/libyaml dev-libs/libzip sys-libs/zlib virtual/libelf dev-util/psp2rela
+SLOT=0
+SRC_URI=https://github.com/vitasdk/vita-toolchain/archive/c938f0ffd94a8d10887a222849287a59ff1e1da9.tar.gz -> vita-toolchain-0.1_p20221202.tar.gz
+_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057
+_md5_=31eaeb8bc23cdc3cde8f73c5f52c8150

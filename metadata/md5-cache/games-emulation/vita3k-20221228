@@ -1,0 +1,14 @@
+BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-cpp/cli11 dev-cpp/yaml-cpp dev-libs/boost dev-libs/capstone dev-libs/libfmt dev-libs/openssl dev-libs/pugixml dev-libs/spdlog dev-libs/vulkan-memory-allocator dev-libs/xxhash dev-util/glslang dev-util/spirv-cross media-libs/cubeb media-libs/libsdl2 media-video/ffmpeg sys-apps/dbus sys-libs/zlib dev-libs/nativefiledialog-extended dev-util/vita-toolchain media-libs/libatrac9
+DESCRIPTION=Experimental PlayStation Vita emulator.
+EAPI=8
+HOMEPAGE=https://vita3k.org https://github.com/Vita3K/Vita3K
+INHERIT=cmake
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=dev-cpp/cli11 dev-cpp/yaml-cpp dev-libs/boost dev-libs/capstone dev-libs/libfmt dev-libs/openssl dev-libs/pugixml dev-libs/spdlog dev-libs/vulkan-memory-allocator dev-libs/xxhash dev-util/glslang dev-util/spirv-cross media-libs/cubeb media-libs/libsdl2 media-video/ffmpeg sys-apps/dbus sys-libs/zlib dev-libs/nativefiledialog-extended dev-util/vita-toolchain media-libs/libatrac9
+SLOT=0
+SRC_URI=https://github.com/Vita3K/Vita3K/archive/0df79bb8b28fdab012a4b471506662d024c802a4.tar.gz -> vita3k-20221228.tar.gz https://github.com/KorewaWatchful/crypto-algorithms/archive/cb9ea3fada60f9b01e9133d7db4d3e08171d0565.tar.gz -> crypto-algorithms-cb9ea3f.tar.gz https://github.com/Vita3K/dlmalloc/archive/e98f4ee160380d7c39dc1f04e7488bcf0770d391.tar.gz -> vita3k-dlmalloc-e98f4ee.tar.gz https://github.com/Vita3K/libfat16/archive/14ec3073358544c70b77702ff6394f09ce349c59.tar.gz -> vita3k-libfat16-14ec307.tar.gz https://github.com/Vita3K/unicorn/archive/66ab1e0ff2de668eaebba33f88ac54d363c866bf.tar.gz -> vita3k-unicorn-66ab1e0.tar.gz https://github.com/aantron/better-enums/archive/1e8f499ddff8eec43129ac974eebdfb745920643.tar.gz -> better-enums-0df79bb.tar.gz https://github.com/google/googletest/archive/71140c3ca7a87bb1b5b9c9f1500fea8858cce344.tar.gz -> googletest-71140c3.tar.gz https://github.com/nothings/stb/archive/8b5f1f37b5b75829fc72d38e7b5d4bcbf8a26d55.tar.gz -> stb-0df79bb.tar.gz https://github.com/ocornut/imgui/archive/e57871bb95faec757e51214bc0e1ae29b13258ab.tar.gz -> imgui-e57871b.tar.gz https://github.com/ocornut/imgui_club/archive/d4cd9896e15a03e92702a578586c3f91bbde01e8.tar.gz -> imgui-club-d4cd989.tar.gz
+_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057
+_md5_=1483f5d08e7f8f8a799c4d254bcd8d9a
