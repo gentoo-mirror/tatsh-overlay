@@ -21,6 +21,7 @@ app-vim/kotlin-vim 20220627: Kotlin plugin for Vim.
 app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20221214: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.1: Command line parser for C++11
+dev-cpp/tracy 0.9: C++ frame profiler
 dev-db/dbeaver-bin 22.3.1: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r1: CLI for SQLite Databases with auto-completion and syntax highlighting.
