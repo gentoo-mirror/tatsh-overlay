@@ -1,7 +1,7 @@
 acct-group/pihole 0: System group: pihole
 acct-user/pihole 0: user for pihole
 app-admin/awscli-plugin-endpoint 0.4-r1: Provides service endpoint configuration per service on profile.
-app-admin/padd 3.9.0: PADD provides in-depth information about your Pi-hole.
+app-admin/padd 3.10.0: PADD provides in-depth information about your Pi-hole.
 app-arch/bitrock-unpacker 20221124: Bitrock unpacking script.
 app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
@@ -29,7 +29,7 @@ dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
 dev-libs/librw 20221214: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
-dev-libs/nativefiledialog-extended 0_pre20210430-r1: File dialog library with C and C++ bindings, based on nativefiledialog
+dev-libs/nativefiledialog-extended 0_pre20221124: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 63-r1: Stuff used in tsschecker.
 dev-libs/vulkan-memory-allocator 3.0.1: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.5.4: Embedded SSL library.
@@ -59,7 +59,7 @@ dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.3.1: Node.js native addon build tool
 dev-util/psp2rela 20220929: The module relocation config optimization tool.
 dev-util/vita-toolchain 0.1_p20221202: PS Vita toolchain.
-dev-util/wakatime-cli 1.60.1: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.60.4: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20221222: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.9: Mirror Git repositories to other Git providers.
@@ -85,7 +85,7 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator c
 games-emulation/mupen64plus-video-gliden64 4.0_p20221225: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.58: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.25: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.489: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.502: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20221228-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.71-r2: Original Xbox emulator.
 games-emulation/yuzu 0.1291: Nintendo Switch emulator
