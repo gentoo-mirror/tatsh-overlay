@@ -38,7 +38,7 @@ dev-python/colored 1.4.4-r1: Very simple Python library for color and formatting
 dev-python/gooey 1.0.8.1-r1: Turn (almost) any command line program into a full GUI application with one line.
 dev-python/hidapi 0.12.0.2-r1: Python wrapper for hidapi.
 dev-python/llvmlite 0.39.1_p20221205-r1: A lightweight LLVM python binding for writing JIT compilers
-dev-python/numba 0.56.4-r1: NumPy aware dynamic Python compiler using LLVM
+dev-python/numba 0.56.4-r2: NumPy aware dynamic Python compiler using LLVM
 dev-python/pygtrie 2.5.0-r1: A pure Python trie data structure implementation.
 dev-python/pyhht 0.1.0-r1: A Python module for the Hilbert Huang Transform.
 dev-python/re-wx 0.0.10-r1: A library for building modern declarative desktop applications in WX.
