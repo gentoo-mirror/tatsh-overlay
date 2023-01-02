@@ -27,24 +27,20 @@ dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r1: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
-dev-libs/librw 20221214: A re-implementation of the RenderWare Graphics engine.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/nativefiledialog-extended 0_pre20221124: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 63-r1: Stuff used in tsschecker.
 dev-libs/vulkan-memory-allocator 3.0.1: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.5.4: Embedded SSL library.
 dev-libs/xbyak 6.68: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
-dev-python/asn1 2.6.0-r1: Simple ASN.1 encoder/decoder.
 dev-python/benc 2019.8.1-r2: Bencoder in 100 lines of modern Python
 dev-python/colored 1.4.4-r1: Very simple Python library for color and formatting in terminal
 dev-python/gooey 1.0.8.1-r1: Turn (almost) any command line program into a full GUI application with one line.
 dev-python/hidapi 0.12.0.2-r1: Python wrapper for hidapi.
 dev-python/llvmlite 0.39.1_p20221205-r1: A lightweight LLVM python binding for writing JIT compilers
 dev-python/numba 0.56.4-r1: NumPy aware dynamic Python compiler using LLVM
-dev-python/pycryptoplus 0.0.1-r1: Cipher extension (used by games-util/nut).
 dev-python/pygtrie 2.5.0-r1: A pure Python trie data structure implementation.
 dev-python/pyhht 0.1.0-r1: A Python module for the Hilbert Huang Transform.
-dev-python/qt-range-slider 0.2.7-r1: Qt widget-slider with two thumbs (min/max values).
 dev-python/re-wx 0.0.10-r1: A library for building modern declarative desktop applications in WX.
 dev-python/requests-futures 1.0.0-r3: Asynchronous Python HTTP for Humans.
 dev-python/samplerate 0.1.0-r1: 
@@ -89,7 +85,6 @@ games-emulation/xemu 0.7.71-r2: Original Xbox emulator.
 games-emulation/yuzu 0.1291: Nintendo Switch emulator
 games-misc/render96ex 20211128-r2: Fork of sm64-port with additional features (alpha branch).
 games-util/cdecrypt 4.7: Decrypt Wii U NUS content
-games-util/hid-nintendo 20220722: A Nintendo HID kernel module
 games-util/joystickwake 0.3-r1: Joystick-aware screen waker.
 games-util/raphnet-tech-adapter-manager 2.1.27: Graphical user interface and command-line tools to manage raphnet adapters.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
