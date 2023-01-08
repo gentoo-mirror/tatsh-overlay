@@ -7,6 +7,6 @@ KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=media-video/mpv[opengl]
 SLOT=0
-SRC_URI=https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5/archive/2623d743b9c23f500ba086f05b385dcb1557e15d.zip -> amd-fidelityfx-super-resolution-20221231.zip
+SRC_URI=https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5/archive/2623d743b9c23f500ba086f05b385dcb1557e15d.zip -> amd-fidelityfx-super-resolution-20230107.zip
 _eclasses_=mpv-shader	d83d0a2eecc1c86cffc64acb97958d61
 _md5_=5cadb10e18818f0238d4fdc4a4a37f2a
