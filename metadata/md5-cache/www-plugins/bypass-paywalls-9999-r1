@@ -7,4 +7,4 @@ KEYWORDS=~amd64 ~arm64
 LICENSE=all-rights-reserved
 REQUIRED_USE=|| ( chrome chromium )
 SLOT=0
-_md5_=6129142e642ff21648f39eb1dd6f6fee
+_md5_=36f267a50e2abf10d5c1bba2443738f7

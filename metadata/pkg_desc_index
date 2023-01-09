@@ -1,6 +1,6 @@
 acct-group/pihole 0: System group: pihole
 acct-user/pihole 0: user for pihole
-app-admin/awscli-plugin-endpoint 0.4-r1: Provides service endpoint configuration per service on profile.
+app-admin/awscli-plugin-endpoint 0.4-r2: Provides service endpoint configuration per service on profile.
 app-admin/padd 3.10.0: PADD provides in-depth information about your Pi-hole.
 app-arch/bitrock-unpacker 20221124: Bitrock unpacking script.
 app-arch/unalz 0.65: Unpack ALZ archives.
@@ -157,7 +157,7 @@ sys-auth/libfprint 1.94.5: Library to add support for consumer fingerprint reade
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
 www-apps/pihole-admin-lte 5.18: Pi-hole Dashboard for stats and more
 www-apps/wakapi 2.6.0: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
-www-plugins/bypass-paywalls 9999: Bypass Paywalls browser extension.
-x11-misc/mimeo 2022.7-r1: Open files by MIME-type or file name using regular expressions.
+www-plugins/bypass-paywalls 9999-r1: Bypass Paywalls browser extension.
+x11-misc/mimeo 2022.7-r2: Open files by MIME-type or file name using regular expressions.
 x11-misc/rom-properties 2.1: Shell extension for file managers to manage game ROMs and disc images.
 x11-themes/apple-cursor 2.0.0: macOS cursor theme.
