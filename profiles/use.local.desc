@@ -51,9 +51,6 @@ games-emulation/rpcs3:faudio - Enable audio rendering with app-emulation/faudio
 games-emulation/rpcs3:joystick - Enable support for input devices with evdev
 games-emulation/rpcs3:llvm - LLVM recompiler support
 games-emulation/rpcs3:vulkan - Enable Vulkan graphics library support
-games-emulation/vita3k:compatibility-reporting - Enable compatibility reporting
-games-emulation/vita3k:cubeb - Build with cubeb audio backend
-games-emulation/vita3k:web-service - Enable web-services
 games-emulation/xemu:aio - Add support for AIO
 games-emulation/xemu:io-uring - Enable efficient I/O via sys-libs/liburing
 games-emulation/xemu:malloc-trim - Enable malloc_trim() support
@@ -135,6 +132,7 @@ media-video/vapoursynth:vspipe - Build vspipe command.
 media-video/vapoursynth:vsscript - Enable VSScript.
 media-video/vapoursynth:x86-asm - Enable assembler code for x86 CPUs (requires dev-lang/yasm).
 mpv-plugin/delete-file:autoload - Auto-load the plugin
+mpv-plugin/mpv-copytime:autoload - Auto-load the plugin
 mpv-plugin/mpv-dvd-browser:autoload - Auto-load the plugin
 mpv-plugin/mpv-libunity:autoload - Auto-load the plugin
 mpv-plugin/mpv-netrc:autoload - Auto-load the plugin
@@ -146,7 +144,7 @@ net-dns/pihole:cron - Installs cron job
 net-dns/pihole:www - Install www files (requires PHP hosting)
 sys-apps/kylemanna-systemd-utils:amazon - Install Amazon Cloud Drive service
 sys-apps/kylemanna-systemd-utils:btrfs - Install units for btrfs
-sys-apps/kylemanna-systemd-utils:cmsis-dap - 
+sys-apps/kylemanna-systemd-utils:cmsis-dap - Unknown
 sys-apps/kylemanna-systemd-utils:crashplan - Install timer for Crashplan
 sys-apps/kylemanna-systemd-utils:kodi - Install service to start Kodi
 sys-apps/kylemanna-systemd-utils:papertrail - Install Papertrail service

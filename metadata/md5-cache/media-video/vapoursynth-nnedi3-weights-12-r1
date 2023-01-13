@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=nnedi3 weights.bin file
+EAPI=8
+HOMEPAGE=https://github.com/dubhater/vapoursynth-nnedi3
+KEYWORDS=~amd64 ~ppc64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=https://github.com/dubhater/vapoursynth-nnedi3/archive/v12.tar.gz -> vapoursynth-nnedi3-weights-12.tar.gz
+_md5_=7ce0e3f57b04d2173cf7a751c0280927

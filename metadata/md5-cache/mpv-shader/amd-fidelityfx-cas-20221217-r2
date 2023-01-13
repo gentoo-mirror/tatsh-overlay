@@ -1,3 +1,4 @@
+BDEPEND=app-arch/unzip
 DEFINED_PHASES=install postinst
 DESCRIPTION=AMD FidelityFX Contrast Adaptive Sharpening.
 EAPI=8
@@ -8,5 +9,5 @@ LICENSE=MIT
 RDEPEND=media-video/mpv[opengl]
 SLOT=0
 SRC_URI=https://gist.github.com/agyild/bbb4e58298b2f86aa24da3032a0d2ee6/archive/10e4ca1b6ef173b64391ce2c81b9a95fcd095931.zip -> amd-fidelityfx-cas-20221217.zip
-_eclasses_=mpv-shader	d83d0a2eecc1c86cffc64acb97958d61
-_md5_=1ab6a54b21d5a5a2139886ba8ffad583
+_eclasses_=mpv-shader	d14c41d038360b1cc1ed430caa41c648
+_md5_=5fa2d3ffd7e6b9ead23eac8f4cfb8b56

@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-libs/glib media-libs/fontconfig media-libs/freetype media-libs/harfbuzz media-libs/libglvnd media-libs/libsdl2 x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+:2 x11-libs/gtksourceview:2.0 x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr x11-libs/pango ao? ( media-libs/libao ) openal? ( media-libs/openal ) alsa? ( media-libs/alsa-lib ) xv? ( x11-libs/libXv ) opengl? ( virtual/opengl ) pulseaudio? ( media-libs/libpulse ) sdl? ( media-libs/libsdl[X,joystick,video] ) udev? ( virtual/udev )
+DESCRIPTION=bsnes fork that adds HD video features.
+EAPI=8
+HOMEPAGE=https://github.com/DerKoun/bsnes-hd
+INHERIT=desktop toolchain-funcs
+IUSE=ao +alsa libretro openal opengl oss pulseaudio +sdl udev xv
+KEYWORDS=~amd64 ~ppc64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-libs/glib media-libs/fontconfig media-libs/freetype media-libs/harfbuzz media-libs/libglvnd media-libs/libsdl2 x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+:2 x11-libs/gtksourceview:2.0 x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr x11-libs/pango ao? ( media-libs/libao ) openal? ( media-libs/openal ) alsa? ( media-libs/alsa-lib ) xv? ( x11-libs/libXv ) opengl? ( virtual/opengl ) pulseaudio? ( media-libs/libpulse ) sdl? ( media-libs/libsdl[X,joystick,video] ) udev? ( virtual/udev )
+REQUIRED_USE=|| ( ao openal alsa pulseaudio oss ) || ( xv opengl sdl )
+SLOT=0
+SRC_URI=https://github.com/DerKoun/bsnes-hd/archive/beta_10_6.tar.gz -> bsnes-hd-10.6_beta.tar.gz
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_md5_=350b2a52ef3ca552c9c9048987881b0c

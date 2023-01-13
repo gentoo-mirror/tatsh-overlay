@@ -1,15 +1,15 @@
-BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
-DEFINED_PHASES=compile configure install postinst prepare test unpack
+BDEPEND=app-arch/unzip >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123 >=media-libs/glfw-3.3.2 opus? ( media-libs/opus media-libs/opusfile ) sndfile? ( media-libs/libsndfile )
-DESCRIPTION=GTA III decompiled and re-built.
+DESCRIPTION=GTA Liberty City Stories decompiled and re-built.
 EAPI=8
-HOMEPAGE=https://github.com/GTAmodding/re3
+HOMEPAGE=https://github.com/GTAmodding/re3/tree/lcs
 INHERIT=cmake
 IUSE=opus sanitizer sndfile
 KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~x86
 LICENSE=MIT
 RDEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123 >=media-libs/glfw-3.3.2 opus? ( media-libs/opus media-libs/opusfile ) sndfile? ( media-libs/libsndfile )
 SLOT=0
-SRC_URI=https://web.archive.org/web/20210906122012/https://github.com/GTAmodding/re3/archive/3233ffe1c4b99e8efb4c41c6794b4fce880cf503.zip -> re3-20210902.zip https://github.com/aap/librw/archive/5501c4fdc7425ff926be59369a13593bb6c81b54.tar.gz -> re3-librw-5501c4fdc7425ff926be59369a13593bb6c81b54.tar.gz
+SRC_URI=https://web.archive.org/web/20210903220219/https://github.com/GTAmodding/re3/archive/33abd1b4e7a7b19e2d09c796c481c3325c1e2902.zip -> relcs-20210902.zip https://github.com/aap/librw/archive/5501c4fdc7425ff926be59369a13593bb6c81b54.tar.gz -> relcs-librw-5501c4fdc7425ff926be59369a13593bb6c81b54.tar.gz
 _eclasses_=toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	449b4785acace35308fe747fc939bde1
-_md5_=47a87105035c8074a4fcdba5627cef26
+_md5_=62386f4e977006d8ab5b61e88491d0c9
