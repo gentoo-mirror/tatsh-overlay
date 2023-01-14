@@ -86,6 +86,7 @@ games-emulation/yuzu 0.1300-r1: Nintendo Switch emulator
 games-misc/render96ex 20211128-r3: Fork of sm64-port with additional features (alpha branch).
 games-util/cdecrypt 4.7-r1: Decrypt Wii U NUS content
 games-util/joystickwake 0.3-r1: Joystick-aware screen waker.
+games-util/kelftool 20210331: Utility for decrypt, encrypt and sign PS2 KELF and PSX KELF files.
 games-util/raphnet-tech-adapter-manager 2.1.27-r1: Graphical user interface and command-line tools to manage raphnet adapters.
 games-util/wiimms-iso-tools 3.05a: A set of command line tools to maniuplate Wii/Gamecube images.
 games-util/wiimms-szs-tools 2.32a: A set of command line tools to maniuplate files of various Nintendo titles.

@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare
+DEPEND=dev-libs/openssl
+DESCRIPTION=Utility for decrypt, encrypt and sign PS2 KELF and PSX KELF files.
+EAPI=8
+HOMEPAGE=https://github.com/parrado/kelftool
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=dev-libs/openssl
+SLOT=0
+SRC_URI=https://github.com/parrado/kelftool/archive/befdc6b103cedae7ba11ba55b28bdd6f60f90533.tar.gz -> kelftool-20210331.tar.gz
+_md5_=ef3cfcd264a7594d3a8a55a224140506
