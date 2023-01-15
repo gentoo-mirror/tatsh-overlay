@@ -1,15 +1,16 @@
 BDEPEND=virtual/pkgconfig gtk-doc? ( dev-util/gtk-doc ) introspection? ( dev-libs/gobject-introspection ) >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array virtual/pkgconfig
 DEFINED_PHASES=compile configure install test
-DEPEND=virtual/libusb:1= x11-libs/gtk+:3 x11-libs/libX11 x11-libs/libXv dev-libs/glib:2 dev-libs/libgusb dev-libs/libgudev dev-libs/nss x11-libs/pixman
+DEPEND=virtual/libusb:1= x11-libs/gtk+:3 x11-libs/libX11 x11-libs/libXv dev-libs/glib:2 dev-libs/libgusb dev-libs/libgudev dev-libs/nss x11-libs/pixman test? ( x11-libs/cairo )
 DESCRIPTION=Library to add support for consumer fingerprint readers
 EAPI=8
 HOMEPAGE=https://cgit.freedesktop.org/libfprint/libfprint/ https://github.com/freedesktop/libfprint https://gitlab.freedesktop.org/libfprint/libfprint
 INHERIT=meson udev
-IUSE=examples gtk-doc +introspection
+IUSE=examples gtk-doc +introspection test
 KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
 LICENSE=LGPL-2.1+
 RDEPEND=virtual/libusb:1= x11-libs/gtk+:3 x11-libs/libX11 x11-libs/libXv
+RESTRICT=!test? ( test )
 SLOT=2
 SRC_URI=https://github.com/freedesktop/libfprint/archive/refs/tags/v1.94.5.tar.gz -> libfprint-1.94.5.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	a1a985ddd8795a8634b4b7f820b93143	meson	1994a5aef5d4f5798b92f64d6f9a6003	udev	eec0bbab06977f1cfc5597269c1fa152
-_md5_=88d0c8568147a66a82d8b566237ea993
+_md5_=8b80b9ef6577bb379e143db6cb382266
