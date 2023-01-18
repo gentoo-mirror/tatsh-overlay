@@ -68,22 +68,22 @@ games-action/revc 20210902-r2: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 1.0.0.4080-r1: Clone of Guitar Hero and similar games.
 games-arcade/outfox 0.4.18.1-r1: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/outfox-serenity 2.0-r1: The community pack content for Project OutFox (includes volume 1.5)
-games-arcade/stepmania 5.1.0_beta2_p20221114-r3: Advanced rhythm game. Designed for both home and arcade use
+games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
-games-emulation/bsnes-hd 10.6_beta-r5: bsnes fork that adds HD video features.
+games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230113: Wii U emulator.
 games-emulation/citra 20230110-r1: A Nintendo 3DS emulator.
-games-emulation/dosbox-x 2022.12.26: Cross-platform DOS emulation package.
+games-emulation/dosbox-x 2022.12.26-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.14.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20230114: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20230114-r1: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.58: PlayStation 2 emulator.
-games-emulation/rpcs3 0.0.26-r1: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.558: Experimental Nintendo Switch emulator written in C#
+games-emulation/rpcs3 0.0.26-r2: PS3 emulator and debugger.
+games-emulation/ryujinx 1.1.558-r1: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230106: Experimental PlayStation Vita emulator.
-games-emulation/xemu 0.7.77: Original Xbox emulator.
+games-emulation/xemu 0.7.77-r1: Original Xbox emulator.
 games-emulation/yuzu 0.1307: Nintendo Switch emulator
-games-misc/render96ex 20211128-r3: Fork of sm64-port with additional features (alpha branch).
+games-misc/render96ex 20211128-r4: Fork of sm64-port with additional features (alpha branch).
 games-util/cdecrypt 4.7-r1: Decrypt Wii U NUS content
 games-util/joystickwake 0.3-r1: Joystick-aware screen waker.
 games-util/kelftool 20210331: Utility for decrypt, encrypt and sign PS2 KELF and PSX KELF files.
@@ -96,7 +96,7 @@ kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
 media-fonts/iosevka 17.0.4: Slender typeface for code, from code
 media-fonts/noto 20220810: Google's font family that aims to support all the world's languages
-media-gfx/flash-player-projector 32.0.0.465-r2: Stand-alone viewer of SWF files.
+media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r2: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728: SRMD super resolution implemented with ncnn library.
@@ -148,7 +148,7 @@ mpv-shader/amd-fidelityfx-super-resolution 20230113: AMD FidelityFX Super Resolu
 mpv-shader/nvscaler 20230105-r1: NVIDIA image scaling v1.0.2 for mpv.
 net-dns/pihole 5.14.2: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.20: The Pi-hole FTL engine
-net-im/ripcord 0.4.29-r3: Desktop chat client for Slack and Discord (not web-based).
+net-im/ripcord 0.4.29-r4: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.10.6-r1: Declarative configuration for Gmail filters
 net-p2p/xirvik-tools 0.3.1-r4: Tools for Xirvik servers.
 net-proxy/charles 4.6.3-r1: Web debugging proxy application.
