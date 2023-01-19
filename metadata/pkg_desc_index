@@ -105,7 +105,7 @@ media-sound/hifi-decode 20221008-r2: Software defined VHS HiFi decoder.
 media-sound/sony-headphones-client 1.2-r3: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
 media-video/cxadc 20230109: CX2388x direct ADC capture driver.
-media-video/domesday-duplicator 20221226-r1: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
+media-video/domesday-duplicator 20221226-r2: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
 media-video/ffms2 2.40_p20220618: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
 media-video/fmtconv 30_p20221107: Format conversion tools for Vapoursynth
