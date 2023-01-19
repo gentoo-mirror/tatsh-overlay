@@ -145,7 +145,10 @@ mpv-plugin/reload 20220127-r1: mpv plugin for automatic reloading of slow/stuck 
 mpv-plugin/shutup 20230109: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-shader/amd-fidelityfx-cas 20221217-r2: AMD FidelityFX Contrast Adaptive Sharpening.
 mpv-shader/amd-fidelityfx-super-resolution 20230113: AMD FidelityFX Super Resolution v1.0.2 for mpv.
+mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
+mpv-shader/krig-bilateral 20230113: Shader for mpv.
 mpv-shader/nvscaler 20230105-r1: NVIDIA image scaling v1.0.2 for mpv.
+mpv-shader/ssim-downscaler 20230113: Downscaler shader for mpv.
 net-dns/pihole 5.14.2: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.20: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r4: Desktop chat client for Slack and Discord (not web-based).
