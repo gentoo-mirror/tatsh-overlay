@@ -11,5 +11,5 @@ RDEPEND=media-libs/alsa-lib sys-libs/zlib x11-libs/wxGTK:3.0-gtk3 dev-libs/glib 
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://pubdl.clonehero.net/clonehero-v1.0.0.4080-final/clonehero-linux.tar.xz -> clone-hero-1.0.0.4080.tar.xz
-_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	wxwidgets	c09e9b94378cadaf6ef86ec1534c0fd6	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
 _md5_=6fd9cc6c9f8b1730d89528a05ce6d602
