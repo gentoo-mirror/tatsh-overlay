@@ -7,5 +7,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=dev-libs/openssl
 SLOT=0
-SRC_URI=https://github.com/parrado/kelftool/archive/befdc6b103cedae7ba11ba55b28bdd6f60f90533.tar.gz -> kelftool-20210331.tar.gz
-_md5_=ef3cfcd264a7594d3a8a55a224140506
+SRC_URI=https://github.com/parrado/kelftool/archive/6b9b471388626c4a576c7d7d67b8664c00fcd024.tar.gz -> kelftool-20191126.tar.gz
+_md5_=02e83e24a46984b1264ca549aa696701

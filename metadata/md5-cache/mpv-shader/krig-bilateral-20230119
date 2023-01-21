@@ -8,6 +8,6 @@ KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=media-video/mpv[opengl]
 SLOT=0
-SRC_URI=https://gist.github.com/igv/a015fc885d5c22e6891820ad89555637/archive/7c151e0af2281ae6657809be1f3c5efe0e325c38.zip -> krig-bilateral-20230113.zip
+SRC_URI=https://gist.github.com/igv/a015fc885d5c22e6891820ad89555637/archive/7c151e0af2281ae6657809be1f3c5efe0e325c38.zip -> krig-bilateral-20230119.zip
 _eclasses_=mpv-shader	d14c41d038360b1cc1ed430caa41c648
 _md5_=f89b7989a43a35e8e517139bf73b133d

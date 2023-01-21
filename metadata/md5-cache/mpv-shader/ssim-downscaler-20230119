@@ -8,6 +8,6 @@ KEYWORDS=~amd64
 LICENSE=LGPL-3
 RDEPEND=media-video/mpv[opengl]
 SLOT=0
-SRC_URI=https://gist.github.com/igv/36508af3ffc84410fe39761d6969be10/archive/6998ff663a135376dbaeb6f038e944d806a9b9d9.zip -> ssim-downscaler-20230113.zip
+SRC_URI=https://gist.github.com/igv/36508af3ffc84410fe39761d6969be10/archive/6998ff663a135376dbaeb6f038e944d806a9b9d9.zip -> ssim-downscaler-20230119.zip
 _eclasses_=mpv-shader	d14c41d038360b1cc1ed430caa41c648
 _md5_=83e5ad7df2567ee2eb5379adbcbde94d
