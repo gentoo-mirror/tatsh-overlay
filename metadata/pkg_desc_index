@@ -1,7 +1,7 @@
 acct-group/pihole 0: System group: pihole
 acct-user/pihole 0: user for pihole
 app-admin/awscli-plugin-endpoint 0.4-r2: Provides service endpoint configuration per service on profile.
-app-admin/padd 3.10.0: PADD provides in-depth information about your Pi-hole.
+app-admin/padd 3.10.1: PADD provides in-depth information about your Pi-hole.
 app-arch/bitrock-unpacker 20221124: Bitrock unpacking script.
 app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
@@ -53,7 +53,7 @@ dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesys
 dev-util/flips 20221224: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.3.1: Node.js native addon build tool
-dev-util/wakatime-cli 1.60.4: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.61.1: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230117: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.11: Mirror Git repositories to other Git providers.
@@ -89,7 +89,7 @@ games-util/joystickwake 0.3-r1: Joystick-aware screen waker.
 games-util/kelftool 20191126: Utility for decrypt, encrypt and sign PS2 KELF and PSX KELF files.
 games-util/raphnet-tech-adapter-manager 2.1.27-r1: Graphical user interface and command-line tools to manage raphnet adapters.
 games-util/wiimms-iso-tools 3.05a: A set of command line tools to maniuplate Wii/Gamecube images.
-games-util/wiimms-szs-tools 2.32a: A set of command line tools to maniuplate files of various Nintendo titles.
+games-util/wiimms-szs-tools 2.33a: A set of command line tools to maniuplate files of various Nintendo titles.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20221201: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
@@ -149,7 +149,7 @@ mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
 mpv-shader/krig-bilateral 20230119: Shader for mpv.
 mpv-shader/nvscaler 20230105-r1: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20230119: Downscaler shader for mpv.
-net-dns/pihole 5.14.2: Network-wide ad blocking (core).
+net-dns/pihole 5.15: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.20.1: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r4: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.10.6-r1: Declarative configuration for Gmail filters
@@ -161,8 +161,8 @@ sys-apps/usbkill 1.0_rc4_p20160730-r2: An kill-switch that waits for a change on
 sys-auth/fprintd 1.94.2-r2: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.5-r2: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
-www-apps/pihole-admin-lte 5.18: Pi-hole Dashboard for stats and more
-www-apps/wakapi 2.6.0-r1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+www-apps/pihole-admin-lte 5.18.1: Pi-hole Dashboard for stats and more
+www-apps/wakapi 2.6.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999-r1: Bypass Paywalls browser extension.
 x11-misc/mimeo 2022.7-r2: Open files by MIME-type or file name using regular expressions.
 x11-misc/rom-properties 2.1-r1: Shell extension for file managers to manage game ROMs and disc images.

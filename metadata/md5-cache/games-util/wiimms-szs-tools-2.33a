@@ -7,5 +7,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=dev-libs/openssl sys-libs/ncurses sys-libs/zlib
 SLOT=0
-SRC_URI=https://github.com/Wiimm/wiimms-szs-tools/archive/7d8344f3637d59b982c2ca0b1d8fd2889ec5d4a6.tar.gz -> wiimms-szs-tools-2.32a.tar.gz
-_md5_=6dc0ae925d8c2d1025f3c6f54ef23fdb
+SRC_URI=https://github.com/Wiimm/wiimms-szs-tools/archive/f978a965248a5a082d6801ef394bdebb55c78e4f.tar.gz -> wiimms-szs-tools-2.33a.tar.gz
+_md5_=5f9d0af9ff367839947e4a25740b019c
