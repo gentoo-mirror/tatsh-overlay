@@ -56,7 +56,7 @@ dev-util/node-gyp 9.3.1: Node.js native addon build tool
 dev-util/wakatime-cli 1.61.1: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230117: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
-dev-vcs/gickup 0.10.11: Mirror Git repositories to other Git providers.
+dev-vcs/gickup 0.10.12: Mirror Git repositories to other Git providers.
 dev-vcs/git-extras 6.4.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.33.0: Quickly rewrite git repository history (filter-branch replacement)
 dev-vcs/git-radar 0.6_p20170108: A heads up display for Git.
@@ -72,17 +72,17 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed 
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230113: Wii U emulator.
-games-emulation/citra 20230115: A Nintendo 3DS emulator.
+games-emulation/citra 20230122: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2022.12.26-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.14.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20230114-r1: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.58: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.26-r2: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.582: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.590: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230120: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.83: Original Xbox emulator.
-games-emulation/yuzu 0.1315: Nintendo Switch emulator
+games-emulation/yuzu 0.1316: Nintendo Switch emulator
 games-misc/render96ex 20211128-r4: Fork of sm64-port with additional features (alpha branch).
 games-util/cdecrypt 4.7-r1: Decrypt Wii U NUS content
 games-util/joystickwake 0.3-r1: Joystick-aware screen waker.
@@ -127,7 +127,7 @@ media-video/vapoursynth-msmoosh 1.1: MSharpen and MSmooth for VapourSynth
 media-video/vapoursynth-mvtools 23-r1: Motion compensation, etc for VapourSynth.
 media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12-r1: nnedi3 weights.bin file
-media-video/vhs-decode 20230116: Software defined VHS decoder.
+media-video/vhs-decode 20230122: Software defined VHS decoder.
 media-video/video2x 4.8.1-r5: A lossless video/GIF/image upscaler.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
