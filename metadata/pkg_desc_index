@@ -149,7 +149,7 @@ mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
 mpv-shader/krig-bilateral 20230119: Shader for mpv.
 mpv-shader/nvscaler 20230105-r1: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20230119: Downscaler shader for mpv.
-net-dns/pihole 5.15: Network-wide ad blocking (core).
+net-dns/pihole 5.15.2: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.20.1: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r4: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.10.6-r1: Declarative configuration for Gmail filters
