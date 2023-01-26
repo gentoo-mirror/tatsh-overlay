@@ -157,6 +157,7 @@ net-p2p/xirvik-tools 0.3.1-r4: Tools for Xirvik servers.
 net-proxy/charles 4.6.3-r1: Web debugging proxy application.
 sci-calculators/qalculate-qt 4.5.1-r1: Qt-based UI for libqalculate.
 sys-apps/kylemanna-systemd-utils 20220116: Random systemd utilities.
+sys-apps/tinkup 1.0_p20220425: Firmware update utility for the RetroTINK family of retro gaming devices.
 sys-apps/usbkill 1.0_rc4_p20160730-r2: An kill-switch that waits for a change on your USB ports.
 sys-auth/fprintd 1.94.2-r2: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.5-r2: Library to add support for consumer fingerprint readers
