@@ -4,7 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{8..11} )
-inherit python-r1
+inherit python-single-r1
 
 DESCRIPTION="Firmware update utility for the RetroTINK family of retro gaming devices."
 HOMEPAGE="https://github.com/rmull/tinkup"
@@ -17,12 +17,12 @@ KEYWORDS="~amd64"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="${PYTHON_DEPS}
-	dev-python/pyserial[${PYTHON_USEDEP}]"
+	$(python_gen_cond_dep 'dev-python/pyserial[${PYTHON_USEDEP}]')"
 DEPEND="${RDPEND}"
 
 S="${WORKDIR}/${PN}-${SHA}"
 
 src_install() {
-	python_foreach_impl python_newscript "${PN}.py" "${PN}"
+	python_newscript "${PN}.py" "${PN}"
 	einstalldocs
 }
