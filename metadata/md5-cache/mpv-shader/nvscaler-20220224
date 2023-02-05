@@ -8,6 +8,6 @@ KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=media-video/mpv[opengl]
 SLOT=0
-SRC_URI=https://gist.github.com/agyild/7e8951915b2bf24526a9343d951db214/archive/05f00864228871ffd157daa9beb2db8fa7412cfa.zip -> nvscaler-20230124.zip
+SRC_URI=https://gist.github.com/agyild/7e8951915b2bf24526a9343d951db214/archive/05f00864228871ffd157daa9beb2db8fa7412cfa.zip -> nvscaler-20220224.zip
 _eclasses_=mpv-shader	d14c41d038360b1cc1ed430caa41c648
 _md5_=0e852f9c1265353c4f62ea9944586f70

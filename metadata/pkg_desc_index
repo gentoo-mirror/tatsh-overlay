@@ -41,7 +41,7 @@ dev-python/llvmlite 0.39.1_p20230116: A lightweight LLVM python binding for writ
 dev-python/numba 0.56.4-r2: NumPy aware dynamic Python compiler using LLVM
 dev-python/pygtrie 2.5.0-r2: A pure Python trie data structure implementation.
 dev-python/pyhht 0.1.0-r1: A Python module for the Hilbert Huang Transform.
-dev-python/re-wx 0.0.10-r1: A library for building modern declarative desktop applications in WX.
+dev-python/re-wx 0.1.0: A library for building modern declarative desktop applications in WX.
 dev-python/requests-futures 1.0.0-r3: Asynchronous Python HTTP for Humans.
 dev-python/samplerate 0.1.0-r1: 
 dev-python/soundfile 0.10.3.1 0.11.0: An audio library based on libsndfile, CFFI and NumPy
@@ -67,7 +67,7 @@ games-action/relcs 20210902-r2: GTA Liberty City Stories decompiled and re-built
 games-action/revc 20210902-r2: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 1.0.0.4080-r1: Clone of Guitar Hero and similar games.
 games-arcade/outfox 0.4.18.1-r1: Advanced rhythm game. Designed for both home and arcade use
-games-arcade/outfox-serenity 2.5_rc2: The community pack content for Project OutFox (includes volume 1.5)
+games-arcade/outfox-serenity 2.5_rc3: The community pack content for Project OutFox (includes volume 1.5)
 games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
@@ -76,7 +76,7 @@ games-emulation/citra 20230128: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2022.12.26-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.14.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20230114-r1: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20230204: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.58: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.26-r2: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.597: Experimental Nintendo Switch emulator written in C#
@@ -85,7 +85,7 @@ games-emulation/xemu 0.7.83: Original Xbox emulator.
 games-emulation/yuzu 0.1324: Nintendo Switch emulator
 games-misc/render96ex 20211128-r4: Fork of sm64-port with additional features (alpha branch).
 games-util/cdecrypt 4.7-r1: Decrypt Wii U NUS content
-games-util/joystickwake 0.3-r1: Joystick-aware screen waker.
+games-util/joystickwake 0.4: Joystick-aware screen waker.
 games-util/kelftool 20191126: Utility for decrypt, encrypt and sign PS2 KELF and PSX KELF files.
 games-util/raphnet-tech-adapter-manager 2.1.27-r1: Graphical user interface and command-line tools to manage raphnet adapters.
 games-util/wiimms-iso-tools 3.05a: A set of command line tools to maniuplate Wii/Gamecube images.
@@ -94,7 +94,7 @@ kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting 
 kde-misc/kate-stuff 20221201: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/iosevka 17.1.0: Slender typeface for code, from code
+media-fonts/iosevka 18.0.0: Slender typeface for code, from code
 media-fonts/noto 20230125: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r2: Convert iOS and macOS compressed PNG files to normal.
@@ -127,7 +127,7 @@ media-video/vapoursynth-msmoosh 1.1: MSharpen and MSmooth for VapourSynth
 media-video/vapoursynth-mvtools 23-r1: Motion compensation, etc for VapourSynth.
 media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12-r1: nnedi3 weights.bin file
-media-video/vhs-decode 20230127: Software defined VHS decoder.
+media-video/vhs-decode 20230202: Software defined VHS decoder.
 media-video/video2x 4.8.1-r5: A lossless video/GIF/image upscaler.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
@@ -139,16 +139,16 @@ mpv-plugin/mpv-dvd-browser 20230129: API to allow scripts to create interactive 
 mpv-plugin/mpv-libunity 20211123-r3: Shows progress on a panel following libunity specification.
 mpv-plugin/mpv-netrc 20220629-r1: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
-mpv-plugin/mpv-sponsorblock 20220924-r3: mpv script to skip sponsored segments of YouTube videos
+mpv-plugin/mpv-sponsorblock 20230130: mpv script to skip sponsored segments of YouTube videos
 mpv-plugin/mpv-youtube-upnext 20221230: Play upcoming videos from YouTube.
 mpv-plugin/reload 20220127-r1: mpv plugin for automatic reloading of slow/stuck video streams
 mpv-plugin/shutup 20230109: Set mpv to quiet when stdout/stdout is not a TTY.
-mpv-shader/amd-fidelityfx-cas 20221217-r2: AMD FidelityFX Contrast Adaptive Sharpening.
-mpv-shader/amd-fidelityfx-super-resolution 20230126: AMD FidelityFX Super Resolution v1.0.2 for mpv.
+mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
+mpv-shader/amd-fidelityfx-super-resolution 20220306: AMD FidelityFX Super Resolution v1.0.2 for mpv.
 mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
-mpv-shader/krig-bilateral 20230119: Shader for mpv.
-mpv-shader/nvscaler 20230124: NVIDIA image scaling v1.0.2 for mpv.
-mpv-shader/ssim-downscaler 20230119: Downscaler shader for mpv.
+mpv-shader/krig-bilateral 20220530: Shader for mpv.
+mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
+mpv-shader/ssim-downscaler 20220515: Downscaler shader for mpv.
 net-dns/pihole 5.15.3: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.20.1: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r4: Desktop chat client for Slack and Discord (not web-based).
