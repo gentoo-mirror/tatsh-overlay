@@ -53,7 +53,7 @@ dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesys
 dev-util/flips 20221224: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.3.1: Node.js native addon build tool
-dev-util/wakatime-cli 1.62.1: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.64.1: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230123: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.12: Mirror Git repositories to other Git providers.
@@ -72,15 +72,15 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed 
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230129: Wii U emulator.
-games-emulation/citra 20230128: A Nintendo 3DS emulator.
+games-emulation/citra 20230204: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2022.12.26-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.14.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20230204: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.58: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.26-r2: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.597: Experimental Nintendo Switch emulator written in C#
-games-emulation/vita3k 20230126: Experimental PlayStation Vita emulator.
+games-emulation/ryujinx 1.1.599: Experimental Nintendo Switch emulator written in C#
+games-emulation/vita3k 20230203: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.83: Original Xbox emulator.
 games-emulation/yuzu 0.1324: Nintendo Switch emulator
 games-misc/render96ex 20211128-r4: Fork of sm64-port with additional features (alpha branch).
