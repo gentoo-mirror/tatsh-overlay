@@ -19,10 +19,10 @@ app-pda/tsschecker 304_p20211029: A powerful tool to check TSS signing status of
 app-portage/upkeep 1.3.2: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20230117: A code-completion engine for Vim.
+app-vim/youcompleteme 20230207: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.2: Command line parser for C++11
 dev-cpp/tracy 0.9: C++ frame profiler
-dev-db/dbeaver-bin 22.3.3: Free universal database tool (community edition).
+dev-db/dbeaver-bin 22.3.4: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r1: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
@@ -37,7 +37,7 @@ dev-python/benc 2019.8.1-r2: Bencoder in 100 lines of modern Python
 dev-python/colored 1.4.4-r1: Very simple Python library for color and formatting in terminal
 dev-python/gooey 1.0.8.1-r1: Turn (almost) any command line program into a full GUI application with one line.
 dev-python/hidapi 0.13.1: Python wrapper for hidapi.
-dev-python/llvmlite 0.39.1_p20230116: A lightweight LLVM python binding for writing JIT compilers
+dev-python/llvmlite 0.39.1_p20230206: A lightweight LLVM python binding for writing JIT compilers
 dev-python/numba 0.56.4-r3: NumPy aware dynamic Python compiler using LLVM
 dev-python/pygtrie 2.5.0-r2: A pure Python trie data structure implementation.
 dev-python/pyhht 0.1.0-r1: A Python module for the Hilbert Huang Transform.
@@ -71,16 +71,16 @@ games-arcade/outfox-serenity 2.5_rc3: The community pack content for Project Out
 games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20230129: Wii U emulator.
-games-emulation/citra 20230204: A Nintendo 3DS emulator.
+games-emulation/cemu 2.0_p20230208: Wii U emulator.
+games-emulation/citra 20230211: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2022.12.26-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.14.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20230204: A new generation, open-source graphics plugin for N64 emulators.
-games-emulation/play 0.58: PlayStation 2 emulator.
+games-emulation/play 0.59: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.26-r2: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.599: Experimental Nintendo Switch emulator written in C#
-games-emulation/vita3k 20230203: Experimental PlayStation Vita emulator.
+games-emulation/vita3k 20230212: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.83: Original Xbox emulator.
 games-emulation/yuzu 0.1324: Nintendo Switch emulator
 games-misc/render96ex 20211128-r4: Fork of sm64-port with additional features (alpha branch).
@@ -91,7 +91,7 @@ games-util/raphnet-tech-adapter-manager 2.1.27-r1: Graphical user interface and 
 games-util/wiimms-iso-tools 3.05a: A set of command line tools to maniuplate Wii/Gamecube images.
 games-util/wiimms-szs-tools 2.33a: A set of command line tools to maniuplate files of various Nintendo titles.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
-kde-misc/kate-stuff 20221201: Updated and improved Kate editor syntax files and code snippets.
+kde-misc/kate-stuff 20230212: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
 media-fonts/iosevka 18.0.0: Slender typeface for code, from code
@@ -104,7 +104,7 @@ media-plugins/nvidia-vaapi-driver 0.0.8: A VA-API implemention using NVIDIA's NV
 media-sound/hifi-decode 20221008-r4: Software defined VHS HiFi decoder.
 media-sound/sony-headphones-client 1.2-r3: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
-media-video/cxadc 20230129: CX2388x direct ADC capture driver.
+media-video/cxadc 20230212: CX2388x direct ADC capture driver.
 media-video/domesday-duplicator 20230128: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
 media-video/ffms2 2.40_p20230127: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
@@ -127,7 +127,7 @@ media-video/vapoursynth-msmoosh 1.1: MSharpen and MSmooth for VapourSynth
 media-video/vapoursynth-mvtools 23-r1: Motion compensation, etc for VapourSynth.
 media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12-r1: nnedi3 weights.bin file
-media-video/vhs-decode 20230205-r1: Software defined VHS decoder.
+media-video/vhs-decode 20230208: Software defined VHS decoder.
 media-video/video2x 4.8.1-r5: A lossless video/GIF/image upscaler.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
@@ -150,7 +150,7 @@ mpv-shader/krig-bilateral 20220530: Shader for mpv.
 mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20220515: Downscaler shader for mpv.
 net-dns/pihole 5.15.3: Network-wide ad blocking (core).
-net-dns/pihole-ftl 5.20.1: The Pi-hole FTL engine
+net-dns/pihole-ftl 5.21: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r4: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.10.6-r1: Declarative configuration for Gmail filters
 net-p2p/xirvik-tools 0.3.1-r4: Tools for Xirvik servers.
@@ -162,7 +162,7 @@ sys-apps/usbkill 1.0_rc4_p20160730-r2: An kill-switch that waits for a change on
 sys-auth/fprintd 1.94.2-r2: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.5-r2: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
-www-apps/pihole-admin-lte 5.18.3-r1: Pi-hole Dashboard for stats and more
+www-apps/pihole-admin-lte 5.18.4: Pi-hole Dashboard for stats and more
 www-apps/wakapi 2.6.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999-r1: Bypass Paywalls browser extension.
 x11-misc/mimeo 2022.7-r2: Open files by MIME-type or file name using regular expressions.
