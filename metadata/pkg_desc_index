@@ -53,10 +53,10 @@ dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesys
 dev-util/flips 20221224: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.3.1: Node.js native addon build tool
-dev-util/wakatime-cli 1.64.1: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.65.2: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230123: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
-dev-vcs/gickup 0.10.12: Mirror Git repositories to other Git providers.
+dev-vcs/gickup 0.10.13: Mirror Git repositories to other Git providers.
 dev-vcs/git-extras 6.4.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.33.0: Quickly rewrite git repository history (filter-branch replacement)
 dev-vcs/git-radar 0.6_p20170108: A heads up display for Git.
@@ -72,17 +72,17 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed 
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230208: Wii U emulator.
-games-emulation/citra 20230211: A Nintendo 3DS emulator.
+games-emulation/citra 20230212: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2022.12.26-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.14.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20230204: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.59: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.26-r2: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.599: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.617: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230212: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.83: Original Xbox emulator.
-games-emulation/yuzu 0.1324: Nintendo Switch emulator
+games-emulation/yuzu 0.1338: Nintendo Switch emulator
 games-misc/render96ex 20211128-r4: Fork of sm64-port with additional features (alpha branch).
 games-util/cdecrypt 4.7-r1: Decrypt Wii U NUS content
 games-util/joystickwake 0.4: Joystick-aware screen waker.
@@ -94,7 +94,7 @@ kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting 
 kde-misc/kate-stuff 20230212: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/iosevka 18.0.0: Slender typeface for code, from code
+media-fonts/iosevka 19.0.0: Slender typeface for code, from code
 media-fonts/noto 20230125: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r2: Convert iOS and macOS compressed PNG files to normal.
@@ -104,7 +104,7 @@ media-plugins/nvidia-vaapi-driver 0.0.8: A VA-API implemention using NVIDIA's NV
 media-sound/hifi-decode 20221008-r4: Software defined VHS HiFi decoder.
 media-sound/sony-headphones-client 1.2-r3: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
-media-video/cxadc 20230212: CX2388x direct ADC capture driver.
+media-video/cxadc 20230212-r1: CX2388x direct ADC capture driver.
 media-video/domesday-duplicator 20230128: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
 media-video/ffms2 2.40_p20230127: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
@@ -149,7 +149,7 @@ mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
 mpv-shader/krig-bilateral 20220530: Shader for mpv.
 mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20220515: Downscaler shader for mpv.
-net-dns/pihole 5.15.3: Network-wide ad blocking (core).
+net-dns/pihole 5.15.5: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.21: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r4: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.10.6-r1: Declarative configuration for Gmail filters
