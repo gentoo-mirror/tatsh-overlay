@@ -40,6 +40,7 @@ dev-python/gooey 1.0.8.1-r1: Turn (almost) any command line program into a full 
 dev-python/hidapi 0.13.1: Python wrapper for hidapi.
 dev-python/llvmlite 0.39.1_p20230206: A lightweight LLVM python binding for writing JIT compilers
 dev-python/numba 0.56.4-r3: NumPy aware dynamic Python compiler using LLVM
+dev-python/pyaaf2 1.6.0: Read and write Advanced Authoring Format (AAF) files.
 dev-python/pygtrie 2.5.0-r2: A pure Python trie data structure implementation.
 dev-python/pyhht 0.1.0-r1: A Python module for the Hilbert Huang Transform.
 dev-python/re-wx 0.1.0: A library for building modern declarative desktop applications in WX.
@@ -114,6 +115,7 @@ media-video/havsfunc 33_p20221023-r1: Holy's ported AviSynth functions for Vapou
 media-video/magewell-pro-capture 1.3.0.4236-r2: Magewell Pro Capture driver.
 media-video/mvsfunc 10_p20220915-r1: mawen1250's VapourSynth functions
 media-video/open-in-mpv 0.0.7-r2: Host-side script for the Open in mpv Chrome extension.
+media-video/opentimelineio 0.15.0: Editorial interchange format and API (for use with Kdenlive).
 media-video/scenechange 0.2.0.2: Scene change detection plugin for VapourSynth
 media-video/vapoursynth 61: A video processing framework with simplicity in mind.
 media-video/vapoursynth-astdr 4-r1: Derainbow function for VapourSynth.
