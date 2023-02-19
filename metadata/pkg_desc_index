@@ -29,7 +29,7 @@ dev-db/litecli 1.9.0-r1: CLI for SQLite Databases with auto-completion and synta
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
-dev-libs/nativefiledialog-extended 0_pre20230113: File dialog library with C and C++ bindings, based on nativefiledialog
+dev-libs/nativefiledialog-extended 0_pre20230216: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 63-r1: Stuff used in tsschecker.
 dev-libs/vulkan-memory-allocator 3.0.1: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.5.4-r1: Embedded SSL library.
@@ -38,7 +38,7 @@ dev-python/benc 2019.8.1-r2: Bencoder in 100 lines of modern Python
 dev-python/colored 1.4.4-r1: Very simple Python library for color and formatting in terminal
 dev-python/gooey 1.0.8.1-r1: Turn (almost) any command line program into a full GUI application with one line.
 dev-python/hidapi 0.13.1: Python wrapper for hidapi.
-dev-python/llvmlite 0.39.1_p20230206: A lightweight LLVM python binding for writing JIT compilers
+dev-python/llvmlite 0.39.1_p20230214: A lightweight LLVM python binding for writing JIT compilers
 dev-python/numba 0.56.4-r3: NumPy aware dynamic Python compiler using LLVM
 dev-python/pyaaf2 1.6.0: Read and write Advanced Authoring Format (AAF) files.
 dev-python/pygtrie 2.5.0-r2: A pure Python trie data structure implementation.
@@ -46,7 +46,7 @@ dev-python/pyhht 0.1.0-r1: A Python module for the Hilbert Huang Transform.
 dev-python/re-wx 0.1.0: A library for building modern declarative desktop applications in WX.
 dev-python/requests-futures 1.0.0-r3: Asynchronous Python HTTP for Humans.
 dev-python/samplerate 0.1.0-r1: 
-dev-python/soundfile 0.10.3.1 0.11.0: An audio library based on libsndfile, CFFI and NumPy
+dev-python/soundfile 0.10.3.1 0.12.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/vsutil 0.8.0-r1: A collection of general purpose Vapoursynth functions
 dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9: Single file executable that provides a complete Tcl and Tk runtime.
@@ -55,7 +55,7 @@ dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesys
 dev-util/flips 20221224: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.3.1: Node.js native addon build tool
-dev-util/wakatime-cli 1.65.2: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.66.0: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230123: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.13: Mirror Git repositories to other Git providers.
@@ -63,7 +63,7 @@ dev-vcs/git-extras 6.4.0: Git utilties: repo summary, repl, changelog population
 dev-vcs/git-filter-repo 2.33.0: Quickly rewrite git repository history (filter-branch replacement)
 dev-vcs/git-radar 0.6_p20170108: A heads up display for Git.
 dev-vcs/git-secrets 1.3.0_p20220920: Prevents you from committing sensitive info to a git repository.
-dev-vcs/git-up 2.1.0_p20221121-r1: Python implementation of git-up
+dev-vcs/git-up 2.1.0_p20230218: Python implementation of git-up
 games-action/re3 20210902-r2: GTA III decompiled and re-built.
 games-action/relcs 20210902-r2: GTA Liberty City Stories decompiled and re-built.
 games-action/revc 20210902-r2: GTA Vice City decompiled and re-built.
@@ -73,17 +73,17 @@ games-arcade/outfox-serenity 2.5_rc3: The community pack content for Project Out
 games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20230208: Wii U emulator.
-games-emulation/citra 20230212: A Nintendo 3DS emulator.
+games-emulation/cemu 2.0_p20230218: Wii U emulator.
+games-emulation/citra 20230218: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2022.12.26-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.14.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20230204: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.59: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.26-r2: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.617: Experimental Nintendo Switch emulator written in C#
-games-emulation/vita3k 20230212: Experimental PlayStation Vita emulator.
-games-emulation/xemu 0.7.83: Original Xbox emulator.
+games-emulation/ryujinx 1.1.625: Experimental Nintendo Switch emulator written in C#
+games-emulation/vita3k 20230218: Experimental PlayStation Vita emulator.
+games-emulation/xemu 0.7.84: Original Xbox emulator.
 games-emulation/yuzu 0.1338: Nintendo Switch emulator
 games-misc/render96ex 20211128-r4: Fork of sm64-port with additional features (alpha branch).
 games-util/cdecrypt 4.7-r1: Decrypt Wii U NUS content
@@ -96,7 +96,7 @@ kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting 
 kde-misc/kate-stuff 20230212: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/iosevka 19.0.0: Slender typeface for code, from code
+media-fonts/iosevka 19.0.1: Slender typeface for code, from code
 media-fonts/noto 20230125: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r2: Convert iOS and macOS compressed PNG files to normal.
@@ -106,9 +106,9 @@ media-plugins/nvidia-vaapi-driver 0.0.8: A VA-API implemention using NVIDIA's NV
 media-sound/hifi-decode 20221008-r4: Software defined VHS HiFi decoder.
 media-sound/sony-headphones-client 1.2-r3: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
-media-video/cxadc 20230212-r1: CX2388x direct ADC capture driver.
+media-video/cxadc 20230216: CX2388x direct ADC capture driver.
 media-video/domesday-duplicator 20230128: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
-media-video/ffms2 2.40_p20230127: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
+media-video/ffms2 2.40_p20230213: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
 media-video/fmtconv 30_p20230128: Format conversion tools for Vapoursynth
 media-video/havsfunc 33_p20221023-r1: Holy's ported AviSynth functions for VapourSynth
@@ -130,7 +130,7 @@ media-video/vapoursynth-msmoosh 1.1: MSharpen and MSmooth for VapourSynth
 media-video/vapoursynth-mvtools 23-r1: Motion compensation, etc for VapourSynth.
 media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12-r1: nnedi3 weights.bin file
-media-video/vhs-decode 20230208: Software defined VHS decoder.
+media-video/vhs-decode 20230217: Software defined VHS decoder.
 media-video/video2x 4.8.1-r5: A lossless video/GIF/image upscaler.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
