@@ -12,5 +12,5 @@ RDEPEND=debug? ( sys-libs/ncurses:0= ) ffmpeg? ( media-video/ffmpeg ) freetype? 
 REQUIRED_USE=hardened? ( !dynrec )
 SLOT=0
 SRC_URI=https://github.com/joncampbell123/dosbox-x/archive/refs/tags/dosbox-x-v2022.12.26.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	cf009a3ed4e5bef503e7a9f215791a78	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc
 _md5_=af1730522cdbbe842a5b6306c700f4b3
