@@ -84,7 +84,7 @@ games-emulation/rpcs3 0.0.26-r2: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.625: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230218: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.84: Original Xbox emulator.
-games-emulation/yuzu 0.1338: Nintendo Switch emulator
+games-emulation/yuzu 0.1345: Nintendo Switch emulator
 games-misc/render96ex 20211128-r4: Fork of sm64-port with additional features (alpha branch).
 games-util/cdecrypt 4.7-r1: Decrypt Wii U NUS content
 games-util/joystickwake 0.4: Joystick-aware screen waker.
