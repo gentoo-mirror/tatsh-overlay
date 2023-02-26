@@ -12,7 +12,7 @@ app-misc/pyrescene 0.7-r1: Mechanism to restore metadata from certain releasesd 
 app-misc/tasksh 1.2.0: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r1: Tools for Xirvik servers.
 app-misc/zwave-js-server 1.25.0: Full access to zwave-js driver through Websockets
-app-mobilephone/better-adb-sync 20230211: Completely rewritten adbsync with proper --exclude.
+app-mobilephone/better-adb-sync 20230221: Completely rewritten adbsync with proper --exclude.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107: Helper utility to enable charging with Apple mobile devices such as the iPad.
 app-pda/libirecovery 1.0.0: Library and utility to talk to iBoot/iBSS via USB.
@@ -23,7 +23,7 @@ app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20230207: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.2: Command line parser for C++11
 dev-cpp/tracy 0.9: C++ frame profiler
-dev-db/dbeaver-bin 22.3.4: Free universal database tool (community edition).
+dev-db/dbeaver-bin 22.3.5: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r1: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
@@ -33,7 +33,7 @@ dev-libs/nativefiledialog-extended 0_pre20230216: File dialog library with C and
 dev-libs/tihmstar-libgeneral 63-r1: Stuff used in tsschecker.
 dev-libs/vulkan-memory-allocator 3.0.1: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.5.4-r1: Embedded SSL library.
-dev-libs/xbyak 6.68: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-libs/xbyak 6.69: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r2: Bencoder in 100 lines of modern Python
 dev-python/colored 1.4.4-r1: Very simple Python library for color and formatting in terminal
 dev-python/gooey 1.0.8.1-r1: Turn (almost) any command line program into a full GUI application with one line.
@@ -56,7 +56,7 @@ dev-util/flips 20221224: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.3.1: Node.js native addon build tool
 dev-util/wakatime-cli 1.66.0: Command line interface to WakaTime used by all WakaTime plugins
-dev-util/ycmd 20230123: A code-completion & code-comprehension server.
+dev-util/ycmd 20230221: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.13: Mirror Git repositories to other Git providers.
 dev-vcs/git-extras 6.4.0: Git utilties: repo summary, repl, changelog population, and more.
@@ -73,12 +73,12 @@ games-arcade/outfox-serenity 2.5_rc3: The community pack content for Project Out
 games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20230218: Wii U emulator.
+games-emulation/cemu 2.0_p20230225: Wii U emulator.
 games-emulation/citra 20230218: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2022.12.26-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.14.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20230204: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20230225: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.59: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.26-r2: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.625: Experimental Nintendo Switch emulator written in C#
@@ -103,7 +103,7 @@ media-gfx/pngdefry 1.2-r2: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728: SRMD super resolution implemented with ncnn library.
 media-plugins/nvidia-vaapi-driver 0.0.8: A VA-API implemention using NVIDIA's NVDEC
-media-sound/hifi-decode 20221008-r4: Software defined VHS HiFi decoder.
+media-sound/hifi-decode 20230219: Software defined VHS HiFi decoder.
 media-sound/sony-headphones-client 1.2-r3: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
 media-video/cxadc 20230216: CX2388x direct ADC capture driver.
@@ -130,7 +130,7 @@ media-video/vapoursynth-msmoosh 1.1: MSharpen and MSmooth for VapourSynth
 media-video/vapoursynth-mvtools 23-r1: Motion compensation, etc for VapourSynth.
 media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12-r1: nnedi3 weights.bin file
-media-video/vhs-decode 20230217: Software defined VHS decoder.
+media-video/vhs-decode 20230220: Software defined VHS decoder.
 media-video/video2x 4.8.1-r5: A lossless video/GIF/image upscaler.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
