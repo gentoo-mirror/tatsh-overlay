@@ -74,7 +74,7 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed 
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230225: Wii U emulator.
-games-emulation/citra 20230218: A Nintendo 3DS emulator.
+games-emulation/citra 20230225: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2022.12.26-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.14.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
@@ -82,7 +82,7 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20230225: A new generation, open
 games-emulation/play 0.59: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.26-r2: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.625: Experimental Nintendo Switch emulator written in C#
-games-emulation/vita3k 20230218: Experimental PlayStation Vita emulator.
+games-emulation/vita3k 20230226: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.84: Original Xbox emulator.
 games-emulation/yuzu 0.1345: Nintendo Switch emulator
 games-misc/render96ex 20211128-r4: Fork of sm64-port with additional features (alpha branch).
