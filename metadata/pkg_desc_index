@@ -25,7 +25,7 @@ dev-cpp/cli11 2.3.2: Command line parser for C++11
 dev-cpp/tracy 0.9.1: C++ frame profiler
 dev-db/dbeaver-bin 22.3.5: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
-dev-db/litecli 1.9.0-r1: CLI for SQLite Databases with auto-completion and syntax highlighting.
+dev-db/litecli 1.9.0-r2: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
