@@ -11,7 +11,7 @@ app-misc/cmdpack 1.0_p20230123: Neill Corlett's command-Line pack.
 app-misc/pyrescene 0.7-r1: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r1: Tools for Xirvik servers.
-app-misc/zwave-js-server 1.25.0: Full access to zwave-js driver through Websockets
+app-misc/zwave-js-server 1.26.0: Full access to zwave-js driver through Websockets
 app-mobilephone/better-adb-sync 20230211: Completely rewritten adbsync with proper --exclude.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107: Helper utility to enable charging with Apple mobile devices such as the iPad.
@@ -22,7 +22,7 @@ app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20230207: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.2: Command line parser for C++11
-dev-cpp/tracy 0.9: C++ frame profiler
+dev-cpp/tracy 0.9.1: C++ frame profiler
 dev-db/dbeaver-bin 22.3.5: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r1: CLI for SQLite Databases with auto-completion and syntax highlighting.
@@ -55,7 +55,7 @@ dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesys
 dev-util/flips 20221224: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.3.1: Node.js native addon build tool
-dev-util/wakatime-cli 1.66.0: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.68.1: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230221: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.13: Mirror Git repositories to other Git providers.
@@ -81,10 +81,10 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator c
 games-emulation/mupen64plus-video-gliden64 4.0_p20230225: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.59: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.26-r2: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.625: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.644: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230226: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.84: Original Xbox emulator.
-games-emulation/yuzu 0.1345: Nintendo Switch emulator
+games-emulation/yuzu 0.1352: Nintendo Switch emulator
 games-misc/render96ex 20211128-r4: Fork of sm64-port with additional features (alpha branch).
 games-util/cdecrypt 4.7-r1: Decrypt Wii U NUS content
 games-util/joystickwake 0.4: Joystick-aware screen waker.
@@ -129,7 +129,7 @@ media-video/vapoursynth-msmoosh 1.1: MSharpen and MSmooth for VapourSynth
 media-video/vapoursynth-mvtools 23-r1: Motion compensation, etc for VapourSynth.
 media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12-r1: nnedi3 weights.bin file
-media-video/vhs-decode 20230220: Software defined VHS decoder.
+media-video/vhs-decode 20230227: Software defined VHS decoder.
 media-video/video2x 4.8.1-r5: A lossless video/GIF/image upscaler.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
@@ -144,7 +144,7 @@ mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive 
 mpv-plugin/mpv-sponsorblock 20230130: mpv script to skip sponsored segments of YouTube videos
 mpv-plugin/mpv-youtube-upnext 20221230: Play upcoming videos from YouTube.
 mpv-plugin/reload 20220127-r1: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/shutup 20230109: Set mpv to quiet when stdout/stdout is not a TTY.
+mpv-plugin/shutup 20230226: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
 mpv-shader/amd-fidelityfx-super-resolution 20220306: AMD FidelityFX Super Resolution v1.0.2 for mpv.
 mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
