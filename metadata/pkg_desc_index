@@ -141,8 +141,6 @@ mpv-plugin/mpv-dvd-browser 20230129: API to allow scripts to create interactive 
 mpv-plugin/mpv-libunity 20211123-r3: Shows progress on a panel following libunity specification.
 mpv-plugin/mpv-netrc 20220629-r1: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
-mpv-plugin/mpv-sponsorblock 20230130: mpv script to skip sponsored segments of YouTube videos
-mpv-plugin/mpv-youtube-upnext 20221230: Play upcoming videos from YouTube.
 mpv-plugin/reload 20220127-r1: mpv plugin for automatic reloading of slow/stuck video streams
 mpv-plugin/shutup 20230226: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
