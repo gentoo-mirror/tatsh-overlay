@@ -10,4 +10,4 @@ RDEPEND=media-video/lsdvd mpv-plugin/mpv-scroll-list media-video/mpv[lua]
 SLOT=0
 SRC_URI=https://github.com/CogentRedTester/mpv-dvd-browser/archive/1e89d712fc1c02df4c304600fb7bc51bb57d42fb.tar.gz -> mpv-dvd-browser-20230129.tar.gz
 _eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a
-_md5_=1c53c2f23f3c7fcdba1c4051d58f12f3
+_md5_=093d2d67989a353cb56c6e36f21c9ed4

@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Writes a list of edits made to the current video file to a file
+EAPI=8
+HOMEPAGE=https://github.com/paradox460/mpv-scripts
+INHERIT=mpv-plugin
+IUSE=+autoload
+KEYWORDS=~amd64 ~ppc64
+LICENSE=GPL-3
+RDEPEND=media-video/mpv[lua]
+SLOT=0
+SRC_URI=https://github.com/paradox460/mpv-scripts/archive/0000000a253e244308a0f9465e09fa8a2aca814a.tar.gz -> paradox460-mpv-scripts-0000000.tar.gz
+_eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a
+_md5_=cab42a322fd97be2579cc9b83d3ab15c

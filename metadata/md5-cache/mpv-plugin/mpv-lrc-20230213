@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Synchronize lyrics with mpv
+EAPI=8
+HOMEPAGE=https://git.sr.ht/~guidocella/mpv-lrc
+INHERIT=mpv-plugin
+IUSE=+autoload
+KEYWORDS=~amd64 ~ppc64
+LICENSE=GPL-3
+RDEPEND=media-video/mpv[lua]
+SLOT=0
+SRC_URI=https://git.sr.ht/~guidocella/mpv-lrc/archive/ffdfd332e02b209e9c6d7e092df73f44d62ce3de.tar.gz -> mpv-lrc-ffdfd33.tar.gz
+_eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a
+_md5_=e80d765be81d3afe78cb50068d9884fb

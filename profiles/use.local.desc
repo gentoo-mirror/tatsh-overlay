@@ -132,14 +132,18 @@ media-video/vapoursynth:vspipe - Build vspipe command.
 media-video/vapoursynth:vsscript - Enable VSScript.
 media-video/vapoursynth:x86-asm - Enable assembler code for x86 CPUs (requires dev-lang/yasm).
 mpv-plugin/blur-edges:autoload - Auto-load the plugin
+mpv-plugin/bookmarker-menu:autoload - Auto-load the plugin
 mpv-plugin/crop:autoload - Auto-load the plugin
 mpv-plugin/delete-file:autoload - Auto-load the plugin
 mpv-plugin/mpv-copytime:autoload - Auto-load the plugin
 mpv-plugin/mpv-dvd-browser:autoload - Auto-load the plugin
 mpv-plugin/mpv-libunity:autoload - Auto-load the plugin
+mpv-plugin/mpv-lrc:autoload - Auto-load the plugin
 mpv-plugin/mpv-netrc:autoload - Auto-load the plugin
 mpv-plugin/reload:autoload - Auto-load the plugin
 mpv-plugin/shutup:autoload - Auto-load the plugin
+mpv-plugin/writeedits:autoload - Auto-load the plugin
+mpv-plugin/writename:autoload - Auto-load the plugin
 net-dns/pihole:cron - Installs cron job
 sys-apps/kylemanna-systemd-utils:amazon - Install Amazon Cloud Drive service
 sys-apps/kylemanna-systemd-utils:btrfs - Install units for btrfs
