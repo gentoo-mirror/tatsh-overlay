@@ -2,7 +2,7 @@ acct-group/pihole 0: System group: pihole
 acct-user/pihole 0: user for pihole
 app-admin/awscli-plugin-endpoint 0.4-r2: Provides service endpoint configuration per service on profile.
 app-admin/padd 3.10.1: PADD provides in-depth information about your Pi-hole.
-app-arch/bitrock-unpacker 20221124: Bitrock unpacking script.
+app-arch/bitrock-unpacker 20160622: Bitrock unpacking script.
 app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 app-cdr/cdi2nero 0.9.9: Converts DiscJuggler CDI files to NRG (Nero).
