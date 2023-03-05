@@ -21,17 +21,17 @@ app-pda/tsschecker 304_p20211029: A powerful tool to check TSS signing status of
 app-portage/upkeep 1.3.2: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20230207: A code-completion engine for Vim.
+app-vim/youcompleteme 20230227: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.2: Command line parser for C++11
 dev-cpp/tracy 0.9.1: C++ frame profiler
 dev-db/dbeaver-bin 22.3.5: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r2: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
-dev-libs/libfragmentzip 60_p20210209: A library allowing to download single files from a remote zip archive
+dev-libs/libfragmentzip 60_p20230228: A library allowing to download single files from a remote zip archive
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/nativefiledialog-extended 0_pre20230216: File dialog library with C and C++ bindings, based on nativefiledialog
-dev-libs/tihmstar-libgeneral 63-r1: Stuff used in tsschecker.
+dev-libs/tihmstar-libgeneral 64: Stuff used in tsschecker.
 dev-libs/vulkan-memory-allocator 3.0.1: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.5.4-r1: Embedded SSL library.
 dev-libs/xbyak 6.69: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
@@ -75,15 +75,15 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed 
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230225-r1: Wii U emulator.
-games-emulation/citra 20230225: A Nintendo 3DS emulator.
+games-emulation/citra 20230303: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2022.12.26-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.14.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20230225: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.59: PlayStation 2 emulator.
-games-emulation/rpcs3 0.0.26-r2: PS3 emulator and debugger.
+games-emulation/rpcs3 0.0.27: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.644: Experimental Nintendo Switch emulator written in C#
-games-emulation/vita3k 20230226: Experimental PlayStation Vita emulator.
+games-emulation/vita3k 20230304: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.84: Original Xbox emulator.
 games-emulation/yuzu 0.1352: Nintendo Switch emulator
 games-misc/render96ex 20211128-r4: Fork of sm64-port with additional features (alpha branch).
@@ -98,7 +98,7 @@ kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting 
 kde-misc/kate-stuff 20230212: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/iosevka 19.0.1: Slender typeface for code, from code
+media-fonts/iosevka 20.0.0: Slender typeface for code, from code
 media-fonts/noto 20230125: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r2: Convert iOS and macOS compressed PNG files to normal.
@@ -148,7 +148,7 @@ mpv-plugin/mpv-lrc 20230213: Synchronize lyrics with mpv
 mpv-plugin/mpv-netrc 20220629-r1: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/reload 20220127-r1: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/shutup 20230226: Set mpv to quiet when stdout/stdout is not a TTY.
+mpv-plugin/shutup 20230228: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-plugin/writeedits 20211026: Writes a list of edits made to the current video file to a file
 mpv-plugin/writename 20211026: Writes a list of edits made to the current video file to a file
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
