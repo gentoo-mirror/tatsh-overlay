@@ -16,8 +16,9 @@ app-misc/zwave-js-server 1.26.0: Full access to zwave-js driver through Websocke
 app-mobilephone/better-adb-sync 20230211: Completely rewritten adbsync with proper --exclude.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107: Helper utility to enable charging with Apple mobile devices such as the iPad.
-app-pda/libirecovery 1.0.0: Library and utility to talk to iBoot/iBSS via USB.
-app-pda/tsschecker 304_p20211029: A powerful tool to check TSS signing status of various devices and firmwares.
+app-pda/libimobiledevice-glue 20230109: Common code used by libimobiledevice project..
+app-pda/libirecovery 1.0.0_p20221019: Library and utility to talk to iBoot/iBSS via USB.
+app-pda/tsschecker 304_p20230304: A powerful tool to check TSS signing status of various devices and firmwares.
 app-portage/upkeep 1.3.2: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
@@ -56,10 +57,10 @@ dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesys
 dev-util/flips 20221224: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.3.1: Node.js native addon build tool
-dev-util/wakatime-cli 1.68.1: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.68.3: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230221: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
-dev-vcs/gickup 0.10.13: Mirror Git repositories to other Git providers.
+dev-vcs/gickup 0.10.14: Mirror Git repositories to other Git providers.
 dev-vcs/git-extras 6.4.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.33.0: Quickly rewrite git repository history (filter-branch replacement)
 dev-vcs/git-radar 0.6_p20170108: A heads up display for Git.
@@ -74,7 +75,7 @@ games-arcade/outfox-serenity 2.5_rc3: The community pack content for Project Out
 games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20230225-r1: Wii U emulator.
+games-emulation/cemu 2.0_p20230302: Wii U emulator.
 games-emulation/citra 20230303: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2022.12.26-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.14.0: libretro-db tools from RetroArch.
@@ -82,7 +83,7 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator c
 games-emulation/mupen64plus-video-gliden64 4.0_p20230225: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.59: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.27: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.644: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.650: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230304: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.84: Original Xbox emulator.
 games-emulation/yuzu 0.1352: Nintendo Switch emulator
@@ -131,7 +132,7 @@ media-video/vapoursynth-msmoosh 1.1: MSharpen and MSmooth for VapourSynth
 media-video/vapoursynth-mvtools 23-r1: Motion compensation, etc for VapourSynth.
 media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12-r1: nnedi3 weights.bin file
-media-video/vhs-decode 20230227: Software defined VHS decoder.
+media-video/vhs-decode 20230305: Software defined VHS decoder.
 media-video/video2x 4.8.1-r5: A lossless video/GIF/image upscaler.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
@@ -171,7 +172,7 @@ sys-auth/fprintd 1.94.2-r2: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.5-r2: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
 www-apps/pihole-admin-lte 5.18.4: Pi-hole Dashboard for stats and more
-www-apps/wakapi 2.6.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+www-apps/wakapi 2.6.2: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999-r1: Bypass Paywalls browser extension.
 x11-misc/mimeo 2022.7-r2: Open files by MIME-type or file name using regular expressions.
 x11-misc/rom-properties 2.1-r1: Shell extension for file managers to manage game ROMs and disc images.
