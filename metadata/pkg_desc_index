@@ -70,7 +70,7 @@ dev-vcs/git-up 2.1.0_p20230218: Python implementation of git-up
 games-action/re3 20210902-r2: GTA III decompiled and re-built.
 games-action/relcs 20210902-r2: GTA Liberty City Stories decompiled and re-built.
 games-action/revc 20210902-r2: GTA Vice City decompiled and re-built.
-games-arcade/clone-hero 1.0.0.4080-r2: Clone of Guitar Hero and similar games.
+games-arcade/clone-hero 1.0.0.4080-r3: Clone of Guitar Hero and similar games.
 games-arcade/outfox 0.4.18.1-r1: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/outfox-serenity 2.5_rc3: The community pack content for Project OutFox (includes volume 1.5)
 games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed for both home and arcade use
