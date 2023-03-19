@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~x86
 LICENSE=GPL-3
 RDEPEND=gtk? ( x11-libs/gtk+:3 )
 SLOT=0
-SRC_URI=https://github.com/Alcaro/Flips/archive/4b72503d4320862e7b27eddc909c696dabd349cf.tar.gz -> flips-20221224.tar.gz
-_md5_=d544db057250e6d5485ad7d9617db8b4
+SRC_URI=https://github.com/Alcaro/Flips/archive/fdd5c6e34285beef5b9be759c9b91390df486c66.tar.gz -> flips-20230315.tar.gz
+_md5_=52374b83a78af474e4c0961092f0c451
