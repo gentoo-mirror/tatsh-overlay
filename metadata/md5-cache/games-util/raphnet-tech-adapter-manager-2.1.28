@@ -11,5 +11,5 @@ LICENSE=GPL-3
 RDEPEND=dev-libs/glib dev-libs/hidapi media-libs/harfbuzz sys-libs/zlib virtual/udev x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+:3 x11-libs/pango x11-libs/wxGTK:3.0-gtk3
 SLOT=0
 SRC_URI=https://www.raphnet-tech.com/downloads/raphnet-tech_adapter_manager-2.1.28.tar.gz -> raphnet-tech-adapter-manager-2.1.28.tar.gz
-_eclasses_=toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	udev	eec0bbab06977f1cfc5597269c1fa152	flag-o-matic	69394e25812406faa1f90edaf4969395	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5
+_eclasses_=toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	udev	eec0bbab06977f1cfc5597269c1fa152	flag-o-matic	514815b1cc0dd4aeac177c2e812b3b1a	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5
 _md5_=b05616c2b651d48954b8142e87bfee96
