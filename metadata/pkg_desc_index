@@ -13,7 +13,7 @@ app-misc/deark 1.6.4: Utility to extract data from various file formats.
 app-misc/pyrescene 0.7-r1: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r1: Tools for Xirvik servers.
-app-misc/zwave-js-server 1.26.0: Full access to zwave-js driver through Websockets
+app-misc/zwave-js-server 1.27.0: Full access to zwave-js driver through Websockets
 app-mobilephone/better-adb-sync 20230211: Completely rewritten adbsync with proper --exclude.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107: Helper utility to enable charging with Apple mobile devices such as the iPad.
@@ -77,14 +77,14 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed 
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230326: Wii U emulator.
-games-emulation/citra 20230317: A Nintendo 3DS emulator.
+games-emulation/citra 20230325: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2022.12.26-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20230225: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.59: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.27: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.669: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.682: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230326: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.85: Original Xbox emulator.
 games-emulation/yuzu 0.1383: Nintendo Switch emulator
@@ -173,7 +173,7 @@ sys-auth/fprintd 1.94.2-r2: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.5-r2: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20190508: Hack for Apple's Superdrive to work with other systems than OS X.
 www-apps/pihole-admin-lte 5.19: Pi-hole Dashboard for stats and more
-www-apps/wakapi 2.6.2: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+www-apps/wakapi 2.7.0: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999-r1: Bypass Paywalls browser extension.
 x11-misc/mimeo 2022.7-r2: Open files by MIME-type or file name using regular expressions.
 x11-misc/rom-properties 2.1-r1: Shell extension for file managers to manage game ROMs and disc images.
