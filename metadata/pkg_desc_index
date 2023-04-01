@@ -7,7 +7,7 @@ app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 app-cdr/cdi2nero 0.9.9: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r1: Converts DiscJuggler CDI files to various disc image formats.
-app-cdr/redumper 114: Low level CD dumper utility
+app-cdr/redumper 116: Low level CD dumper utility
 app-misc/cmdpack 1.0_p20230123: Neill Corlett's command-Line pack.
 app-misc/deark 1.6.4: Utility to extract data from various file formats.
 app-misc/pyrescene 0.7-r1: Mechanism to restore metadata from certain releasesd files.
@@ -26,7 +26,7 @@ app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20230320: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.2: Command line parser for C++11
 dev-cpp/tracy 0.9.1: C++ frame profiler
-dev-db/dbeaver-bin 23.0.0: Free universal database tool (community edition).
+dev-db/dbeaver-bin 23.0.1: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r2: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
@@ -41,7 +41,7 @@ dev-python/benc 2019.8.1-r2: Bencoder in 100 lines of modern Python
 dev-python/colored 1.4.4-r1: Very simple Python library for color and formatting in terminal
 dev-python/gooey 1.0.8.1-r1: Turn (almost) any command line program into a full GUI application with one line.
 dev-python/hidapi 0.13.1: Python wrapper for hidapi.
-dev-python/llvmlite 0.39.1_p20230324: A lightweight LLVM python binding for writing JIT compilers
+dev-python/llvmlite 0.39.1_p20230329: A lightweight LLVM python binding for writing JIT compilers
 dev-python/numba 0.56.4-r3: NumPy aware dynamic Python compiler using LLVM
 dev-python/pyaaf2 1.6.0-r1: Read and write Advanced Authoring Format (AAF) files.
 dev-python/pygtrie 2.5.0-r2: A pure Python trie data structure implementation.
@@ -58,8 +58,8 @@ dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesys
 dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.3.1: Node.js native addon build tool
-dev-util/wakatime-cli 1.70.0: Command line interface to WakaTime used by all WakaTime plugins
-dev-util/ycmd 20230309: A code-completion & code-comprehension server.
+dev-util/wakatime-cli 1.70.1: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/ycmd 20230328: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.14: Mirror Git repositories to other Git providers.
 dev-vcs/git-extras 6.4.0: Git utilties: repo summary, repl, changelog population, and more.
@@ -76,8 +76,8 @@ games-arcade/outfox-serenity 2.5_rc3: The community pack content for Project Out
 games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20230326: Wii U emulator.
-games-emulation/citra 20230325: A Nintendo 3DS emulator.
+games-emulation/cemu 2.0_p20230330: Wii U emulator.
+games-emulation/citra 20230401: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2022.12.26-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
@@ -85,8 +85,8 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20230225: A new generation, open
 games-emulation/play 0.59: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.27: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.682: Experimental Nintendo Switch emulator written in C#
-games-emulation/vita3k 20230326: Experimental PlayStation Vita emulator.
-games-emulation/xemu 0.7.85: Original Xbox emulator.
+games-emulation/vita3k 20230401: Experimental PlayStation Vita emulator.
+games-emulation/xemu 0.7.86: Original Xbox emulator.
 games-emulation/yuzu 0.1383: Nintendo Switch emulator
 games-misc/render96ex 20211128-r4: Fork of sm64-port with additional features (alpha branch).
 games-util/aprip 1.0.2: Remove additional copy protection found in some later PS1 games.
@@ -109,7 +109,7 @@ media-gfx/srmd-ncnn-vulkan 20220728: SRMD super resolution implemented with ncnn
 media-plugins/nvidia-vaapi-driver 0.0.9: A VA-API implemention using NVIDIA's NVDEC
 media-sound/sony-headphones-client 1.2-r3: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
-media-video/cxadc 20230216: CX2388x direct ADC capture driver.
+media-video/cxadc 20230327: CX2388x direct ADC capture driver.
 media-video/domesday-duplicator 20230128: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
 media-video/ffms2 2.40_p20230322: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
@@ -120,7 +120,7 @@ media-video/mvsfunc 10_p20230321: mawen1250's VapourSynth functions
 media-video/open-in-mpv 0.0.7-r2: Host-side script for the Open in mpv Chrome extension.
 media-video/opentimelineio 0.15.0-r1: Editorial interchange format and API (for use with Kdenlive).
 media-video/scenechange 0.2.0.2: Scene change detection plugin for VapourSynth
-media-video/vapoursynth 61: A video processing framework with simplicity in mind.
+media-video/vapoursynth 62: A video processing framework with simplicity in mind.
 media-video/vapoursynth-astdr 4-r1: Derainbow function for VapourSynth.
 media-video/vapoursynth-bm3d 9: BM3D denoising filter for VapourSynth
 media-video/vapoursynth-dfmderainbow 2: Derainbow function for VapourSynth.
@@ -146,11 +146,11 @@ mpv-plugin/delete-file 20220421-r1: Queue files for deletion on quit.
 mpv-plugin/mpv-copytime 20220308-r1: Queue files for deletion on quit.
 mpv-plugin/mpv-dvd-browser 20230129-r1: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/mpv-libunity 20211123-r3: Shows progress on a panel following libunity specification.
-mpv-plugin/mpv-lrc 20230213: Synchronize lyrics with mpv
+mpv-plugin/mpv-lrc 20230322: Synchronize lyrics with mpv
 mpv-plugin/mpv-netrc 20220629-r1: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/reload 20220127-r1: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/shutup 20230326: Set mpv to quiet when stdout/stdout is not a TTY.
+mpv-plugin/shutup 20230329: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-plugin/writeedits 20211026: Writes a list of edits made to the current video file to a file
 mpv-plugin/writename 20211026: Writes a list of edits made to the current video file to a file
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.

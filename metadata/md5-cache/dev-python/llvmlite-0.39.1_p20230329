@@ -11,6 +11,6 @@ RDEPEND=python_targets_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) python_t
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://github.com/numba/llvmlite/archive/6c9aee968eaade89ce8c40f5199e898ad5a8833d.tar.gz -> llvmlite-0.39.1_p20230324.tar.gz
+SRC_URI=https://github.com/numba/llvmlite/archive/6f95465cbea8036a6bd9a450a4655b484521d842.tar.gz -> llvmlite-0.39.1_p20230329.tar.gz
 _eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	76050953ad5b70d7e09a6ca55558db92	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	python-r1	3c6cd0f418ba702c186a9865b85e704d	distutils-r1	761304ceeb845986696f9a65cf4b6f01
-_md5_=ca014aacd9ee7da4ad548615a596a040
+_md5_=759d3faec1ee6ec5a4e71b2cf885b2cd
