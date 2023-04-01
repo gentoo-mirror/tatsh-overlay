@@ -88,7 +88,7 @@ games-emulation/ryujinx 1.1.682: Experimental Nintendo Switch emulator written i
 games-emulation/vita3k 20230401: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.86: Original Xbox emulator.
 games-emulation/yuzu 0.1383: Nintendo Switch emulator
-games-misc/render96ex 20211128-r4: Fork of sm64-port with additional features (alpha branch).
+games-misc/render96ex 20230401: Fork of sm64-port with additional features (alpha branch).
 games-util/aprip 1.0.2: Remove additional copy protection found in some later PS1 games.
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
 games-util/joystickwake 0.4: Joystick-aware screen waker.
