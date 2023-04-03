@@ -21,7 +21,7 @@ app-pda/ipad_charge 20210107: Helper utility to enable charging with Apple mobil
 app-pda/libimobiledevice-glue 20230109: Common code used by libimobiledevice project..
 app-pda/libirecovery 1.0.0_p20221019: Library and utility to talk to iBoot/iBSS via USB.
 app-pda/tsschecker 304_p20230304: A powerful tool to check TSS signing status of various devices and firmwares.
-app-portage/upkeep 1.4.0: Helper commands to automate updating with Portage.
+app-portage/upkeep 1.4.1: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20230320: A code-completion engine for Vim.
