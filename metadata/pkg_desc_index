@@ -18,24 +18,24 @@ app-misc/zwave-js-server 1.27.0: Full access to zwave-js driver through Websocke
 app-mobilephone/better-adb-sync 20230407: Completely rewritten adbsync with proper --exclude.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107: Helper utility to enable charging with Apple mobile devices such as the iPad.
-app-pda/libimobiledevice-glue 20230109: Common code used by libimobiledevice project..
-app-pda/libirecovery 1.0.0_p20221019: Library and utility to talk to iBoot/iBSS via USB.
-app-pda/tsschecker 304_p20230304: A powerful tool to check TSS signing status of various devices and firmwares.
+app-pda/libimobiledevice-glue 20230109-r1: Common code used by libimobiledevice project..
+app-pda/libirecovery 1.0.0_p20221019-r1: Library and utility to talk to iBoot/iBSS via USB.
+app-pda/tsschecker 304_p20230304-r1: A powerful tool to check TSS signing status of various devices and firmwares.
 app-portage/upkeep 1.4.1: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20230406: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.2: Command line parser for C++11
 dev-cpp/tracy 0.9.1: C++ frame profiler
-dev-db/dbeaver-bin 23.0.1: Free universal database tool (community edition).
+dev-db/dbeaver-bin 23.0.2: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20201208: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r2: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0: Library to parse Apple's binarycookies format.
 dev-libs/libfragmentzip 60_p20230228: A library allowing to download single files from a remote zip archive
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
-dev-libs/nativefiledialog-extended 0_pre20230325: File dialog library with C and C++ bindings, based on nativefiledialog
+dev-libs/nativefiledialog-extended 0_pre20230325-r1: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 64: Stuff used in tsschecker.
-dev-libs/vulkan-memory-allocator 3.0.1: Easy to integrate Vulkan memory allocation library
+dev-libs/vulkan-memory-allocator 3.0.1-r1: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.6.0: Embedded SSL library.
 dev-libs/xbyak 6.69.1: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r2: Bencoder in 100 lines of modern Python
@@ -78,17 +78,17 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed 
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230406: Wii U emulator.
-games-emulation/citra 20230406: A Nintendo 3DS emulator.
+games-emulation/citra 20230409: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2023.03.31: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20230225: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.59: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.27: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.692: Experimental Nintendo Switch emulator written in C#
-games-emulation/vita3k 20230408: Experimental PlayStation Vita emulator.
+games-emulation/ryujinx 1.1.700: Experimental Nintendo Switch emulator written in C#
+games-emulation/vita3k 20230408-r1: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.86: Original Xbox emulator.
-games-emulation/yuzu 0.1391: Nintendo Switch emulator
+games-emulation/yuzu 0.1398: Nintendo Switch emulator
 games-misc/render96ex 20230405: Fork of sm64-port with additional features (alpha branch).
 games-util/aprip 1.0.2: Remove additional copy protection found in some later PS1 games.
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
@@ -101,14 +101,14 @@ kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting 
 kde-misc/kate-stuff 20230212: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/iosevka 22.0.0: Slender typeface for code, from code
+media-fonts/iosevka 22.0.1: Slender typeface for code, from code
 media-fonts/noto 20230125: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r2: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728: SRMD super resolution implemented with ncnn library.
 media-plugins/nvidia-vaapi-driver 0.0.9: A VA-API implemention using NVIDIA's NVDEC
-media-sound/sony-headphones-client 1.2-r3: Client recreating the functionality of the Sony Headphones app.
+media-sound/sony-headphones-client 1.3.1: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
 media-video/cxadc 20230327: CX2388x direct ADC capture driver.
 media-video/domesday-duplicator 20230128: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
@@ -151,7 +151,7 @@ mpv-plugin/mpv-lrc 20230322: Synchronize lyrics with mpv
 mpv-plugin/mpv-netrc 0.0.2: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/reload 20220127-r1: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/shutup 20230408: Set mpv to quiet when stdout/stdout is not a TTY.
+mpv-plugin/shutup 20230409: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-plugin/writeedits 20211026: Writes a list of edits made to the current video file to a file
 mpv-plugin/writename 20211026: Writes a list of edits made to the current video file to a file
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
@@ -177,5 +177,5 @@ www-apps/pihole-admin-lte 5.19: Pi-hole Dashboard for stats and more
 www-apps/wakapi 2.7.0: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999-r1: Bypass Paywalls browser extension.
 x11-misc/mimeo 2022.7-r2: Open files by MIME-type or file name using regular expressions.
-x11-misc/rom-properties 2.1-r1: Shell extension for file managers to manage game ROMs and disc images.
+x11-misc/rom-properties 2.1-r2: Shell extension for file managers to manage game ROMs and disc images.
 x11-themes/apple-cursor 2.0.0: macOS cursor theme.

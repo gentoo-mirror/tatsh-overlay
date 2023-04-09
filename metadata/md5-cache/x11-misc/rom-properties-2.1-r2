@@ -1,6 +1,6 @@
 BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-libs/nettle media-libs/libjpeg-turbo media-libs/libpng net-misc/curl sys-libs/libseccomp sys-libs/zlib gtk? ( x11-libs/gtk+:3 ) kde? ( dev-qt/qtcore dev-qt/qtgui dev-qt/qtwidgets ) lz4? ( app-arch/lz4 ) lzo? ( dev-libs/lzo ) nls? ( sys-devel/gettext ) xfce? ( xfce-base/tumbler[curl] ) xml? ( dev-libs/tinyxml2 ) zstd? ( app-arch/zstd )
+DEPEND=dev-libs/nettle media-libs/libjpeg-turbo media-libs/libpng net-misc/curl sys-libs/libseccomp sys-libs/zlib gtk? ( x11-libs/gtk+:3 ) kde? ( dev-qt/qtcore dev-qt/qtdbus dev-qt/qtgui dev-qt/qtwidgets ) lz4? ( app-arch/lz4 ) lzo? ( dev-libs/lzo ) nls? ( sys-devel/gettext ) xfce? ( xfce-base/tumbler[curl] ) xml? ( dev-libs/tinyxml2 ) zstd? ( app-arch/zstd )
 DESCRIPTION=Shell extension for file managers to manage game ROMs and disc images.
 EAPI=8
 HOMEPAGE=https://github.com/GerbilSoft/rom-properties
@@ -8,10 +8,10 @@ INHERIT=cmake
 IUSE=achievements +astc cli +crypt gtk kde nls +lz4 +lzo +pvr test +unice68 +xbox-360 xfce +xml +zstd
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=dev-libs/nettle media-libs/libjpeg-turbo media-libs/libpng net-misc/curl sys-libs/libseccomp sys-libs/zlib gtk? ( x11-libs/gtk+:3 ) kde? ( dev-qt/qtcore dev-qt/qtgui dev-qt/qtwidgets ) lz4? ( app-arch/lz4 ) lzo? ( dev-libs/lzo ) nls? ( sys-devel/gettext ) xfce? ( xfce-base/tumbler[curl] ) xml? ( dev-libs/tinyxml2 ) zstd? ( app-arch/zstd )
+RDEPEND=dev-libs/nettle media-libs/libjpeg-turbo media-libs/libpng net-misc/curl sys-libs/libseccomp sys-libs/zlib gtk? ( x11-libs/gtk+:3 ) kde? ( dev-qt/qtcore dev-qt/qtdbus dev-qt/qtgui dev-qt/qtwidgets ) lz4? ( app-arch/lz4 ) lzo? ( dev-libs/lzo ) nls? ( sys-devel/gettext ) xfce? ( xfce-base/tumbler[curl] ) xml? ( dev-libs/tinyxml2 ) zstd? ( app-arch/zstd )
 REQUIRED_USE=|| ( cli gtk kde xfce )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/GerbilSoft/rom-properties/archive/refs/tags/v2.1.tar.gz -> rom-properties-2.1.tar.gz
 _eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	flag-o-matic	514815b1cc0dd4aeac177c2e812b3b1a	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	76050953ad5b70d7e09a6ca55558db92	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	7fb5980de96325cbab639f5b2187357c
-_md5_=3d4c0092865b237e8875b9acd3ed4fcb
+_md5_=687e5a75b420aaa2667bb55e366d48d3
