@@ -59,7 +59,7 @@ dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesys
 dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.3.1: Node.js native addon build tool
-dev-util/wakatime-cli 1.70.1: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.73.0: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230328: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.14: Mirror Git repositories to other Git providers.
@@ -86,7 +86,7 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20230415: A new generation, open
 games-emulation/play 0.59: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.27: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.719: Experimental Nintendo Switch emulator written in C#
-games-emulation/vita3k 20230408-r1: Experimental PlayStation Vita emulator.
+games-emulation/vita3k 20230413: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.86: Original Xbox emulator.
 games-emulation/yuzu 0.1404: Nintendo Switch emulator
 games-misc/render96ex 20230405: Fork of sm64-port with additional features (alpha branch).
