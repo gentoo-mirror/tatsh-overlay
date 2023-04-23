@@ -74,7 +74,7 @@ games-action/re3 20210902-r2: GTA III decompiled and re-built.
 games-action/relcs 20210902-r2: GTA Liberty City Stories decompiled and re-built.
 games-action/revc 20210902-r2: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 1.0.0.4080-r4: Clone of Guitar Hero and similar games.
-games-arcade/outfox 0.4.18.1-r1: Advanced rhythm game. Designed for both home and arcade use
+games-arcade/outfox 0.4.19: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/outfox-serenity 2.5_rc3: The community pack content for Project OutFox (includes volume 1.5)
 games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
@@ -90,7 +90,7 @@ games-emulation/rpcs3 0.0.27: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.726: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r1: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.86: Original Xbox emulator.
-games-emulation/yuzu 0.1404: Nintendo Switch emulator
+games-emulation/yuzu 0.1408: Nintendo Switch emulator
 games-misc/render96ex 20230405: Fork of sm64-port with additional features (alpha branch).
 games-util/aprip 1.0.2: Remove additional copy protection found in some later PS1 games.
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
@@ -110,7 +110,7 @@ media-gfx/pngdefry 1.2-r2: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728: SRMD super resolution implemented with ncnn library.
 media-plugins/nvidia-vaapi-driver 0.0.9: A VA-API implemention using NVIDIA's NVDEC
-media-sound/sony-headphones-client 1.3.1: Client recreating the functionality of the Sony Headphones app.
+media-sound/sony-headphones-client 1.3.1-r1: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
 media-video/cxadc 20230327: CX2388x direct ADC capture driver.
 media-video/domesday-duplicator 20230128: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
