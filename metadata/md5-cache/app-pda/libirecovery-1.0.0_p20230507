@@ -10,6 +10,6 @@ KEYWORDS=~amd64 ~ppc64 ~x86
 LICENSE=LGPL-2.1
 RDEPEND=>=app-pda/libimobiledevice-glue-1.0.0:= >=app-pda/libplist-2.3.0:= sys-libs/readline virtual/libusb:1
 SLOT=0
-SRC_URI=https://github.com/libimobiledevice/libirecovery/archive/28be9537a632625deaa7d71979ebf725b1b9bbc2.tar.gz -> libirecovery-1.0.0_p20230501.tar.gz
+SRC_URI=https://github.com/libimobiledevice/libirecovery/archive/386c174736e3085745f9249b4a2d83b2e527d62f.tar.gz -> libirecovery-1.0.0_p20230507.tar.gz
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	f0d3196128225dee3220e65f3371bc7a
-_md5_=ff53b7ec42366c93d318736c15624ffc
+_md5_=dc3e91271c13e0612f79b9671c8089d6
