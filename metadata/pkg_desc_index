@@ -121,7 +121,7 @@ media-video/havsfunc 33_p20230503: Holy's ported AviSynth functions for VapourSy
 media-video/magewell-pro-capture 1.3.0.4328: Magewell Pro Capture driver.
 media-video/mvsfunc 10_p20230321: mawen1250's VapourSynth functions
 media-video/open-in-mpv 0.0.7-r2: Host-side script for the Open in mpv Chrome extension.
-media-video/opentimelineio 0.15.0-r1: Editorial interchange format and API (for use with Kdenlive).
+media-video/opentimelineio 0.15.0-r2: Editorial interchange format and API (for use with Kdenlive).
 media-video/scenechange 0.2.0.2: Scene change detection plugin for VapourSynth
 media-video/vapoursynth 62: A video processing framework with simplicity in mind.
 media-video/vapoursynth-astdr 4-r1: Derainbow function for VapourSynth.
