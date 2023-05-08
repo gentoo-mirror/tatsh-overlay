@@ -7,7 +7,7 @@ app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 app-cdr/cdi2nero 0.9.9: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r1: Converts DiscJuggler CDI files to various disc image formats.
-app-cdr/redumper 128: Low level CD dumper utility
+app-cdr/redumper 145: Low level CD dumper utility
 app-emulation/virtualbox-extpack-oracle 6.1.42: PUEL extensions for VirtualBox
 app-misc/cmdpack 1.0_p20230123: Neill Corlett's command-Line pack.
 app-misc/deark 1.6.4: Utility to extract data from various file formats.
