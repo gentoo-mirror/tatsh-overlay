@@ -58,6 +58,7 @@ games-emulation/xemu:membarrier - Enable membarrier syscall support
 games-emulation/yuzu:compatibility-reporting - Enable compatibility reporting
 games-emulation/yuzu:cubeb - Build with cubeb audio backend
 games-emulation/yuzu:web-service - Enable web-services
+games-emulation/yuzu:webengine - Use dev-qt/qtwebengine for embedded web browser
 games-misc/render96ex:discord - Enable Discord presence
 games-misc/render96ex:eu - Use the EU ROM
 games-misc/render96ex:goddard - Enable enhancements to Mario's face
