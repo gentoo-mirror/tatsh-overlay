@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=media-video/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/Hinterwaeldlers/vapoursynth-hqdn3d/archive/eb820cb23f7dc47eb67ea95def8a09ab69251d30.tar.gz -> vapoursynth-hqdn3d-20180629.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	f0d3196128225dee3220e65f3371bc7a
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	f0d3196128225dee3220e65f3371bc7a
 _md5_=150a5d6a4ce810422091a1e7793a056d
