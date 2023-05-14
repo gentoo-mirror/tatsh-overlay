@@ -8,7 +8,6 @@ app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compres
 app-cdr/cdi2nero 0.9.9: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r1: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/redumper 145: Low level CD dumper utility
-app-emulation/virtualbox-extpack-oracle 6.1.42: PUEL extensions for VirtualBox
 app-misc/cmdpack 1.0_p20230123: Neill Corlett's command-Line pack.
 app-misc/deark 1.6.4: Utility to extract data from various file formats.
 app-misc/pyrescene 0.7-r1: Mechanism to restore metadata from certain releasesd files.
@@ -96,7 +95,7 @@ games-util/aprip 1.0.2: Remove additional copy protection found in some later PS
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
 games-util/joystickwake 0.4.1: Joystick-aware screen waker.
 games-util/kelftool 20191126: Utility for decrypt, encrypt and sign PS2 KELF and PSX KELF files.
-games-util/raphnet-tech-adapter-manager 2.1.28: Graphical user interface and command-line tools to manage raphnet adapters.
+games-util/raphnet-tech-adapter-manager 2.1.27: Graphical user interface and command-line tools to manage raphnet adapters.
 games-util/wiimms-iso-tools 3.05a: A set of command line tools to maniuplate Wii/Gamecube images.
 games-util/wiimms-szs-tools 2.33a: A set of command line tools to maniuplate files of various Nintendo titles.
 kde-misc/kate-jinja2-highlighting 20190428: Improved Jinja2 syntax highlighting for Kate.
