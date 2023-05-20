@@ -137,6 +137,7 @@ media-video/vapoursynth-mvtools 23-r1: Motion compensation, etc for VapourSynth.
 media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12-r1: nnedi3 weights.bin file
 media-video/vapoursynth-realcugan-ncnn-vulkan 2: Real-CUGAN super resolution plugin for VapourSynth.
+media-video/vapoursynth-rife-ncnn-vulkan 9: RIFE filter for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5: Waifu2x filter for VapourSynth
 media-video/vhs-decode 20230512: Software defined VHS decoder.
