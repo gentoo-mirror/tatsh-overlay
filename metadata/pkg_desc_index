@@ -140,7 +140,7 @@ media-video/vapoursynth-realcugan-ncnn-vulkan 2: Real-CUGAN super resolution plu
 media-video/vapoursynth-realesrgan-ncnn-vulkan 20230525: RealESRGAN super resolution plugin for VapourSynth
 media-video/vapoursynth-realsr-ncnn-vulkan 3: RealSR super resolution plugin for VapourSynth.
 media-video/vapoursynth-rife-ncnn-vulkan 9: RIFE filter for VapourSynth.
-media-video/vapoursynth-srmd-ncnn-vulkan 3: SRMD super resolution plugin for VapourSynth
+media-video/vapoursynth-srmd-ncnn-vulkan 3-r1: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5: Waifu2x filter for VapourSynth
 media-video/vhs-decode 20230512: Software defined VHS decoder.
 media-video/video2x 4.8.1-r5: A lossless video/GIF/image upscaler.
