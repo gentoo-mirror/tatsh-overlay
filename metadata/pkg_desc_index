@@ -44,7 +44,7 @@ dev-libs/xbyak 6.69.1: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r2: Bencoder in 100 lines of modern Python
 dev-python/colored 1.4.4-r1: Very simple Python library for color and formatting in terminal
 dev-python/gooey 1.0.8.1-r1: Turn (almost) any command line program into a full GUI application with one line.
-dev-python/hidapi 0.13.1: Python wrapper for hidapi.
+dev-python/hidapi 0.14.0: Python wrapper for hidapi.
 dev-python/llvmlite 0.40.0: A lightweight LLVM python binding for writing JIT compilers
 dev-python/numba 0.57.0: NumPy aware dynamic Python compiler using LLVM
 dev-python/pyaaf2 1.6.0-r1: Read and write Advanced Authoring Format (AAF) files.
@@ -81,7 +81,7 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed 
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230528: Wii U emulator.
-games-emulation/citra 20230525: A Nintendo 3DS emulator.
+games-emulation/citra 20230504: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2023.05.01: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator communicate with the controllers directly.
@@ -91,7 +91,7 @@ games-emulation/rpcs3 0.0.27: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.829: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r1: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.90: Original Xbox emulator.
-games-emulation/yuzu 0.1440-r1: Nintendo Switch emulator
+games-emulation/yuzu 0.1448: Nintendo Switch emulator
 games-misc/render96ex 20230405: Fork of sm64-port with additional features (alpha branch).
 games-util/aprip 1.0.2: Remove additional copy protection found in some later PS1 games.
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
