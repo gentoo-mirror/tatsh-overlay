@@ -45,7 +45,7 @@ dev-python/benc 2019.8.1-r2: Bencoder in 100 lines of modern Python
 dev-python/colored 1.4.4-r1: Very simple Python library for color and formatting in terminal
 dev-python/gooey 1.0.8.1-r1: Turn (almost) any command line program into a full GUI application with one line.
 dev-python/hidapi 0.13.1: Python wrapper for hidapi.
-dev-python/llvmlite 0.39.1_p20230525: A lightweight LLVM python binding for writing JIT compilers
+dev-python/llvmlite 0.40.0: A lightweight LLVM python binding for writing JIT compilers
 dev-python/numba 0.57.0: NumPy aware dynamic Python compiler using LLVM
 dev-python/pyaaf2 1.6.0-r1: Read and write Advanced Authoring Format (AAF) files.
 dev-python/pygtrie 2.5.0-r2: A pure Python trie data structure implementation.
@@ -172,7 +172,7 @@ mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
 mpv-shader/krig-bilateral 20220530: Shader for mpv.
 mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20220515: Downscaler shader for mpv.
-net-dns/pihole 5.16.2: Network-wide ad blocking (core).
+net-dns/pihole 5.17: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.23: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r4: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.10.6-r1: Declarative configuration for Gmail filters
