@@ -73,7 +73,7 @@ src_install() {
 	make_wrapper "$PN" "${inst}/OutFox" "${inst}" "${inst}" /usr/bin
 	insinto "$inst"
 	doins -r Announcers Appearance BackgroundEffects BackgroundTransitions \
-		BGAnimations Characters Courses Data Scripts Songs
+		BGAnimations Characters Courses DanceStages Data Modules Scripts Songs
 	! use bundled-songs && keepdir "${inst}/Songs"
 	! use bundled-courses && keepdir "${inst}/Courses"
 	exeinto "${inst}"
