@@ -60,7 +60,7 @@ dev-util/node-gyp 9.3.1: Node.js native addon build tool
 dev-util/wakatime-cli 1.73.1: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230525: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610: Safely store secrets in Git/Mercurial/Subversion
-dev-vcs/gickup 0.10.15: Mirror Git repositories to other Git providers.
+dev-vcs/gickup 0.10.16: Mirror Git repositories to other Git providers.
 dev-vcs/git-extras 6.4.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.33.0: Quickly rewrite git repository history (filter-branch replacement)
 dev-vcs/git-radar 0.6_p20170108: A heads up display for Git.
@@ -75,7 +75,7 @@ games-arcade/outfox-serenity 2.5: The community pack content for Project OutFox 
 games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20230528: Wii U emulator.
+games-emulation/cemu 2.0_p20230604: Wii U emulator.
 games-emulation/citra 20230504: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2023.05.01: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
@@ -83,10 +83,10 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0: Plugin to let the emulator c
 games-emulation/mupen64plus-video-gliden64 4.0_p20230415: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.60: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.28: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.829: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.862: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r1: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.90: Original Xbox emulator.
-games-emulation/yuzu 0.1448: Nintendo Switch emulator
+games-emulation/yuzu 0.1458: Nintendo Switch emulator
 games-misc/render96ex 20230405: Fork of sm64-port with additional features (alpha branch).
 games-util/aprip 1.0.2: Remove additional copy protection found in some later PS1 games.
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
@@ -157,7 +157,7 @@ mpv-plugin/mpv-lrc 20230322: Synchronize lyrics with mpv
 mpv-plugin/mpv-netrc 0.0.2: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/reload 20220127-r1: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/shutup 20230603: Set mpv to quiet when stdout/stdout is not a TTY.
+mpv-plugin/shutup 20230604: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-plugin/writeedits 20211026: Writes a list of edits made to the current video file to a file
 mpv-plugin/writename 20211026: Writes a list of edits made to the current video file to a file
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
