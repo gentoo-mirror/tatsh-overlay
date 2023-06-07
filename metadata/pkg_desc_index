@@ -10,6 +10,7 @@ app-cdr/cdirip 0.6.2-r1: Converts DiscJuggler CDI files to various disc image fo
 app-cdr/redumper 158: Low level CD dumper utility
 app-misc/cmdpack 1.0_p20230123: Neill Corlett's command-Line pack.
 app-misc/deark 1.6.4: Utility to extract data from various file formats.
+app-misc/fx 24.1.0: Terminal JSON viewer.
 app-misc/pyrescene 0.7-r1: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r1: Tools for Xirvik servers.
