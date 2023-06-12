@@ -41,7 +41,6 @@ DEPEND="app-arch/zstd
 	>=dev-libs/xbyak-5.941
 	dev-qt/qtbase:6
 	dev-qt/qtmultimedia:6
-	dev-qt/qtwidgets:6
 	dev-util/nihstro
 	media-libs/libsdl2
 	media-video/ffmpeg
