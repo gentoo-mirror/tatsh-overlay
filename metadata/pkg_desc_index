@@ -18,7 +18,7 @@ app-misc/zwave-js-server 1.28.0: Full access to zwave-js driver through Websocke
 app-mobilephone/better-adb-sync 20230407: Completely rewritten adbsync with proper --exclude.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107: Helper utility to enable charging with Apple mobile devices such as the iPad.
-app-portage/upkeep 1.4.1: Helper commands to automate updating with Portage.
+app-portage/upkeep 1.4.3: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20230419: A code-completion engine for Vim.
