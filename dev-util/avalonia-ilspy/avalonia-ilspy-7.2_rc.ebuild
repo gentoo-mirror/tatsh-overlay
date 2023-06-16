@@ -273,7 +273,7 @@ DOTNET_PROJECTS=( "${MY_PN_SHORT}.sln" )
 DOTNET_PV="${MY_PV}"
 
 src_install() {
-	newicon "ILSpy.Core/Images/${MY_PN_SHORT}.png" "${MY_PN_SHORT}"
+	newicon "ILSpy.Core/Images/${MY_PN_SHORT}.png" "${MY_PN_SHORT}.png"
 	mkdir -p "${D}/usr/$(get_libdir)/${MY_PN_SHORT}" || die
 	cp -R "${MY_PN_SHORT}/bin/Release/net6.0/linux-x64/publish/"* "${D}/usr/$(get_libdir)/${MY_PN_SHORT}"
 	make_wrapper "${MY_PN_SHORT}" "/usr/$(get_libdir)/${MY_PN_SHORT}/${MY_PN_SHORT}" \
