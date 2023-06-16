@@ -8,8 +8,8 @@ inherit desktop dotnet-utils wrapper xdg
 
 DESCRIPTION=".NET decompiler."
 HOMEPAGE="https://github.com/icsharpcode/AvaloniaILSpy"
-MY_PN="AvaloniaILSpy"
-MY_PN_SHORT="ILSpy"
+MY_PN="A${PN:1:7}ILS${PN:12}"
+MY_PN_SHORT="${MY_PN:8}"
 MY_PV="${PV//_/-}"
 NUGETS="avalonia-0.10.13
 	avalonia.angle.windows.natives-2.1.0.2020091801
@@ -273,6 +273,6 @@ src_install() {
 	cp -R "${MY_PN_SHORT}/bin/Release/net6.0/linux-x64/publish/"* "${D}/usr/$(get_libdir)/${MY_PN_SHORT}"
 	make_wrapper "${MY_PN_SHORT}" "/usr/$(get_libdir)/${MY_PN_SHORT}/${MY_PN_SHORT}" \
 		"/usr/$(get_libdir)/${MY_PN_SHORT}"
-	make_desktop_entry "${MY_PN_SHORT}" "${MY_PN_SHORT}"
+	make_desktop_entry "${MY_PN_SHORT}" "${MY_PN_SHORT}" "${MY_PN_SHORT}"
 	einstalldocs
 }
