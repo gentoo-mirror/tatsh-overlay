@@ -8,6 +8,7 @@ app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compres
 app-cdr/cdi2nero 0.9.9: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r1: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/redumper 168: Low level CD dumper utility
+app-emulation/sheepshaver 1.0.0_p20230515: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123: Neill Corlett's command-Line pack.
 app-misc/deark 1.6.4: Utility to extract data from various file formats.
 app-misc/fx 24.1.0: Terminal JSON viewer.
