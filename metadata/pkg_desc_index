@@ -53,6 +53,7 @@ dev-python/soundfile 0.10.3.1 0.12.1: An audio library based on libsndfile, CFFI
 dev-python/vsutil 0.8.0-r1: A collection of general purpose Vapoursynth functions
 dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9: Single file executable that provides a complete Tcl and Tk runtime.
+dev-util/avalonia-ilspy 7.2_rc: .NET decompiler.
 dev-util/cmake-format 0.6.13-r1: Source code formatter for CMake files.
 dev-util/ffs 0.1.2: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
