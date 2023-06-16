@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit autotools desktop
+inherit autotools desktop fcaps
 
 DESCRIPTION="Macintosh emulator (updated fork)."
 HOMEPAGE="https://github.com/kanjitalk755/macemu"
@@ -23,10 +23,9 @@ DEPEND="dev-libs/glib
 RDEPEND="${DEPEND}"
 
 PATCHES=( "${FILESDIR}/${PN}-0001-fix-implicit.patch" )
-
 S="${WORKDIR}/macemu-${SHA}/SheepShaver/src/Unix"
-
 MAKEOPTS+=" -j1"
+FILECAPS=( cap_sys_rawio bin/SheepShaver )
 
 src_unpack() {
 	local archive
