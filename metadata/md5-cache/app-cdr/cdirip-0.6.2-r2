@@ -1,11 +1,12 @@
+BDEPEND=app-arch/unzip
 DEFINED_PHASES=compile install prepare
 DESCRIPTION=Converts DiscJuggler CDI files to various disc image formats.
-EAPI=7
+EAPI=8
 HOMEPAGE=https://web.archive.org/web/20091027063725/http://es.geocities.com/dextstuff/cdirip/down_cdi.html
-INHERIT=eutils toolchain-funcs
+INHERIT=toolchain-funcs
 KEYWORDS=~amd64 ~ppc64 ~x86
 LICENSE=all-rights-reserved
 SLOT=0
 SRC_URI=https://web.archive.org/web/20091027063725/http://es.geocities.com/dextstuff/cdirip/cdirip062-src.zip
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=5d57aa91aaa89fbf6b4491e6e165828f
+_eclasses_=toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_md5_=1cf244b6eec50aad6906779f9eade2e3
