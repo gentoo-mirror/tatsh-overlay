@@ -1,14 +1,14 @@
 BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-libs/qcustomplot dev-qt/qtmultimedia:5 dev-qt/qtserialport:5 dev-qt/qtwidgets:5 dev-qt/qtgui:5 dev-qt/qtcore:5 virtual/libusb:1
+DEPEND=dev-libs/qcustomplot dev-qt/qtbase:6 dev-qt/qtgui:6 dev-qt/qtserialport:6 virtual/libusb:1
 DESCRIPTION=Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
 EAPI=8
 HOMEPAGE=https://github.com/simoninns/DomesdayDuplicator
 INHERIT=cmake desktop
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=dev-libs/qcustomplot dev-qt/qtmultimedia:5 dev-qt/qtserialport:5 dev-qt/qtwidgets:5 dev-qt/qtgui:5 dev-qt/qtcore:5 virtual/libusb:1
+RDEPEND=dev-libs/qcustomplot dev-qt/qtbase:6 dev-qt/qtgui:6 dev-qt/qtserialport:6 virtual/libusb:1
 SLOT=0
-SRC_URI=https://github.com/simoninns/DomesdayDuplicator/archive/5f00ff03e2cf7c842e81d17c26184bee82298359.tar.gz -> domesday-duplicator-20230128.tar.gz
+SRC_URI=https://github.com/simoninns/DomesdayDuplicator/archive/5f00ff03e2cf7c842e81d17c26184bee82298359.tar.gz -> domesday-duplicator-2.3_p20230128.tar.gz
 _eclasses_=toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	76050953ad5b70d7e09a6ca55558db92	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	7fb5980de96325cbab639f5b2187357c	desktop	021728fdc1b03b36357dbc89489e0f0d
-_md5_=1b45e568ae77c66eeb105915a983cb3f
+_md5_=0663e6b5f562f27187c881935cfde378
