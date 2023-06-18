@@ -153,7 +153,7 @@ media-video/vapoursynth-realsr-ncnn-vulkan 3: RealSR super resolution plugin for
 media-video/vapoursynth-rife-ncnn-vulkan 9: RIFE filter for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r1: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5: Waifu2x filter for VapourSynth
-media-video/vhs-decode 20230614: Software defined VHS decoder.
+media-video/vhs-decode 0.1.2_p20230614: Software defined VHS decoder.
 media-video/video2x 4.8.1-r5: A lossless video/GIF/image upscaler.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
