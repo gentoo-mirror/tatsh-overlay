@@ -36,7 +36,7 @@ dev-libs/libtoolchain 0.6.1: Toolchain development library.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/nativefiledialog-extended 0_pre20230607: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 64: Stuff used in tsschecker.
-dev-libs/vulkan-memory-allocator 3.0.1-r1: Easy to integrate Vulkan memory allocation library
+dev-libs/vulkan-memory-allocator 3.0.1_p20230713: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.6.2: Embedded SSL library.
 dev-libs/xbyak 6.69.1: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r2: Bencoder in 100 lines of modern Python
@@ -78,7 +78,7 @@ games-arcade/outfox 5.0.0_p41: Advanced rhythm game. Designed for both home and 
 games-arcade/outfox-serenity 3.0.1: The community pack content for Project OutFox (includes volume 1.5)
 games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
-games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
+games-emulation/bsnes-hd 10.6_p20230426: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230618: Wii U emulator.
 games-emulation/citra 20230608: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2023.05.01: Cross-platform DOS emulation package.
