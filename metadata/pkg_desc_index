@@ -7,7 +7,7 @@ app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
-app-cdr/redumper 168: Low level CD dumper utility
+app-cdr/redumper 170: Low level CD dumper utility
 app-emulation/basiliskii 1.0.0_p20230515: 68k Macintosh emulator (updated fork).
 app-emulation/sheepshaver 1.0.0_p20230515: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
@@ -23,7 +23,7 @@ app-pda/ipad_charge 20210107: Helper utility to enable charging with Apple mobil
 app-portage/upkeep 1.4.3: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20230419: A code-completion engine for Vim.
+app-vim/youcompleteme 20230612: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.2: Command line parser for C++11
 dev-cpp/tracy 0.9.1: C++ frame profiler
 dev-db/dbeaver-bin 23.1.0: Free universal database tool (community edition).
@@ -79,7 +79,7 @@ games-arcade/outfox-serenity 3.0.1: The community pack content for Project OutFo
 games-arcade/stepmania 5.1.0_beta2_p20221114-r4: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta-r6: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20230606: Wii U emulator.
+games-emulation/cemu 2.0_p20230618: Wii U emulator.
 games-emulation/citra 20230608: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2023.05.01: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
@@ -89,8 +89,8 @@ games-emulation/play 0.60: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.28-r1: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.885: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r1: Experimental PlayStation Vita emulator.
-games-emulation/xemu 0.7.93: Original Xbox emulator.
-games-emulation/yuzu 0.1465-r1: Nintendo Switch emulator
+games-emulation/xemu 0.7.96: Original Xbox emulator.
+games-emulation/yuzu 0.1473: Nintendo Switch emulator
 games-misc/render96ex 20230405: Fork of sm64-port with additional features (alpha branch).
 games-util/aprip 1.0.2: Remove additional copy protection found in some later PS1 games.
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
@@ -110,7 +110,7 @@ media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r2: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728: SRMD super resolution implemented with ncnn library.
-media-libs/vs-denoise 1.0.0_p20230611: VapourSynth denoising, regression, and motion compensation functions
+media-libs/vs-denoise 1.0.0_p20230617: VapourSynth denoising, regression, and motion compensation functions
 media-libs/vsaa 1.8.0: Functions and utils related to VapourSynth.
 media-libs/vsexprtools 1.4.5: VapourSynth functions and helpers for writing RPN expressions.
 media-libs/vskernels 2.4.1: Kernel objects for scaling and format conversion within VapourSynth.
@@ -133,7 +133,7 @@ media-video/mvsfunc 10_p20230321: mawen1250's VapourSynth functions
 media-video/open-in-mpv 0.1.0-r1: Host-side script for the Open in mpv Chrome extension.
 media-video/opentimelineio 0.15.0-r2: Editorial interchange format and API (for use with Kdenlive).
 media-video/scenechange 0.2.0.2: Scene change detection plugin for VapourSynth
-media-video/vapoursynth 62: A video processing framework with simplicity in mind.
+media-video/vapoursynth 63: A video processing framework with simplicity in mind.
 media-video/vapoursynth-astdr 4-r1: Derainbow function for VapourSynth.
 media-video/vapoursynth-bm3d 9: BM3D denoising filter for VapourSynth
 media-video/vapoursynth-dfmderainbow 2: Derainbow function for VapourSynth.
@@ -148,12 +148,12 @@ media-video/vapoursynth-mvtools 23-r1: Motion compensation, etc for VapourSynth.
 media-video/vapoursynth-nnedi3 12: nnedi3 filter for VapourSynth
 media-video/vapoursynth-nnedi3-weights 12-r1: nnedi3 weights.bin file
 media-video/vapoursynth-realcugan-ncnn-vulkan 2: Real-CUGAN super resolution plugin for VapourSynth.
-media-video/vapoursynth-realesrgan-ncnn-vulkan 20230525-r1: RealESRGAN super resolution plugin for VapourSynth
+media-video/vapoursynth-realesrgan-ncnn-vulkan 20230615: RealESRGAN super resolution plugin for VapourSynth
 media-video/vapoursynth-realsr-ncnn-vulkan 3: RealSR super resolution plugin for VapourSynth.
 media-video/vapoursynth-rife-ncnn-vulkan 9: RIFE filter for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r1: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5: Waifu2x filter for VapourSynth
-media-video/vhs-decode 20230607: Software defined VHS decoder.
+media-video/vhs-decode 20230614: Software defined VHS decoder.
 media-video/video2x 4.8.1-r5: A lossless video/GIF/image upscaler.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
@@ -170,7 +170,7 @@ mpv-plugin/mpv-lrc 20230528: Synchronize lyrics with mpv
 mpv-plugin/mpv-netrc 0.0.2: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/reload 20220127-r1: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/shutup 20230609: Set mpv to quiet when stdout/stdout is not a TTY.
+mpv-plugin/shutup 20230616: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-plugin/writeedits 20211026: Writes a list of edits made to the current video file to a file
 mpv-plugin/writename 20211026: Writes a list of edits made to the current video file to a file
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
