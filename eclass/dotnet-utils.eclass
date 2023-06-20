@@ -30,7 +30,7 @@ if [[ ! ${DOTNET_SLOT} ]]; then
 fi
 
 # Temporary, use the virtual once you can have multiple virtuals installed at once
-BDEPEND+=" || ( dev-dotnet/dotnet-sdk:${DOTNET_SLOT} dev-dotnet/dotnet-sdk-bin:${DOTNET_SLOT} )"
+BDEPEND+=" dev-dotnet/dotnet-sdk-bin:${DOTNET_SLOT}"
 
 # @ECLASS_VARIABLE: DOTNET_EXECUTABLE
 # @DEFAULT_UNSET
@@ -98,11 +98,12 @@ nuget_uris() {
 	local nuget nugets
 
 	if (( $# != 0 )); then
-		nugets="${@}"
+		nugets="${*}"
 	elif [[ ${NUGETS} ]]; then
 		nugets="${NUGETS}"
 	else
 		eerror "NUGETS variable is not defined and nothing passed as argument"
+		# shellcheck disable=SC2128
 		die "${FUNCNAME}: Can't generate SRC_URI from empty input"
 	fi
 
@@ -132,7 +133,7 @@ dotnet-utils_pkg_setup() {
 
 	local _dotnet
 	for _dotnet in dotnet{,-bin}-${DOTNET_SLOT}; do
-		if type ${_dotnet} 1> /dev/null 2>&1; then
+		if type "${_dotnet}" 1> /dev/null 2>&1; then
 			DOTNET_EXECUTABLE=${_dotnet}
 			break
 		fi
@@ -144,11 +145,12 @@ dotnet-utils_pkg_setup() {
 # @DESCRIPTION:
 # Call dotnet, passing the supplied arguments.
 edotnet() {
-	debug-print-function ${FUNCNAME} "${@}"
+	# shellcheck disable=SC2128
+	debug-print-function "${FUNCNAME}" "${@}"
 
 	local dotnet_args=(
 		--runtime "${DOTNET_RUNTIME}"
-		-maxcpucount:$(makeopts_jobs)
+		"-maxcpucount:$(makeopts_jobs)"
 	)
 
 	edo "${DOTNET_EXECUTABLE}" "${@}" "${dotnet_args[@]}"
@@ -158,7 +160,8 @@ edotnet() {
 # @DESCRIPTION:
 # Unpacks the package
 dotnet-utils_src_unpack() {
-	debug-print-function ${FUNCNAME} "${@}"
+	# shellcheck disable=SC2128
+	debug-print-function "${FUNCNAME}" "${@}"
 
 	local archive
 	for archive in ${A}; do
@@ -166,7 +169,7 @@ dotnet-utils_src_unpack() {
 			*.nupkg)
 				;;
 			*)
-				unpack ${archive}
+				unpack "${archive}"
 				;;
 		esac
 	done
@@ -176,7 +179,8 @@ dotnet-utils_src_unpack() {
 # @DESCRIPTION:
 # Restore the packages using 'dotnet restore'
 dotnet-utils_src_prepare() {
-	debug-print-function ${FUNCNAME} "${@}"
+	# shellcheck disable=SC2128
+	debug-print-function "${FUNCNAME}" "${@}"
 
 	local project
 
@@ -194,7 +198,8 @@ dotnet-utils_src_prepare() {
 # @DESCRIPTION:
 # Build the package using dotnet publish
 dotnet-utils_src_compile() {
-	debug-print-function ${FUNCNAME} "${@}"
+	# shellcheck disable=SC2128
+	debug-print-function "${FUNCNAME}" "${@}"
 
 	local project
 	local publish_args=(
