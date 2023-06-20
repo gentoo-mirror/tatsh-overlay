@@ -12,4 +12,4 @@ RDEPEND=dev-libs/glib dev-libs/hidapi media-libs/harfbuzz sys-libs/zlib virtual/
 SLOT=0
 SRC_URI=https://github.com/raphnet/gcn64tools/archive/refs/tags/v2.1.27.tar.gz -> raphnet-tech-adapter-manager-2.1.27.tar.gz
 _eclasses_=toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	udev	eec0bbab06977f1cfc5597269c1fa152	flag-o-matic	ad475baa777c9978fa035216c8264a10	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5
-_md5_=fd9a176158bba1c9c8b9085f60fda454
+_md5_=b43e4ac3108f9014b87ef1f8d354b150

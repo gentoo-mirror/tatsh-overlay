@@ -9,4 +9,4 @@ LICENSE=public-domain
 SLOT=0
 SRC_URI=https://web.archive.org/web/20211205021959/http://www.jongware.com/binaries/pngdefry.zip -> pngdefry-1.2.zip
 _eclasses_=toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=64f9e3b536ac59206a4f751f115700c4
+_md5_=3df83ac4abc65878dc9661a40960f674

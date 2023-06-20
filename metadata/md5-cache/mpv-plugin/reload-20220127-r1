@@ -9,5 +9,5 @@ LICENSE=all-rights-reserved
 RDEPEND=media-video/mpv[lua]
 SLOT=0
 SRC_URI=https://github.com/4e6/mpv-reload/archive/c1219b6ac3ee3de887e6a36ae41a8e478835ae92.tar.gz -> reload-20220127.tar.gz
-_eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a
-_md5_=86c468074ef2d4388b5a3513fb937fba
+_eclasses_=mpv-plugin	ef7c5ad8019deb98f4397f710be72dc3
+_md5_=b721f760e389a40bc83cb5aff0e81086

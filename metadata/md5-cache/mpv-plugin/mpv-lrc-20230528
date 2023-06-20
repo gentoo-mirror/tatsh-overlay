@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=media-video/mpv[lua]
 SLOT=0
 SRC_URI=https://git.sr.ht/~guidocella/mpv-lrc/archive/be28d9293bfa6eac46bf790ca011dadffa382c3d.tar.gz -> mpv-lrc-be28d92.tar.gz
-_eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a
+_eclasses_=mpv-plugin	ef7c5ad8019deb98f4397f710be72dc3
 _md5_=09e37b24b280ce1baf258127f0ba698a

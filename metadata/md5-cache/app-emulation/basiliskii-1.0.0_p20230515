@@ -12,4 +12,4 @@ RDEPEND=dev-libs/glib media-libs/libsdl2 x11-libs/gtk+:2 x11-libs/libX11
 SLOT=0
 SRC_URI=https://github.com/kanjitalk755/macemu/archive/c4c153c49c6487c2fca3d009b2d9466eda71c5ef.tar.gz -> basiliskii-1.0.0_p20230515.tar.gz https://basilisk.cebix.net/images/apple.png -> basiliskii-icon.png
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	desktop	021728fdc1b03b36357dbc89489e0f0d
-_md5_=2479c02e91b413ce9d4f718f07b961fc
+_md5_=e65fb602f4388b8c5fd3dc5a4c64f0ec

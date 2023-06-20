@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=media-video/mpv[lua]
 SLOT=0
 SRC_URI=https://github.com/occivink/mpv-scripts/archive/af360f332897dda907644480f785336bc93facf1.tar.gz -> occivink-mpv-scripts-af360f3.tar.gz
-_eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a
+_eclasses_=mpv-plugin	ef7c5ad8019deb98f4397f710be72dc3
 _md5_=e461530afe6017e1df300cbd4308de4a

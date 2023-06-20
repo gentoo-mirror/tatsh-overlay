@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=media-video/mpv[opengl]
 SLOT=0
 SRC_URI=https://gist.github.com/agyild/bbb4e58298b2f86aa24da3032a0d2ee6/archive/10e4ca1b6ef173b64391ce2c81b9a95fcd095931.zip -> amd-fidelityfx-cas-20220221.zip
-_eclasses_=mpv-shader	d14c41d038360b1cc1ed430caa41c648
+_eclasses_=mpv-shader	a88e48ee7abad3fa49716eccb81e45b7
 _md5_=5fa2d3ffd7e6b9ead23eac8f4cfb8b56

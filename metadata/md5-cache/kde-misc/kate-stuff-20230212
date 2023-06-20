@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~ppc64 ~x86
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/zaufi/kate-stuff/archive/2d3c443aded590f9c51067d6fb6df3f1157acc99.tar.gz -> kate-stuff-20230212.tar.gz
-_md5_=6ae0e5d6c32c03be921187b74f86d42a
+_md5_=3a7a8a29a744dcd34c13a8b9b734b1db

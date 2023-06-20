@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=media-video/mpv[opengl]
 SLOT=0
 SRC_URI=https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5/archive/2623d743b9c23f500ba086f05b385dcb1557e15d.zip -> amd-fidelityfx-super-resolution-20220306.zip
-_eclasses_=mpv-shader	d14c41d038360b1cc1ed430caa41c648
+_eclasses_=mpv-shader	a88e48ee7abad3fa49716eccb81e45b7
 _md5_=31601abbb477bea18f555cc2c6aa119b

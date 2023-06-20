@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/openssl sys-libs/ncurses sys-libs/zlib
 SLOT=0
 SRC_URI=https://github.com/Wiimm/wiimms-szs-tools/archive/74ac39c1af5c8e85bf10711aed2ffc9dfee2e277.tar.gz -> wiimms-szs-tools-2.34.tar.gz
-_md5_=8444e4facadae226fa5f2f596d3f801b
+_md5_=163c936b64d93a02750ef4eacc3b484f
