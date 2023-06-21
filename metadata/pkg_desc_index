@@ -40,7 +40,7 @@ dev-libs/vulkan-memory-allocator 3.0.1_p20230713: Easy to integrate Vulkan memor
 dev-libs/wolfssl 5.6.2: Embedded SSL library.
 dev-libs/xbyak 6.69.1: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r2: Bencoder in 100 lines of modern Python
-dev-python/colored 1.4.4-r1: Very simple Python library for color and formatting in terminal
+dev-python/colored 2.1.1: Very simple Python library for color and formatting in terminal
 dev-python/gooey 1.0.8.1-r1: Turn any command line program into a full GUI application with one line.
 dev-python/hidapi 0.14.0: Python wrapper for hidapi.
 dev-python/llvmlite 0.40.0: A lightweight LLVM python binding for writing JIT compilers
