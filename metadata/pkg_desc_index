@@ -54,6 +54,7 @@ dev-python/requests-futures 1.0.0-r4: Asynchronous Python HTTP for Humans.
 dev-python/samplerate 0.1.0-r2: Python bindings for libsamplerate.
 dev-python/soundfile 0.10.3.1-r1 0.12.1-r1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/vsutil 0.8.0-r2: A collection of general purpose Vapoursynth functions
+dev-qt/qtquick3d 5.15.10: Qt module and API for defining 3D content in Qt QuickTools
 dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9-r1: Single file executable that provides a complete Tcl and Tk runtime.
 dev-util/avalonia-ilspy 7.2_rc: .NET decompiler.
@@ -105,7 +106,7 @@ games-util/wiimms-szs-tools 2.34-r1: A set of command line tools to maniuplate f
 kde-misc/kate-jinja2-highlighting 20190428-r1: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20230212-r1: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
-kde-misc/kwin-effects-cube 2.0.0: Desktop cube effect for Kwin.
+kde-misc/kwin-effects-cube 2.0.0-r1: Desktop cube effect for Kwin.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
 media-fonts/noto 20230125-r1: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
