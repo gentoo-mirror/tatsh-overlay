@@ -157,7 +157,7 @@ media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for 
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
 media-video/vhs-decode 0.1.2_p20230614-r1: Software defined VHS decoder.
 media-video/video2x 4.8.1-r6: A lossless video/GIF/image upscaler.
-media-video/videoduplicatefinder 3.0_p20230527: Video duplicate finder.
+media-video/videoduplicatefinder 3.0_p20230527-r1: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-video/znedi3 2.1_p20220908-r1: nnedi3 filter.
