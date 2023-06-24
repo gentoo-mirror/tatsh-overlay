@@ -11,6 +11,7 @@ app-cdr/redumper 170-r1: Low level CD dumper utility
 app-emulation/basiliskii 1.0.0_p20230515-r1: 68k Macintosh emulator (updated fork).
 app-emulation/sheepshaver 1.0.0_p20230515-r1: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
+app-misc/czkawka 6.0.0: App to find duplicates, empty folders, similar images etc.
 app-misc/deark 1.6.4: Utility to extract data from various file formats.
 app-misc/fx 24.1.0: Terminal JSON viewer.
 app-misc/pyrescene 0.7-r2: Mechanism to restore metadata from certain releasesd files.
