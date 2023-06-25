@@ -7,9 +7,9 @@ app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
-app-cdr/redumper 170-r1: Low level CD dumper utility
-app-emulation/basiliskii 1.0.0_p20230515-r1: 68k Macintosh emulator (updated fork).
-app-emulation/sheepshaver 1.0.0_p20230515-r1: Macintosh emulator (updated fork).
+app-cdr/redumper 175: Low level CD dumper utility
+app-emulation/basiliskii 1.0.0_p20230620: 68k Macintosh emulator (updated fork).
+app-emulation/sheepshaver 1.0.0_p20230620: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/czkawka 6.0.0: App to find duplicates, empty folders, similar images etc.
 app-misc/deark 1.6.4: Utility to extract data from various file formats.
@@ -18,7 +18,7 @@ app-misc/pyrescene 0.7-r2: Mechanism to restore metadata from certain releasesd 
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r2: CLI to track a USPS shipment by SMS.
 app-misc/zwave-js-server 1.28.0-r1: Full access to zwave-js driver through Websockets
-app-mobilephone/better-adb-sync 20230407-r1: Completely rewritten adbsync with proper --exclude.
+app-mobilephone/better-adb-sync 20230623: Completely rewritten adbsync with proper --exclude.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
 app-portage/upkeep 1.4.3-r1: Helper commands to automate updating with Portage.
@@ -38,14 +38,14 @@ dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C+
 dev-libs/nativefiledialog-extended 0_pre20230607-r1: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 64: Stuff used in tsschecker.
 dev-libs/vulkan-memory-allocator 3.0.1_p20230713: Easy to integrate Vulkan memory allocation library
-dev-libs/wolfssl 5.6.2-r1: Embedded SSL library.
+dev-libs/wolfssl 5.6.3: Embedded SSL library.
 dev-libs/xbyak 6.69.1: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r3: Bencoder in 100 lines of modern Python
-dev-python/colored 2.1.1-r1: Very simple Python library for color and formatting in terminal
+dev-python/colored 2.2.0: Very simple Python library for color and formatting in terminal
 dev-python/gooey 1.0.8.1-r2: Turn any command line program into a full GUI application with one line.
 dev-python/hidapi 0.14.0-r1: Python wrapper for hidapi.
-dev-python/llvmlite 0.40.0-r1: A lightweight LLVM python binding for writing JIT compilers
-dev-python/numba 0.57.0-r1: NumPy aware dynamic Python compiler using LLVM
+dev-python/llvmlite 0.40.1: A lightweight LLVM python binding for writing JIT compilers
+dev-python/numba 0.57.1: NumPy aware dynamic Python compiler using LLVM
 dev-python/pyaaf2 1.7.0-r1: Read and write Advanced Authoring Format (AAF) files.
 dev-python/pygtrie 2.5.0-r3: A pure Python trie data structure implementation.
 dev-python/pyhht 0.1.0-r2: A Python module for the Hilbert Huang Transform.
@@ -70,7 +70,7 @@ dev-vcs/gickup 0.10.17: Mirror Git repositories to other Git providers.
 dev-vcs/git-extras 6.4.0: Git utilties: repo summary, repl, changelog population, and more.
 dev-vcs/git-filter-repo 2.33.0-r1: Quickly rewrite git repository history (filter-branch replacement)
 dev-vcs/git-radar 0.6_p20170108-r1: A heads up display for Git.
-dev-vcs/git-secrets 1.3.0_p20220920: Prevents you from committing sensitive info to a git repository.
+dev-vcs/git-secrets 1.3.0_p20230620: Prevents you from committing sensitive info to a git repository.
 dev-vcs/git-up 2.1.0_p20230218-r1: Python implementation of git-up
 games-action/re3 20210902-r3: GTA III decompiled and re-built.
 games-action/relcs 20210902-r3: GTA Liberty City Stories decompiled and re-built.
@@ -81,7 +81,7 @@ games-arcade/outfox-serenity 3.0.1-r1: The community pack content for Project Ou
 games-arcade/stepmania 5.1.0_beta2_p20221114-r5: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r2: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_p20230426-r1: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20230618-r1: Wii U emulator.
+games-emulation/cemu 2.0_p20230625: Wii U emulator.
 games-emulation/citra 20230608-r1: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2023.05.01-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
@@ -92,9 +92,9 @@ games-emulation/rpcs3 0.0.28-r2: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.885-r1: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.96-r1: Original Xbox emulator.
-games-emulation/yuzu 0.1473-r1: Nintendo Switch emulator
+games-emulation/yuzu 0.1478: Nintendo Switch emulator
 games-misc/render96ex 20230405-r1: Fork of sm64-port with additional features (alpha branch).
-games-util/aprip 1.0.2: Remove additional copy protection found in some later PS1 games.
+games-util/aprip 1.0.3: Remove additional copy protection found in some later PS1 games.
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
 games-util/hactool 1.4.0_p20210710: Tool for common file formats for the Nintendo Switch.
 games-util/joystickwake 0.4.1-r1: Joystick-aware screen waker.
@@ -104,7 +104,7 @@ games-util/raphnet-tech-adapter-manager 2.1.27-r1: Graphical user interface and 
 games-util/wiimms-iso-tools 3.05a-r1: A set of command line tools to maniuplate Wii/Gamecube images.
 games-util/wiimms-szs-tools 2.34-r1: A set of command line tools to maniuplate files of various Nintendo titles.
 kde-misc/kate-jinja2-highlighting 20190428-r1: Improved Jinja2 syntax highlighting for Kate.
-kde-misc/kate-stuff 20230212-r1: Updated and improved Kate editor syntax files and code snippets.
+kde-misc/kate-stuff 20230621: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 kde-misc/kwin-effects-cube 2.0.0-r1: Desktop cube effect for Kwin.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
@@ -113,16 +113,16 @@ media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728-r1: SRMD super resolution implemented with ncnn library.
-media-libs/vs-denoise 1.0.0_p20230617-r1: VapourSynth denoising, regression, and motion compensation functions
-media-libs/vsaa 1.8.0-r1: Functions and utils related to VapourSynth.
-media-libs/vsexprtools 1.4.5-r1: VapourSynth functions and helpers for writing RPN expressions.
+media-libs/vs-denoise 1.0.0_p20230625: VapourSynth denoising, regression, and motion compensation functions
+media-libs/vsaa 1.8.2: Functions and utils related to VapourSynth.
+media-libs/vsexprtools 1.4.6: VapourSynth functions and helpers for writing RPN expressions.
 media-libs/vskernels 2.4.1-r1: Kernel objects for scaling and format conversion within VapourSynth.
-media-libs/vsmasktools 1.1.1-r1: Tools and functions to manage, create, and manipulate masks in VapourSynth.
+media-libs/vsmasktools 1.1.2: Tools and functions to manage, create, and manipulate masks in VapourSynth.
 media-libs/vspyplugin 1.3.2-r1: Package for simplifying writing VapourSynth 'plugins' in python.
-media-libs/vsrgtools 1.5.0-r1: Wrapper for RGVS, RGSF, and various other functions.
-media-libs/vsscale 1.9.0-r1: Wrappers for scaling and descaling functions.
-media-libs/vstools 2.2.1-r1: Functions and utils related to VapourSynth.
-media-plugins/nvidia-vaapi-driver 0.0.9: A VA-API implemention using NVIDIA's NVDEC
+media-libs/vsrgtools 1.5.1: Wrapper for RGVS, RGSF, and various other functions.
+media-libs/vsscale 1.9.1: Wrappers for scaling and descaling functions.
+media-libs/vstools 2.3.0: Functions and utils related to VapourSynth.
+media-plugins/nvidia-vaapi-driver 0.0.10: A VA-API implemention using NVIDIA's NVDEC
 media-sound/sony-headphones-client 1.3.2-r1: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
 media-video/cxadc 20230327-r1: CX2388x direct ADC capture driver.
@@ -170,11 +170,11 @@ mpv-plugin/delete-file 20220421-r1: Queue files for deletion on quit.
 mpv-plugin/mpv-copytime 20220308-r1: Queue files for deletion on quit.
 mpv-plugin/mpv-dvd-browser 20230129-r2: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/mpv-libunity 20211123-r4: Shows progress on a panel following libunity specification.
-mpv-plugin/mpv-lrc 20230528: Synchronize lyrics with mpv
+mpv-plugin/mpv-lrc 20230618: Synchronize lyrics with mpv
 mpv-plugin/mpv-netrc 0.0.2-r1: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/reload 20220127-r2: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/shutup 20230616-r1: Set mpv to quiet when stdout/stdout is not a TTY.
+mpv-plugin/shutup 20230625: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-plugin/writeedits 20211026: Writes a list of edits made to the current video file to a file
 mpv-plugin/writename 20211026: Writes a list of edits made to the current video file to a file
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
