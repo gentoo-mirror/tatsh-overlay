@@ -17,7 +17,7 @@ app-misc/fx 24.1.0: Terminal JSON viewer.
 app-misc/pyrescene 0.7-r2: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r2: CLI to track a USPS shipment by SMS.
-app-misc/zwave-js-server 1.28.0-r1: Full access to zwave-js driver through Websockets
+app-misc/zwave-js-server 1.29.0: Full access to zwave-js driver through Websockets
 app-mobilephone/better-adb-sync 20230623: Completely rewritten adbsync with proper --exclude.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
@@ -62,7 +62,7 @@ dev-util/cmake-format 0.6.13-r2: Source code formatter for CMake files.
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
-dev-util/node-gyp 9.3.1-r1: Node.js native addon build tool
+dev-util/node-gyp 9.4.0: Node.js native addon build tool
 dev-util/wakatime-cli 1.73.1-r1: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230611-r1: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
@@ -82,14 +82,14 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r5: Advanced rhythm game. Designed 
 games-emulation/86box 3.11-r2: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_p20230426-r1: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230625: Wii U emulator.
-games-emulation/citra 20230608-r1: A Nintendo 3DS emulator.
+games-emulation/citra 20230625: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2023.05.01-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20230415-r1: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.61-r1: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.28-r2: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.885-r1: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.911: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.96-r1: Original Xbox emulator.
 games-emulation/yuzu 0.1478: Nintendo Switch emulator
