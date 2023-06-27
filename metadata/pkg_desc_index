@@ -188,7 +188,7 @@ net-dns/pihole 5.17.1-r1: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.23-r1: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r5: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.10.6-r2: Declarative configuration for Gmail filters
-net-p2p/xirvik-tools 0.3.1-r6: Tools for Xirvik servers.
+net-p2p/xirvik-tools 0.4.0: Tools for Xirvik servers.
 net-proxy/charles 4.6.4-r1: Web debugging proxy application.
 sci-calculators/qalculate-qt 4.6.1-r1: Qt-based UI for libqalculate.
 sys-apps/kylemanna-systemd-utils 20220116-r1: Random systemd utilities.
