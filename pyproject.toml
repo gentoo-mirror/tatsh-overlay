@@ -18,6 +18,7 @@ mypy = "^1.4.1"
 pylint-quotes = "^0.2.3"
 portage = { git = "https://github.com/gentoo/portage.git" }
 portage-types = "^0.0.1"
+yapf = "^0.40.1"
 
 [build-system]
 requires = ["poetry-core"]

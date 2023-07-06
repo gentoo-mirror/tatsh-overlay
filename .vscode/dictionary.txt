@@ -1073,6 +1073,7 @@ piftl
 pihole
 pingcap
 pipewire
+pipx
 pitmairen
 pixbuf
 pixman
