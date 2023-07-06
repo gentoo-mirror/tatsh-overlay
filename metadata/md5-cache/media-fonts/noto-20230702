@@ -12,4 +12,4 @@ RESTRICT=binchecks strip
 SLOT=0
 SRC_URI=https://github.com/notofonts/notofonts.github.io/archive/9d2963f8467cc211ee83037ecd0ec84f207abef4.tar.gz -> noto-20230702.tar.gz
 _eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
-_md5_=f972cb63527b558131681c8971fd6ba2
+_md5_=70affa353a93a268dd378497b79e93a9
