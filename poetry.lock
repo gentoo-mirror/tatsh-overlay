@@ -308,20 +308,32 @@ docs = ["furo (>=2023.5.20)", "proselint (>=0.13)", "sphinx (>=7.0.1)", "sphinx-
 test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=7.3.1)", "pytest-cov (>=4.1)", "pytest-mock (>=3.10)"]
 
 [[package]]
+name = "portage"
+version = "3.0.49"
+description = "Portage is the package management and distribution system for Gentoo"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+files = []
+develop = false
+
+[package.source]
+type = "git"
+url = "https://github.com/gentoo/portage.git"
+reference = "HEAD"
+resolved_reference = "f24dd0d9808559571509add2c8c69c1bcb2bfec6"
+
+[[package]]
 name = "portage-types"
 version = "0.0.1"
 description = "Typing stubs for Portage"
 category = "dev"
 optional = false
 python-versions = ">=3.10,<4"
-files = []
-develop = false
-
-[package.source]
-type = "git"
-url = "https://github.com/Tatsh/portage-types.git"
-reference = "HEAD"
-resolved_reference = "e98d4ba0ba171c3b6702f697493f31553c7e2994"
+files = [
+    {file = "portage_types-0.0.1-py3-none-any.whl", hash = "sha256:eb2008ac67ed088f7d917a245555a799c475e81401da3f4f07cdd6c2b05672cf"},
+    {file = "portage_types-0.0.1.tar.gz", hash = "sha256:47ee6b87c8e548cdb81f8f441f11db4f1e495d6b71db91cd6352b78af8ffe3f4"},
+]
 
 [[package]]
 name = "pylint"
@@ -620,4 +632,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "85bfb85cff4a718008641fda49ceb313ffb5ae78c71f23a2b566d81a74bca834"
+content-hash = "f713d8d6ae39539b99c4ac4aecf5a8b5d2763bf893c48a73af0303fb1017b947"
