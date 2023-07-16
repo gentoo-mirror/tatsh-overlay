@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/openssl sys-libs/ncurses sys-libs/zlib
 SLOT=0
 SRC_URI=https://github.com/Wiimm/wiimms-iso-tools/archive/fc1c0b840cb3ac41ca6e4f1d5e16da12b47eab58.tar.gz -> wiimms-iso-tools-3.05a.tar.gz
-_md5_=c15213e2e50f1acfe5279bc72d7856b0
+_md5_=9ecd6efbdebe1a4dfe738ff3c259c8c9
