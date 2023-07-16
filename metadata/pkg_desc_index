@@ -81,7 +81,7 @@ games-emulation/86box 3.11-r2: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230709: Wii U emulator.
 games-emulation/citra 20230715: A Nintendo 3DS emulator.
-games-emulation/dolphin 5.0_p20230511-r1: Gamecube and Wii game emulator
+games-emulation/dolphin 5.0_p20230511-r2: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2023.05.01-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
@@ -112,7 +112,7 @@ media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728-r1: SRMD super resolution implemented with ncnn library.
-media-libs/libspng 0.7.4: Simple, modern libpng alternative.
+media-libs/libspng 0.7.4-r1: Simple, modern libpng alternative.
 media-libs/vs-denoise 1.0.0_p20230626: VapourSynth denoising, regression, and motion compensation functions
 media-libs/vsaa 1.8.2: Functions and utils related to VapourSynth.
 media-libs/vsexprtools 1.4.6: VapourSynth functions and helpers for writing RPN expressions.
