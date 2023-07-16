@@ -4,7 +4,7 @@ DEPEND=app-arch/bzip2:= app-arch/xz-utils:= app-arch/zstd:= dev-libs/hidapi:= >=
 DESCRIPTION=Gamecube and Wii game emulator
 EAPI=7
 HOMEPAGE=https://dolphin-emu.org/
-INHERIT=cmake desktop xdg-utils pax-utils
+INHERIT=cmake desktop flag-o-matic xdg-utils pax-utils
 IUSE=alsa bluetooth discord-presence doc +evdev ffmpeg +gui log mgba profile pulseaudio systemd test upnp vulkan
 KEYWORDS=amd64 ~arm64
 LICENSE=GPL-2+ BSD BSD-2 LGPL-2.1+ MIT ZLIB
@@ -12,4 +12,4 @@ RDEPEND=app-arch/bzip2:= app-arch/xz-utils:= app-arch/zstd:= dev-libs/hidapi:= >
 SLOT=0
 SRC_URI=https://github.com/dolphin-emu/dolphin/archive/dadbeb4bae7e7fa23af2b46e0add4143094dc107.tar.gz -> dolphin-5.0_p20230511.tar.gz https://github.com/epezent/implot/archive/d87512353495e7760e7fda7566a05beef7627d8f.tar.gz -> implot-d87512353495e7760e7fda7566a05beef7627d8f.tar.gz https://github.com/RetroAchievements/rcheevos/archive/d9e990e6d13527532b7e2bb23164a1f3b7f33bb5.tar.gz -> rcheevos-d9e990e6d13527532b7e2bb23164a1f3b7f33bb5.tar.gz https://github.com/zlib-ng/zlib-ng/archive/ce01b1e41da298334f8214389cc9369540a7560f.tar.gz -> zlib-ng-ce01b1e41da298334f8214389cc9369540a7560f.tar.gz mgba? ( https://github.com/mgba-emu/mgba/archive/8739b22fbc90fdf0b4f6612ef9c0520f0ba44a51.tar.gz -> mgba-8739b22fbc90fdf0b4f6612ef9c0520f0ba44a51.tar.gz )
 _eclasses_=toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	76050953ad5b70d7e09a6ca55558db92	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	6c921d868d090cc18e142a396f66f74a	desktop	021728fdc1b03b36357dbc89489e0f0d	pax-utils	91d47e5d20627c717aa878b9167c62a8
-_md5_=378d7e44c3e89b5007226d7670ee0651
+_md5_=61a645ee41bae562de5e531b0ecdc359
