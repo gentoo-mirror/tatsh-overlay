@@ -7,9 +7,9 @@ app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
-app-cdr/redumper 183: Low level CD dumper utility
-app-emulation/basiliskii 1.0.0_p20230620: 68k Macintosh emulator (updated fork).
-app-emulation/sheepshaver 1.0.0_p20230620: Macintosh emulator (updated fork).
+app-cdr/redumper 193: Low level CD dumper utility
+app-emulation/basiliskii 1.0.0_p20230709: 68k Macintosh emulator (updated fork).
+app-emulation/sheepshaver 1.0.0_p20230709: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/czkawka 6.0.0: App to find duplicates, empty folders, similar images etc.
 app-misc/deark 1.6.4: Utility to extract data from various file formats.
@@ -37,11 +37,11 @@ dev-libs/libtoolchain 0.6.1-r1: Toolchain development library.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/nativefiledialog-extended 1.1.0: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 65: Stuff used in tsschecker.
-dev-libs/vulkan-memory-allocator 3.0.1_p20230704: Easy to integrate Vulkan memory allocation library
+dev-libs/vulkan-memory-allocator 3.0.1_p20230714: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.6.3: Embedded SSL library.
 dev-libs/xbyak 6.70: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r3: Bencoder in 100 lines of modern Python
-dev-python/colored 2.2.2: Very simple Python library for color and formatting in terminal
+dev-python/colored 2.2.3: Very simple Python library for color and formatting in terminal
 dev-python/gooey 1.0.8.1-r2: Turn any command line program into a full GUI application with one line.
 dev-python/hidapi 0.14.0-r1: Python wrapper for hidapi.
 dev-python/llvmlite 0.40.1: A lightweight LLVM python binding for writing JIT compilers
@@ -79,8 +79,9 @@ games-arcade/outfox-serenity 3.0.1-r1: The community pack content for Project Ou
 games-arcade/stepmania 5.1.0_beta2_p20221114-r5: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r2: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20230707: Wii U emulator.
-games-emulation/citra 20230709: A Nintendo 3DS emulator.
+games-emulation/cemu 2.0_p20230709: Wii U emulator.
+games-emulation/citra 20230715: A Nintendo 3DS emulator.
+games-emulation/dolphin 5.0_p20230511: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2023.05.01-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
@@ -111,6 +112,7 @@ media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728-r1: SRMD super resolution implemented with ncnn library.
+media-libs/libspng 0.7.4: Simple, modern libpng alternative.
 media-libs/vs-denoise 1.0.0_p20230626: VapourSynth denoising, regression, and motion compensation functions
 media-libs/vsaa 1.8.2: Functions and utils related to VapourSynth.
 media-libs/vsexprtools 1.4.6: VapourSynth functions and helpers for writing RPN expressions.
