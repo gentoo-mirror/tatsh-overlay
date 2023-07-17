@@ -1,6 +1,6 @@
 BDEPEND=test? ( dev-python/python-dbusmock pam? ( sys-libs/pam_wrapper ) ) >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array virtual/pkgconfig
 DEFINED_PHASES=compile configure install postinst prepare setup test
-DEPEND=python_single_target_python3_10? ( >=dev-lang/python-3.10.12:3.10 ) python_single_target_python3_11? ( >=dev-lang/python-3.11.4:3.11 ) python_single_target_python3_12? ( >=dev-lang/python-3.12.0_beta3:3.12 ) dev-libs/dbus-glib dev-libs/glib:2 >=sys-auth/libfprint-1.94.2 sys-auth/polkit systemd? ( sys-apps/systemd ) pam? ( sys-libs/pam ) dev-util/intltool gtk-doc? ( dev-util/gtk-doc dev-util/gtk-doc-am dev-libs/libxml2 )
+DEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) dev-libs/dbus-glib dev-libs/glib:2 >=sys-auth/libfprint-1.94.2 sys-auth/polkit systemd? ( sys-apps/systemd ) pam? ( sys-libs/pam ) dev-util/intltool gtk-doc? ( dev-util/gtk-doc dev-util/gtk-doc-am dev-libs/libxml2 )
 DESCRIPTION=D-Bus service to access fingerprint readers
 EAPI=8
 HOMEPAGE=https://cgit.freedesktop.org/libfprint/fprintd/
@@ -8,10 +8,10 @@ INHERIT=meson python-single-r1 systemd
 IUSE=gtk-doc +pam static-libs systemd test python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12
 KEYWORDS=~amd64 ~ppc64 ~x86
 LICENSE=GPL-2
-RDEPEND=python_single_target_python3_10? ( >=dev-lang/python-3.10.12:3.10 ) python_single_target_python3_11? ( >=dev-lang/python-3.11.4:3.11 ) python_single_target_python3_12? ( >=dev-lang/python-3.12.0_beta3:3.12 ) dev-libs/dbus-glib dev-libs/glib:2 >=sys-auth/libfprint-1.94.2 sys-auth/polkit systemd? ( sys-apps/systemd ) pam? ( sys-libs/pam )
+RDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) dev-libs/dbus-glib dev-libs/glib:2 >=sys-auth/libfprint-1.94.2 sys-auth/polkit systemd? ( sys-apps/systemd ) pam? ( sys-libs/pam )
 REQUIRED_USE=systemd? ( pam ) test? ( ^^ ( python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 ) )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://gitlab.freedesktop.org/libfprint/fprintd/-/archive/v1.94.2/fprintd-1.94.2.tar.bz2
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	76050953ad5b70d7e09a6ca55558db92	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	a013e16d5d896b3d8be68dd2a0e846ea	meson	18d046bdb14e1bdb22cce6e5d953e364	python-single-r1	75118e916668a74c660a13b0ecb22562	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	76050953ad5b70d7e09a6ca55558db92	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	7661dc585f75dd1f81eccefe37bef093	meson	18d046bdb14e1bdb22cce6e5d953e364	python-single-r1	75118e916668a74c660a13b0ecb22562	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=fbc73e7ffd8833365f9088b5db81380f
