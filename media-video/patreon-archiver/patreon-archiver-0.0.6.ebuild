@@ -19,6 +19,6 @@ RDEPEND="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	media-libs/mutagen[${PYTHON_USEDEP}]
 	net-misc/yt-dlp[${PYTHON_USEDEP}]"
-DEPEND="${DEPEND}"
+DEPEND="${RDEPEND}"
 
 distutils_enable_tests pytest
