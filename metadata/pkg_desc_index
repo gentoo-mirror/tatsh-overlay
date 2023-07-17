@@ -131,6 +131,7 @@ media-video/ffms2 2.40_p20230707: An FFmpeg based library and VapourSynth plugin
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
 media-video/fmtconv 30_p20230128-r1: Format conversion tools for Vapoursynth
 media-video/havsfunc 33_p20230507-r2: Holy's ported AviSynth functions for VapourSynth
+media-video/instagram-archiver 0.2.1: Tool to download data from an Instagram profile you have access to.
 media-video/magewell-pro-capture 1.3.0.4328-r1: Magewell Pro Capture driver.
 media-video/mvsfunc 10_p20230321-r1: mawen1250's VapourSynth functions
 media-video/open-in-mpv 0.1.0-r2: Host-side script for the Open in mpv Chrome extension.
