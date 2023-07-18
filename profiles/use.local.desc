@@ -51,10 +51,6 @@ games-emulation/dosbox-x:screenshots - Screenshots and movie recording
 games-emulation/dosbox-x:slirp - Enable libslirp support
 games-emulation/dosbox-x:unaligned - Enable unaligned memory access
 games-emulation/dosbox-x:xbrz - Enable support for xBRZ pixel scaler
-games-emulation/mupen64plus-core:debugger - Build the debugger
-games-emulation/mupen64plus-core:new-dynarec - Enable new experimental dynamic recompiler implementation (only for x86 and arm)
-games-emulation/mupen64plus-core:opencv - Support video capture via media-libs/opencv
-games-emulation/mupen64plus-core:osd - Overlay emulator messages using on-screen-display
 games-emulation/play:libretro - Build libretro core
 games-emulation/play:vulkan - Enable Vulkan graphics library support
 games-emulation/rpcs3:faudio - Enable audio rendering with app-emulation/faudio
