@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=!media-sound/vb2rip !app-cdr/bin2iso
 SLOT=0
 SRC_URI=https://github.com/cmdpack/cmdpack/archive/6674a1068d890279fad613ae37e7a170475f8970.tar.gz -> cmdpack-1.0_p20230123.tar.gz
-_eclasses_=toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_eclasses_=toolchain-funcs	67b3e3d8916d690003f645486ed86aac	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=fd87d8cf713c5e5f5fdbc827a85103bf
