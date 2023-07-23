@@ -7,7 +7,7 @@ app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
-app-cdr/redumper 193: Low level CD dumper utility
+app-cdr/redumper 195: Low level CD dumper utility
 app-emulation/basiliskii 1.0.0_p20230709: 68k Macintosh emulator (updated fork).
 app-emulation/sheepshaver 1.0.0_p20230709: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
@@ -24,7 +24,7 @@ app-pda/ipad_charge 20210107-r1: Helper utility to enable charging with Apple mo
 app-portage/upkeep 1.4.3-r1: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20230706: A code-completion engine for Vim.
+app-vim/youcompleteme 20230719: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.2-r1: Command line parser for C++11
 dev-cpp/tracy 0.9.1: C++ frame profiler
 dev-db/dbeaver-bin 23.1.2: Free universal database tool (community edition).
@@ -37,7 +37,7 @@ dev-libs/libtoolchain 0.6.1-r1: Toolchain development library.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/nativefiledialog-extended 1.1.0: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 65: Stuff used in tsschecker.
-dev-libs/vulkan-memory-allocator 3.0.1_p20230714: Easy to integrate Vulkan memory allocation library
+dev-libs/vulkan-memory-allocator 3.0.1_p20230721: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.6.3: Embedded SSL library.
 dev-libs/xbyak 6.70: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/benc 2019.8.1-r3: Bencoder in 100 lines of modern Python
@@ -79,8 +79,8 @@ games-arcade/outfox-serenity 3.0.1-r1: The community pack content for Project Ou
 games-arcade/stepmania 5.1.0_beta2_p20221114-r5: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 3.11-r2: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20230709: Wii U emulator.
-games-emulation/citra 20230715: A Nintendo 3DS emulator.
+games-emulation/cemu 2.0_p20230721: Wii U emulator.
+games-emulation/citra 20230722: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230511-r2: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2023.05.01-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
@@ -88,10 +88,10 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulato
 games-emulation/mupen64plus-video-gliden64 4.0_p20230415-r1: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.61-r1: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.28-r2: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.961: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.968: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.98: Original Xbox emulator.
-games-emulation/yuzu 0.1498: Nintendo Switch emulator.
+games-emulation/yuzu 0.1504: Nintendo Switch emulator.
 games-misc/render96ex 20230405-r1: Fork of sm64-port with additional features (alpha branch).
 games-util/aprip 1.0.4: Remove additional copy protection found in some later PS1 games.
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
@@ -101,13 +101,13 @@ games-util/kelftool 20191126: Utility for decrypt, encrypt and sign PS2 KELF and
 games-util/nstool 1.7.0: General purpose read/extract tool for Nintendo Switch file formats.
 games-util/raphnet-tech-adapter-manager 2.1.27-r1: Graphical user interface and command-line tools to manage raphnet adapters.
 games-util/wiimms-iso-tools 3.05a-r2: A set of command line tools to maniuplate Wii/Gamecube images.
-games-util/wiimms-szs-tools 2.35a: A set of command line tools to maniuplate files of various Nintendo titles.
+games-util/wiimms-szs-tools 2.36a: A set of command line tools to maniuplate files of various Nintendo titles.
 kde-misc/kate-jinja2-highlighting 20190428-r1: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20230621: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 kde-misc/kwin-effects-cube 2.0.0-r1: Desktop cube effect for Kwin.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/noto 20230715: Google's font family that aims to support all the world's languages
+media-fonts/noto 20230723: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
@@ -127,7 +127,7 @@ media-sound/sony-headphones-client 1.3.2-r1: Client recreating the functionality
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
 media-video/cxadc 20230627: CX2388x direct ADC capture driver.
 media-video/domesday-duplicator 2.3_p20230128: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
-media-video/ffms2 2.40_p20230707: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
+media-video/ffms2 2.40_p20230722: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
 media-video/fmtconv 30_p20230128-r1: Format conversion tools for Vapoursynth
 media-video/havsfunc 33_p20230507-r2: Holy's ported AviSynth functions for VapourSynth
@@ -158,9 +158,9 @@ media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin 
 media-video/vapoursynth-rife-ncnn-vulkan 9: RIFE filter for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
-media-video/vhs-decode 0.1.2_p20230705: Software defined VHS decoder.
+media-video/vhs-decode 0.1.2_p20230720: Software defined VHS decoder.
 media-video/video2x 4.8.1-r6: A lossless video/GIF/image upscaler.
-media-video/videoduplicatefinder 3.0_p20230702: Video duplicate finder.
+media-video/videoduplicatefinder 3.0_p20230717: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-video/znedi3 2.1_p20230709: nnedi3 filter.
@@ -176,7 +176,7 @@ mpv-plugin/mpv-lrc 20230618: Synchronize lyrics with mpv
 mpv-plugin/mpv-netrc 0.0.2-r1: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/reload 20220127-r2: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/shutup 20230716: Set mpv to quiet when stdout/stdout is not a TTY.
+mpv-plugin/shutup 20230722: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-plugin/writeedits 20211026: Writes a list of edits made to the current video file to a file
 mpv-plugin/writename 20211026: Writes a list of edits made to the current video file to a file
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
