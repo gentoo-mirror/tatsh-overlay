@@ -90,7 +90,7 @@ games-emulation/play 0.61-r1: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.28-r2: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.968: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
-games-emulation/xemu 0.7.104: Original Xbox emulator.
+games-emulation/xemu 0.7.104-r1: Original Xbox emulator.
 games-emulation/yuzu 0.1504: Nintendo Switch emulator.
 games-misc/render96ex 20230405-r1: Fork of sm64-port with additional features (alpha branch).
 games-util/aprip 1.0.4: Remove additional copy protection found in some later PS1 games.
