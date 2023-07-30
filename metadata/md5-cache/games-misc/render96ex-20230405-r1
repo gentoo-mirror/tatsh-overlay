@@ -13,5 +13,5 @@ REQUIRED_USE=|| ( eu jp us )
 RESTRICT=fetch
 SLOT=0
 SRC_URI=https://github.com/Render96/Render96ex/archive/4fe121fbf0d363d48577f739f5df2d605e831028.tar.gz -> render96ex-20230405.tar.gz textures? ( https://github.com/pokeheadroom/RENDER96-HD-TEXTURE-PACK/archive/7ad93cfbdde449cc07e86ebf17985ee9c157f36f.tar.gz -> render96ex-texture-pack-7ad93cf.tar.gz ) models? ( https://github.com/Render96/ModelPack/archive/f4f438447748782b7c824cee903594706a3941e2.tar.gz -> render96ex-models-vanilla-f4f4384.tar.gz ) us? ( sm64.us.z64 ) eu? ( sm64.eu.z64 ) jp? ( sm64.jp.z64 )
-_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	linux-info	c4f1201b96a8a2c1f3b86cc8b2c71c91	wrapper	4a1902f969e5718126434fc35f3a0d9c
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	multilib	c19072c3cd7ac5cb21de013f7e9832e0	linux-info	c4f1201b96a8a2c1f3b86cc8b2c71c91	wrapper	4a1902f969e5718126434fc35f3a0d9c
 _md5_=1a5dff712ec07202030e4641edbbecae
