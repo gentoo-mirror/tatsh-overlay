@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~x86
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/onmomo/superdrive-enabler/archive/3e6b355e08820e1d9a763f240ecf56e51bd5f8a9.tar.gz -> superdrive-enabler-20230714.tar.gz
-_eclasses_=toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	multilib	c19072c3cd7ac5cb21de013f7e9832e0	linux-info	c4f1201b96a8a2c1f3b86cc8b2c71c91
+_eclasses_=toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	linux-info	c4f1201b96a8a2c1f3b86cc8b2c71c91
 _md5_=30c9a98d6f0a2efd79ca3c8a6b1f3b94
