@@ -1,0 +1,15 @@
+BDEPEND=dev-ml/menhir:= dev-lang/ocaml dev-ml/dune
+DEFINED_PHASES=compile install test
+DEPEND=>=dev-ml/iso8601-0.2:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DESCRIPTION=OCaml library for TOML.
+EAPI=8
+HOMEPAGE=https://ocaml-toml.github.io/To.ml
+INHERIT=dune
+IUSE=+ocamlopt
+KEYWORDS=~amd64
+LICENSE=LGPL-3.0
+RDEPEND=>=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+SLOT=0
+SRC_URI=https://github.com/ocaml-toml/To.ml/archive/refs/tags/7.1.0.tar.gz -> toml-7.1.0.tar.gz
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	beddc7cde467b2e48afc78a87d042c01
+_md5_=919b840461db28bd2e71ac5176f1851f

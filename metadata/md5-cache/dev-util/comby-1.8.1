@@ -1,0 +1,15 @@
+BDEPEND=dev-lang/ocaml dev-ml/dune
+DEFINED_PHASES=compile install test
+DEPEND=dev-ml/cohttp:=[lwt-unix] dev-ml/lwt:= >=dev-ml/mparser-1.3:=[pcre] >=dev-ml/parany-12.0.3:= >=dev-ml/patience_diff-0.14:= <dev-ml/patience_diff-0.15:= >=dev-ml/ppx_deriving_yojson-3.6.0:= dev-ml/ppx_expect:= dev-ml/ppx_sexp_message:= dev-ml/tar:=[unix] >=dev-ml/toml-6.0.0:= >=dev-ml/yojson-1.6.0:= <dev-ml/yojson-2.0.0:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DESCRIPTION=A code rewrite tool for structural search and replace that supports ~every language.
+EAPI=8
+HOMEPAGE=https://comby.dev/
+INHERIT=dune
+IUSE=+ocamlopt
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=dev-ml/cohttp:=[lwt-unix] dev-ml/lwt:= >=dev-ml/mparser-1.3:=[pcre] >=dev-ml/parany-12.0.3:= >=dev-ml/patience_diff-0.14:= <dev-ml/patience_diff-0.15:= >=dev-ml/ppx_deriving_yojson-3.6.0:= dev-ml/ppx_expect:= dev-ml/ppx_sexp_message:= dev-ml/tar:=[unix] >=dev-ml/toml-6.0.0:= >=dev-ml/yojson-1.6.0:= <dev-ml/yojson-2.0.0:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+SLOT=0
+SRC_URI=https://github.com/comby-tools/comby/archive/refs/tags/1.8.1.tar.gz -> comby-1.8.1.tar.gz
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	beddc7cde467b2e48afc78a87d042c01
+_md5_=9fde6b848ab79ab83bf82950ee5936ee

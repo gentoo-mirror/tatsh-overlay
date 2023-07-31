@@ -40,6 +40,12 @@ dev-libs/tihmstar-libgeneral 65: Stuff used in tsschecker.
 dev-libs/vulkan-memory-allocator 3.0.1_p20230721: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.6.3: Embedded SSL library.
 dev-libs/xbyak 6.71: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-ml/cpu 2.0.0: Pin current process to given core number.
+dev-ml/iso8601 0.2.6: Parser and printer for date-times in ISO8601.
+dev-ml/mparser 1.3: A simple monadic parser combinator library for OCaml.
+dev-ml/parany 14.0.0: Parallelize any computation.
+dev-ml/shell 0.16.0: Yet another implementation of fork and exec and related functionality.
+dev-ml/toml 7.1.0: OCaml library for TOML.
 dev-python/benc 2019.8.1-r3: Bencoder in 100 lines of modern Python
 dev-python/colored 2.2.3: Very simple Python library for color and formatting in terminal
 dev-python/gooey 1.0.8.1-r2: Turn any command line program into a full GUI application with one line.
@@ -58,6 +64,7 @@ dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9-r1: Single file executable that provides a complete Tcl and Tk runtime.
 dev-util/avalonia-ilspy 7.2_rc: .NET decompiler.
 dev-util/cmake-format 0.6.13-r2: Source code formatter for CMake files.
+dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
