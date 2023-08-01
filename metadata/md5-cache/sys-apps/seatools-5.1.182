@@ -1,0 +1,13 @@
+BDEPEND=app-arch/bitrock-unpacker
+DEFINED_PHASES=install prepare unpack
+DESCRIPTION=Quick diagnostic tool that checks the health of your drive.
+EAPI=8
+HOMEPAGE=https://www.seagate.com/support/downloads/seatools/
+INHERIT=desktop wrapper
+KEYWORDS=~amd64
+LICENSE=EULA
+RESTRICT=strip splitdebug
+SLOT=0
+SRC_URI=https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/downloads/seatools/_shared/downloads/SeaToolsLinuxX64Installer.zip -> seatools-5.1.182.zip https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/_shared/images/seatools-icon.png
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	wrapper	4a1902f969e5718126434fc35f3a0d9c
+_md5_=85d5316ff0a0b8844e58be260848824a
