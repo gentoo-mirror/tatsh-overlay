@@ -8,4 +8,4 @@ LICENSE=all-rights-reserved
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/stiefel40k/kitgen/archive/8.6.4-9.tar.gz -> tclkit-8.6.4.9.tar.gz https://prdownloads.sourceforge.net/tcl/tk8.6.11.1-src.tar.gz -> tclkit-tk-8.6.11.1.tar.gz https://prdownloads.sourceforge.net/tcl/tcl8.6.11-src.tar.gz -> tclkit-tcl-8.6.11.tar.gz
-_md5_=407cd60f06db6f01e243e491723d5783
+_md5_=33a95eeb6a176b2ab3786133057781e6
