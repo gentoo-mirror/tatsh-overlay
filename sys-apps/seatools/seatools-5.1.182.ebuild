@@ -15,6 +15,17 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="strip splitdebug"
 
+RDEPEND="dev-libs/glib
+	media-libs/fontconfig
+	media-libs/freetype
+	media-libs/libglvnd
+	sys-apps/dbus
+	sys-libs/zlib
+	x11-libs/libX11
+	x11-libs/libxcb
+	x11-libs/libXext
+	x11-libs/libxkbcommon
+	x11-libs/libXrender"
 BDEPEND="app-arch/bitrock-unpacker"
 
 S="${WORKDIR}/${P}/default/programfileslinux"
@@ -39,5 +50,5 @@ src_install() {
 	cp -Rv ./* "${D}/opt/seatools" || die
 	make_wrapper "${PN}" "/opt/${PN}/SeaTools" "/opt/${PN}"
 	newicon "${DISTDIR}/${PN}-icon.png" "${PN}.png"
-	make_desktop_entry "${PN}" SeaTools "${PN}" System
+	make_desktop_entry "${PN}" SeaTools "${PN}" System 'X-KDE-SubstituteUID=true\nX-KDE-Username='
 }
