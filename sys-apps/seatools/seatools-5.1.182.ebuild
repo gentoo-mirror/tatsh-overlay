@@ -45,5 +45,5 @@ src_install() {
 	cp -Rv ./* "${D}/opt/seatools" || die
 	make_wrapper "${PN}" "/opt/${PN}/SeaTools" "/opt/${PN}"
 	newicon "${DISTDIR}/${PN}-icon.png" "${PN}.png"
-	make_desktop_entry "${PN}" SeaTools "${PN}" System SingleMainWindow=true
+	make_desktop_entry "${PN}" SeaTools "${PN}" System
 }
