@@ -15,12 +15,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="strip splitdebug"
 
-RDEPEND="dev-qt/qtcore:5
-	dev-qt/qtdbus:5
-	dev-qt/qtgui:5
-	dev-qt/qtnetwork:5
-	dev-qt/qtwidgets:5
-	dev-qt/qtxml:5"
 BDEPEND="app-arch/bitrock-unpacker"
 
 S="${WORKDIR}/${P}/default/programfileslinux"
@@ -33,7 +27,7 @@ src_unpack() {
 }
 
 src_prepare() {
-	rm lib/libQt5* ./*.sh ./*.ico "exec-${PN}-in-dir" || die
+	rm ./*.sh ./*.ico "exec-${PN}-in-dir" || die
 	chmod +x SeaTools plugins/*/*.so || die
 	default
 }
