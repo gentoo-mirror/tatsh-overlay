@@ -1,0 +1,12 @@
+BDEPEND=dev-libs/stb
+DEFINED_PHASES=install prepare
+DEPEND=dev-libs/capstone dev-libs/libyaml sys-libs/zlib
+DESCRIPTION=Collection of tools for Super Mario 64 ROM hacking (and others).
+EAPI=8
+HOMEPAGE=https://github.com/queueRAM/sm64tools
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-libs/capstone dev-libs/libyaml sys-libs/zlib
+SLOT=0
+SRC_URI=https://github.com/queueRAM/sm64tools/archive/81de9e5a8f0fa96686a16441d5b9f25742f4d17d.tar.gz -> sm64tools-0.3.2_p20180902.tar.gz
+_md5_=324f563e393bad03ffdb9fb51a782866

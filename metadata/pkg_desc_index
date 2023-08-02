@@ -107,6 +107,7 @@ games-util/joystickwake 0.4.1-r1: Joystick-aware screen waker.
 games-util/kelftool 20191126: Utility for decrypt, encrypt and sign PS2 KELF and PSX KELF files.
 games-util/nstool 1.7.0: General purpose read/extract tool for Nintendo Switch file formats.
 games-util/raphnet-tech-adapter-manager 2.1.27-r1: Graphical user interface and command-line tools to manage raphnet adapters.
+games-util/sm64tools 0.3.2_p20180902: Collection of tools for Super Mario 64 ROM hacking (and others).
 games-util/wiimms-iso-tools 3.05a-r2: A set of command line tools to maniuplate Wii/Gamecube images.
 games-util/wiimms-szs-tools 2.36a: A set of command line tools to maniuplate files of various Nintendo titles.
 kde-misc/kate-jinja2-highlighting 20190428-r1: Improved Jinja2 syntax highlighting for Kate.
