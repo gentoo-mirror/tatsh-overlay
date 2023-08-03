@@ -7,4 +7,4 @@ LICENSE=MIT
 RDEPEND=dev-util/vcpkg-tool
 SLOT=0
 SRC_URI=https://github.com/microsoft/vcpkg/archive/refs/tags/2023.07.21.tar.gz -> vcpkg-2023.07.21.tar.gz
-_md5_=a71b85edf69f67bcc6edc8c886b4163d
+_md5_=9066fa39fdf593e002536280175d5011
