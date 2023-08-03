@@ -20,6 +20,6 @@ PATCHES=( "${FILESDIR}/${PN}-40-install.patch" )
 S="${WORKDIR}/${MY_PN}-${PV}"
 
 src_configure() {
-	local mycmakeargs=( -DBUILD_TESTS=$(usex test) )
+	local mycmakeargs=( "-DBUILD_TESTS=$(usex test)" )
 	cmake_src_configure
 }
