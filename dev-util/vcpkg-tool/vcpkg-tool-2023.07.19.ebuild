@@ -5,7 +5,7 @@ EAPI=8
 
 inherit cmake
 
-DESCRIPTION="Library manager for C/C++ (you probably want dev-util/vcpkg)."
+DESCRIPTION="Library manager for C/C++ (tool only)."
 HOMEPAGE="https://github.com/microsoft/vcpkg-tool https://vcpkg.io/en/index.html"
 MY_PV="${PV//./-}"
 FMT_PV=10.0.0
@@ -51,4 +51,12 @@ src_configure() {
 		-DVCPKG_WARNINGS_AS_ERRORS=OFF
 	)
 	cmake_src_configure
+}
+
+pkg_postinst() {
+	einfo
+	einfo 'To use vcpkg you need to have a copy of https://github.com/microsoft/vcpkg'
+	einfo 'or another root somewhere and point to it with the VCPKG_ROOT environment'
+	einfo 'variable or by passing --vcpkg-root=<path>.'
+	einfo
 }
