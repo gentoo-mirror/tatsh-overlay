@@ -64,12 +64,15 @@ dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9-r1: Single file executable that provides a complete Tcl and Tk runtime.
 dev-util/avalonia-ilspy 7.2_rc: .NET decompiler.
 dev-util/cmake-format 0.6.13-r2: Source code formatter for CMake files.
+dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
 dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.4.0: Node.js native addon build tool
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
+dev-util/vcpkg 2023.07.21: Library manager for C/C++ (ports).
+dev-util/vcpkg-tool 2023.07.19: Library manager for C/C++ (you probably want dev-util/vcpkg).
 dev-util/wakatime-cli 1.73.1-r1: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230611-r1: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
