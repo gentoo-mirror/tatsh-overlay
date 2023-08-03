@@ -5,7 +5,7 @@ EAPI=8
 
 DESCRIPTION="Library manager for C/C++ (ports)."
 HOMEPAGE="https://github.com/microsoft/vcpkg https://vcpkg.io/"
-SRC_URI="https://github.com/microsoft/vcpkg/archive/refs/tags/2023.07.21.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/microsoft/vcpkg/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

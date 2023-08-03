@@ -15,6 +15,7 @@ SRC_URI="https://github.com/microsoft/${PN}/archive/refs/tags/${MY_PV}.tar.gz ->
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
+IUSE="test"
 
 # For future use (and remove libfmt from SRC_URI):
 # DEPEND=">=dev-libs/libfmt-10.0.0:="
@@ -39,7 +40,7 @@ src_configure() {
 		"-DVCPKG_FMT_URL=file://${DISTDIR}/libfmt-${FMT_PV}.tar.gz"
 		"-DVCPKG_STANDALONE_BUNDLE_SHA=$(grep -E 'VCPKG_STANDALONE_BUNDLE_SHA"' CMakePresets.json | cut '-d"' -f4)"
 		-DBUILD_SHARED_LIBS=OFF
-		-DBUILD_TESTING=OFF
+		-DBUILD_TESTING=$(usex test)
 		-DFMT_INSTALL=OFF
 		-DVCPKG_BASE_VERSION=2023-03-30
 		-DVCPKG_BUILD_TLS12_DOWNLOADER=OFF

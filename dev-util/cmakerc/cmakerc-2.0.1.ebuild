@@ -10,18 +10,16 @@ HOMEPAGE="https://github.com/vector-of-bool/cmrc"
 MY_PN="cmrc"
 SRC_URI="https://github.com/vector-of-bool/${MY_PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE=""
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-
-DEPEND=""
-RDEPEND="${DEPEND}"
+IUSE="test"
 
 PATCHES=( "${FILESDIR}/${PN}-40-install.patch" )
 
 S="${WORKDIR}/${MY_PN}-${PV}"
 
 src_configure() {
-	local mycmakeargs=( -DBUILD_TESTS=OFF )
+	local mycmakeargs=( -DBUILD_TESTS=$(usex test) )
 	cmake_src_configure
 }
