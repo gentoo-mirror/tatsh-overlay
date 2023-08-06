@@ -71,8 +71,8 @@ dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.4.0: Node.js native addon build tool
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
-dev-util/vcpkg-tool 2023.07.19: Library manager for C/C++ (tool only).
-dev-util/wakatime-cli 1.73.1-r1: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/vcpkg-tool 2023.08.02: Library manager for C/C++ (tool only).
+dev-util/wakatime-cli 1.73.2: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230611-r1: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.17: Mirror Git repositories to other Git providers.
@@ -89,14 +89,14 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r5: Advanced rhythm game. Designed 
 games-emulation/86box 3.11-r2: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230803: Wii U emulator.
-games-emulation/citra 20230730: A Nintendo 3DS emulator.
+games-emulation/citra 20230804: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230511-r2: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2023.05.01-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20230415-r1: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.62: PlayStation 2 emulator.
-games-emulation/rpcs3 0.0.28-r2: PS3 emulator and debugger.
+games-emulation/rpcs3 0.0.29: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.968: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.111: Original Xbox emulator.
@@ -170,7 +170,7 @@ media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for 
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
 media-video/vhs-decode 0.1.2_p20230729: Software defined VHS decoder.
 media-video/video2x 4.8.1-r6: A lossless video/GIF/image upscaler.
-media-video/videoduplicatefinder 3.0_p20230730: Video duplicate finder.
+media-video/videoduplicatefinder 3.0_p20230731: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-video/znedi3 2.1_p20230709: nnedi3 filter.
