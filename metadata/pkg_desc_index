@@ -71,7 +71,7 @@ dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
 dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.4.0: Node.js native addon build tool
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
-dev-util/vcpkg-tool 2023.08.02: Library manager for C/C++ (tool only).
+dev-util/vcpkg-tool 2023.08.02-r1: Library manager for C/C++ (tool only).
 dev-util/wakatime-cli 1.73.2: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230611-r1: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
