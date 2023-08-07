@@ -89,7 +89,7 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r5: Advanced rhythm game. Designed 
 games-emulation/86box 3.11-r2: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20230803: Wii U emulator.
-games-emulation/citra 20230804-r1: A Nintendo 3DS emulator.
+games-emulation/citra 20230804-r2: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230511-r2: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2023.05.01-r1: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
