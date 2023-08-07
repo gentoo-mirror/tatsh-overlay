@@ -59,7 +59,7 @@ dev-python/re-wx 0.1.0-r1: A library for building modern declarative desktop app
 dev-python/samplerate 0.1.0-r2: Python bindings for libsamplerate.
 dev-python/soundfile 0.10.3.1-r1 0.12.1-r1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/vsutil 0.8.0-r2: A collection of general purpose Vapoursynth functions
-dev-qt/qtquick3d 5.15.10: Qt module and API for defining 3D content in Qt QuickTools
+dev-qt/qtquick3d 5.15.10-r1: Qt module and API for defining 3D content in Qt QuickTools
 dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9-r1: Single file executable that provides a complete Tcl and Tk runtime.
 dev-util/avalonia-ilspy 7.2_rc: .NET decompiler.
@@ -96,7 +96,7 @@ games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20230415-r1: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.62: PlayStation 2 emulator.
-games-emulation/rpcs3 0.0.29: PS3 emulator and debugger.
+games-emulation/rpcs3 0.0.29-r1: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.968 1.1.974: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.111: Original Xbox emulator.
@@ -115,7 +115,7 @@ games-util/wiimms-szs-tools 2.36a: A set of command line tools to maniuplate fil
 kde-misc/kate-jinja2-highlighting 20190428-r1: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20230804: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
-kde-misc/kwin-effects-cube 2.0.0-r1: Desktop cube effect for Kwin.
+kde-misc/kwin-effects-cube 2.0.0-r2: Desktop cube effect for Kwin.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
 media-fonts/noto 20230802: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
