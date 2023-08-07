@@ -196,7 +196,7 @@ mpv-shader/krig-bilateral 20220530: Shader for mpv.
 mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20220515: Downscaler shader for mpv.
 net-dns/pihole 5.17.1-r1: Network-wide ad blocking (core).
-net-dns/pihole-ftl 5.23-r1: The Pi-hole FTL engine
+net-dns/pihole-ftl 5.23-r2: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r5: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.10.6-r2: Declarative configuration for Gmail filters
 net-p2p/xirvik-tools 0.4.1: Tools for Xirvik servers.
