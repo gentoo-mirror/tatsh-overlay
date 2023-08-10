@@ -63,6 +63,7 @@ dev-qt/qtquick3d 5.15.10-r1: Qt module and API for defining 3D content in Qt Qui
 dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9-r1: Single file executable that provides a complete Tcl and Tk runtime.
 dev-util/avalonia-ilspy 7.2_rc: .NET decompiler.
+dev-util/bytecode-viewer-bin 2.11.2: JAR and Android APK reverse engineering suite.
 dev-util/cmake-format 0.6.13-r2: Source code formatter for CMake files.
 dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
 dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
