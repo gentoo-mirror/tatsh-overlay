@@ -29,8 +29,7 @@ src_prepare() {
 		find . -type f -iname "$name" -delete || die
 	done
 	rm -R bin inc/PHPMailer/{examples,docs} data sample.web.config || die
-	find . -iname '*.php' -exec \
-		sed -re 's|require_once.*settings.php.*|require_once("/etc/phpnuget/settings.php");|g' -i {} ';' || die
+	mv settings.sample.php settings.php || die
 	default
 }
 
@@ -41,9 +40,9 @@ src_install() {
 	webapp_server_configfile apache "${FILESDIR}/${PN}-apache-example.conf" "${PN}.conf"
 	webapp_server_configfile nginx "${FILESDIR}/${PN}-nginx-example.conf" "${PN}.conf"
 	newdoc "${FILESDIR}/${PN}-fpm-example.conf" "php-fpm-${PN}.conf"
-	newdoc "${FILESDIR}/${PN}-nugetdb_usrs-schema.sql" "nuget_usrs-schema.sql"
+	webapp_sqlscript mysql "${FILESDIR}/${PN}-nugetdb_usrs-schema.sql"
 	insinto "/etc/${PN}"
-	newins settings.sample.php settings.php
+	webapp_configfile "${MY_HTDOCSDIR}/settings.php"
 	keepdir /var/lib/phpnuget/{db,packages} || die
 	webapp_src_install
 	keepdir "/var/lib/${PN}"
