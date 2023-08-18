@@ -10,5 +10,5 @@ LICENSE=all-rights-reserved
 RDEPEND=media-video/mpv:=[cplugins(+),libmpv]
 SLOT=0
 SRC_URI=https://github.com/AN3223/dotfiles/archive/57bf06f39c1f0ca589f4f131e1aa9f65aeb2f941.tar.gz -> AN3223-dotfiles-57bf06f.tar.gz
-_eclasses_=mpv-plugin	ef7c5ad8019deb98f4397f710be72dc3	toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_eclasses_=mpv-plugin	ef7c5ad8019deb98f4397f710be72dc3	toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=200df81999fe8a9a8ed0e6225a1cfebc

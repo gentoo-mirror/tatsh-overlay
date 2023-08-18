@@ -10,5 +10,5 @@ LICENSE=LGPL-3
 RDEPEND=dev-libs/libzip net-misc/curl dev-libs/tihmstar-libgeneral sys-libs/zlib
 SLOT=0
 SRC_URI=https://github.com/tihmstar/libfragmentzip/archive/9561b33155a4bf9a82f09fc4435e7c9fb9619d64.tar.gz -> libfragmentzip-60_p20230626.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde
 _md5_=189cee46d31467b4c0ecdca92384afc8
