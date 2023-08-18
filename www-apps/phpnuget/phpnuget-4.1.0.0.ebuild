@@ -18,6 +18,8 @@ RDEPEND="${DEPEND}
 	dev-lang/php"
 need_httpd_cgi
 
+PATCHES=( "${FILESDIR}/phpnuget-fixes.patch" )
+
 S="${WORKDIR}"
 
 src_prepare() {
@@ -27,8 +29,8 @@ src_prepare() {
 		find . -type f -iname "$name" -delete || die
 	done
 	rm -R bin inc/PHPMailer/{examples,docs} data sample.web.config || die
-	sed -re "s|require_once.*settings.php\"\);$|require_once(\"${EPREFIX}/etc/${PN}/settings.php\")|" \
-		-i index.php || die
+	find . -iname '*.php' -exec \
+		sed -re 's|require_once.*settings.php.*|require_once("/etc/phpnuget/settings.php");|g' -i {} ';' || die
 	default
 }
 
@@ -39,6 +41,7 @@ src_install() {
 	webapp_server_configfile apache "${FILESDIR}/${PN}-apache-example.conf" "${PN}.conf"
 	webapp_server_configfile nginx "${FILESDIR}/${PN}-nginx-example.conf" "${PN}.conf"
 	newdoc "${FILESDIR}/${PN}-fpm-example.conf" "php-fpm-${PN}.conf"
+	newdoc "${FILESDIR}/${PN}-nugetdb_usrs-schema.sql" "nuget_usrs-schema.sql"
 	insinto "/etc/${PN}"
 	newins settings.sample.php settings.php
 	keepdir /var/lib/phpnuget/{db,packages} || die
