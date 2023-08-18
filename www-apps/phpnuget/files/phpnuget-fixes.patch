@@ -12,7 +12,7 @@ index 10b0d25..2f22d71 100644
  					$item->$k = unserialize($val);
  				}else if($kt=="number" && $val!=null){
 diff --git a/inc/db_users.php b/inc/db_users.php
-index dc46b01..896b392 100644
+index dc46b01..e50182a 100644
 --- a/inc/db_users.php
 +++ b/inc/db_users.php
 @@ -14,7 +14,11 @@ require_once(__ROOT__."/inc/commons/objectsearch.php");
@@ -34,7 +34,7 @@ index dc46b01..896b392 100644
              $toInsert["Token"]=Utils::NewGuid();
 -			$toInsert["Id"]=Utils::NewGuid();
 +						$toInsert["Id"]=Utils::NewGuid();
-+						$toInsert["Md5Password"] = password_hash($toInsert["Password"], PASSWORD_DEFAULT);
++						$toInsert["Md5Password"] = password_hash($nugetEntity->Password, PASSWORD_DEFAULT);
              $dbInstance->add_row($toInsert);
          }else{
  			$dbInstance->update_row($toInsert,array("UserId"=>$toInsert["UserId"]));
