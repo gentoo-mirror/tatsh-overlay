@@ -1,3 +1,16 @@
+diff --git a/inc/api_packages.php b/inc/api_packages.php
+index 9e6397f..66584d9 100644
+--- a/inc/api_packages.php
++++ b/inc/api_packages.php
+@@ -147,7 +147,7 @@ class PackagesApi extends SmallTextDbApiBase
+ 	
+ 	public function dogetbyquery()
+ 	{
+-		$query = UrlUtils::GetRequestParam("Query");
++		$query = trim(UrlUtils::GetRequestParam("Query"));
+ 		$doGroup = UrlUtils::GetRequestParamOrDefault("DoGroup","false");
+ 		
+ 		global $loginController;
 diff --git a/inc/commons/mysqldb.php b/inc/commons/mysqldb.php
 index 10b0d25..2f22d71 100644
 --- a/inc/commons/mysqldb.php
@@ -11,6 +24,24 @@ index 10b0d25..2f22d71 100644
  				if($kt=="object"){
  					$item->$k = unserialize($val);
  				}else if($kt=="number" && $val!=null){
+diff --git a/inc/db_nugetpackages.php b/inc/db_nugetpackages.php
+index 2843944..cafa451 100644
+--- a/inc/db_nugetpackages.php
++++ b/inc/db_nugetpackages.php
+@@ -15,7 +15,12 @@ require_once(__ROOT__."/inc/commons/url.php");
+ require_once(__ROOT__."/inc/commons/objectsearch.php");
+ require_once(__ROOT__."/inc/db_nugetpackagesentity.php");
+ 
+-define('__MYTXTDB_PKG__',Path::Combine(Settings::$DataRoot,"nugetdb_pkg.txt"));
++if(__DB_TYPE__==DBMYSQL){
++	define('__MYTXTDB_PKG__','nugetdb_pkg');
++}
++else{
++	define('__MYTXTDB_PKG__',Path::Combine(Settings::$DataRoot,"nugetdb_pkg.txt"));
++}
+ define('__MYTXTDBROWS_PKG__',
+       "Version0:|:Version1:|:Version2:|:Version3:|:VersionBeta:|:Version:|:Title:|:Id:|:Author:|:IconUrl:|:LicenseUrl:|:ProjectUrl:|:DownloadCount:|:".
+       "RequireLicenseAcceptance:|:Description:|:ReleaseNotes:|:Published:|:Dependencies:|:".
 diff --git a/inc/db_users.php b/inc/db_users.php
 index dc46b01..e50182a 100644
 --- a/inc/db_users.php
