@@ -14,8 +14,7 @@ LICENSE="GPL-3+ PHP-3.01"
 SLOT="0"
 KEYWORDS="~amd64"
 
-RDEPEND="${DEPEND}
-	dev-lang/php"
+RDEPEND="dev-lang/php"
 need_httpd_cgi
 
 PATCHES=( "${FILESDIR}/phpnuget-fixes.patch" )
