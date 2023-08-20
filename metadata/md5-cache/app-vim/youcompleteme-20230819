@@ -10,6 +10,6 @@ LICENSE=GPL-3
 RDEPEND=|| ( >=app-editors/vim-7.3[python] >=app-editors/gvim-7.3[python] ) python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) sys-devel/clang:= python_single_target_python3_10? ( dev-python/requests-futures[python_targets_python3_10(-)] ) python_single_target_python3_11? ( dev-python/requests-futures[python_targets_python3_11(-)] ) python_single_target_python3_10? ( dev-python/requests[python_targets_python3_10(-)] ) python_single_target_python3_11? ( dev-python/requests[python_targets_python3_11(-)] ) python_single_target_python3_10? ( dev-util/ycmd[python_single_target_python3_10(-)] ) python_single_target_python3_11? ( dev-util/ycmd[python_single_target_python3_11(-)] )
 REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 )
 SLOT=0
-SRC_URI=https://github.com/ycm-core/YouCompleteMe/archive/f09c2f69f7fe4d6adf64396a5daa2736714f67a0.tar.gz -> youcompleteme-20230719.tar.gz
+SRC_URI=https://github.com/ycm-core/YouCompleteMe/archive/4f1dcf4f971517b5a41d420b3671259f917e3827.tar.gz -> youcompleteme-20230819.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	59e60e9c5cbd3f214d7f1002e798b387	python-single-r1	75118e916668a74c660a13b0ecb22562
-_md5_=eeeede717dae78d5d6652a5c147f9c20
+_md5_=65f45fe9cc638f1f00e6bef90c7e5cf3
