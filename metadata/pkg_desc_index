@@ -31,6 +31,7 @@ dev-db/dbeaver-bin 23.1.5: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20230628: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r3: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.0-r1: Library to parse Apple's binarycookies format.
+dev-libs/libfat16 20191101: C++ FAT16 read library.
 dev-libs/libfragmentzip 60_p20230626: A library allowing to download single files from a remote zip archive
 dev-libs/libpietendo 0.7.0-r1: Library for parsing Nintendo file formats.
 dev-libs/libtoolchain 0.6.1-r1: Toolchain development library.
@@ -75,6 +76,7 @@ dev-util/ida-free 8.3.230608: Free version of the code analyzer.
 dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.4.0: Node.js native addon build tool
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
+dev-util/spirv-cross 20230817: Tool for performing reflection on SPIR-V.
 dev-util/vcpkg-tool 2023.08.09: Library manager for C/C++ (tool only).
 dev-util/wakatime-cli 1.76.0: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230819: A code-completion & code-comprehension server.
