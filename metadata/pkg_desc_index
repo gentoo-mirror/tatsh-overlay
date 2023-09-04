@@ -76,9 +76,9 @@ dev-util/ida-free 8.3.230608: Free version of the code analyzer.
 dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.4.0: Node.js native addon build tool
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
-dev-util/spirv-cross 20230817: Tool for performing reflection on SPIR-V.
+dev-util/spirv-cross 20230828: Tool for performing reflection on SPIR-V.
 dev-util/vcpkg-tool 2023.08.09: Library manager for C/C++ (tool only).
-dev-util/wakatime-cli 1.76.0: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.78.0: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230824: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.18: Mirror Git repositories to other Git providers.
@@ -217,7 +217,7 @@ sys-auth/libfprint 1.94.6: Library to add support for consumer fingerprint reade
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-kernel/msi-ec 20230826: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.20.1-r1: Pi-hole Dashboard for stats and more
-www-apps/wakapi 2.8.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+www-apps/wakapi 2.8.2: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999-r2: Bypass Paywalls browser extension.
 x11-misc/mimeo 2023: Open files by MIME-type or file name using regular expressions.
 x11-misc/rom-properties 2.2.1: Shell extension for file managers to manage game ROMs and disc images.
