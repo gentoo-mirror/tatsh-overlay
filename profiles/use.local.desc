@@ -133,7 +133,6 @@ media-fonts/noto:pau-cin-hau - Install font for Pau Cin Hau script
 media-fonts/noto:phagspa - Install for 'Phags-pa script
 media-fonts/noto:runic - Install Runic font
 media-fonts/noto:symbols - Install Symbols fonts
-media-plugins/nvidia-vaapi-driver:av1 - Enable experimental AV1 support
 media-video/magewell-pro-capture:weave - Do not enable deinterlacing. Warning: this stops "mwcap-control --video-output-deinterlace ..." from working.
 media-video/opentimelineio:tools - Install extra tools
 media-video/vapoursynth:guard-pattern - Adds 32 bytes on the left and the right sides of each frame, fills them with a certain value, and checks their integrity after each filter. It can be used to detect buggy filters that write a little outside the frame.
