@@ -10,6 +10,7 @@ app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image fo
 app-cdr/redumper 213: Low level CD dumper utility
 app-emulation/basiliskii 1.0.0_p20230823: 68k Macintosh emulator (updated fork).
 app-emulation/sheepshaver 1.0.0_p20230823: Macintosh emulator (updated fork).
+app-eselect/eselect-dotnet 0.1.0: Eselect module for management of multiple dotnet versions
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/czkawka 6.0.0: App to find duplicates, empty folders, similar images etc.
 app-misc/deark 1.6.5: Utility to extract data from various file formats.
@@ -31,6 +32,8 @@ dev-cpp/tracy 0.9.1: C++ frame profiler
 dev-db/dbeaver-bin 23.2.0: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20230628: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r3: CLI for SQLite Databases with auto-completion and syntax highlighting.
+dev-dotnet/dotnet-runtime-nugets 3.1.32 6.0.12 6.0.16 7.0.5: .NET runtime nugets
+dev-dotnet/dotnet-sdk-bin 6.0.404-r1 7.0.203: .NET is a free, cross-platform, open-source developer platform
 dev-libs/bincookie 0.1.0-r1: Library to parse Apple's binarycookies format.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
 dev-libs/libfragmentzip 60_p20230626: A library allowing to download single files from a remote zip archive
