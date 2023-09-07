@@ -108,7 +108,7 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulato
 games-emulation/mupen64plus-video-gliden64 4.0_p20230812: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.62: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.29-r2: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.968 1.1.974: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.968-r1 1.1.974: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.111: Original Xbox emulator.
 games-emulation/yuzu 0.1546: Nintendo Switch emulator.
