@@ -32,6 +32,7 @@ dev-cpp/tracy 0.9.1: C++ frame profiler
 dev-db/dbeaver-bin 23.2.0: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20230628: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r3: CLI for SQLite Databases with auto-completion and syntax highlighting.
+dev-dotnet/csharp-gentoodotnetinfo 0.1.0: .NET information tool for Gentoo
 dev-dotnet/dotnet-runtime-nugets 3.1.32 6.0.12 6.0.16 7.0.5: .NET runtime nugets
 dev-dotnet/dotnet-sdk-bin 6.0.404-r1 7.0.203: .NET is a free, cross-platform, open-source developer platform
 dev-libs/bincookie 0.1.0-r1: Library to parse Apple's binarycookies format.
@@ -179,7 +180,7 @@ media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for 
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
 media-video/vhs-decode 0.1.2_p20230904: Software defined VHS decoder.
 media-video/video2x 4.8.1-r6: A lossless video/GIF/image upscaler.
-media-video/videoduplicatefinder 3.0_p20230902: Video duplicate finder.
+media-video/videoduplicatefinder 3.0_p20230902-r1: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-video/znedi3 2.1_p20230709: nnedi3 filter.
