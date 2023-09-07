@@ -11,6 +11,9 @@ while read -r action _ mode filename; do
 		dn=$(dirname "$filename")
 		mkdir -p "${where}/${dn}"
 		cp "${filename}" "${where}/${dn}"
+		if [[ "${filename}" == *.ebuild ]]; then
+			ebuild "${filename}" manifest
+		fi
 	elif [[ "${action}" == delete ]]; then
 		rm -f "${where}/${filename}"
 	fi
