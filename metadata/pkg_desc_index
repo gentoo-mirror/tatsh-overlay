@@ -2,6 +2,7 @@ acct-group/pihole 0-r1: System group: pihole
 acct-user/pihole 0-r1: user for pihole
 app-admin/awscli-plugin-endpoint 0.4-r3: Provides service endpoint configuration per service on profile.
 app-admin/padd 3.11.0: PADD provides in-depth information about your Pi-hole.
+app-arch/asar 3.2.4: Create Electron app packages.
 app-arch/bitrock-unpacker 20160622: Bitrock unpacking script.
 app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
@@ -75,6 +76,7 @@ dev-util/bytecode-viewer-bin 2.11.2: JAR and Android APK reverse engineering sui
 dev-util/cmake-format 0.6.13-r2: Source code formatter for CMake files.
 dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
 dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
+dev-util/create-react-app 5.0.1: Create React apps with no build configuration.
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
 dev-util/ida-free 8.3.230608: Free version of the code analyzer.
