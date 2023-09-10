@@ -86,6 +86,7 @@ dev-util/vcpkg-tool 2023.08.09: Library manager for C/C++ (tool only).
 dev-util/vscode-vsce 2.21.0: VS Code Extensions Manager
 dev-util/wakatime-cli 1.78.0: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230824: A code-completion & code-comprehension server.
+dev-util/yo 4.3.1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.18: Mirror Git repositories to other Git providers.
 dev-vcs/git-radar 0.6_p20170108-r1: A heads up display for Git.
