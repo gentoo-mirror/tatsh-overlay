@@ -83,6 +83,7 @@ dev-util/node-gyp 9.4.0: Node.js native addon build tool
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
 dev-util/spirv-cross 20230828: Tool for performing reflection on SPIR-V.
 dev-util/vcpkg-tool 2023.08.09: Library manager for C/C++ (tool only).
+dev-util/vscode-vsce 2.21.0: VS Code Extensions Manager
 dev-util/wakatime-cli 1.78.0: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20230824: A code-completion & code-comprehension server.
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
