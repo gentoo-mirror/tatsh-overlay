@@ -33,8 +33,8 @@ dev-db/dbeaver-bin 23.2.0: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20230628: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r3: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-dotnet/csharp-gentoodotnetinfo 0.1.0: .NET information tool for Gentoo
-dev-dotnet/dotnet-runtime-nugets 3.1.32 6.0.12 6.0.16 7.0.5: .NET runtime nugets
-dev-dotnet/dotnet-sdk-bin 6.0.404-r1 7.0.203: .NET is a free, cross-platform, open-source developer platform
+dev-dotnet/dotnet-runtime-nugets 3.1.32 6.0.12 6.0.16 7.0.5 7.0.10: .NET runtime nugets
+dev-dotnet/dotnet-sdk-bin 6.0.404-r1 7.0.203 7.0.400: .NET is a free, cross-platform, open-source developer platform
 dev-libs/bincookie 0.1.0-r1: Library to parse Apple's binarycookies format.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
 dev-libs/libfragmentzip 60_p20230626: A library allowing to download single files from a remote zip archive
@@ -108,7 +108,7 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulato
 games-emulation/mupen64plus-video-gliden64 4.0_p20230812: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.62: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.29-r2: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.968-r1 1.1.1009: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.1009: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.111: Original Xbox emulator.
 games-emulation/yuzu 0.1546: Nintendo Switch emulator.
