@@ -59,7 +59,7 @@ dev-python/django-stubs-ext 4.2.2: Monkey-patching and extensions for django-stu
 dev-python/gooey 1.0.8.1-r2: Turn any command line program into a full GUI application with one line.
 dev-python/hidapi 0.14.0-r1: Python wrapper for hidapi.
 dev-python/llvmlite 0.40.1: A lightweight LLVM python binding for writing JIT compilers
-dev-python/minchoc 0.0.5: Minimal, Chocolatey-compatible NuGet server in a Django app.
+dev-python/minchoc 0.0.6: Minimal, Chocolatey-compatible NuGet server in a Django app.
 dev-python/numba 0.57.1: NumPy aware dynamic Python compiler using LLVM
 dev-python/pyaaf2 1.7.0-r1: Read and write Advanced Authoring Format (AAF) files.
 dev-python/pygtrie 2.5.0-r3: A pure Python trie data structure implementation.
