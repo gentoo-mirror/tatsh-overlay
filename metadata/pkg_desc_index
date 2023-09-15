@@ -11,7 +11,6 @@ app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image fo
 app-cdr/redumper 213: Low level CD dumper utility
 app-emulation/basiliskii 1.0.0_p20230825: 68k Macintosh emulator (updated fork).
 app-emulation/sheepshaver 1.0.0_p20230825: Macintosh emulator (updated fork).
-app-eselect/eselect-dotnet 0.1.0: Eselect module for management of multiple dotnet versions
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/czkawka 6.0.0: App to find duplicates, empty folders, similar images etc.
 app-misc/deark 1.6.5: Utility to extract data from various file formats.
@@ -33,9 +32,8 @@ dev-cpp/tracy 0.9.1: C++ frame profiler
 dev-db/dbeaver-bin 23.2.0: Free universal database tool (community edition).
 dev-db/dbeaver-creds 20230628: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r3: CLI for SQLite Databases with auto-completion and syntax highlighting.
-dev-dotnet/csharp-gentoodotnetinfo 0.1.0: .NET information tool for Gentoo
-dev-dotnet/dotnet-runtime-nugets 3.1.32 6.0.12 6.0.16 7.0.5 7.0.10: .NET runtime nugets
-dev-dotnet/dotnet-sdk-bin 6.0.404-r1 7.0.203 7.0.400: .NET is a free, cross-platform, open-source developer platform
+dev-dotnet/dotnet-runtime-nugets 7.0.10: .NET runtime nugets
+dev-dotnet/dotnet-sdk-bin 7.0.400: .NET is a free, cross-platform, open-source developer platform
 dev-libs/bincookie 0.1.0-r1: Library to parse Apple's binarycookies format.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
 dev-libs/libfragmentzip 60_p20230815: A library allowing to download single files from a remote zip archive
@@ -71,7 +69,6 @@ dev-python/vsutil 0.8.0-r2: A collection of general purpose Vapoursynth function
 dev-qt/qtquick3d 5.15.10-r1: Qt module and API for defining 3D content in Qt QuickTools
 dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9-r1: Single file executable that provides a complete Tcl and Tk runtime.
-dev-util/avalonia-ilspy 7.2_rc-r1: .NET decompiler.
 dev-util/bytecode-viewer-bin 2.11.2: JAR and Android APK reverse engineering suite.
 dev-util/cmake-format 0.6.13-r2: Source code formatter for CMake files.
 dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
@@ -113,7 +110,6 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulato
 games-emulation/mupen64plus-video-gliden64 4.0_p20230812: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.62: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.29-r2: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.1009: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.111: Original Xbox emulator.
 games-emulation/yuzu 0.1555: Nintendo Switch emulator.
@@ -185,7 +181,6 @@ media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for 
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
 media-video/vhs-decode 0.1.2_p20230908: Software defined VHS decoder.
 media-video/video2x 4.8.1-r6: A lossless video/GIF/image upscaler.
-media-video/videoduplicatefinder 3.0_p20230902-r1: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-video/ytarchive 0.4.0: Garbage YouTube live stream downloader.
