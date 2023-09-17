@@ -30,7 +30,7 @@ app-vim/youcompleteme 20230910: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.2-r1: Command line parser for C++11
 dev-cpp/tracy 0.9.1: C++ frame profiler
 dev-db/dbeaver-bin 23.2.0: Free universal database tool (community edition).
-dev-db/dbeaver-creds 20230628: Recover your DBeaver saved credentials.
+dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r3: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-dotnet/csharp-gentoodotnetinfo 0.1.0: .NET information tool for Gentoo
 dev-dotnet/dotnet-runtime-nugets 7.0.10: .NET runtime nugets
