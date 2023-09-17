@@ -8,9 +8,9 @@ app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
-app-cdr/redumper 213: Low level CD dumper utility
-app-emulation/basiliskii 1.0.0_p20230825: 68k Macintosh emulator (updated fork).
-app-emulation/sheepshaver 1.0.0_p20230825: Macintosh emulator (updated fork).
+app-cdr/redumper 216: Low level CD dumper utility
+app-emulation/basiliskii 1.0.0_p20230913: 68k Macintosh emulator (updated fork).
+app-emulation/sheepshaver 1.0.0_p20230913: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/czkawka 6.0.0: App to find duplicates, empty folders, similar images etc.
 app-misc/deark 1.6.5: Utility to extract data from various file formats.
@@ -26,15 +26,15 @@ app-portage/livecheck 0.0.7: Tool to update ebuilds.
 app-portage/upkeep 1.4.3-r1: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20230910: A code-completion engine for Vim.
+app-vim/youcompleteme 20230914: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.2-r1: Command line parser for C++11
 dev-cpp/tracy 0.9.1: C++ frame profiler
 dev-db/dbeaver-bin 23.2.0: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
 dev-db/litecli 1.9.0-r3: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-dotnet/csharp-gentoodotnetinfo 0.1.0: .NET information tool for Gentoo
-dev-dotnet/dotnet-runtime-nugets 7.0.10: .NET runtime nugets
-dev-dotnet/dotnet-sdk-bin 7.0.400: .NET is a free, cross-platform, open-source developer platform
+dev-dotnet/dotnet-runtime-nugets 7.0.11: .NET runtime nugets
+dev-dotnet/dotnet-sdk-bin 7.0.401: .NET is a free, cross-platform, open-source developer platform
 dev-libs/bincookie 0.1.0-r1: Library to parse Apple's binarycookies format.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
 dev-libs/libfragmentzip 60_p20230815: A library allowing to download single files from a remote zip archive
@@ -58,9 +58,9 @@ dev-python/django-stubs-ext 4.2.2: Monkey-patching and extensions for django-stu
 dev-python/gooey 1.0.8.1-r2: Turn any command line program into a full GUI application with one line.
 dev-python/hidapi 0.14.0-r1: Python wrapper for hidapi.
 dev-python/llvmlite 0.40.1: A lightweight LLVM python binding for writing JIT compilers
-dev-python/minchoc 0.0.6: Minimal, Chocolatey-compatible NuGet server in a Django app.
+dev-python/minchoc 0.0.8: Minimal, Chocolatey-compatible NuGet server in a Django app.
 dev-python/numba 0.57.1: NumPy aware dynamic Python compiler using LLVM
-dev-python/pyaaf2 1.7.0-r1: Read and write Advanced Authoring Format (AAF) files.
+dev-python/pyaaf2 1.7.1: Read and write Advanced Authoring Format (AAF) files.
 dev-python/pygtrie 2.5.0-r3: A pure Python trie data structure implementation.
 dev-python/pyhht 0.1.0-r2: A Python module for the Hilbert Huang Transform.
 dev-python/re-wx 0.1.0-r1: A library for building modern declarative desktop applications in WX.
@@ -83,11 +83,11 @@ dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.4.0: Node.js native addon build tool
 dev-util/prettier 3.0.3: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
-dev-util/spirv-cross 20230828: Tool for performing reflection on SPIR-V.
-dev-util/vcpkg-tool 2023.08.09: Library manager for C/C++ (tool only).
+dev-util/spirv-cross 20230912: Tool for performing reflection on SPIR-V.
+dev-util/vcpkg-tool 2023.09.15: Library manager for C/C++ (tool only).
 dev-util/vscode-vsce 2.21.0: VS Code Extensions Manager
 dev-util/wakatime-cli 1.78.1: Command line interface to WakaTime used by all WakaTime plugins
-dev-util/ycmd 20230824: A code-completion & code-comprehension server.
+dev-util/ycmd 20230915: A code-completion & code-comprehension server.
 dev-util/yo 4.3.1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.18: Mirror Git repositories to other Git providers.
@@ -103,8 +103,8 @@ games-arcade/outfox-serenity 3.0.2: The community pack content for Project OutFo
 games-arcade/stepmania 5.1.0_beta2_p20221114-r6: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 4.0: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20230908: Wii U emulator.
-games-emulation/citra 20230911: A Nintendo 3DS emulator.
+games-emulation/cemu 2.0_p20230914: Wii U emulator.
+games-emulation/citra 20230916: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230810: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2023.09.01: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
@@ -115,7 +115,7 @@ games-emulation/rpcs3 0.0.29-r2: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.1009: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.111: Original Xbox emulator.
-games-emulation/yuzu 0.1555: Nintendo Switch emulator.
+games-emulation/yuzu 0.1561: Nintendo Switch emulator.
 games-misc/render96ex 20230405-r1: Fork of sm64-port with additional features (alpha branch).
 games-util/aprip 1.0.5: Remove additional copy protection found in some later PS1 games.
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
@@ -132,7 +132,7 @@ kde-misc/kate-stuff 20230806: Updated and improved Kate editor syntax files and 
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 kde-misc/kwin-effects-cube 2.0.0-r2: Desktop cube effect for Kwin.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/noto 20230912: Google's font family that aims to support all the world's languages
+media-fonts/noto 20230917: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
@@ -182,7 +182,7 @@ media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin 
 media-video/vapoursynth-rife-ncnn-vulkan 9: RIFE filter for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
-media-video/vhs-decode 0.1.2_p20230908: Software defined VHS decoder.
+media-video/vhs-decode 0.1.2_p20230914: Software defined VHS decoder.
 media-video/video2x 4.8.1-r6: A lossless video/GIF/image upscaler.
 media-video/videoduplicatefinder 3.0_p20230902-r1: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
@@ -201,7 +201,7 @@ mpv-plugin/mpv-lrc 20230813-r1: Synchronize lyrics with mpv
 mpv-plugin/mpv-netrc 0.0.2-r1: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/reload 20220127-r2: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/shutup 20230902: Set mpv to quiet when stdout/stdout is not a TTY.
+mpv-plugin/shutup 20230916: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-plugin/writeedits 20211026: Writes a list of edits made to the current video file to a file
 mpv-plugin/writename 20211026: Writes a list of edits made to the current video file to a file
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
