@@ -216,7 +216,6 @@ net-im/ripcord 0.4.29-r5: Desktop chat client for Slack and Discord (not web-bas
 net-mail/gmailctl 0.10.6-r2: Declarative configuration for Gmail filters
 net-p2p/xirvik-tools 0.4.5: Tools for Xirvik servers.
 net-proxy/charles 4.6.4-r1: Web debugging proxy application.
-sci-calculators/qalculate-qt 4.6.1-r1 4.8.0: Qt-based UI for libqalculate.
 sys-apps/kylemanna-systemd-utils 20220116-r1: Random systemd utilities.
 sys-apps/seatools 5.1.182: Quick diagnostic tool that checks the health of your drive.
 sys-apps/tinkup 1.0_p20220425-r1: Firmware update utility for the RetroTINK family of retro gaming devices.
