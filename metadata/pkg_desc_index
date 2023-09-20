@@ -35,7 +35,7 @@ dev-db/litecli 1.9.0-r3: CLI for SQLite Databases with auto-completion and synta
 dev-dotnet/csharp-gentoodotnetinfo 0.1.0: .NET information tool for Gentoo
 dev-dotnet/dotnet-runtime-nugets 7.0.11: .NET runtime nugets
 dev-dotnet/dotnet-sdk-bin 7.0.401-r1: .NET is a free, cross-platform, open-source developer platform
-dev-libs/bincookie 0.1.0-r1: Library to parse Apple's binarycookies format.
+dev-libs/bincookie 0.1.2: Library to parse Apple's binarycookies format.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
 dev-libs/libfragmentzip 60_p20230815: A library allowing to download single files from a remote zip archive
 dev-libs/libpietendo 0.7.0-r1: Library for parsing Nintendo file formats.
