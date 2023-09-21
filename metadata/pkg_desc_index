@@ -8,6 +8,7 @@ app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
+app-cdr/qpxtool 0.8.1.3: Enhanced (unofficial) qpxtool version.
 app-cdr/redumper 216: Low level CD dumper utility
 app-emulation/basiliskii 1.0.0_p20230913: 68k Macintosh emulator (updated fork).
 app-emulation/sheepshaver 1.0.0_p20230913: Macintosh emulator (updated fork).
