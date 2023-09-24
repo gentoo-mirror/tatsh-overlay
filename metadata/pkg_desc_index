@@ -2,7 +2,7 @@ acct-group/pihole 0-r1: System group: pihole
 acct-user/pihole 0-r1: user for pihole
 app-admin/awscli-plugin-endpoint 0.4-r3: Provides service endpoint configuration per service on profile.
 app-admin/padd 3.11.0: PADD provides in-depth information about your Pi-hole.
-app-arch/asar 3.2.4: Create Electron app packages.
+app-arch/asar 3.2.5: Create Electron app packages.
 app-arch/bitrock-unpacker 20160622: Bitrock unpacking script.
 app-arch/pychoco 0.1.1: Minimal choco command for use on non-Windows platforms.
 app-arch/unalz 0.65: Unpack ALZ archives.
@@ -10,13 +10,13 @@ app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compres
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/qpxtool 0.8.1.3: Enhanced (unofficial) qpxtool version.
-app-cdr/redumper 216: Low level CD dumper utility
+app-cdr/redumper 218: Low level CD dumper utility
 app-emulation/basiliskii 1.0.0_p20230913: 68k Macintosh emulator (updated fork).
 app-emulation/sheepshaver 1.0.0_p20230913: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/czkawka 6.0.0: App to find duplicates, empty folders, similar images etc.
 app-misc/deark 1.6.5: Utility to extract data from various file formats.
-app-misc/fx 24.1.0: Terminal JSON viewer.
+app-misc/fx 30.1.0: Terminal JSON viewer.
 app-misc/pyrescene 0.7-r2: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r2: CLI to track a USPS shipment by SMS.
@@ -37,7 +37,7 @@ dev-db/litecli 1.9.0-r3: CLI for SQLite Databases with auto-completion and synta
 dev-dotnet/csharp-gentoodotnetinfo 0.1.0: .NET information tool for Gentoo
 dev-dotnet/dotnet-runtime-nugets 7.0.11: .NET runtime nugets
 dev-dotnet/dotnet-sdk-bin 7.0.401-r1: .NET is a free, cross-platform, open-source developer platform
-dev-libs/bincookie 0.1.2: Library to parse Apple's binarycookies format.
+dev-libs/bincookie 0.1.6: Library to parse Apple's binarycookies format.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
 dev-libs/libfragmentzip 60_p20230815: A library allowing to download single files from a remote zip archive
 dev-libs/libpietendo 0.7.0-r1: Library for parsing Nintendo file formats.
@@ -60,9 +60,9 @@ dev-python/decli 0.6.1: Minimal declarative cli tool.
 dev-python/django-stubs-ext 4.2.2: Monkey-patching and extensions for django-stubs.
 dev-python/gooey 1.0.8.1-r2: Turn any command line program into a full GUI application with one line.
 dev-python/hidapi 0.14.0-r1: Python wrapper for hidapi.
-dev-python/llvmlite 0.40.1: A lightweight LLVM python binding for writing JIT compilers
+dev-python/llvmlite 0.41.0: A lightweight LLVM python binding for writing JIT compilers
 dev-python/minchoc 0.0.10: Minimal, Chocolatey-compatible NuGet server in a Django app.
-dev-python/numba 0.57.1: NumPy aware dynamic Python compiler using LLVM
+dev-python/numba 0.58.0: NumPy aware dynamic Python compiler using LLVM
 dev-python/pyaaf2 1.7.1: Read and write Advanced Authoring Format (AAF) files.
 dev-python/pygtrie 2.5.0-r3: A pure Python trie data structure implementation.
 dev-python/pyhht 0.1.0-r2: A Python module for the Hilbert Huang Transform.
@@ -79,7 +79,7 @@ dev-util/bytecode-viewer-bin 2.11.2: JAR and Android APK reverse engineering sui
 dev-util/cmake-format 0.6.13-r2: Source code formatter for CMake files.
 dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
 dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
-dev-util/commitizen 3.9.0: Release management tool designed for teams (cz command).
+dev-util/commitizen 3.9.1: Release management tool designed for teams (cz command).
 dev-util/create-react-app 5.0.1: Create React apps with no build configuration.
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
@@ -91,8 +91,8 @@ dev-util/react-native-decompiler 0.2.4: React Native decompiler.
 dev-util/spirv-cross 20230912: Tool for performing reflection on SPIR-V.
 dev-util/vcpkg-tool 2023.09.15: Library manager for C/C++ (tool only).
 dev-util/vscode-vsce 2.21.0: VS Code Extensions Manager
-dev-util/wakatime-cli 1.78.1: Command line interface to WakaTime used by all WakaTime plugins
-dev-util/ycmd 20230915: A code-completion & code-comprehension server.
+dev-util/wakatime-cli 1.81.0: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/ycmd 20230923: A code-completion & code-comprehension server.
 dev-util/yo 4.3.1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.18: Mirror Git repositories to other Git providers.
@@ -108,19 +108,19 @@ games-arcade/outfox-serenity 3.0.2: The community pack content for Project OutFo
 games-arcade/stepmania 5.1.0_beta2_p20221114-r6: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 4.0: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20230914: Wii U emulator.
-games-emulation/citra 20230916: A Nintendo 3DS emulator.
+games-emulation/cemu 2.0_p20230922: Wii U emulator.
+games-emulation/citra 20230923: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230810-r1: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2023.09.01: Cross-platform DOS emulation package.
-games-emulation/libretro-db 1.15.0: libretro-db tools from RetroArch.
+games-emulation/libretro-db 1.16.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20230812: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.62: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.29-r2: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.1015: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.1022: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.111: Original Xbox emulator.
-games-emulation/yuzu 0.1561: Nintendo Switch emulator.
+games-emulation/yuzu 0.1567: Nintendo Switch emulator.
 games-misc/render96ex 20230405-r1: Fork of sm64-port with additional features (alpha branch).
 games-util/aprip 1.0.5: Remove additional copy protection found in some later PS1 games.
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
@@ -132,13 +132,13 @@ games-util/raphnet-tech-adapter-manager 2.1.27-r1: Graphical user interface and 
 games-util/sm64tools 0.3.2_p20180902: Collection of tools for Super Mario 64 ROM hacking (and others).
 games-util/switch-library-manager 1.4.0: Manage Switch backups (console only).
 games-util/wiimms-iso-tools 3.05a-r2: A set of command line tools to maniuplate Wii/Gamecube images.
-games-util/wiimms-szs-tools 2.37a: A set of command line tools to maniuplate files of various Nintendo titles.
+games-util/wiimms-szs-tools 2.38a: A set of command line tools to maniuplate files of various Nintendo titles.
 kde-misc/kate-jinja2-highlighting 20190428-r1: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20230806: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 kde-misc/kwin-effects-cube 2.0.0-r2: Desktop cube effect for Kwin.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/noto 20230917: Google's font family that aims to support all the world's languages
+media-fonts/noto 20230923: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
@@ -188,9 +188,9 @@ media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin 
 media-video/vapoursynth-rife-ncnn-vulkan 9: RIFE filter for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
-media-video/vhs-decode 0.1.2_p20230914: Software defined VHS decoder.
+media-video/vhs-decode 0.1.2_p20230922: Software defined VHS decoder.
 media-video/video2x 4.8.1-r6: A lossless video/GIF/image upscaler.
-media-video/videoduplicatefinder 3.0_p20230915: Video duplicate finder.
+media-video/videoduplicatefinder 3.0_p20230920: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-video/ytarchive 0.4.0: Garbage YouTube live stream downloader.
@@ -207,7 +207,7 @@ mpv-plugin/mpv-lrc 20230813-r1: Synchronize lyrics with mpv
 mpv-plugin/mpv-netrc 0.0.2-r1: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/reload 20220127-r2: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/shutup 20230916: Set mpv to quiet when stdout/stdout is not a TTY.
+mpv-plugin/shutup 20230922: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-plugin/writeedits 20211026: Writes a list of edits made to the current video file to a file
 mpv-plugin/writename 20211026: Writes a list of edits made to the current video file to a file
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
