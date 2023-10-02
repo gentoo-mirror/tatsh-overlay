@@ -156,7 +156,7 @@ media-sound/sony-headphones-client 1.3.2-r1: Client recreating the functionality
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
 media-video/cxadc 20230830-r1: CX2388x direct ADC capture driver.
 media-video/domesday-duplicator 2.3_p20230726: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
-media-video/ffms2 2.40_p20231001: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
+media-video/ffms2 2.40_p20230722: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
 media-video/fmtconv 30_p20230901: Format conversion tools for Vapoursynth
 media-video/havsfunc 33_p20230507-r2: Holy's ported AviSynth functions for VapourSynth

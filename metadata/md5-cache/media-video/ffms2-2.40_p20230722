@@ -1,6 +1,6 @@
 BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
 DEFINED_PHASES=configure install prepare
-DEPEND=media-video/ffmpeg sys-libs/zlib
+DEPEND=<media-video/ffmpeg-5 sys-libs/zlib
 DESCRIPTION=An FFmpeg based library and VapourSynth plugin for easy frame accurate access
 EAPI=8
 HOMEPAGE=https://github.com/FFMS/ffms2
@@ -8,8 +8,8 @@ INHERIT=autotools
 IUSE=debug
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=media-video/ffmpeg sys-libs/zlib
+RDEPEND=<media-video/ffmpeg-5 sys-libs/zlib
 SLOT=0
-SRC_URI=https://github.com/FFMS/ffms2/archive/9203a549198d6118174c95b64bb12bf38f9ed104.tar.gz -> ffms2-2.40_p20231001.tar.gz
+SRC_URI=https://github.com/FFMS/ffms2/archive/ef243ab40b8d4b6d18874c6cef0da1a2f55a6a45.tar.gz -> ffms2-2.40_p20230722.tar.gz
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde
-_md5_=4cb2edd06f86161a5e8fc016ac3ec987
+_md5_=6f53c1d767eca81aca64be902e9ea7b5
