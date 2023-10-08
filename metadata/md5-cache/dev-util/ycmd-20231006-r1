@@ -1,0 +1,16 @@
+BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=dev-cpp/abseil-cpp
+DESCRIPTION=A code-completion & code-comprehension server.
+EAPI=8
+HOMEPAGE=https://github.com/ycm-core/ycmd
+INHERIT=cmake python-single-r1
+IUSE=python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12
+KEYWORDS=~amd64 ~ppc64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-cpp/abseil-cpp python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_10? ( dev-python/bottle[python_targets_python3_10(-)] ) python_single_target_python3_11? ( dev-python/bottle[python_targets_python3_11(-)] ) python_single_target_python3_12? ( dev-python/bottle[python_targets_python3_12(-)] ) python_single_target_python3_10? ( dev-python/jedi[python_targets_python3_10(-)] ) python_single_target_python3_11? ( dev-python/jedi[python_targets_python3_11(-)] ) python_single_target_python3_12? ( dev-python/jedi[python_targets_python3_12(-)] ) python_single_target_python3_10? ( dev-python/regex[python_targets_python3_10(-)] ) python_single_target_python3_11? ( dev-python/regex[python_targets_python3_11(-)] ) python_single_target_python3_12? ( dev-python/regex[python_targets_python3_12(-)] ) python_single_target_python3_10? ( dev-python/waitress[python_targets_python3_10(-)] ) python_single_target_python3_11? ( dev-python/waitress[python_targets_python3_11(-)] ) python_single_target_python3_12? ( dev-python/waitress[python_targets_python3_12(-)] ) python_single_target_python3_10? ( dev-python/watchdog[python_targets_python3_10(-)] ) python_single_target_python3_11? ( dev-python/watchdog[python_targets_python3_11(-)] ) python_single_target_python3_12? ( dev-python/watchdog[python_targets_python3_12(-)] ) sys-devel/clang:=[static-analyzer]
+REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 )
+SLOT=0
+SRC_URI=https://github.com/ycm-core/ycmd/archive/adce5d83019623fa103e81e27a5b520cc73121b4.tar.gz -> ycmd-20231006.tar.gz
+_eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e5cc383ea8420f92fe3737be790021dc	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	fc2f89084f590ac95c004ea95b0d2f80	python-utils-r1	12aa0037eb004139215ff04894d52b28	python-single-r1	75118e916668a74c660a13b0ecb22562
+_md5_=838ff4cfc2cc1f6652ee22e68dfba3b3
