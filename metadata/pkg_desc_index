@@ -58,7 +58,7 @@ dev-python/colored 2.2.3-r1: Very simple Python library for color and formatting
 dev-python/decli 0.6.1-r1: Minimal declarative cli tool.
 dev-python/django-stubs-ext 4.2.2-r1: Monkey-patching and extensions for django-stubs.
 dev-python/gooey 1.0.8.1-r3: Turn any command line program into a full GUI application with one line.
-dev-python/hidapi 0.14.0-r2: Python wrapper for hidapi.
+dev-python/hidapi 0.14.0-r3: Python wrapper for hidapi.
 dev-python/llvmlite 0.41.0-r1: A lightweight LLVM python binding for writing JIT compilers
 dev-python/minchoc 0.0.10-r1: Minimal, Chocolatey-compatible NuGet server in a Django app.
 dev-python/numba 0.58.0-r1: NumPy aware dynamic Python compiler using LLVM
