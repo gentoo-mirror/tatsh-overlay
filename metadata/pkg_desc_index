@@ -9,12 +9,12 @@ app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
-app-cdr/qpxtool 0.8.1.3: Enhanced (unofficial) qpxtool version.
-app-cdr/redumper 226: Low level CD dumper utility
+app-cdr/qpxtool 0.8.1.4: Enhanced (unofficial) qpxtool version.
+app-cdr/redumper 230: Low level CD dumper utility
 app-emulation/basiliskii 1.0.0_p20231008: 68k Macintosh emulator (updated fork).
 app-emulation/sheepshaver 1.0.0_p20231008: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
-app-misc/czkawka 6.0.0: App to find duplicates, empty folders, similar images etc.
+app-misc/czkawka 6.1.0: App to find duplicates, empty folders, similar images etc.
 app-misc/deark 1.6.5: Utility to extract data from various file formats.
 app-misc/fx 30.2.0: Terminal JSON viewer.
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
@@ -27,7 +27,7 @@ app-pda/ipad_charge 20210107-r1: Helper utility to enable charging with Apple mo
 app-portage/livecheck 0.0.8-r1: Tool to update ebuilds.
 app-portage/upkeep 1.4.3-r2: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
-app-vim/vim-wakatime 10.0.0: vim plugin: automatic time tracking with WakaTime
+app-vim/vim-wakatime 11.0.0: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20231006-r1: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.2-r1: Command line parser for C++11
 dev-cpp/tracy 0.9.1: C++ frame profiler
@@ -75,7 +75,7 @@ dev-util/bytecode-viewer-bin 2.11.2: JAR and Android APK reverse engineering sui
 dev-util/cmake-format 0.6.13-r3: Source code formatter for CMake files.
 dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
 dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
-dev-util/commitizen 3.10.0-r1: Release management tool designed for teams (cz command).
+dev-util/commitizen 3.10.1: Release management tool designed for teams (cz command).
 dev-util/create-react-app 5.0.1: Create React apps with no build configuration.
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
@@ -84,8 +84,8 @@ dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.4.0-r1: Node.js native addon build tool
 dev-util/prettier 3.0.3: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
-dev-util/spirv-cross 20231002: Tool for performing reflection on SPIR-V.
-dev-util/vcpkg-tool 2023.09.15: Library manager for C/C++ (tool only).
+dev-util/spirv-cross 20231014: Tool for performing reflection on SPIR-V.
+dev-util/vcpkg-tool 2023.10.13: Library manager for C/C++ (tool only).
 dev-util/vscode-vsce 2.21.1: VS Code Extensions Manager
 dev-util/wakatime-cli 1.85.2: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20231006-r1: A code-completion & code-comprehension server.
@@ -115,12 +115,12 @@ games-emulation/play 0.62: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.29-r2: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.1049: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
-games-emulation/xemu 0.7.111-r1: Original Xbox emulator.
-games-emulation/yuzu 0.1581: Nintendo Switch emulator.
+games-emulation/xemu 0.7.113: Original Xbox emulator.
+games-emulation/yuzu 0.1589: Nintendo Switch emulator.
 games-misc/render96ex 20230405-r1: Fork of sm64-port with additional features (alpha branch).
 games-util/aprip 1.0.5: Remove additional copy protection found in some later PS1 games.
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
-games-util/hactool 1.4.0_p20210710: Tool for common file formats for the Nintendo Switch.
+games-util/hactool 1.4.0_p20231011: Tool for common file formats for the Nintendo Switch.
 games-util/joystickwake 0.4.1-r2: Joystick-aware screen waker.
 games-util/kelftool 20191126: Utility for decrypt, encrypt and sign PS2 KELF and PSX KELF files.
 games-util/nstool 1.7.0: General purpose read/extract tool for Nintendo Switch file formats.
@@ -134,13 +134,13 @@ kde-misc/kate-stuff 20230806: Updated and improved Kate editor syntax files and 
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 kde-misc/kwin-effects-cube 2.0.0-r2: Desktop cube effect for Kwin.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/noto 20231008: Google's font family that aims to support all the world's languages
+media-fonts/noto 20231015: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728-r1: SRMD super resolution implemented with ncnn library.
 media-libs/libspng 0.7.4-r1: Simple, modern libpng alternative.
-media-libs/vs-denoise 1.0.0_p20231007-r1: VapourSynth denoising, regression, and motion compensation functions
+media-libs/vs-denoise 1.0.0_p20231014: VapourSynth denoising, regression, and motion compensation functions
 media-libs/vsaa 1.8.2-r1: Functions and utils related to VapourSynth.
 media-libs/vsexprtools 1.4.6-r1: VapourSynth functions and helpers for writing RPN expressions.
 media-libs/vskernels 2.4.1-r2: Kernel objects for scaling and format conversion within VapourSynth.
@@ -184,7 +184,7 @@ media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin 
 media-video/vapoursynth-rife-ncnn-vulkan 9: RIFE filter for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
-media-video/vhs-decode 0.2.1_p20231008-r1: Software defined VHS decoder.
+media-video/vhs-decode 0.2.1_p20231009: Software defined VHS decoder.
 media-video/video2x 4.8.1-r7: A lossless video/GIF/image upscaler.
 media-video/videoduplicatefinder 3.0_p20231006: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
@@ -209,7 +209,7 @@ mpv-plugin/writename 20211026: Writes a list of edits made to the current video 
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
 mpv-shader/amd-fidelityfx-super-resolution 20220306: AMD FidelityFX Super Resolution v1.0.2 for mpv.
 mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
-mpv-shader/krig-bilateral 20230926: Shader for mpv.
+mpv-shader/krig-bilateral 20231012: Shader for mpv.
 mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20230927: Downscaler shader for mpv.
 net-dns/pihole 5.17.1-r1: Network-wide ad blocking (core).
@@ -226,7 +226,7 @@ sys-auth/fprintd 1.94.2-r4: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.6: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-kernel/msi-ec 20231006: Kernel module for the embedded controller of MSI laptops.
-www-apps/pihole-admin-lte 5.20.1-r1: Pi-hole Dashboard for stats and more
+www-apps/pihole-admin-lte 5.20.2: Pi-hole Dashboard for stats and more
 www-apps/wakapi 2.9.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999-r2: Bypass Paywalls browser extension.
 x11-misc/mimeo 2023-r1: Open files by MIME-type or file name using regular expressions.

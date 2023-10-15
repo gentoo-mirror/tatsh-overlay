@@ -5,5 +5,5 @@ HOMEPAGE=https://github.com/SciresM/hactool
 KEYWORDS=~amd64
 LICENSE=ISC
 SLOT=0
-SRC_URI=https://github.com/SciresM/hactool/archive/c2c907430e674614223959f0377f5e71f9e44a4a.tar.gz -> hactool-1.4.0_p20210710.tar.gz
-_md5_=0f51b6bb66b1dbdaebc2775b490ad577
+SRC_URI=https://github.com/SciresM/hactool/archive/1d64a83450e025622f3468c28fc4164dad2c5ef6.tar.gz -> hactool-1.4.0_p20231011.tar.gz
+_md5_=4354570ba7ff9917250f4d199f80b0ef
