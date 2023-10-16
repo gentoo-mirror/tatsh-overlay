@@ -3,20 +3,24 @@
 
 EAPI=8
 
+DISTUTILS_EXT=1
+DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_11 )
 
-inherit cmake pypi python-r1
+inherit cmake python-r1 pypi
 
-DESCRIPTION="A Python FFI of nihui/realcugan-ncnn-vulkan achieved with SWIG."
-HOMEPAGE="https://pypi.org/project/realcugan-ncnn-vulkan-python/"
+DESCRIPTION="A Python FFI of nihui/waifu2x-ncnn-vulkan achieved with SWIG."
+HOMEPAGE="https://pypi.org/project/waifu2x-ncnn-vulkan-python/"
 SRC_URI="$(pypi_sdist_url --no-normalize "${PN}")"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-DEPEND="dev-libs/ncnn[vulkan]"
-BDEPEND="dev-lang/swig dev-util/glslang"
+DEPEND="dev-libs/ncnn[vulkan]
+	dev-util/glslang"
+BDEPEND="dev-lang/swig"
 
 MY_PN_U="${PN//-/_}"
 S="${WORKDIR}/${P}/${MY_PN_U}"
@@ -49,8 +53,7 @@ src_compile() {
 custom_install() {
 	cmake_src_install
 	rm -f "${D}/$(python_get_sitedir)/${MY_PN_U}/LICENSE" || die
-	grep -E '\s+write_top_level_init="' ../setup.py | sed \
-		-re 's/.*"([^"]+)",$/\1/' > "${D}/$(python_get_sitedir)/${MY_PN_U}/__init__.py" || die
+	grep -E '\s+write_top_level_init="' ../setup.py | sed -re 's/.*"([^"]+)",$/\1/' > "${D}/$(python_get_sitedir)/${MY_PN_U}/__init__.py" || die
 }
 
 src_install() {
