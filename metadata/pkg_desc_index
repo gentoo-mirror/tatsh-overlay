@@ -10,7 +10,7 @@ app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compres
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/qpxtool 0.8.1.4: Enhanced (unofficial) qpxtool version.
-app-cdr/redumper 234: Low level CD dumper utility
+app-cdr/redumper 243: Low level CD dumper utility
 app-emulation/basiliskii 1.0.0_p20231018: 68k Macintosh emulator (updated fork).
 app-emulation/sheepshaver 1.0.0_p20231018: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
@@ -90,7 +90,7 @@ dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
 dev-util/node-gyp 9.4.0-r1: Node.js native addon build tool
 dev-util/prettier 3.0.3: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
-dev-util/spirv-cross 20231016: Tool for performing reflection on SPIR-V.
+dev-util/spirv-cross 20231023: Tool for performing reflection on SPIR-V.
 dev-util/vcpkg-tool 2023.10.13: Library manager for C/C++ (tool only).
 dev-util/vscode-vsce 2.21.1: VS Code Extensions Manager
 dev-util/wakatime-cli 1.85.2: Command line interface to WakaTime used by all WakaTime plugins
@@ -111,7 +111,7 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r7: Advanced rhythm game. Designed 
 games-emulation/86box 4.0.1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20231019: Wii U emulator.
-games-emulation/citra 20231022: A Nintendo 3DS emulator.
+games-emulation/citra 20231025: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230810-r1: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2023.10.06: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.16.0: libretro-db tools from RetroArch.
@@ -122,7 +122,7 @@ games-emulation/rpcs3 0.0.29-r2: PS3 emulator and debugger.
 games-emulation/ryujinx 1.1.1061: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.116: Original Xbox emulator.
-games-emulation/yuzu 0.1597-r1: Nintendo Switch emulator.
+games-emulation/yuzu 0.1604: Nintendo Switch emulator.
 games-misc/render96ex 20230405-r1: Fork of sm64-port with additional features (alpha branch).
 games-util/aprip 1.0.5: Remove additional copy protection found in some later PS1 games.
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
@@ -140,13 +140,13 @@ kde-misc/kate-stuff 20230806: Updated and improved Kate editor syntax files and 
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 kde-misc/kwin-effects-cube 2.0.0-r2: Desktop cube effect for Kwin.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/noto 20231023: Google's font family that aims to support all the world's languages
+media-fonts/noto 20231029: Google's font family that aims to support all the world's languages
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728-r1: SRMD super resolution implemented with ncnn library.
 media-libs/libspng 0.7.4-r1: Simple, modern libpng alternative.
-media-libs/vs-denoise 1.0.0_p20231020: VapourSynth denoising, regression, and motion compensation functions
+media-libs/vs-denoise 1.0.0_p20231028: VapourSynth denoising, regression, and motion compensation functions
 media-libs/vsaa 1.8.2-r1: Functions and utils related to VapourSynth.
 media-libs/vsexprtools 1.4.6-r1: VapourSynth functions and helpers for writing RPN expressions.
 media-libs/vskernels 2.4.1-r2: Kernel objects for scaling and format conversion within VapourSynth.
@@ -157,7 +157,7 @@ media-libs/vsscale 1.9.1-r1: Wrappers for scaling and descaling functions.
 media-libs/vstools 2.3.0-r1: Functions and utils related to VapourSynth.
 media-sound/sony-headphones-client 1.3.2-r1: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
-media-video/cxadc 20230830-r1: CX2388x direct ADC capture driver.
+media-video/cxadc 20231028: CX2388x direct ADC capture driver.
 media-video/domesday-duplicator 2.3_p20230726: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
 media-video/ffms2 2.40_p20230722: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
@@ -170,7 +170,7 @@ media-video/open-in-mpv 0.1.0-r3: Host-side script for the Open in mpv Chrome ex
 media-video/opentimelineio 0.15.0-r4: Editorial interchange format and API (for use with Kdenlive).
 media-video/patreon-archiver 0.0.6-r1: Tool to download data from Patreon.
 media-video/scenechange 0.2.0.2-r1: Scene change detection plugin for VapourSynth
-media-video/vapoursynth 65_rc1: A video processing framework with simplicity in mind.
+media-video/vapoursynth 65: A video processing framework with simplicity in mind.
 media-video/vapoursynth-astdr 4-r3: Derainbow function for VapourSynth.
 media-video/vapoursynth-bm3d 9: BM3D denoising filter for VapourSynth
 media-video/vapoursynth-dfmderainbow 2-r2: Derainbow function for VapourSynth.
@@ -190,7 +190,7 @@ media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin 
 media-video/vapoursynth-rife-ncnn-vulkan 9: RIFE filter for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
-media-video/vhs-decode 0.2.1_p20231022: Software defined VHS decoder.
+media-video/vhs-decode 0.2.1_p20231025: Software defined VHS decoder.
 media-video/video2x 5.0.0_beta6: A lossless video/GIF/image upscaler.
 media-video/videoduplicatefinder 3.0_p20231006: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
@@ -215,7 +215,7 @@ mpv-plugin/writename 20211026: Writes a list of edits made to the current video 
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
 mpv-shader/amd-fidelityfx-super-resolution 20220306: AMD FidelityFX Super Resolution v1.0.2 for mpv.
 mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
-mpv-shader/krig-bilateral 20231012: Shader for mpv.
+mpv-shader/krig-bilateral 20231027: Shader for mpv.
 mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20230927: Downscaler shader for mpv.
 net-dns/pihole 5.17.2: Network-wide ad blocking (core).
