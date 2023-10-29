@@ -11,5 +11,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/glib media-libs/libsdl2 x11-libs/gtk+:2 x11-libs/libX11
 SLOT=0
 SRC_URI=https://github.com/kanjitalk755/macemu/archive/19308135c3c60afebbb478184036e734e646a918.tar.gz -> basiliskii-1.0.0_p20231018.tar.gz https://basilisk.cebix.net/images/apple.png -> basiliskii-icon.png
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	desktop	021728fdc1b03b36357dbc89489e0f0d
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	desktop	021728fdc1b03b36357dbc89489e0f0d
 _md5_=144e6b573a42980a026d44abe9c45bba
