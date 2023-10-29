@@ -87,13 +87,13 @@ dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a file
 dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
 dev-util/ida-free 8.3.230608: Free version of the code analyzer.
 dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
-dev-util/node-gyp 9.4.0-r1: Node.js native addon build tool
+dev-util/node-gyp 10.0.0: Node.js native addon build tool.
 dev-util/prettier 3.0.3: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
 dev-util/spirv-cross 20231023: Tool for performing reflection on SPIR-V.
 dev-util/vcpkg-tool 2023.10.13: Library manager for C/C++ (tool only).
-dev-util/vscode-vsce 2.21.1: VS Code Extensions Manager
-dev-util/wakatime-cli 1.85.2: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/vscode-vsce 2.22.0: VS Code extensions manager for extension developers.
+dev-util/wakatime-cli 1.86.5: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20231006-r1: A code-completion & code-comprehension server.
 dev-util/yo 4.3.1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
@@ -119,7 +119,7 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulato
 games-emulation/mupen64plus-video-gliden64 4.0_p20230812: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.62: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.29-r2: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.1061: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.1065: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.116: Original Xbox emulator.
 games-emulation/yuzu 0.1604: Nintendo Switch emulator.
@@ -134,7 +134,7 @@ games-util/raphnet-tech-adapter-manager 2.1.27-r1: Graphical user interface and 
 games-util/sm64tools 0.3.2_p20180902: Collection of tools for Super Mario 64 ROM hacking (and others).
 games-util/switch-library-manager 1.4.0: Manage Switch backups (console only).
 games-util/wiimms-iso-tools 3.05a-r2: A set of command line tools to maniuplate Wii/Gamecube images.
-games-util/wiimms-szs-tools 2.38a: A set of command line tools to maniuplate files of various Nintendo titles.
+games-util/wiimms-szs-tools 2.39a: A set of command line tools to maniuplate files of various Nintendo titles.
 kde-misc/kate-jinja2-highlighting 20190428-r1: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20230806: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
@@ -192,7 +192,7 @@ media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for 
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
 media-video/vhs-decode 0.2.1_p20231025: Software defined VHS decoder.
 media-video/video2x 5.0.0_beta6: A lossless video/GIF/image upscaler.
-media-video/videoduplicatefinder 3.0_p20231006: Video duplicate finder.
+media-video/videoduplicatefinder 3.0_p20231024: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-video/ytarchive 0.4.0: Garbage YouTube live stream downloader.
@@ -233,7 +233,7 @@ sys-auth/libfprint 1.94.6: Library to add support for consumer fingerprint reade
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-kernel/msi-ec 20231006: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.20.2: Pi-hole Dashboard for stats and more
-www-apps/wakapi 2.9.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+www-apps/wakapi 2.9.2: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999-r2: Bypass Paywalls browser extension.
 x11-misc/mimeo 2023-r1: Open files by MIME-type or file name using regular expressions.
 x11-misc/rom-properties 2.2.1: Shell extension for file managers to manage game ROMs and disc images.
