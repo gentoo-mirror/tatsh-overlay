@@ -3,6 +3,7 @@
 
 EAPI=8
 
+CMAKE_MAKEFILE_GENERATOR=ninja # required for C++ modules
 inherit cmake flag-o-matic
 
 DESCRIPTION="Low level CD dumper utility"
@@ -13,7 +14,8 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 
-BDEPEND=">=sys-devel/clang-16.0.6"
+BDEPEND=">=sys-devel/clang-16.0.6
+	dev-util/ninja"
 DEPEND=">=sys-libs/libcxx-16[static-libs]
 	>=sys-libs/libcxxabi-16[static-libs]"
 
