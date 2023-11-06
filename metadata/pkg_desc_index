@@ -87,7 +87,7 @@ dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a file
 dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
 dev-util/ida-free 8.3.230608: Free version of the code analyzer.
 dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
-dev-util/node-gyp 10.0.0: Node.js native addon build tool.
+dev-util/node-gyp 10.0.1: Node.js native addon build tool.
 dev-util/prettier 3.0.3: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
 dev-util/spirv-cross 20231103: Tool for performing reflection on SPIR-V.
@@ -97,7 +97,7 @@ dev-util/wakatime-cli 1.86.5: Command line interface to WakaTime used by all Wak
 dev-util/ycmd 20231029: A code-completion & code-comprehension server.
 dev-util/yo 4.3.1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
-dev-vcs/gickup 0.10.21: Mirror Git repositories to other Git providers.
+dev-vcs/gickup 0.10.22: Mirror Git repositories to other Git providers.
 dev-vcs/git-radar 0.6_p20170108-r1: A heads up display for Git.
 dev-vcs/git-secrets 1.3.0_p20230620: Prevents you from committing sensitive info to a git repository.
 dev-vcs/git-up 2.1.0_p20230724-r1: Python implementation of git-up
@@ -111,7 +111,7 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r7: Advanced rhythm game. Designed 
 games-emulation/86box 4.0.1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20231019: Wii U emulator.
-games-emulation/citra 20231025: A Nintendo 3DS emulator.
+games-emulation/citra 20231105: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230810-r1: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2023.10.06: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.16.0: libretro-db tools from RetroArch.
@@ -119,7 +119,7 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulato
 games-emulation/mupen64plus-video-gliden64 4.0_p20230812: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.62: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.29-r2: PS3 emulator and debugger.
-games-emulation/ryujinx 1.1.1065: Experimental Nintendo Switch emulator written in C#
+games-emulation/ryujinx 1.1.1070: Experimental Nintendo Switch emulator written in C#
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.116: Original Xbox emulator.
 games-emulation/yuzu 0.1611: Nintendo Switch emulator.
@@ -187,7 +187,6 @@ media-video/vapoursynth-nnedi3-weights 12-r2: nnedi3 weights.bin file
 media-video/vapoursynth-realcugan-ncnn-vulkan 2-r1: Real-CUGAN super resolution plugin for VapourSynth.
 media-video/vapoursynth-realesrgan-ncnn-vulkan 20230628: RealESRGAN super resolution plugin for VapourSynth
 media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin for VapourSynth.
-media-video/vapoursynth-rife-ncnn-vulkan 9: RIFE filter for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
 media-video/vhs-decode 0.2.1_p20231104: Software defined VHS decoder.
