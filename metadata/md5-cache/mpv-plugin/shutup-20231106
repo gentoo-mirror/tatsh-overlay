@@ -9,6 +9,6 @@ KEYWORDS=~amd64 ~ppc64
 LICENSE=all-rights-reserved
 RDEPEND=media-video/mpv:=[cplugins(+),libmpv]
 SLOT=0
-SRC_URI=https://github.com/AN3223/dotfiles/archive/009f0d894376fbd3028cc89cc882f4a9c359feec.tar.gz -> AN3223-dotfiles-009f0d8.tar.gz
+SRC_URI=https://github.com/AN3223/dotfiles/archive/35b77761fd96650f1d9bfcab1b2df9dcc7e85798.tar.gz -> AN3223-dotfiles-35b7776.tar.gz
 _eclasses_=mpv-plugin	ef7c5ad8019deb98f4397f710be72dc3	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=6c12c0238f85ca6ad0a52444e8984ccc
+_md5_=98e4bd717f703ee8c6ce62707c13ac18
