@@ -32,7 +32,7 @@ RDEPEND="dev-python/colorama
 	dev-python/termcolor
 	dev-python/tqdm
 	dev-python/viv-utils
-	dev-python/vivisect
+	dev-util/vivisect
 	dev-python/wcwidth"
 
 python_prepare_all() {
