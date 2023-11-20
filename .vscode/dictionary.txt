@@ -134,6 +134,7 @@ bincue
 bindata
 bindgen
 bindist
+binja
 binv
 bitflags
 bitrock
@@ -174,6 +175,7 @@ callsites
 camelcase
 canadianaboriginal
 cancelreader
+capa
 carian
 ccache
 ccgo
@@ -280,6 +282,7 @@ cunet
 cword
 cxadc
 cxleveladj
+cxxfilt
 cxxflags
 cyphar
 cython
@@ -380,9 +383,11 @@ dman
 dminitrace
 dmunt
 dmupenplusapi
+dncil
 dndebug
 dnew
 dnfd
+dnfile
 dnsmasq
 dnssec
 dobashcomp
@@ -533,6 +538,7 @@ fileinfo
 filelist
 filesdir
 filestore
+filt
 findname
 firestore
 fireweapon
@@ -574,6 +580,7 @@ fstream
 fullname
 fullwidth
 funcs
+funcy
 fuser
 gamecube
 gandarez
@@ -739,9 +746,11 @@ inlines
 inlinevar
 inout
 insinto
+instafail
 installdir
 intelli
 interopservices
+intervaltree
 intltool
 irecovery
 iregex
@@ -989,6 +998,7 @@ matplotlib
 matryer
 mattn
 matttproud
+maturin
 mawen
 maxdepth
 mbedcrypto
@@ -1096,11 +1106,13 @@ neobrain
 netcore
 netlib
 netlink
+netnode
 netplay
 netrc
 netstandard
 networkmanagement
 networksecurity
+networkx
 newa
 newar
 newbashcomp
@@ -1220,6 +1232,7 @@ paucinhau
 pcap
 pcre
 pdepend
+pefile
 permic
 pflag
 pgpassfile
@@ -1295,8 +1308,13 @@ pulseaudiosimple
 punycode
 pvrtc
 pyaaf
+pyasn
 pycargoebuild
 pychoco
+pycparser
+pydantic
+pyelftools
+pyflirt
 pyfmt
 pygments
 pygtrie
@@ -1378,6 +1396,7 @@ redumper
 refractoring
 regexpp
 regularexpressions
+reimplementation
 rejang
 relcs
 releasesd
@@ -1417,6 +1436,7 @@ rssh
 rstcheck
 rtmidi
 rtmp
+ruamel
 runewidth
 runtimeinformation
 runtimemodel
