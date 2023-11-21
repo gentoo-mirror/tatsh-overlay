@@ -2,7 +2,7 @@ acct-group/pihole 0-r1: System group: pihole
 acct-user/pihole 0-r1: user for pihole
 app-admin/awscli-plugin-endpoint 0.4-r4: Provides service endpoint configuration per service on profile.
 app-admin/padd 3.11.1: PADD provides in-depth information about your Pi-hole.
-app-arch/asar 3.2.7: Create Electron app packages.
+app-arch/asar 3.2.8: Create Electron app packages.
 app-arch/bitrock-unpacker 20160622: Bitrock unpacking script.
 app-arch/pychoco 0.1.1-r1: Minimal choco command for use on non-Windows platforms.
 app-arch/unalz 0.65: Unpack ALZ archives.
@@ -24,7 +24,7 @@ app-misc/zwave-js-server 1.33.0: Small server wrapper around Z-Wave JS to access
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
-app-portage/livecheck 0.0.8-r1: Tool to update ebuilds.
+app-portage/livecheck 0.0.8-r1 9999: Tool to update ebuilds.
 app-portage/upkeep 1.4.3-r2: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 11.1.1: vim plugin: automatic time tracking with WakaTime
