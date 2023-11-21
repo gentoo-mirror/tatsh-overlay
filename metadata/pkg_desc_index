@@ -135,7 +135,7 @@ games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.117: Original Xbox emulator.
 games-emulation/yuzu 0.1626: Nintendo Switch emulator.
 games-misc/render96ex 20230405-r1: Fork of sm64-port with additional features (alpha branch).
-games-misc/smw 0.1: Reimplementation of Super Mario World.
+games-misc/smw 0.1-r1: Reimplementation of Super Mario World.
 games-util/aprip 1.0.6: Remove additional copy protection found in some later PS1 games.
 games-util/cdecrypt 4.8: Decrypt Wii U NUS content
 games-util/hactool 1.4.0_p20231011: Tool for common file formats for the Nintendo Switch.
