@@ -87,7 +87,6 @@ dev-python/wingetty 0.0.9: WinGet repository server (REST API only).
 dev-qt/qtquick3d 5.15.11: Qt module and API for defining 3D content in Qt QuickTools
 dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9-r1: Single file executable that provides a complete Tcl and Tk runtime.
-dev-util/avalonia-ilspy 7.2_rc-r1: .NET decompiler.
 dev-util/bytecode-viewer-bin 2.11.2: JAR and Android APK reverse engineering suite.
 dev-util/cmake-format 0.6.13-r3: Source code formatter for CMake files.
 dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
