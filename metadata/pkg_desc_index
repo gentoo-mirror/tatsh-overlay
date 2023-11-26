@@ -20,7 +20,7 @@ app-misc/fx 31.0.0: Terminal JSON viewer.
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r3: CLI to track a USPS shipment by SMS.
-app-misc/zwave-js-server 1.33.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
+app-misc/zwave-js-server 1.33.0-r1: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
@@ -99,7 +99,7 @@ dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
 dev-util/ida-free 8.3.230608: Free version of the code analyzer.
 dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
 dev-util/node-gyp 10.0.1: Node.js native addon build tool.
-dev-util/prettier 3.1.0: Prettier is an opinionated code formatter
+dev-util/prettier 3.1.0-r1: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
 dev-util/spirv-cross 20231116: Tool for performing reflection on SPIR-V.
 dev-util/vcpkg-tool 2023.10.13: Library manager for C/C++ (tool only).
@@ -107,7 +107,7 @@ dev-util/vivisect 1.1.1: A combined disassembler/static analysis/symbolic execut
 dev-util/vscode-vsce 2.22.0: VS Code extensions manager for extension developers.
 dev-util/wakatime-cli 1.86.5: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20231106: A code-completion & code-comprehension server.
-dev-util/yo 5.0.0: CLI tool for running Yeoman generators
+dev-util/yo 5.0.0-r1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.22: Mirror Git repositories to other Git providers.
 dev-vcs/git-radar 0.6_p20170108-r1: A heads up display for Git.
