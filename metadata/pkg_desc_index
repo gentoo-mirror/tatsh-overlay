@@ -54,6 +54,7 @@ dev-ml/shell 0.16.0: Yet another implementation of fork and exec and related fun
 dev-ml/toml 7.1.0: OCaml library for TOML.
 dev-python/benc 2019.8.1-r4: Bencoder in 100 lines of modern Python
 dev-python/colored 2.2.3-r1: Very simple Python library for color and formatting in terminal
+dev-python/cruft 2.15.0: Fight back against the boilerplate monster.
 dev-python/cxxfilt 0.3.0: Python interface to c++filt / abi::__cxa_demangle
 dev-python/decli 0.6.1-r1: Minimal declarative cli tool.
 dev-python/django-stubs-ext 4.2.5: Monkey-patching and extensions for django-stubs.
@@ -72,6 +73,7 @@ dev-python/pyaaf2 1.7.1-r1: Read and write Advanced Authoring Format (AAF) files
 dev-python/pygtrie 2.5.0-r4: A pure Python trie data structure implementation.
 dev-python/pyhht 0.1.0-r3: A Python module for the Hilbert Huang Transform.
 dev-python/pynput 1.7.6: Control and monitor input devices.
+dev-python/pytest-repeat 0.9.3: Plugin for Pytest to make it easy to repeat tests.
 dev-python/python-flirt 0.8.8: A Python library for parsing, compiling, and matching Fast Library Identification and Recognition Technology (FLIRT) signatures.
 dev-python/questionary 2.0.1-r1: Python library to build command line user prompts.
 dev-python/re-wx 0.1.0-r2: A library for building modern declarative desktop applications in WX.
@@ -82,6 +84,8 @@ dev-python/samplerate 0.1.0-r3: Python bindings for libsamplerate.
 dev-python/soundfile 0.10.3.1-r2: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
+dev-python/toml 0.10.2: Python library for TOML.
+dev-python/typer 0.9.0: Create CLIs with Python type hints.
 dev-python/viv-utils 0.7.9: Utilities for Vivisect.
 dev-python/vsutil 0.8.0-r3: A collection of general purpose Vapoursynth functions
 dev-python/waifu2x-ncnn-vulkan-python 1.0.4: A Python FFI of nihui/waifu2x-ncnn-vulkan achieved with SWIG.
