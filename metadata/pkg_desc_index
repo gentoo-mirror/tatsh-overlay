@@ -24,7 +24,7 @@ app-misc/zwave-js-server 1.33.0-r1: Small server wrapper around Z-Wave JS to acc
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/ipad_charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
-app-portage/livecheck 0.0.8-r1 9999: Tool to update ebuilds.
+app-portage/livecheck 0.0.9: Tool to update ebuilds.
 app-portage/upkeep 1.4.3-r2: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 11.1.1: vim plugin: automatic time tracking with WakaTime
