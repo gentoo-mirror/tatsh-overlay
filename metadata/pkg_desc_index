@@ -54,7 +54,6 @@ dev-ml/shell 0.16.0: Yet another implementation of fork and exec and related fun
 dev-ml/toml 7.1.0: OCaml library for TOML.
 dev-python/benc 2019.8.1-r4: Bencoder in 100 lines of modern Python
 dev-python/colored 2.2.3-r1: Very simple Python library for color and formatting in terminal
-dev-python/cruft 2.15.0: Fight back against the boilerplate monster.
 dev-python/cxxfilt 0.3.0: Python interface to c++filt / abi::__cxa_demangle
 dev-python/decli 0.6.1-r1: Minimal declarative cli tool.
 dev-python/django-stubs-ext 4.2.5: Monkey-patching and extensions for django-stubs.
@@ -99,6 +98,7 @@ dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
 dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
 dev-util/commitizen 3.12.0: Release management tool designed for teams (cz command).
 dev-util/create-react-app 5.0.1: Create React apps with no build configuration.
+dev-util/cruft 2.15.0: Fight back against the boilerplate monster.
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
 dev-util/ida-free 8.3.230608: Free version of the code analyzer.
