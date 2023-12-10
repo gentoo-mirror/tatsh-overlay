@@ -97,7 +97,7 @@ dev-util/bytecode-viewer-bin 2.11.2: JAR and Android APK reverse engineering sui
 dev-util/cmake-format 0.6.13-r3: Source code formatter for CMake files.
 dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
 dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
-dev-util/commitizen 3.12.0: Release management tool designed for teams (cz command).
+dev-util/commitizen 3.13.0: Release management tool designed for teams (cz command).
 dev-util/create-react-app 5.0.1: Create React apps with no build configuration.
 dev-util/cruft 2.15.0: Fight back against the boilerplate monster.
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
@@ -129,7 +129,7 @@ games-arcade/stepmania 5.1.0_beta2_p20221114-r7: Advanced rhythm game. Designed 
 games-emulation/86box 4.0.1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20231210: Wii U emulator.
-games-emulation/citra 20231105: A Nintendo 3DS emulator.
+games-emulation/citra 20231209: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230810-r1: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2023.10.06: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.16.0: libretro-db tools from RetroArch.
