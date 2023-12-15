@@ -155,6 +155,7 @@ mpv-plugin/shutup:autoload - Auto-load the plugin
 mpv-plugin/writeedits:autoload - Auto-load the plugin
 mpv-plugin/writename:autoload - Auto-load the plugin
 net-dns/pihole:cron - Installs cron job
+sci-libs/torchvision:cuda - 
 sys-apps/kylemanna-systemd-utils:amazon - Install Amazon Cloud Drive service
 sys-apps/kylemanna-systemd-utils:btrfs - Install units for btrfs
 sys-apps/kylemanna-systemd-utils:cmsis-dap - Unknown
