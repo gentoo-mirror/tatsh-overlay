@@ -117,7 +117,7 @@ dev-util/vcpkg-tool 2023.11.16: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.1.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 2.22.0: VS Code extensions manager for extension developers.
 dev-util/wakatime-cli 1.86.5: Command line interface to WakaTime used by all WakaTime plugins
-dev-util/ycmd 20231209-r1: A code-completion & code-comprehension server.
+dev-util/ycmd 20231209-r2: A code-completion & code-comprehension server.
 dev-util/yo 5.0.0-r1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.23: Mirror Git repositories to other Git providers.
