@@ -11,7 +11,7 @@ app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compres
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/qpxtool 0.8.1.4: Enhanced (unofficial) qpxtool version.
-app-cdr/redumper 298: Low level CD dumper utility
+app-cdr/redumper 301: Low level CD dumper utility
 app-emulation/basiliskii 1.0.0_p20231217: 68k Macintosh emulator (updated fork).
 app-emulation/sheepshaver 1.0.0_p20231217: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
@@ -29,24 +29,24 @@ app-portage/livecheck 0.0.9: Tool to update ebuilds.
 app-portage/upkeep 1.4.3-r2: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 11.1.1: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20231006-r1: A code-completion engine for Vim.
+app-vim/youcompleteme 20231221: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.2-r1: Command line parser for C++11
 dev-cpp/cpp-jwt 1.5.0_p20230301: JSON Web Token library for C++
 dev-cpp/tracy 0.10: C++ frame profiler
-dev-db/dbeaver-bin 23.3.0: Free universal database tool (community edition).
+dev-db/dbeaver-bin 23.3.1: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
 dev-db/litecli 1.10.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.6: Library to parse Apple's binarycookies format.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
-dev-libs/libfragmentzip 60_p20230815: A library allowing to download single files from a remote zip archive
+dev-libs/libfragmentzip 60_p20231220: A library allowing to download single files from a remote zip archive
 dev-libs/libpietendo 0.7.0-r1: Library for parsing Nintendo file formats.
 dev-libs/libtoolchain 0.6.1-r1: Toolchain development library.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/nativefiledialog-extended 1.1.1: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 65: Stuff used in tsschecker.
 dev-libs/vulkan-memory-allocator 3.0.1_p20231120: Easy to integrate Vulkan memory allocation library
-dev-libs/wolfssl 5.6.4: Embedded SSL library.
-dev-libs/xbyak 7.00: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-libs/wolfssl 5.6.6: Embedded SSL library.
+dev-libs/xbyak 7.02: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-ml/cpu 2.0.0: Pin current process to given core number.
 dev-ml/iso8601 0.2.6: Parser and printer for date-times in ISO8601.
 dev-ml/mparser 1.3: A simple monadic parser combinator library for OCaml.
@@ -54,7 +54,7 @@ dev-ml/parany 14.0.1: Parallelize any computation.
 dev-ml/shell 0.16.0: Yet another implementation of fork and exec and related functionality.
 dev-ml/toml 7.1.0: OCaml library for TOML.
 dev-python/benc 2019.8.1-r4: Bencoder in 100 lines of modern Python
-dev-python/colored 2.2.3-r1: Very simple Python library for color and formatting in terminal
+dev-python/colored 2.2.4: Very simple Python library for color and formatting in terminal
 dev-python/commandlines 0.4.1-r1: Routines for extracting information from fontTools glyphs
 dev-python/cxxfilt 0.3.0: Python interface to c++filt / abi::__cxa_demangle
 dev-python/decli 0.6.1-r1: Minimal declarative cli tool.
@@ -95,10 +95,10 @@ dev-python/viv-utils 0.7.9: Utilities for Vivisect.
 dev-python/vsutil 0.8.0-r3: A collection of general purpose Vapoursynth functions
 dev-python/waifu2x-ncnn-vulkan-python 1.0.4: A Python FFI of nihui/waifu2x-ncnn-vulkan achieved with SWIG.
 dev-python/wingetty 0.0.9: WinGet repository server (REST API only).
-dev-qt/qtquick3d 5.15.11: Qt module and API for defining 3D content in Qt QuickTools
+dev-qt/qtquick3d 5.15.12: Qt module and API for defining 3D content in Qt QuickTools
 dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9-r1: Single file executable that provides a complete Tcl and Tk runtime.
-dev-util/bytecode-viewer-bin 2.11.2: JAR and Android APK reverse engineering suite.
+dev-util/bytecode-viewer-bin 2.12: JAR and Android APK reverse engineering suite.
 dev-util/cmake-format 0.6.13-r3: Source code formatter for CMake files.
 dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
 dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
@@ -116,11 +116,11 @@ dev-util/spirv-cross 20231207: Tool for performing reflection on SPIR-V.
 dev-util/vcpkg-tool 2023.12.12: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.1.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 2.22.0: VS Code extensions manager for extension developers.
-dev-util/wakatime-cli 1.86.5: Command line interface to WakaTime used by all WakaTime plugins
-dev-util/ycmd 20231209-r2: A code-completion & code-comprehension server.
+dev-util/wakatime-cli 1.88.0: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/ycmd 20231222: A code-completion & code-comprehension server.
 dev-util/yo 5.0.0-r1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
-dev-vcs/gickup 0.10.23: Mirror Git repositories to other Git providers.
+dev-vcs/gickup 0.10.24: Mirror Git repositories to other Git providers.
 dev-vcs/git-radar 0.6_p20170108-r1: A heads up display for Git.
 dev-vcs/git-secrets 1.3.0_p20230620: Prevents you from committing sensitive info to a git repository.
 dev-vcs/git-up 2.1.0_p20230724-r1: Python implementation of git-up
@@ -133,8 +133,8 @@ games-arcade/outfox-serenity 3.0.3: The community pack content for Project OutFo
 games-arcade/stepmania 5.1.0_beta2_p20221114-r7: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 4.0.1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20231213: Wii U emulator.
-games-emulation/citra 20231217: A Nintendo 3DS emulator.
+games-emulation/cemu 2.0_p20231223: Wii U emulator.
+games-emulation/citra 20231223: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230810-r1: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2023.10.06: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.16.0: libretro-db tools from RetroArch.
@@ -143,8 +143,8 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20231112: A new generation, open
 games-emulation/play 0.63: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.29-r3: PS3 emulator and debugger.
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
-games-emulation/xemu 0.7.117: Original Xbox emulator.
-games-emulation/yuzu 0.1654: Nintendo Switch emulator.
+games-emulation/xemu 0.7.118: Original Xbox emulator.
+games-emulation/yuzu 0.1661: Nintendo Switch emulator.
 games-misc/render96ex 20231120: Fork of sm64-port with additional features (alpha branch).
 games-misc/smw 0.1-r1: Reimplementation of Super Mario World.
 games-util/aprip 1.0.6: Remove additional copy protection found in some later PS1 games.
@@ -163,7 +163,7 @@ kde-misc/kate-stuff 20231208: Updated and improved Kate editor syntax files and 
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 kde-misc/kwin-effects-cube 2.0.0-r2: Desktop cube effect for Kwin.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/noto 20231217: Google's font family that aims to support all the world's languages
+media-fonts/noto 20231221: Google's font family that aims to support all the world's languages
 media-gfx/backgroundremover 0.2.6: Remove backgrounds from images and video using AI.
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
@@ -213,7 +213,7 @@ media-video/vapoursynth-realesrgan-ncnn-vulkan 20230628: RealESRGAN super resolu
 media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
-media-video/vhs-decode 0.2.1_p20231206: Software defined VHS decoder.
+media-video/vhs-decode 0.2.1_p20231222: Software defined VHS decoder.
 media-video/video2x 5.0.0_beta6-r1: A lossless video/GIF/image upscaler.
 media-video/videoduplicatefinder 3.0_p20231024: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
@@ -221,9 +221,9 @@ media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repa
 media-video/ytarchive 0.4.0: Garbage YouTube live stream downloader.
 media-video/znedi3 2.1_p20230709: nnedi3 filter.
 media-video/zvbi2raw 20150529-r1: A quick-and-dirty tool for capturing VBI data using libzvbi.
-mpv-plugin/blur-edges 20231125: Fills the black bars on the side of a video with a blurred copy of its edges.
+mpv-plugin/blur-edges 20231218: Fills the black bars on the side of a video with a blurred copy of its edges.
 mpv-plugin/bookmarker-menu 1.3.1_p20200921: A bookmarker menu to manage all your bookmarks in MPV
-mpv-plugin/crop 20231125: Crop the current video in a visual manner.
+mpv-plugin/crop 20231218: Crop the current video in a visual manner.
 mpv-plugin/delete-file 20220421-r1: Queue files for deletion on quit.
 mpv-plugin/mpv-copytime 20220308-r1: Queue files for deletion on quit.
 mpv-plugin/mpv-dvd-browser 20230129-r2: API to allow scripts to create interactive scrollable lists in mpv player.
@@ -231,7 +231,7 @@ mpv-plugin/mpv-libunity 20211123-r4: Shows progress on a panel following libunit
 mpv-plugin/mpv-lrc 20231208: Synchronize lyrics with mpv
 mpv-plugin/mpv-netrc 0.0.2-r1: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
-mpv-plugin/reload 20220127-r2: mpv plugin for automatic reloading of slow/stuck video streams
+mpv-plugin/reload 20231219: mpv plugin for automatic reloading of slow/stuck video streams
 mpv-plugin/shutup 20231119: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-plugin/writeedits 20211026: Writes a list of edits made to the current video file to a file
 mpv-plugin/writename 20211026: Writes a list of edits made to the current video file to a file
@@ -256,7 +256,7 @@ sys-apps/usbkill 1.0_rc4_p20160730-r4: An kill-switch that waits for a change on
 sys-auth/fprintd 1.94.2-r4: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.6: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
-sys-kernel/msi-ec 20231006: Kernel module for the embedded controller of MSI laptops.
+sys-kernel/msi-ec 20231221: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.21: Pi-hole Dashboard for stats and more
 www-apps/stash 0.23.1: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.10.0: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
