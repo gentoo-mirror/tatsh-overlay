@@ -89,7 +89,7 @@ dev-python/samplerate 0.1.0-r3: Python bindings for libsamplerate.
 dev-python/soundfile 0.10.3.1-r2: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
-dev-python/stgpytools 1.0.0: Collection of stuff that's useful in general Python programming.
+dev-python/stgpytools 1.0.0_p20231214: Collection of stuff that's useful in general Python programming.
 dev-python/toml 0.10.2: Python library for TOML.
 dev-python/typer 0.9.0: Create CLIs with Python type hints.
 dev-python/viv-utils 0.7.9: Utilities for Vivisect.
