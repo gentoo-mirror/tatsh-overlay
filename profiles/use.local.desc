@@ -166,6 +166,12 @@ sys-apps/kylemanna-systemd-utils:rssh - Install rssh service
 sys-apps/kylemanna-systemd-utils:storj - Install storj-dataserv-client.service
 sys-apps/kylemanna-systemd-utils:tahoe - Install Tahoe-related services
 sys-apps/kylemanna-systemd-utils:youtube - Install YouTube TV service
+sys-devel/llvm:binutils-plugin - Build the binutils plugin
+sys-devel/llvm:doc - Build and install the HTML documentation and regenerate the man pages
+sys-devel/llvm:exegesis - Enable performance counter support for llvm-exegesis tool that can be used to measure host machine instruction characteristics
+sys-devel/llvm:ncurses - Support querying terminal properties using ncurses' terminfo
+sys-devel/llvm:xar - Support dumping LLVM bitcode sections in Mach-O files (uses app-arch/xar)
+sys-devel/llvm:z3 - Enable support for sci-mathematics/z3 constraint solver
 www-plugins/bypass-paywalls:chrome - Install file for Chrome and Chrome Beta
 www-plugins/bypass-paywalls:chromium - Install file for Chromium-based browsers
 x11-misc/rom-properties:achievements - Enable achievement pop-ups.

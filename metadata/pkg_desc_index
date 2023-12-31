@@ -257,6 +257,7 @@ sys-apps/usbkill 1.0_rc4_p20160730-r4: An kill-switch that waits for a change on
 sys-auth/fprintd 1.94.2-r4: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.6: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
+sys-devel/llvm 14.0.6-r4: Low Level Virtual Machine
 sys-kernel/msi-ec 20231221: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.21: Pi-hole Dashboard for stats and more
 www-apps/stash 0.23.1: An organiser for your special videos, written in Go.
