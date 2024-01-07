@@ -1,6 +1,6 @@
 BDEPEND=app-alternatives/ninja >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=app-emulation/faudio media-libs/alsa-lib media-libs/freetype media-libs/libpng media-libs/libsdl2[X,opengl] openal? ( media-libs/openal ) >media-libs/rtmidi-4.0.1.0 net-libs/libslirp dev-libs/libevdev dev-libs/wayland dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 x11-libs/libX11 x11-libs/libXi
+DEPEND=app-emulation/faudio media-libs/alsa-lib media-libs/freetype media-libs/libpng media-libs/libsdl2[X,opengl] openal? ( media-libs/openal ) >media-libs/rtmidi-4.0.1.0 net-libs/libslirp dev-libs/libevdev dev-libs/wayland dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 x11-libs/libxkbcommon x11-libs/libX11 x11-libs/libXi
 DESCRIPTION=Emulator of x86-based machines based on PCem.
 EAPI=8
 HOMEPAGE=https://github.com/86Box/86Box
@@ -8,8 +8,8 @@ INHERIT=cmake
 IUSE=+dynrec +fluidsynth mt-32 new-dynrec openal
 KEYWORDS=~amd64
 LICENSE=GPL-2
-RDEPEND=app-emulation/faudio media-libs/alsa-lib media-libs/freetype media-libs/libpng media-libs/libsdl2[X,opengl] openal? ( media-libs/openal ) >media-libs/rtmidi-4.0.1.0 net-libs/libslirp dev-libs/libevdev dev-libs/wayland dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 x11-libs/libX11 x11-libs/libXi
+RDEPEND=app-emulation/faudio media-libs/alsa-lib media-libs/freetype media-libs/libpng media-libs/libsdl2[X,opengl] openal? ( media-libs/openal ) >media-libs/rtmidi-4.0.1.0 net-libs/libslirp dev-libs/libevdev dev-libs/wayland dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 x11-libs/libxkbcommon x11-libs/libX11 x11-libs/libXi
 SLOT=0
 SRC_URI=https://github.com/86Box/86Box/archive/refs/tags/v4.0.1.tar.gz -> 86box-4.0.1.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	c8951c1dfcc1d43e3f967f61fd0ec59c	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	0f2e0c197fad0312f3c4765c9cf36271
-_md5_=653451aba5bf306343aa860ceb4de475
+_md5_=d3d323e982d76c7777c662861019fd8f
