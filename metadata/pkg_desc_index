@@ -130,7 +130,7 @@ games-action/re3 20210902-r3: GTA III decompiled and re-built.
 games-action/relcs 20210902-r3: GTA Liberty City Stories decompiled and re-built.
 games-action/revc 20210902-r3: GTA Vice City decompiled and re-built.
 games-arcade/clone-hero 1.0.0.4080-r4: Clone of Guitar Hero and similar games.
-games-arcade/outfox 0.5.0_p42: Advanced rhythm game. Designed for both home and arcade use
+games-arcade/outfox 0.4.19 0.5.0_p42: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/outfox-serenity 3.0.3: The community pack content for Project OutFox (includes volume 1.5)
 games-arcade/stepmania 5.1.0_beta2_p20221114-r8: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 4.0.1: Emulator of x86-based machines based on PCem.

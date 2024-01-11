@@ -1,0 +1,16 @@
+BDEPEND=!arm? ( dev-util/patchelf )
+DEFINED_PHASES=install postinst postrm preinst prepare
+DESCRIPTION=Advanced rhythm game. Designed for both home and arcade use
+EAPI=8
+HOMEPAGE=https://projectoutfox.com/
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=desktop wrapper xdg
+IUSE=+bundled-songs +bundled-courses doc
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=app-arch/bzip2 app-arch/lz4 media-libs/alsa-lib media-libs/flac media-libs/libglvnd[X] media-libs/libogg media-libs/libsndfile media-libs/libsdl2 media-libs/libvorbis media-libs/vulkan-loader media-libs/libpulse virtual/glu virtual/jack virtual/udev media-video/ffmpeg virtual/libusb
+RESTRICT=split-debug strip
+SLOT=0
+SRC_URI=amd64? ( https://github.com/TeamRizu/OutFox/releases/download/OF4.19.0/OutFox-0.4.19-LTS-Linux-amd64-.20.04+.-modern-date-20230415.tar.gz -> outfox-0.4.19-amd64.tar.gz ) arm64? ( https://github.com/TeamRizu/OutFox/releases/download/OF4.19.0/OutFox-0.4.19-LTS-Linux-Rpi64bit-arm64v8-modern-date-20230415.tar.gz )
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	wrapper	4a1902f969e5718126434fc35f3a0d9c	xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e
+_md5_=1e89ea5e361948d7fd00ae2e64a3b67d
