@@ -1,0 +1,10 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Reverse-engineering platform to perform disassembly and analysis of code.
+EAPI=8
+HOMEPAGE=https://www.pnfsoftware.com/jeb/
+KEYWORDS=~amd64
+LICENSE=JEB
+RDEPEND=virtual/jdk:17
+SLOT=0
+SRC_URI=https://jebbuilds2.s3.amazonaws.com/jeb4ce/jeb-ce-5.8.0.202401091742-JEBDecompiler-624458483834837192.zip -> jeb-ce-5.8.0.202401091742.zip
+_md5_=4962b0133b5186fc66cb74a6f6507c20
