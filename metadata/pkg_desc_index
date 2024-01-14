@@ -11,11 +11,11 @@ app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compres
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/qpxtool 0.8.1.4: Enhanced (unofficial) qpxtool version.
-app-cdr/redumper 308: Low level CD dumper utility
-app-emulation/basiliskii 1.0.0_p20240104: 68k Macintosh emulator (updated fork).
-app-emulation/sheepshaver 1.0.0_p20240104: Macintosh emulator (updated fork).
+app-cdr/redumper 313: Low level CD dumper utility
+app-emulation/basiliskii 1.0.0_p20240111: 68k Macintosh emulator (updated fork).
+app-emulation/sheepshaver 1.0.0_p20240111: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
-app-misc/csvlens 0.5.1: Command line csv viewer
+app-misc/csvlens 0.6.0: Command line csv viewer
 app-misc/czkawka 6.1.0-r1: CLI frontend of Czkawka
 app-misc/deark 1.6.6: Utility to extract data from various file formats.
 app-misc/fx 31.0.0: Terminal JSON viewer.
@@ -30,22 +30,22 @@ app-portage/livecheck 0.0.9: Tool to update ebuilds.
 app-portage/upkeep 1.4.3-r2: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 11.1.1: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20240105: A code-completion engine for Vim.
+app-vim/youcompleteme 20240114: A code-completion engine for Vim.
 dev-cpp/cli11 2.3.2-r1: Command line parser for C++11
 dev-cpp/cpp-jwt 1.5.0_p20230301: JSON Web Token library for C++
 dev-cpp/tracy 0.10: C++ frame profiler
-dev-db/dbeaver-bin 23.3.1: Free universal database tool (community edition).
+dev-db/dbeaver-bin 23.3.2: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
 dev-db/litecli 1.10.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.6: Library to parse Apple's binarycookies format.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
-dev-libs/libfragmentzip 60_p20231220: A library allowing to download single files from a remote zip archive
+dev-libs/libfragmentzip 60_p20240112: A library allowing to download single files from a remote zip archive
 dev-libs/libpietendo 0.7.2: Library for parsing Nintendo file formats.
 dev-libs/libtoolchain 0.7.0: Toolchain development library.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/nativefiledialog-extended 1.1.1: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 65: Stuff used in tsschecker.
-dev-libs/vulkan-memory-allocator 3.0.1_p20231120: Easy to integrate Vulkan memory allocation library
+dev-libs/vulkan-memory-allocator 3.0.1_p20240114: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.6.6: Embedded SSL library.
 dev-libs/xbyak 7.05: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-ml/cpu 2.0.0: Pin current process to given core number.
@@ -113,14 +113,14 @@ dev-util/ida-free 8.3.230608: Free version of the code analyzer.
 dev-util/jeb-ce 5.8.0.202401091742: Reverse-engineering platform to perform disassembly and analysis of code.
 dev-util/nihstro 20211107-r1: 3DS shader assembler and disassembler
 dev-util/node-gyp 10.0.1: Node.js native addon build tool.
-dev-util/prettier 3.1.1: Prettier is an opinionated code formatter
+dev-util/prettier 3.2.2: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
-dev-util/spirv-cross 20240105: Tool for performing reflection on SPIR-V.
-dev-util/vcpkg-tool 2023.12.12: Library manager for C/C++ (tool only).
+dev-util/spirv-cross 20240109: Tool for performing reflection on SPIR-V.
+dev-util/vcpkg-tool 2024.01.11: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.1.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 2.22.0: VS Code extensions manager for extension developers.
-dev-util/wakatime-cli 1.88.0: Command line interface to WakaTime used by all WakaTime plugins
-dev-util/ycmd 20240104: A code-completion & code-comprehension server.
+dev-util/wakatime-cli 1.88.1: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/ycmd 20240114: A code-completion & code-comprehension server.
 dev-util/yo 5.0.0-r1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.26: Mirror Git repositories to other Git providers.
@@ -136,19 +136,19 @@ games-arcade/outfox-serenity 3.0.3: The community pack content for Project OutFo
 games-arcade/stepmania 5.1.0_beta2_p20221114-r8: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 4.0.1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20231223: Wii U emulator.
-games-emulation/citra 20240107: A Nintendo 3DS emulator.
+games-emulation/cemu 2.0_p20240114: Wii U emulator.
+games-emulation/citra 20240114: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230810-r1: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2023.10.06: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.16.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20231112: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20240113: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.63: PlayStation 2 emulator.
 games-emulation/ppsspp 1.16.6: A PSP emulator written in C++
 games-emulation/rpcs3 0.0.30: PS3 emulator and debugger.
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.118: Original Xbox emulator.
-games-emulation/yuzu 0.1675: Nintendo Switch emulator.
+games-emulation/yuzu 0.1680: Nintendo Switch emulator.
 games-misc/render96ex 20231120: Fork of sm64-port with additional features (alpha branch).
 games-misc/smw 0.1-r1: Reimplementation of Super Mario World.
 games-util/aprip 1.0.6: Remove additional copy protection found in some later PS1 games.
@@ -167,7 +167,7 @@ kde-misc/kate-stuff 20231208: Updated and improved Kate editor syntax files and 
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 kde-misc/kwin-effects-cube 2.0.0-r2: Desktop cube effect for Kwin.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/noto 20240105: Google's font family that aims to support all the world's languages
+media-fonts/noto 20240114: Google's font family that aims to support all the world's languages
 media-gfx/backgroundremover 0.2.6: Remove backgrounds from images and video using AI.
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
@@ -217,17 +217,17 @@ media-video/vapoursynth-realesrgan-ncnn-vulkan 20230628: RealESRGAN super resolu
 media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
-media-video/vhs-decode 0.2.1_p20240105: Software defined VHS decoder.
+media-video/vhs-decode 0.2.1_p20240112: Software defined VHS decoder.
 media-video/video2x 5.0.0_beta6-r1: A lossless video/GIF/image upscaler.
-media-video/videoduplicatefinder 3.0_p20231024: Video duplicate finder.
+media-video/videoduplicatefinder 3.0_p20240114: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-video/ytarchive 0.4.0: Garbage YouTube live stream downloader.
 media-video/znedi3 2.1_p20230709: nnedi3 filter.
 media-video/zvbi2raw 20150529-r1: A quick-and-dirty tool for capturing VBI data using libzvbi.
-mpv-plugin/blur-edges 20231218: Fills the black bars on the side of a video with a blurred copy of its edges.
+mpv-plugin/blur-edges 20240111: Fills the black bars on the side of a video with a blurred copy of its edges.
 mpv-plugin/bookmarker-menu 1.3.1_p20200921: A bookmarker menu to manage all your bookmarks in MPV
-mpv-plugin/crop 20231218: Crop the current video in a visual manner.
+mpv-plugin/crop 20240111: Crop the current video in a visual manner.
 mpv-plugin/delete-file 20220421-r1: Queue files for deletion on quit.
 mpv-plugin/mpv-copytime 20220308-r1: Queue files for deletion on quit.
 mpv-plugin/mpv-dvd-browser 20230129-r2: API to allow scripts to create interactive scrollable lists in mpv player.
