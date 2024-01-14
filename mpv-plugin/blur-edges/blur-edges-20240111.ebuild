@@ -6,9 +6,9 @@ MPV_REQ_USE="lua"
 USE_MPV="rdepend"
 inherit mpv-plugin
 
-DESCRIPTION="Crop the current video in a visual manner."
+DESCRIPTION="Fills the black bars on the side of a video with a blurred copy of its edges."
 HOMEPAGE="https://github.com/occivink/mpv-scripts"
-SHA="f0426bd6b107b1f4b124552dae923b62f58ce3b6"
+SHA="d0390c8e802c2e888ff4a2e1d5e4fb040f855b89"
 SRC_URI="https://github.com/occivink/mpv-scripts/archive/${SHA}.tar.gz -> occivink-mpv-scripts-${SHA:0:7}.tar.gz"
 
 LICENSE="GPL-3"
@@ -24,5 +24,5 @@ S="${WORKDIR}/mpv-scripts-${SHA}/scripts"
 src_install() {
 	mpv-plugin_src_install
 	insinto /etc/mpv/script-opts
-	doins "../script-opts/${PN}.conf"
+	doins "../script-opts/${PN//-/_}.conf"
 }
