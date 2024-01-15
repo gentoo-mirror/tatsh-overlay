@@ -11,7 +11,7 @@ app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compres
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/qpxtool 0.8.1.4: Enhanced (unofficial) qpxtool version.
-app-cdr/redumper 313: Low level CD dumper utility
+app-cdr/redumper 313-r1: Low level CD dumper utility
 app-emulation/basiliskii 1.0.0_p20240111: 68k Macintosh emulator (updated fork).
 app-emulation/sheepshaver 1.0.0_p20240111: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
@@ -37,7 +37,7 @@ dev-cpp/tracy 0.10: C++ frame profiler
 dev-db/dbeaver-bin 23.3.2: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
 dev-db/litecli 1.10.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
-dev-libs/bincookie 0.1.6: Library to parse Apple's binarycookies format.
+dev-libs/bincookie 0.1.6-r1: Library to parse Apple's binarycookies format.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
 dev-libs/libfragmentzip 60_p20240112: A library allowing to download single files from a remote zip archive
 dev-libs/libpietendo 0.7.2: Library for parsing Nintendo file formats.
@@ -145,9 +145,9 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulato
 games-emulation/mupen64plus-video-gliden64 4.0_p20240113: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.63: PlayStation 2 emulator.
 games-emulation/ppsspp 1.16.6: A PSP emulator written in C++
-games-emulation/rpcs3 0.0.30: PS3 emulator and debugger.
+games-emulation/rpcs3 0.0.30-r1: PS3 emulator and debugger.
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
-games-emulation/xemu 0.7.118: Original Xbox emulator.
+games-emulation/xemu 0.7.118-r1: Original Xbox emulator.
 games-emulation/yuzu 0.1680: Nintendo Switch emulator.
 games-misc/render96ex 20231120: Fork of sm64-port with additional features (alpha branch).
 games-misc/smw 0.1-r1: Reimplementation of Super Mario World.
@@ -165,7 +165,7 @@ games-util/wiimms-szs-tools 2.40b: A set of command line tools to maniuplate fil
 kde-misc/kate-jinja2-highlighting 20190428-r1: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20231208: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
-kde-misc/kwin-effects-cube 2.0.0-r2: Desktop cube effect for Kwin.
+kde-misc/kwin-effects-cube 2.0.0-r3: Desktop cube effect for Kwin.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
 media-fonts/noto 20240114: Google's font family that aims to support all the world's languages
 media-gfx/backgroundremover 0.2.6: Remove backgrounds from images and video using AI.
@@ -260,7 +260,7 @@ sys-apps/usbkill 1.0_rc4_p20160730-r4: An kill-switch that waits for a change on
 sys-auth/fprintd 1.94.2-r4: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.6: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
-sys-devel/llvm 14.0.6-r4: Low Level Virtual Machine
+sys-devel/llvm 14.0.6-r5: Low Level Virtual Machine
 sys-kernel/msi-ec 20231221: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.21: Pi-hole Dashboard for stats and more
 www-apps/stash 0.23.1: An organiser for your special videos, written in Go.
