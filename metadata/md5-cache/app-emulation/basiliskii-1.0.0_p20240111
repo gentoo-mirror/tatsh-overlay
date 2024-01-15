@@ -1,4 +1,4 @@
-BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) || ( >=sys-devel/autoconf-2.72-r1:2.72 >=sys-devel/autoconf-2.71-r6:2.71 ) >=sys-devel/libtool-2.4.7
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7
 DEFINED_PHASES=configure install prepare unpack
 DEPEND=dev-libs/glib media-libs/libsdl2 x11-libs/gtk+:2 x11-libs/libX11
 DESCRIPTION=68k Macintosh emulator (updated fork).
@@ -11,5 +11,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/glib media-libs/libsdl2 x11-libs/gtk+:2 x11-libs/libX11
 SLOT=0
 SRC_URI=https://github.com/kanjitalk755/macemu/archive/3176aa887df7f9f98057dcf87ac467618fd6640d.tar.gz -> basiliskii-1.0.0_p20240111.tar.gz https://basilisk.cebix.net/images/apple.png -> basiliskii-icon.png
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	5f729b9cb10d5eda573cd604c93c6dc5	desktop	021728fdc1b03b36357dbc89489e0f0d
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	e4cf390b19033d5ca443765bc8537b81	desktop	021728fdc1b03b36357dbc89489e0f0d
 _md5_=4399ab0b288716b122e94a7178d9c8a5
