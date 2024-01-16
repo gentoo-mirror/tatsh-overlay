@@ -82,6 +82,7 @@ dev-python/pynput 1.7.6: Control and monitor input devices.
 dev-python/pytest-repeat 0.9.3: Plugin for Pytest to make it easy to repeat tests.
 dev-python/python-benedict 0.33.1: Dict subclass with various extras.
 dev-python/python-flirt 0.8.8: A Python library for parsing, compiling, and matching Fast Library Identification and Recognition Technology (FLIRT) signatures.
+dev-python/python-fsutil 0.13.0: High-level file-system operations.
 dev-python/questionary 2.0.1-r1: Python library to build command line user prompts.
 dev-python/re-wx 0.1.0-r2: A library for building modern declarative desktop applications in WX.
 dev-python/realcugan-ncnn-vulkan-python 1.0.2: A Python FFI of nihui/realcugan-ncnn-vulkan achieved with SWIG.
