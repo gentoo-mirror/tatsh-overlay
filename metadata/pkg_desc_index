@@ -114,7 +114,7 @@ dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a file
 dev-util/flips 20230315: Floating IPS is a patcher for IPS and BPS files.
 dev-util/ida-free 8.3.230608: Free version of the code analyzer.
 dev-util/jeb-ce 5.8.0.202401091742: Reverse-engineering platform to perform disassembly and analysis of code.
-dev-util/nihstro 20211107-r2: 3DS shader assembler and disassembler
+dev-util/nihstro 20211107-r3: 3DS shader assembler and disassembler
 dev-util/node-gyp 10.0.1: Node.js native addon build tool.
 dev-util/prettier 3.2.2: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
