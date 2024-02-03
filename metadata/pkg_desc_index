@@ -77,7 +77,6 @@ dev-python/poetry-plugin-up 0.7.1: A plugin that allows the export of locked pac
 dev-python/proglog 0.1.10: Progress logging system for Python.
 dev-python/pyaaf2 1.7.1-r1: Read and write Advanced Authoring Format (AAF) files.
 dev-python/pygtrie 2.5.0-r4: A pure Python trie data structure implementation.
-dev-python/pyhht 0.1.0-r3: A Python module for the Hilbert Huang Transform.
 dev-python/pymatting 1.1.12_p20240124: A Python library for alpha matting.
 dev-python/pynput 1.7.6: Control and monitor input devices.
 dev-python/pytest-repeat 0.9.3: Plugin for Pytest to make it easy to repeat tests.
@@ -90,7 +89,7 @@ dev-python/realcugan-ncnn-vulkan-python 1.0.2: A Python FFI of nihui/realcugan-n
 dev-python/realsr-ncnn-vulkan-python 1.0.6: A Python FFI of nihui/realsr-ncnn-vulkan achieved with SWIG.
 dev-python/rife-ncnn-vulkan-python 1.2.1: A Python FFI of nihui/rife-ncnn-vulkan achieved with SWIG.
 dev-python/samplerate 0.1.0-r3: Python bindings for libsamplerate.
-dev-python/sounddevice 0.4.6: Python bindnigs to PortAudio and more.
+dev-python/sounddevice 0.4.6: Python bindings to PortAudio and more.
 dev-python/soundfile 0.10.3.1-r2: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
