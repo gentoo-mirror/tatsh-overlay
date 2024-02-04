@@ -9,12 +9,15 @@ inherit distutils-r1
 DESCRIPTION="Helper commands to automate updating with Portage."
 HOMEPAGE="https://github.com/Tatsh/upkeep"
 SRC_URI="https://github.com/Tatsh/upkeep/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+IUSE="test"
+RESTRICT="!test? ( test )"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~ppc64 ~x86"
 
 BDEPEND="test? (
+		dev-python/mock[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-mock[${PYTHON_USEDEP}]
 		dev-python/Levenshtein[${PYTHON_USEDEP}]
