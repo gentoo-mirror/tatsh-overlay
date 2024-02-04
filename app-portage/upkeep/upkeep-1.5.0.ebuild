@@ -4,7 +4,7 @@
 EAPI=8
 PYTHON_COMPAT=( python3_1{0,1,2} )
 DISTUTILS_USE_PEP517=poetry
-inherit distutils-r1
+inherit distutils-r1 systemd
 
 DESCRIPTION="Helper commands to automate updating with Portage."
 HOMEPAGE="https://github.com/Tatsh/upkeep"
@@ -27,6 +27,12 @@ RDEPEND="app-portage/eix
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	sys-kernel/dracut"
+
+src_install() {
+	distutils-r1_src_install
+	systemd_dounit systemd/portage-sync.{service,timer}
+	doman "man/${PN}.1"
+}
 
 pkg_postinst() {
 	einfo
