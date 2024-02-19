@@ -1,0 +1,14 @@
+BDEPEND=app-arch/bitrock-unpacker
+DEFINED_PHASES=install unpack
+DESCRIPTION=Free version of the code analyzer.
+EAPI=8
+HOMEPAGE=https://hex-rays.com/ida-free/
+INHERIT=desktop wrapper
+KEYWORDS=~amd64
+LICENSE=EULA
+RDEPEND=app-crypt/mit-krb5 dev-libs/glib media-libs/fontconfig media-libs/freetype media-libs/libglvnd sys-apps/dbus sys-libs/zlib x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+ x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXau x11-libs/libXext x11-libs/libdrm x11-libs/libxkbcommon x11-libs/pango x11-libs/xcb-util-image x11-libs/xcb-util-keysyms x11-libs/xcb-util-renderutil x11-libs/xcb-util-wm
+RESTRICT=strip splitdebug
+SLOT=0
+SRC_URI=https://out7.hex-rays.com/files/idafree84_linux.run -> ida-free-8.4.240215.run
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	wrapper	4a1902f969e5718126434fc35f3a0d9c
+_md5_=b21822e34a67bc21ed66f548a3f5d67d
