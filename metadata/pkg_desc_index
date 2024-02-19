@@ -78,7 +78,7 @@ dev-python/proglog 0.1.10: Progress logging system for Python.
 dev-python/pyaaf2 1.7.1-r1: Read and write Advanced Authoring Format (AAF) files.
 dev-python/pygtrie 2.5.0-r4: A pure Python trie data structure implementation.
 dev-python/pymatting 1.1.12_p20240124: A Python library for alpha matting.
-dev-python/pynput 1.7.6: Control and monitor input devices.
+dev-python/pynput 1.7.6-r1: Control and monitor input devices.
 dev-python/pytest-repeat 0.9.3: Plugin for Pytest to make it easy to repeat tests.
 dev-python/python-benedict 0.33.1: Dict subclass with various extras.
 dev-python/python-flirt 0.8.8: A Python library for parsing, compiling, and matching Fast Library Identification and Recognition Technology (FLIRT) signatures.
