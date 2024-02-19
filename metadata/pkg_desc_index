@@ -220,7 +220,7 @@ media-video/vapoursynth-realesrgan-ncnn-vulkan 20230628: RealESRGAN super resolu
 media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
-media-video/vhs-decode 0.2.5: Software defined VHS decoder.
+media-video/vhs-decode 0.2.5-r1: Software defined VHS decoder.
 media-video/video2x 5.0.0_beta6-r1: A lossless video/GIF/image upscaler.
 media-video/videoduplicatefinder 3.0_p20240114: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
@@ -271,7 +271,7 @@ www-apps/pihole-admin-lte 5.21: Pi-hole Dashboard for stats and more
 www-apps/stash 0.24.3: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.10.5: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999-r2: Bypass Paywalls browser extension.
-x11-misc/input-remapper 2.0.1: An easy to use tool to change the behaviour of your input devices.
+x11-misc/input-remapper 2.0.1-r1: An easy to use tool to change the behaviour of your input devices.
 x11-misc/mimeo 2023-r1: Open files by MIME-type or file name using regular expressions.
 x11-misc/rom-properties 2.2.1: Shell extension for file managers to manage game ROMs and disc images.
 x11-themes/apple-cursor 2.0.0: macOS cursor theme.
