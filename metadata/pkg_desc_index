@@ -88,7 +88,7 @@ dev-python/re-wx 0.1.0-r2: A library for building modern declarative desktop app
 dev-python/realcugan-ncnn-vulkan-python 1.0.2: A Python FFI of nihui/realcugan-ncnn-vulkan achieved with SWIG.
 dev-python/realsr-ncnn-vulkan-python 1.0.6: A Python FFI of nihui/realsr-ncnn-vulkan achieved with SWIG.
 dev-python/rife-ncnn-vulkan-python 1.2.1: A Python FFI of nihui/rife-ncnn-vulkan achieved with SWIG.
-dev-python/samplerate 0.2.1: Python bindings for libsamplerate.
+dev-python/samplerate 0.2.1-r1: Python bindings for libsamplerate.
 dev-python/sounddevice 0.4.6: Python bindings to PortAudio and more.
 dev-python/soundfile 0.12.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
