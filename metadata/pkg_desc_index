@@ -248,6 +248,7 @@ mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
 mpv-shader/krig-bilateral 20231027: Shader for mpv.
 mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20230927: Downscaler shader for mpv.
+net-analyzer/http-toolkit-bin 1.14.10: Open source tool for debugging, testing and building with HTTP requests.
 net-dns/pihole 5.17.3: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.25: The Pi-hole FTL engine
 net-im/ripcord 0.4.29-r5: Desktop chat client for Slack and Discord (not web-based).
