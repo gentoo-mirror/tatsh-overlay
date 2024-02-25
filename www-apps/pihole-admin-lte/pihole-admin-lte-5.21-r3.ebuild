@@ -81,28 +81,28 @@ src_install() {
 	{ echo 'master master master' > \
 		"${ED}/var/lib/pihole/localbranches"; } || die
 	local -r core_ver=$({
-		qatom -q "$(best_version net-dns/pihole)" || \
+		qatom -Cq "$(best_version net-dns/pihole)" || \
 			die 'qatom failed to get net-dns/pihole version'; } |
 			cut '-d ' -f3)
 	local -r ftl_ver=$({
-		qatom -q "$(best_version net-dns/pihole-ftl)" || \
+		qatom -Cq "$(best_version net-dns/pihole-ftl)" || \
 			die 'qatom failed to get FTL version'; } |
 			cut '-d ' -f3)
 	{ echo "v${core_ver} v${PV} v${ftl_ver}" > \
 		"${ED}/var/lib/pihole/localversions"; } || die
 	{ cat <<EOF > "${ED}/var/lib/pihole/versions"
-CORE_VERSION=${core_ver}
+CORE_VERSION=v${core_ver}
 CORE_BRANCH=master
 CORE_HASH=
-GITHUB_CORE_VERSION=${core_ver}
+GITHUB_CORE_VERSION=v${core_ver}
 GITHUB_CORE_HASH=
-FTL_VERSION=${ftl_ver}
+FTL_VERSION=v${ftl_ver}
 FTL_BRANCH=master
 FTL_HASH=
-WEB_VERSION=${PV}
+WEB_VERSION=v${PV}
 WEB_BRANCH=master
 WEB_HASH=
-GITHUB_FTL_VERSION=${ftl_ver}
+GITHUB_FTL_VERSION=v${ftl_ver}
 GITHUB_FTL_HASH=
 DOCKER_VERSION=
 GITHUB_DOCKER_VERSION=
