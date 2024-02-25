@@ -16,7 +16,7 @@ app-emulation/basiliskii 1.0.0_p20240224: 68k Macintosh emulator (updated fork).
 app-emulation/sheepshaver 1.0.0_p20240224: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.7.0: Command line csv viewer
-app-misc/czkawka 6.1.0-r1: CLI frontend of Czkawka
+app-misc/czkawka 7.0.0: CLI frontend of Czkawka
 app-misc/deark 1.6.6: Utility to extract data from various file formats.
 app-misc/fx 31.0.0: Terminal JSON viewer.
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
