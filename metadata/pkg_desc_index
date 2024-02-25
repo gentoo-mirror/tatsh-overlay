@@ -12,6 +12,7 @@ app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/qpxtool 0.8.1.4: Enhanced (unofficial) qpxtool version.
 app-cdr/redumper 314: Low level CD dumper utility
+app-crypt/certbot-dns-route53 2.9.0: Route53 DNS Authenticator plugin for Certbot
 app-emulation/basiliskii 1.0.0_p20240224: 68k Macintosh emulator (updated fork).
 app-emulation/sheepshaver 1.0.0_p20240224: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
