@@ -270,7 +270,7 @@ sys-auth/libfprint 1.94.7: Library to add support for consumer fingerprint reade
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-devel/llvm 14.0.6-r5: Low Level Virtual Machine
 sys-kernel/msi-ec 20240206: Kernel module for the embedded controller of MSI laptops.
-www-apps/pihole-admin-lte 5.21: Pi-hole Dashboard for stats and more
+www-apps/pihole-admin-lte 5.21-r1: Pi-hole Dashboard for stats and more
 www-apps/stash 0.24.3: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.10.5: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999-r2: Bypass Paywalls browser extension.
