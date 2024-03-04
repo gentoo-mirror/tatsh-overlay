@@ -1,12 +1,14 @@
 BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=Tool for performing reflection on SPIR-V.
+DEPEND=media-libs/vulkan-loader
+DESCRIPTION=Easy to integrate Vulkan memory allocation library
 EAPI=8
-HOMEPAGE=https://github.com/KhronosGroup/SPIRV-Cross
+HOMEPAGE=https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator
 INHERIT=cmake
 KEYWORDS=~amd64
-LICENSE=Apache-2
+LICENSE=MIT
+RDEPEND=media-libs/vulkan-loader
 SLOT=0
-SRC_URI=https://github.com/KhronosGroup/SPIRV-Cross/archive/b8fcf307f1f347089e3c46eb4451d27f32ebc8d3.tar.gz -> spirv-cross-b8fcf30.tar.gz
+SRC_URI=https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator/archive/19b940e864bd3a5afb3c79e3c6788869d01a19eb.tar.gz -> vulkan-memory-allocator-3.0.1_p20240227.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	24c947ff5f858625cf0b33c15eed4425	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	c7c9a62d6232cac66d4ea32d575c3e7c
-_md5_=2ca389e08302c053be2840b6dd140a2b
+_md5_=08c8fe35b16e14d41fdc43cc385f362f
