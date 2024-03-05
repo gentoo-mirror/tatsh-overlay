@@ -150,7 +150,7 @@ games-emulation/play 0.64: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.30-r3: PS3 emulator and debugger.
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.118-r1: Original Xbox emulator.
-games-emulation/yuzu 0.1733: Nintendo Switch emulator.
+games-emulation/yuzu 0.1734: Nintendo Switch emulator.
 games-misc/render96ex 20231120: Fork of sm64-port with additional features (alpha branch).
 games-misc/smw 0.1-r1: Reimplementation of Super Mario World.
 games-util/aprip 1.0.6: Remove additional copy protection found in some later PS1 games.
