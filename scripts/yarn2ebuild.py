@@ -44,10 +44,18 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument('package')
     parser.add_argument('yarn.lock')
+    parser.add_argument('-r',
+                        '--root',
+                        action='store_true',
+                        help='Package is at root and is not a dependency.')
     args = dict(parser.parse_args()._get_kwargs())
+    path_join_args = ((root_dir, 'node_modules', package, 'package.json') if not args['root'] else
+                      (root_dir, 'package.json'))
     yarn_lock = args['yarn.lock']
-    root_dir = dirname(yarn_lock)
     package = args['package']
+    root_dir = dirname(yarn_lock)
+    path_join_args = ((root_dir, 'node_modules', package, 'package.json') if not args['root'] else
+                      (root_dir, 'package.json'))
     licenses: Set[str] = set()
     with open(yarn_lock) as f:
         yarn_pkgs: Set[str] = set()
@@ -58,7 +66,7 @@ def main() -> int:
             name = m.groups()[0]
             if (m := re.match(r'^version "([^"]+)"', lines[i + 1].strip())):
                 yarn_pkgs.add(f'\t{name}-{m.groups()[0]}')
-        with open(path_join(root_dir, 'node_modules', package, 'package.json')) as j:
+        with open(path_join(*path_join_args)) as j:
             data = json.load(j)
             if lic := data.get('license'):
                 licenses.add(lic)
