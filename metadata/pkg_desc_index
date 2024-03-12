@@ -275,5 +275,5 @@ www-apps/wakapi 2.10.5: A minimalist, self-hosted WakaTime-compatible backend fo
 www-plugins/bypass-paywalls 9999-r2: Bypass Paywalls browser extension.
 x11-misc/input-remapper 2.0.1-r1: An easy to use tool to change the behaviour of your input devices.
 x11-misc/mimeo 2023-r1: Open files by MIME-type or file name using regular expressions.
-x11-misc/rom-properties 2.3: Shell extension for file managers to manage game ROMs and disc images.
+x11-misc/rom-properties 2.3-r1: Shell extension for file managers to manage game ROMs and disc images.
 x11-themes/apple-cursor 2.0.0: macOS cursor theme.
