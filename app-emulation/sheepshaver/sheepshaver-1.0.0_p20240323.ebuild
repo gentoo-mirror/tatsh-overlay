@@ -3,18 +3,18 @@
 
 EAPI=8
 
-inherit autotools desktop
+inherit autotools desktop fcaps flag-o-matic
 
-DESCRIPTION="68k Macintosh emulator (updated fork)."
+DESCRIPTION="Macintosh emulator (updated fork)."
 HOMEPAGE="https://github.com/kanjitalk755/macemu"
-SHA="aa9f112de3483c2284f255eed275ed557ad173a7"
+SHA="e12789a57eb36e185e3900849dc02944382ceab6"
 SRC_URI="https://github.com/kanjitalk755/macemu/archive/${SHA}.tar.gz -> ${P}.tar.gz
-	https://basilisk.cebix.net/images/apple.png -> ${PN}-icon.png"
+	https://sheepshaver.cebix.net/images/sheep.png -> ${PN}-icon.png"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="+jit jit-debug"
+IUSE="+jit"
 
 DEPEND="dev-libs/glib
 	media-libs/libsdl2
@@ -22,9 +22,10 @@ DEPEND="dev-libs/glib
 	x11-libs/libX11"
 RDEPEND="${DEPEND}"
 
-PATCHES=( "${FILESDIR}/${PN}-fixes.patch" )
-S="${WORKDIR}/macemu-${SHA}/BasiliskII/src/Unix"
+PATCHES=( "${FILESDIR}/${PN}-0001-fix-implicit.patch" )
+S="${WORKDIR}/macemu-${SHA}/SheepShaver/src/Unix"
 MAKEOPTS+=" -j1"
+FILECAPS=( cap_sys_rawio /usr/bin/SheepShaver )
 
 src_unpack() {
 	local archive
@@ -46,11 +47,10 @@ src_prepare() {
 }
 
 src_configure() {
+	filter-lto
 	econf \
-		"$(use_enable jit jit-compiler)" \
-		"$(use_enable jit-debug)" \
-		--disable-vosf \
-		--enable-fpe=ieee \
+		"$(use_enable jit)" \
+		--disable-sdl-static \
 		--enable-sdl-audio \
 		--enable-sdl-video \
 		--with-bincue \
@@ -61,6 +61,6 @@ src_configure() {
 src_install() {
 	emake DESTDIR="${D}" install
 	newicon -s 32 "${DISTDIR}/${PN}-icon.png" "${PN}.png"
-	make_desktop_entry BasiliskII BasiliskII "${PN}"
-	dodoc ../../TECH ../../ChangeLog ../../TODO ../../../README.md
+	make_desktop_entry SheepShaver SheepShaver "${PN}"
+	dodoc ../../NEWS ../../../README.md
 }
