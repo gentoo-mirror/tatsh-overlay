@@ -11,7 +11,7 @@ app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compres
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/qpxtool 0.8.1.4: Enhanced (unofficial) qpxtool version.
-app-cdr/redumper 314: Low level CD dumper utility
+app-cdr/redumper 314-r1: Low level CD dumper utility
 app-crypt/certbot-dns-route53 2.9.0: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105: List all secret items using libsecret (e.g. GNOME Keyring).
 app-emulation/basiliskii 1.0.0_p20240323: 68k Macintosh emulator (updated fork).
