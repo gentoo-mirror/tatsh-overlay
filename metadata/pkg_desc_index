@@ -14,13 +14,13 @@ app-cdr/qpxtool 0.8.1.4: Enhanced (unofficial) qpxtool version.
 app-cdr/redumper 314-r1: Low level CD dumper utility
 app-crypt/certbot-dns-route53 2.9.0: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105: List all secret items using libsecret (e.g. GNOME Keyring).
-app-emulation/basiliskii 1.0.0_p20240323: 68k Macintosh emulator (updated fork).
-app-emulation/sheepshaver 1.0.0_p20240323: Macintosh emulator (updated fork).
+app-emulation/basiliskii 1.0.0_p20240330: 68k Macintosh emulator (updated fork).
+app-emulation/sheepshaver 1.0.0_p20240330: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
-app-misc/csvlens 0.8.0: Command line csv viewer
+app-misc/csvlens 0.8.1: Command line csv viewer
 app-misc/czkawka 7.0.0: CLI frontend of Czkawka
 app-misc/deark 1.6.6: Utility to extract data from various file formats.
-app-misc/fx 33.0.0: Terminal JSON viewer.
+app-misc/fx 34.0.0: Terminal JSON viewer.
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r3: CLI to track a USPS shipment by SMS.
@@ -37,7 +37,7 @@ dev-build/node-gyp 10.1.0: Node.js native addon build tool.
 dev-cpp/cli11 2.4.1: Command line parser for C++11
 dev-cpp/cpp-jwt 1.5.0_p20240211: JSON Web Token library for C++
 dev-cpp/tracy 0.10: C++ frame profiler
-dev-db/dbeaver-bin 24.0.0: Free universal database tool (community edition).
+dev-db/dbeaver-bin 24.0.1: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
 dev-db/litecli 1.10.1: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-libs/bincookie 0.1.6-r1: Library to parse Apple's binarycookies format.
@@ -97,7 +97,7 @@ dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
 dev-python/stgpytools 1.0.0_p20240204: Collection of stuff that's useful in general Python programming.
 dev-python/toml 0.10.2: Python library for TOML.
-dev-python/typer 0.10.0: Create CLIs with Python type hints.
+dev-python/typer 0.12.0: Create CLIs with Python type hints.
 dev-python/useful-types 0.2.0: Types that are usually re-used across projects.
 dev-python/viv-utils 0.7.9: Utilities for Vivisect.
 dev-python/vsutil 0.8.0-r3: A collection of general purpose Vapoursynth functions
@@ -110,7 +110,7 @@ dev-util/bytecode-viewer-bin 2.12: JAR and Android APK reverse engineering suite
 dev-util/cmake-format 0.6.13-r3: Source code formatter for CMake files.
 dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
 dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
-dev-util/commitizen 3.20.0: Release management tool designed for teams (cz command).
+dev-util/commitizen 3.21.3: Release management tool designed for teams (cz command).
 dev-util/create-react-app 5.0.1: Create React apps with no build configuration.
 dev-util/cruft 2.15.0: Fight back against the boilerplate monster.
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
@@ -120,11 +120,11 @@ dev-util/nihstro 20211107-r3: 3DS shader assembler and disassembler
 dev-util/prettier 3.2.5: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
 dev-util/spirv-cross 20240318: Tool for performing reflection on SPIR-V.
-dev-util/vcpkg-tool 2024.03.14: Library manager for C/C++ (tool only).
+dev-util/vcpkg-tool 2024.03.29: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.1.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 2.24.0: VS Code extensions manager for extension developers.
 dev-util/wakatime-cli 1.90.0: Command line interface to WakaTime used by all WakaTime plugins
-dev-util/ycmd 20240320: A code-completion & code-comprehension server.
+dev-util/ycmd 20240331: A code-completion & code-comprehension server.
 dev-util/yo 5.0.0-r1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.28: Mirror Git repositories to other Git providers.
@@ -140,7 +140,7 @@ games-arcade/outfox-serenity 3.0.3: The community pack content for Project OutFo
 games-arcade/stepmania 5.1.0_beta2_p20221114-r8: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 4.1.1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20240324: Wii U emulator.
+games-emulation/cemu 2.0_p20240327: Wii U emulator.
 games-emulation/citra 20240324: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230810-r1: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2024.03.01: Cross-platform DOS emulation package.
@@ -167,11 +167,11 @@ games-util/switch-library-manager 1.4.0: Manage Switch backups (console only).
 games-util/wiimms-iso-tools 3.05a-r2: A set of command line tools to maniuplate Wii/Gamecube images.
 games-util/wiimms-szs-tools 2.41b: A set of command line tools to maniuplate files of various Nintendo titles.
 kde-misc/kate-jinja2-highlighting 20190428-r1: Improved Jinja2 syntax highlighting for Kate.
-kde-misc/kate-stuff 20231208: Updated and improved Kate editor syntax files and code snippets.
+kde-misc/kate-stuff 20240330: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.3.10: Time tracking with WakaTime for Kate.
 kde-misc/kwin-effects-cube 2.0.0-r3: Desktop cube effect for Kwin.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/noto 20240324: Google's font family that aims to support all the world's languages
+media-fonts/noto 20240325: Google's font family that aims to support all the world's languages
 media-gfx/backgroundremover 0.2.6-r1: Remove backgrounds from images and video using AI.
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
@@ -191,7 +191,7 @@ media-libs/zimg 3.0.5: Scaling, colorspace conversion, and dithering library
 media-sound/ossp 1.3.2_p20220909: Emulate OSS devices using CUSE.
 media-sound/sony-headphones-client 1.3.2-r1: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
-media-video/cxadc 20240127: CX2388x direct ADC capture driver.
+media-video/cxadc 20240326: CX2388x direct ADC capture driver.
 media-video/domesday-duplicator 2.3_p20230726: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
 media-video/ffms2 2.40_p20230722: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
@@ -204,7 +204,7 @@ media-video/open-in-mpv 0.1.0-r3: Host-side script for the Open in mpv Chrome ex
 media-video/opentimelineio 0.15.0-r4: Editorial interchange format and API (for use with Kdenlive).
 media-video/patreon-archiver 0.0.6-r1: Tool to download data from Patreon.
 media-video/scenechange 0.2.0.2-r1: Scene change detection plugin for VapourSynth
-media-video/vapoursynth 65: A video processing framework with simplicity in mind.
+media-video/vapoursynth 66: A video processing framework with simplicity in mind.
 media-video/vapoursynth-astdr 4-r3: Derainbow function for VapourSynth.
 media-video/vapoursynth-bm3d 9: BM3D denoising filter for VapourSynth
 media-video/vapoursynth-dfmderainbow 2-r2: Derainbow function for VapourSynth.
@@ -251,8 +251,8 @@ mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
 mpv-shader/krig-bilateral 20231027: Shader for mpv.
 mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20230927: Downscaler shader for mpv.
-net-analyzer/http-toolkit-bin 1.14.10: Open source tool for debugging, testing and building with HTTP requests.
-net-dns/pihole 5.17.3: Network-wide ad blocking (core).
+net-analyzer/http-toolkit-bin 1.14.11: Open source tool for debugging, testing and building with HTTP requests.
+net-dns/pihole 5.18.2: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.25.1: The Pi-hole FTL engine
 net-firewall/nftables-geoip 20240124: Generates nftables maps of geolocation IP address blocks.
 net-im/ripcord 0.4.29-r5: Desktop chat client for Slack and Discord (not web-based).
@@ -262,7 +262,7 @@ net-p2p/xirvik-tools 0.4.5-r1: Tools for Xirvik servers.
 net-proxy/charles 4.6.6: Web debugging proxy application.
 net-vpn/f5vpn 7245.2023.1006.1: This software can establish SSL VPN network access connection with F5 BIG-IP APM.
 net-vpn/vpn-slice 0.16.1: vpnc-script replacement for easy and secure split-tunnel VPN setup.
-sci-libs/torchvision 0.17.1: Datasets, transforms and models to specific to computer vision
+sci-libs/torchvision 0.17.2: Datasets, transforms and models to specific to computer vision
 sys-apps/capa 7.0.1: The FLARE team's open-source tool to identify capabilities in executable files.
 sys-apps/kylemanna-systemd-utils 20220116-r1: Random systemd utilities.
 sys-apps/seatools 5.1.182: Quick diagnostic tool that checks the health of your drive.
@@ -275,7 +275,7 @@ sys-devel/llvm 14.0.6-r5: Low Level Virtual Machine
 sys-kernel/msi-ec 20240306: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.21-r3: Pi-hole Dashboard for stats and more
 www-apps/stash 0.25.1: An organiser for your special videos, written in Go.
-www-apps/wakapi 2.10.5: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+www-apps/wakapi 2.11.0: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999-r2: Bypass Paywalls browser extension.
 x11-misc/input-remapper 2.0.1-r1: An easy to use tool to change the behaviour of your input devices.
 x11-misc/mimeo 2023-r1: Open files by MIME-type or file name using regular expressions.
