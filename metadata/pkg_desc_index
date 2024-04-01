@@ -71,7 +71,6 @@ dev-python/hsh 1.1.0: Hashing library.
 dev-python/ida-netnode 3.0: Humane API for storing and accessing persistent data in IDA Pro databases.
 dev-python/ida-settings 2.1.0: Fetch and set configuration values in IDA Pro IDAPython scripts.
 dev-python/llvmlite 0.42.0: A lightweight LLVM python binding for writing JIT compilers
-dev-python/log-symbols 0.0.14: Colored symbols for various log levels for Python.
 dev-python/minchoc 0.0.11: Minimal, Chocolatey-compatible NuGet server in a Django app.
 dev-python/moviepy 1.0.3: Python library for video editing.
 dev-python/numba 0.59.1: NumPy aware dynamic Python compiler using LLVM
@@ -93,7 +92,6 @@ dev-python/rife-ncnn-vulkan-python 1.2.1: A Python FFI of nihui/rife-ncnn-vulkan
 dev-python/samplerate 0.2.1-r1: Python bindings for libsamplerate.
 dev-python/sounddevice 0.4.6: Python bindings to PortAudio and more.
 dev-python/soundfile 0.12.1: An audio library based on libsndfile, CFFI and NumPy
-dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
 dev-python/stgpytools 1.0.0_p20240204: Collection of stuff that's useful in general Python programming.
 dev-python/toml 0.10.2: Python library for TOML.
@@ -224,7 +222,6 @@ media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin 
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
 media-video/vhs-decode 0.2.5-r1: Software defined VHS decoder.
-media-video/video2x 5.0.0_beta6-r1: A lossless video/GIF/image upscaler.
 media-video/videoduplicatefinder 3.0_p20240114: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
