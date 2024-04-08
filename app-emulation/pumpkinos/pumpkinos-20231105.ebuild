@@ -34,22 +34,22 @@ src_compile() {
 	ROOT="${DIR}/.."
 	for dir in bin lib tools vfs/app_card/PALM/Programs vfs/app_install vfs/app_storage registry; do
 		if [ ! -d "${ROOT}/${dir}" ]; then
-			mkdir -p $ROOT/$dir
+			mkdir -p "${ROOT}/${dir}" || die
 		fi
 	done
 	for dir in pilrc prcbuild; do
 		if [ -d "$dir" ]; then
 			pushd "$dir" && emake "ROOT=${ROOT}" BITS=64
-			popd
+			popd || die
 		fi
 	done
 	for dir in libpit lua liblsdl2 libpumpkin libos libshell linux BOOT Launcher Preferences Command Edit LuaSyntax MemoPad AddressBook ToDoList DateBook; do
 		if [ -d "$dir" ]; then
 			pushd "$dir" && emake "ROOT=${ROOT}" OSNAME=GNU/Linux BITS=64
-			popd
+			popd || die
 		fi
 	done
-	popd
+	popd || die
 }
 
 src_install() {
