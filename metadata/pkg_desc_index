@@ -254,7 +254,7 @@ mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20230927: Downscaler shader for mpv.
 net-analyzer/http-toolkit-bin 1.14.11: Open source tool for debugging, testing and building with HTTP requests.
 net-dns/pihole 5.18.2: Network-wide ad blocking (core).
-net-dns/pihole-ftl 5.25.1: The Pi-hole FTL engine
+net-dns/pihole-ftl 5.25.1-r1: The Pi-hole FTL engine
 net-firewall/nftables-geoip 20240124: Generates nftables maps of geolocation IP address blocks.
 net-im/ripcord 0.4.29-r5: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.10.7: Declarative configuration for Gmail filters
