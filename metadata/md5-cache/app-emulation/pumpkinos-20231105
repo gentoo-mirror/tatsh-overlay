@@ -9,4 +9,4 @@ RDEPEND=media-libs/libsdl2
 SLOT=0
 SRC_URI=https://github.com/migueletto/PumpkinOS/archive/6c928410022649e76d43338833c8da4481ee5d12.tar.gz -> pumpkinos-6c92841.tar.gz
 _eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	wrapper	4a1902f969e5718126434fc35f3a0d9c
-_md5_=24cd7fac1a5bc235e897dfa29ef98ee5
+_md5_=0139e4a6775c30635c262c22b1f7ea78
