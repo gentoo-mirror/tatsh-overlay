@@ -1,0 +1,17 @@
+BDEPEND=app-arch/unzip dev-cpp/cpp-jwt dev-cpp/nlohmann_json dev-cpp/robin-map >=dev-util/vulkan-headers-1.3.275 dev-util/spirv-headers app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
+DEPEND=>=app-arch/zstd-1.5.0:= >=dev-libs/xbyak-6.03:= >=media-video/ffmpeg-4.3 app-arch/lz4 cubeb? ( media-libs/cubeb ) web-service? ( dev-cpp/cpp-httplib ) dev-cpp/cpp-httplib:= dev-libs/boost:=[context] >=dev-libs/libfmt-9.1.0:= dev-libs/libzip dev-libs/openssl:= dev-libs/vulkan-memory-allocator:= dev-util/vulkan-utility-libraries dev-util/glslang dev-qt/qtbase:6 dev-qt/qtmultimedia:6 media-libs/libsdl2 media-libs/libva media-libs/opus net-libs/enet:= sys-libs/zlib virtual/libusb:= webengine? ( dev-qt/qtwebengine:6 ) llvm-libunwind? ( sys-libs/llvm-libunwind ) !llvm-libunwind? ( sys-libs/libunwind:= )
+DESCRIPTION=Nintendo Switch emulator.
+EAPI=8
+HOMEPAGE=https://github.com/sudachi-emu/sudachi
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=cmake flag-o-matic xdg
+IUSE=+compatibility-reporting +cubeb llvm-libunwind +web-service +webengine
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD GPL-2 GPL-2+ LGPL-2.1
+RDEPEND=>=app-arch/zstd-1.5.0:= >=dev-libs/xbyak-6.03:= >=media-video/ffmpeg-4.3 app-arch/lz4 cubeb? ( media-libs/cubeb ) web-service? ( dev-cpp/cpp-httplib ) dev-cpp/cpp-httplib:= dev-libs/boost:=[context] >=dev-libs/libfmt-9.1.0:= dev-libs/libzip dev-libs/openssl:= dev-libs/vulkan-memory-allocator:= dev-util/vulkan-utility-libraries dev-util/glslang dev-qt/qtbase:6 dev-qt/qtmultimedia:6 media-libs/libsdl2 media-libs/libva media-libs/opus net-libs/enet:= sys-libs/zlib virtual/libusb:= webengine? ( dev-qt/qtwebengine:6 ) llvm-libunwind? ( sys-libs/llvm-libunwind ) !llvm-libunwind? ( sys-libs/libunwind:= ) media-libs/vulkan-loader
+REQUIRED_USE=compatibility-reporting? ( web-service )
+SLOT=0
+SRC_URI=https://github.com/sudachi-emu/sudachi/archive/4ce69bc41f33e3816b9a73ecc6268bd808e44367.tar.gz -> sudachi-4ce69bc.tar.gz https://github.com/sudachi-emu/mbedtls/archive/86ed7bfaa80079a97c763a651d0b2cd8d9d59100.tar.gz -> sudachi-mbedtls-86ed7bf.tar.gz https://github.com/sudachi-emu/dynarmic/archive/efa2ebefe1f502fc886cbbcebabed2506121eb24.tar.gz -> sudachi-dynarmic-efa2ebe.tar.gz https://github.com/sudachi-emu/sirit/archive/795ef4d8318c7d344da99c076dd60e5580d3d5ac.tar.gz -> sudachi-sirit-795ef4d.tar.gz https://github.com/lat9nq/tzdb_to_nx/releases/download/221202/221202.zip -> sudachi-nx_tzdb-221202.zip https://github.com/yhirose/cpp-httplib/archive/6791a8364d1644b44e0fb13fca472c398f78eb67.tar.gz -> sudachi-cpp-httplib-6791a83.tar.gz https://github.com/libsdl-org/SDL/archive/cc016b0046d563287f0aa9f09b958b5e70d43696.tar.gz -> sudachi-sdl-cc016b0.tar.gz https://github.com/brofield/simpleini/archive/f7862c3dd7ad35becc2741f268e3402e89a37666.tar.gz -> sudachi-simpleini-f7862c3.tar.gz https://github.com/herumi/xbyak/archive/9c0f5d3ecb06d2c93c2b59becb9b3b763213e74e.tar.gz -> sudachi-xbyak-9c0f5d3.tar.gz https://github.com/FFmpeg/FFmpeg/archive/65c1c83ca42540415516c37e21c9aeb7dd2c96d1.tar.gz -> sudachi-ffmpeg-65c1c83.tar.gz
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	c7c9a62d6232cac66d4ea32d575c3e7c	xdg	4a14c5c24f121e7da66e5aab4a168c6e
+_md5_=88cc512c796b57ab3a59795153c98d6d
