@@ -16,10 +16,23 @@ LICENSE=""
 SLOT="0"
 KEYWORDS="~amd64"
 
-DEPEND="dev-qt/qtcore:5
+RDEPEND="dev-qt/qtcore:5
+	dev-libs/hyphen
+	dev-libs/libgcrypt
+	dev-libs/libgpg-error
+	dev-libs/libtasn1
+	dev-libs/libxml2
+	dev-libs/libxslt
+	dev-qt/qtgui:5
 	dev-qt/qtnetwork:5
-	dev-qt/qtwidgets:5"
-RDEPEND="${DEPEND}"
+	dev-qt/qtpositioning:5
+	dev-qt/qtwidgets:5
+	media-libs/freetype
+	media-libs/harfbuzz
+	media-libs/libpng
+	media-libs/libwebp
+	sys-libs/zlib"
+DEPEND="${RDEPEND}"
 
 S="${WORKDIR}"
 
