@@ -153,7 +153,6 @@ games-emulation/mupen64plus-video-gliden64 4.0_p20240324: A new generation, open
 games-emulation/play 0.64: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.31-r1: PS3 emulator and debugger.
 games-emulation/sudachi 20240413-r1: Nintendo Switch emulator.
-games-emulation/suyu 0.0.3-r1: Continuation fork of Yuzu.
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.120: Original Xbox emulator.
 games-emulation/yuzu 0.1734-r1: Nintendo Switch emulator.

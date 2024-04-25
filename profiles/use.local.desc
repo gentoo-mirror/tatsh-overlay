@@ -66,10 +66,6 @@ games-emulation/sudachi:compatibility-reporting -
 games-emulation/sudachi:cubeb - 
 games-emulation/sudachi:web-service - 
 games-emulation/sudachi:webengine - 
-games-emulation/suyu:compatibility-reporting - Enable compatibility reporting
-games-emulation/suyu:cubeb - Build with cubeb audio backend
-games-emulation/suyu:web-service - Enable web-services
-games-emulation/suyu:webengine - Use dev-qt/qtwebengine for embedded web browser
 games-emulation/xemu:aio - Add support for AIO
 games-emulation/xemu:io-uring - Enable efficient I/O via sys-libs/liburing
 games-emulation/xemu:malloc-trim - Enable malloc_trim() support
