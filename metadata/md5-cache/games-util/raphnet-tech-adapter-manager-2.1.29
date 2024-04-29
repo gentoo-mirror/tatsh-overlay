@@ -10,6 +10,6 @@ KEYWORDS=~amd64 ~arm64 ~ppc64 ~x86
 LICENSE=GPL-3
 RDEPEND=dev-libs/glib dev-libs/hidapi media-libs/harfbuzz sys-libs/zlib virtual/udev x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+:3 x11-libs/pango x11-libs/wxGTK:3.0-gtk3
 SLOT=0
-SRC_URI=https://github.com/raphnet/gcn64tools/archive/refs/tags/v2.1.27.tar.gz -> raphnet-tech-adapter-manager-2.1.27.tar.gz
+SRC_URI=https://github.com/raphnet/gcn64tools/archive/refs/tags/v2.1.29.tar.gz -> raphnet-tech-adapter-manager-2.1.29.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	udev	eec0bbab06977f1cfc5597269c1fa152	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5
 _md5_=b43e4ac3108f9014b87ef1f8d354b150
