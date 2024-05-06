@@ -63,7 +63,7 @@ dev-python/colored 2.2.4: Very simple Python library for color and formatting in
 dev-python/commandlines 0.4.1-r1: Routines for extracting information from fontTools glyphs
 dev-python/cxxfilt 0.3.0: Python interface to c++filt / abi::__cxa_demangle
 dev-python/decli 0.6.2: Minimal declarative cli tool.
-dev-python/django-stubs-ext 4.2.7: Monkey-patching and extensions for django-stubs.
+dev-python/django-stubs-ext 5.0.0: Monkey-patching and extensions for django-stubs.
 dev-python/dncil 1.0.2: Disassemble Common Intermediate Language (CIL) instructions.
 dev-python/dnfile 0.15.0: Parse .NET executable files.
 dev-python/gooey 1.0.8.1-r3: Turn any command line program into a full GUI application with one line.
@@ -147,11 +147,11 @@ games-emulation/citra 20240423: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230810-r1: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2024.03.01: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.18.0: libretro-db tools from RetroArch.
-games-emulation/lime3ds 2110: A Nintendo 3DS emulator.
+games-emulation/lime3ds 2111: A Nintendo 3DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20240501: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.65: PlayStation 2 emulator.
-games-emulation/rpcs3 0.0.31-r1: PS3 emulator and debugger.
+games-emulation/rpcs3 0.0.32: PS3 emulator and debugger.
 games-emulation/sudachi 20240413-r1: Nintendo Switch emulator.
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.120: Original Xbox emulator.
@@ -286,4 +286,4 @@ www-plugins/bypass-paywalls 9999-r2: Bypass Paywalls browser extension.
 x11-misc/input-remapper 2.0.1-r1: An easy to use tool to change the behaviour of your input devices.
 x11-misc/mimeo 2023-r1: Open files by MIME-type or file name using regular expressions.
 x11-misc/rom-properties 2.3-r1: Shell extension for file managers to manage game ROMs and disc images.
-x11-themes/apple-cursor 2.0.0: macOS cursor theme.
+x11-themes/apple-cursor 2.0.1: macOS cursor theme.
