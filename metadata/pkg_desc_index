@@ -204,7 +204,7 @@ media-video/havsfunc 33_p20231102: Holy's ported AviSynth functions for VapourSy
 media-video/instagram-archiver 0.2.1-r1: Tool to download data from an Instagram profile you have access to.
 media-video/magewell-pro-capture 1.3.0.4390: Magewell Pro Capture driver.
 media-video/mvsfunc 10_p20230321-r2: mawen1250's VapourSynth functions
-media-video/open-in-mpv 0.1.0-r3: Host-side script for the Open in mpv Chrome extension.
+media-video/open-in-mpv 0.1.0-r4: Host-side script for the Open in mpv Chrome extension.
 media-video/opentimelineio 0.16.0: Editorial interchange format and API (for use with Kdenlive).
 media-video/patreon-archiver 0.0.6-r1: Tool to download data from Patreon.
 media-video/scenechange 0.2.0.2-r1: Scene change detection plugin for VapourSynth
@@ -264,7 +264,7 @@ net-mail/gmailctl 0.10.7: Declarative configuration for Gmail filters
 net-misc/muffet 2.10.1: Fast website link checker in Go
 net-misc/phantomjs-bin 2.1.1: Headless browser (fork) intended for use with yt-dlp.
 net-misc/wayback-machine-downloader 2.3.1_p20240208: Download an entire website from the Wayback Machine
-net-p2p/xirvik-tools 0.4.5-r1: Tools for Xirvik servers.
+net-p2p/xirvik-tools 0.4.5-r2: Tools for Xirvik servers.
 net-proxy/charles 4.6.6: Web debugging proxy application.
 net-vpn/f5vpn 7245.2023.1006.1: This software can establish SSL VPN network access connection with F5 BIG-IP APM.
 net-vpn/vpn-slice 0.16.1: vpnc-script replacement for easy and secure split-tunnel VPN setup.
