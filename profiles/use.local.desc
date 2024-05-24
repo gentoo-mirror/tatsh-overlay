@@ -12,6 +12,8 @@ dev-libs/wolfssl:debug - Debug support
 dev-libs/wolfssl:sniffer - Enable sniffer via libpcap
 dev-libs/wolfssl:writedup - Enable write duplication of WOLFSSL objects
 dev-python/numba:tbb - Build with TBB support
+dev-python/snowflake-connector-python:pandas - 
+dev-python/snowflake-connector-python:secure-local-storage - 
 games-action/re3:sanitizer - Build with address sanitiser for better crash logs
 games-action/relcs:sanitizer - Build with address sanitiser for better crash logs
 games-action/revc:sanitizer - Build with address sanitiser for better crash logs
