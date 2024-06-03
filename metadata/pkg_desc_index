@@ -99,7 +99,7 @@ dev-python/snowflake-connector-python 3.10.1: Snowflake database connector for P
 dev-python/sounddevice 0.4.7-r1: Python bindings to PortAudio and more.
 dev-python/soundfile 0.12.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
-dev-python/srmd-ncnn-vulkan-python 1.0.2: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
+dev-python/srmd-ncnn-vulkan-python 1.0.2-r1: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
 dev-python/stgpytools 1.0.0_p20240517: Collection of stuff that's useful in general Python programming.
 dev-python/toml 0.10.2: Python library for TOML.
 dev-python/typer 0.12.3: Create CLIs with Python type hints.
