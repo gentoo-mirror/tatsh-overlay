@@ -96,7 +96,7 @@ dev-python/requirements-parser 0.9.0: Python module for parsing Pip requirement 
 dev-python/rife-ncnn-vulkan-python 1.2.1: A Python FFI of nihui/rife-ncnn-vulkan achieved with SWIG.
 dev-python/samplerate 0.2.1-r1: Python bindings for libsamplerate.
 dev-python/snowflake-connector-python 3.10.1: Snowflake database connector for Python.
-dev-python/sounddevice 0.4.7: Python bindings to PortAudio and more.
+dev-python/sounddevice 0.4.7-r1: Python bindings to PortAudio and more.
 dev-python/soundfile 0.12.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
