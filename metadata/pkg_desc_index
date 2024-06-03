@@ -93,7 +93,7 @@ dev-python/re-wx 0.1.0-r2: A library for building modern declarative desktop app
 dev-python/realcugan-ncnn-vulkan-python 1.0.2-r1: A Python FFI of nihui/realcugan-ncnn-vulkan achieved with SWIG.
 dev-python/realsr-ncnn-vulkan-python 1.0.6-r1: A Python FFI of nihui/realsr-ncnn-vulkan achieved with SWIG.
 dev-python/requirements-parser 0.9.0: Python module for parsing Pip requirement files.
-dev-python/rife-ncnn-vulkan-python 1.2.1: A Python FFI of nihui/rife-ncnn-vulkan achieved with SWIG.
+dev-python/rife-ncnn-vulkan-python 1.2.1-r1: A Python FFI of nihui/rife-ncnn-vulkan achieved with SWIG.
 dev-python/samplerate 0.2.1-r1: Python bindings for libsamplerate.
 dev-python/snowflake-connector-python 3.10.1: Snowflake database connector for Python.
 dev-python/sounddevice 0.4.7-r1: Python bindings to PortAudio and more.
