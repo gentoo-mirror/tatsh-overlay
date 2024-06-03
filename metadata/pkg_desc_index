@@ -90,7 +90,7 @@ dev-python/python-flirt 0.8.10: A Python library for parsing, compiling, and mat
 dev-python/python-fsutil 0.14.1: High-level file-system operations.
 dev-python/questionary 2.0.1-r1: Python library to build command line user prompts.
 dev-python/re-wx 0.1.0-r2: A library for building modern declarative desktop applications in WX.
-dev-python/realcugan-ncnn-vulkan-python 1.0.2: A Python FFI of nihui/realcugan-ncnn-vulkan achieved with SWIG.
+dev-python/realcugan-ncnn-vulkan-python 1.0.2-r1: A Python FFI of nihui/realcugan-ncnn-vulkan achieved with SWIG.
 dev-python/realsr-ncnn-vulkan-python 1.0.6: A Python FFI of nihui/realsr-ncnn-vulkan achieved with SWIG.
 dev-python/requirements-parser 0.9.0: Python module for parsing Pip requirement files.
 dev-python/rife-ncnn-vulkan-python 1.2.1: A Python FFI of nihui/rife-ncnn-vulkan achieved with SWIG.
