@@ -33,7 +33,7 @@ app-portage/livecheck 0.0.10: Tool to update ebuilds.
 app-portage/upkeep 1.5.0: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 11.1.1: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20240320: A code-completion engine for Vim.
+app-vim/youcompleteme 20240620: A code-completion engine for Vim.
 dev-build/node-gyp 10.1.0: Node.js native addon build tool.
 dev-cpp/cli11 2.4.2: Command line parser for C++11
 dev-cpp/cpp-jwt 1.5.0_p20240211: JSON Web Token library for C++
@@ -41,7 +41,7 @@ dev-cpp/tracy 0.10: C++ frame profiler
 dev-db/dbeaver-bin 24.1.0: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
 dev-db/litecli 1.11.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
-dev-db/snowflake-cli 2.4.1: CLI to Snowflake database.
+dev-db/snowflake-cli 2.5.0: CLI to Snowflake database.
 dev-libs/bincookie 0.1.6-r1: Library to parse Apple's binarycookies format.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
 dev-libs/libfragmentzip 60_p20240614: A library allowing to download single files from a remote zip archive
@@ -95,12 +95,12 @@ dev-python/realsr-ncnn-vulkan-python 1.0.6-r1: A Python FFI of nihui/realsr-ncnn
 dev-python/requirements-parser 0.9.0: Python module for parsing Pip requirement files.
 dev-python/rife-ncnn-vulkan-python 1.2.1-r1: A Python FFI of nihui/rife-ncnn-vulkan achieved with SWIG.
 dev-python/samplerate 0.2.1-r1: Python bindings for libsamplerate.
-dev-python/snowflake-connector-python 3.10.1: Snowflake database connector for Python.
+dev-python/snowflake-connector-python 3.11.0: Snowflake database connector for Python.
 dev-python/sounddevice 0.4.7-r1: Python bindings to PortAudio and more.
 dev-python/soundfile 0.12.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2-r1: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
-dev-python/stgpytools 1.0.0_p20240607: Collection of stuff that's useful in general Python programming.
+dev-python/stgpytools 1.0.0_p20240618: Collection of stuff that's useful in general Python programming.
 dev-python/toml 0.10.2: Python library for TOML.
 dev-python/typer 0.12.3: Create CLIs with Python type hints.
 dev-python/useful-types 0.2.1: Types that are usually re-used across projects.
@@ -124,13 +124,13 @@ dev-util/ida-free 8.4.240320_p1: Free version of the code analyzer.
 dev-util/nihstro 20240505: 3DS shader assembler and disassembler
 dev-util/prettier 3.3.2: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
-dev-util/spirv-cross 20240603: Tool for performing reflection on SPIR-V.
+dev-util/spirv-cross 20240619: Tool for performing reflection on SPIR-V.
 dev-util/sqlfluff 3.0.7: The SQL linter for humans.
 dev-util/vcpkg-tool 2024.06.10: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.1.1-r1: A combined disassembler/static analysis/symbolic execution/debugger framework.
-dev-util/vscode-vsce 2.27.0: VS Code extensions manager for extension developers.
+dev-util/vscode-vsce 2.29.0: VS Code extensions manager for extension developers.
 dev-util/wakatime-cli 1.91.1: Command line interface to WakaTime used by all WakaTime plugins
-dev-util/ycmd 20240613: A code-completion & code-comprehension server.
+dev-util/ycmd 20240622: A code-completion & code-comprehension server.
 dev-util/yo 5.0.0-r1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/gickup 0.10.30: Mirror Git repositories to other Git providers.
@@ -179,22 +179,22 @@ kde-misc/kate-wakatime 1.4.0: Time tracking with WakaTime for Kate.
 kde-misc/kwin-effects-cube 2.0.0-r3: Desktop cube effect for Kwin.
 mail-mta/sendgmail 20240314: Tool that uses Gmail in order to mimic sendmail for 'git send-email'.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/noto 20240616: Google's font family that aims to support all the world's languages
+media-fonts/noto 20240623: Google's font family that aims to support all the world's languages
 media-gfx/backgroundremover 0.2.8-r1: Remove backgrounds from images and video using AI.
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728-r1: SRMD super resolution implemented with ncnn library.
 media-libs/libspng 0.7.4-r1: Simple, modern libpng alternative.
-media-libs/vs-denoise 1.0.0_p20240517: VapourSynth denoising, regression, and motion compensation functions
-media-libs/vsaa 1.9.1: Functions and utils related to VapourSynth.
-media-libs/vsexprtools 1.5.1: VapourSynth functions and helpers for writing RPN expressions.
-media-libs/vskernels 3.1.0: Kernel objects for scaling and format conversion within VapourSynth.
-media-libs/vsmasktools 1.2.1: Tools and functions to manage, create, and manipulate masks in VapourSynth.
-media-libs/vspyplugin 1.4.1: Package for simplifying writing VapourSynth 'plugins' in python.
-media-libs/vsrgtools 1.6.2: Wrapper for RGVS, RGSF, and various other functions.
-media-libs/vsscale 2.0.1: Wrappers for scaling and descaling functions.
-media-libs/vstools 3.1.0-r1: Functions and utils related to VapourSynth.
+media-libs/vs-denoise 1.0.0_p20240617: VapourSynth denoising, regression, and motion compensation functions
+media-libs/vsaa 1.10.0: Functions and utils related to VapourSynth.
+media-libs/vsexprtools 1.6.0: VapourSynth functions and helpers for writing RPN expressions.
+media-libs/vskernels 3.2.0: Kernel objects for scaling and format conversion within VapourSynth.
+media-libs/vsmasktools 1.3.0: Tools and functions to manage, create, and manipulate masks in VapourSynth.
+media-libs/vspyplugin 1.4.2: Package for simplifying writing VapourSynth 'plugins' in python.
+media-libs/vsrgtools 1.7.0: Wrapper for RGVS, RGSF, and various other functions.
+media-libs/vsscale 2.1.0: Wrappers for scaling and descaling functions.
+media-libs/vstools 3.2.0: Functions and utils related to VapourSynth.
 media-libs/zimg 3.0.5: Scaling, colorspace conversion, and dithering library
 media-sound/ossp 1.3.2_p20220909: Emulate OSS devices using CUSE.
 media-sound/sony-headphones-client 1.3.2-r1: Client recreating the functionality of the Sony Headphones app.
@@ -233,7 +233,7 @@ media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for 
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
 media-video/vhs-decode 0.2.7: Software defined VHS decoder.
 media-video/video2x 5.0.0_beta6-r2: A lossless video/GIF/image upscaler.
-media-video/videoduplicatefinder 3.0_p20240615: Video duplicate finder.
+media-video/videoduplicatefinder 3.0_p20240619: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-video/ytarchive 0.4.0: Garbage YouTube live stream downloader.
@@ -250,7 +250,7 @@ mpv-plugin/mpv-lrc 20231208: Synchronize lyrics with mpv
 mpv-plugin/mpv-netrc 0.0.2-r1: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/reload 20240322: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/shutup 20240611: Set mpv to quiet when stdout/stdout is not a TTY.
+mpv-plugin/shutup 20240621: Set mpv to quiet when stdout/stdout is not a TTY.
 mpv-plugin/writeedits 20240402: Writes a list of edits made to the current video file to a file
 mpv-plugin/writename 20240402: Writes a list of edits made to the current video file to a file
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
@@ -259,7 +259,7 @@ mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
 mpv-shader/krig-bilateral 20231027: Shader for mpv.
 mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20230927: Downscaler shader for mpv.
-net-analyzer/http-toolkit-bin 1.16.0: Open source tool for debugging, testing and building with HTTP requests.
+net-analyzer/http-toolkit-bin 1.17.2: Open source tool for debugging, testing and building with HTTP requests.
 net-dns/pihole 5.18.2: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.25.2: The Pi-hole FTL engine
 net-firewall/nftables-geoip 20240124: Generates nftables maps of geolocation IP address blocks.
@@ -282,7 +282,7 @@ sys-auth/fprintd 1.94.3: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.7: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-devel/llvm 14.0.6-r5: Low Level Virtual Machine
-sys-kernel/msi-ec 20240612: Kernel module for the embedded controller of MSI laptops.
+sys-kernel/msi-ec 20240621: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.21-r3: Pi-hole Dashboard for stats and more
 www-apps/stash 0.26.1: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.11.2: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
