@@ -37,6 +37,7 @@ app-vim/youcompleteme 20240620: A code-completion engine for Vim.
 dev-build/node-gyp 10.1.0: Node.js native addon build tool.
 dev-cpp/cli11 2.4.2: Command line parser for C++11
 dev-cpp/cpp-jwt 1.5.0_p20240211: JSON Web Token library for C++
+dev-cpp/cpprestsdk 2.10.19-r3: A Microsoft project for cloud-based client-server communication.
 dev-cpp/tracy 0.10: C++ frame profiler
 dev-db/dbeaver-bin 24.1.0: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
