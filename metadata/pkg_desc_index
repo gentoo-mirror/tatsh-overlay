@@ -28,6 +28,7 @@ app-misc/usps-track 0.0.1-r3: CLI to track a USPS shipment by SMS.
 app-misc/zwave-js-server 1.36.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
+app-pda/altserver 0.0.5: AltServer for AltStore, but on-device.
 app-pda/ipad_charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
 app-pda/libplist 2.6.0: Support library to deal with Apple Property Lists (Binary & XML)
 app-portage/livecheck 0.0.10: Tool to update ebuilds.
