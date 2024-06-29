@@ -26,6 +26,7 @@ KEYWORDS="~amd64"
 
 DEPEND="dev-cpp/cpprestsdk
 	dev-libs/boost
+	dev-libs/corecrypto
 	dev-libs/libzip
 	dev-libs/openssl
 	sys-apps/util-linux
@@ -54,7 +55,8 @@ src_prepare() {
 }
 
 src_install() {
-	local exec=$(find . -maxdepth 1 -type f -executable -name 'AltServer-*' | head -n 1)
+	local exec
+	exec=$(find . -maxdepth 1 -type f -executable -name 'AltServer-*' | head -n 1)
 	newbin "$exec" AltServer
 	einstalldocs
 }
