@@ -196,6 +196,7 @@ KEYWORDS="~amd64"
 DEPEND="app-pda/libimobiledevice[static-libs]
 	>=app-pda/libplist-2.6.0[static-libs]"
 BDEPEND="dev-libs/openssl[static-libs]
+	app-pda/libimobiledevice-glue[static-libs]
 	app-pda/libmusbmuxd[static-libs]"
 
 src_prepare() {
