@@ -85,7 +85,7 @@ dev-python/llvmlite 0.43.0: A lightweight LLVM python binding for writing JIT co
 dev-python/log-symbols 0.0.14: Colored symbols for various log levels for Python.
 dev-python/minchoc 0.0.11: Minimal, Chocolatey-compatible NuGet server in a Django app.
 dev-python/moviepy 1.0.3: Python library for video editing.
-dev-python/numba 0.60.0: NumPy aware dynamic Python compiler using LLVM
+dev-python/numba 0.60.0-r1: NumPy aware dynamic Python compiler using LLVM
 dev-python/poetry-plugin-mono-repo-deps 0.2.1: Poetry plugin for monorepos to replace path dependencies with named dependencies.
 dev-python/poetry-plugin-up 0.7.1: A plugin that allows the export of locked packages to various formats
 dev-python/proglog 0.1.10: Progress logging system for Python.
