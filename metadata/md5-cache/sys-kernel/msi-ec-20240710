@@ -11,6 +11,6 @@ KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=sys-apps/kmod[tools] dist-kernel? ( virtual/dist-kernel:= )
 SLOT=0
-SRC_URI=https://github.com/BeardOverflow/msi-ec/archive/7b8eddd9dde7d604693a66d2d35057137d2213b5.tar.gz -> msi-ec-20240630.tar.gz
+SRC_URI=https://github.com/BeardOverflow/msi-ec/archive/853ffe3dc74f4dea1e0daeafed1a4562b4bf0130.tar.gz -> msi-ec-20240710.tar.gz
 _eclasses_=mount-boot-utils	69218c024651aa10db01df7e8a5b63e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	dist-kernel-utils	c5204a4147b612736aef239e7cc69885	edo	367e103a74bf77e6a8da7894d999fa3c	linux-info	ea4122ba1d8791a12b78e53f9510a2e3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	linux-mod-r1	0bdab9f1f3187180a16e0c6827bc13c2
-_md5_=14447e3af961bfc3fff4c9b8203ce1a1
+_md5_=7a66ec8c45ffe227ffe7955fc842f127
