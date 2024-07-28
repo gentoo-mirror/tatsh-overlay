@@ -7,7 +7,7 @@ app-arch/asar 3.2.10: Create Electron app packages.
 app-arch/bitrock-unpacker 20160622: Bitrock unpacking script.
 app-arch/pychoco 0.1.1-r1: Minimal choco command for use on non-Windows platforms.
 app-arch/unalz 0.65: Unpack ALZ archives.
-app-arch/zarchive 0.1.1_p20240411: Library for creating and reading zstd-compressed file archives (.zar)
+app-arch/zarchive 0.1.1_p20240721: Library for creating and reading zstd-compressed file archives (.zar)
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/qpxtool 0.8.1.4: Enhanced (unofficial) qpxtool version.
@@ -15,7 +15,7 @@ app-cdr/redumper 388: Low level CD dumper utility
 app-crypt/certbot-dns-route53 2.11.0: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
 app-emulation/basiliskii 1.0.0_p20240710: 68k Macintosh emulator (updated fork).
-app-emulation/pumpkinos 20240721: 
+app-emulation/pumpkinos 20240727: 
 app-emulation/sheepshaver 1.0.0_p20240710: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.9.1: Command line csv viewer
@@ -46,14 +46,14 @@ dev-cpp/cli11 2.4.2: Command line parser for C++11
 dev-cpp/cpp-jwt 1.5.0_p20240211: JSON Web Token library for C++
 dev-cpp/cpprestsdk 2.10.19-r3: A Microsoft project for cloud-based client-server communication.
 dev-cpp/tracy 0.11.0: C++ frame profiler
-dev-db/dbeaver-bin 24.1.2: Free universal database tool (community edition).
+dev-db/dbeaver-bin 24.1.3: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
 dev-db/litecli 1.11.1: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-db/snowflake-cli 2.6.1: CLI to Snowflake database.
 dev-libs/bincookie 0.1.6-r1: Library to parse Apple's binarycookies format.
 dev-libs/corecrypto 2023: Low-level cryptographic primitives from Apple.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
-dev-libs/libfragmentzip 60_p20240614: A library allowing to download single files from a remote zip archive
+dev-libs/libfragmentzip 60_p20240726: A library allowing to download single files from a remote zip archive
 dev-libs/libpietendo 0.7.2: Library for parsing Nintendo file formats.
 dev-libs/libtoolchain 0.7.0: Toolchain development library.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
@@ -73,7 +73,7 @@ dev-python/colored 2.2.4: Very simple Python library for color and formatting in
 dev-python/commandlines 0.4.1-r2: Routines for extracting information from fontTools glyphs
 dev-python/cxxfilt 0.3.0: Python interface to c++filt / abi::__cxa_demangle
 dev-python/decli 0.6.2: Minimal declarative cli tool.
-dev-python/django-stubs-ext 5.0.2: Monkey-patching and extensions for django-stubs.
+dev-python/django-stubs-ext 5.0.3: Monkey-patching and extensions for django-stubs.
 dev-python/dncil 1.0.2: Disassemble Common Intermediate Language (CIL) instructions.
 dev-python/dnfile 0.15.0-r1: Parse .NET executable files.
 dev-python/gooey 1.0.8.1-r3: Turn any command line program into a full GUI application with one line.
@@ -101,10 +101,10 @@ dev-python/questionary 2.0.1-r1: Python library to build command line user promp
 dev-python/re-wx 0.1.0-r2: A library for building modern declarative desktop applications in WX.
 dev-python/realcugan-ncnn-vulkan-python 1.0.2-r2: A Python FFI of nihui/realcugan-ncnn-vulkan achieved with SWIG.
 dev-python/realsr-ncnn-vulkan-python 1.0.6-r1: A Python FFI of nihui/realsr-ncnn-vulkan achieved with SWIG.
-dev-python/requirements-parser 0.9.0: Python module for parsing Pip requirement files.
+dev-python/requirements-parser 0.10.2: Python module for parsing Pip requirement files.
 dev-python/rife-ncnn-vulkan-python 1.2.1-r1: A Python FFI of nihui/rife-ncnn-vulkan achieved with SWIG.
 dev-python/samplerate 0.2.1-r1: Python bindings for libsamplerate.
-dev-python/snowflake-connector-python 3.11.0: Snowflake database connector for Python.
+dev-python/snowflake-connector-python 3.12.0: Snowflake database connector for Python.
 dev-python/sounddevice 0.4.7-r1: Python bindings to PortAudio and more.
 dev-python/soundfile 0.12.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
@@ -138,7 +138,7 @@ dev-util/sqlfluff 3.1.0: The SQL linter for humans.
 dev-util/vcpkg-tool 2024.07.10: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.1.1-r1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 2.31.1: VS Code extensions manager for extension developers.
-dev-util/wakatime-cli 1.95.0: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.98.1: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20240622: A code-completion & code-comprehension server.
 dev-util/yo 5.0.0-r1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
@@ -153,10 +153,10 @@ games-arcade/clone-hero 1.0.0.4080-r4: Clone of Guitar Hero and similar games.
 games-arcade/outfox 0.4.19-r1 0.5.0_p42: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/outfox-serenity 3.0.3: The community pack content for Project OutFox (includes volume 1.5)
 games-arcade/stepmania 5.1.0_beta2_p20221114-r8: Advanced rhythm game. Designed for both home and arcade use
-games-emulation/86box 4.1.1: Emulator of x86-based machines based on PCem.
+games-emulation/86box 4.2: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20240719: Wii U emulator.
-games-emulation/citra 20240717: A Nintendo 3DS emulator.
+games-emulation/cemu 2.0_p20240727: Wii U emulator.
+games-emulation/citra 20240725: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230810-r1: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2024.07.01: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.19.1: libretro-db tools from RetroArch.
@@ -167,7 +167,7 @@ games-emulation/play 0.66: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.32: PS3 emulator and debugger.
 games-emulation/sudachi 20240701: Nintendo Switch emulator.
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
-games-emulation/xemu 0.7.129: Original Xbox emulator.
+games-emulation/xemu 0.7.131: Original Xbox emulator.
 games-emulation/yuzu 0.1734-r2: Nintendo Switch emulator.
 games-misc/render96ex 20240512: Fork of sm64-port with additional features (alpha branch).
 games-misc/smw 0.1-r1: Reimplementation of Super Mario World.
@@ -188,14 +188,14 @@ kde-misc/kate-wakatime 1.4.0: Time tracking with WakaTime for Kate.
 kde-misc/kwin-effects-cube 2.0.0-r3: Desktop cube effect for Kwin.
 mail-mta/sendgmail 20240314: Tool that uses Gmail in order to mimic sendmail for 'git send-email'.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/noto 20240721: Google's font family that aims to support all the world's languages
+media-fonts/noto 20240725: Google's font family that aims to support all the world's languages
 media-gfx/backgroundremover 0.2.8-r1: Remove backgrounds from images and video using AI.
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728-r1: SRMD super resolution implemented with ncnn library.
 media-libs/libspng 0.7.4-r1: Simple, modern libpng alternative.
-media-libs/vs-denoise 1.0.0_p20240628: VapourSynth denoising, regression, and motion compensation functions
+media-libs/vs-denoise 1.0.0_p20240722: VapourSynth denoising, regression, and motion compensation functions
 media-libs/vsaa 1.10.0: Functions and utils related to VapourSynth.
 media-libs/vsexprtools 1.6.0: VapourSynth functions and helpers for writing RPN expressions.
 media-libs/vskernels 3.2.0: Kernel objects for scaling and format conversion within VapourSynth.
@@ -208,12 +208,12 @@ media-libs/zimg 3.0.5: Scaling, colorspace conversion, and dithering library
 media-sound/ossp 1.3.2_p20220909: Emulate OSS devices using CUSE.
 media-sound/sony-headphones-client 1.3.2-r1: Client recreating the functionality of the Sony Headphones app.
 media-sound/yamaha-xg-soundfont 20140604-r1: Yamaha XG re-mapped soundfont by ZSF on SF2 forums.
-media-video/cxadc 20240602: CX2388x direct ADC capture driver.
+media-video/cxadc 20240722: CX2388x direct ADC capture driver.
 media-video/domesday-duplicator 2.3_p20230726: Software for the 40Mhz USB-3.0 RF sampler (harrypm fork).
 media-video/ffms2 2.40_p20230722: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
 media-video/fmtconv 30_p20230901: Format conversion tools for Vapoursynth
-media-video/havsfunc 33_p20240708: Holy's ported AviSynth functions for VapourSynth
+media-video/havsfunc 33_p20240724: Holy's ported AviSynth functions for VapourSynth
 media-video/instagram-archiver 0.2.1-r1: Tool to download data from an Instagram profile you have access to.
 media-video/magewell-pro-capture 1.3.0.4390: Magewell Pro Capture driver.
 media-video/mvsfunc 10_p20230321-r2: mawen1250's VapourSynth functions
@@ -281,7 +281,7 @@ net-p2p/xirvik-tools 0.5.0: Tools for Xirvik servers.
 net-proxy/charles 4.6.6: Web debugging proxy application.
 net-vpn/f5vpn 7245.2023.1006.1: This software can establish SSL VPN network access connection with F5 BIG-IP APM.
 net-vpn/vpn-slice 0.16.1: vpnc-script replacement for easy and secure split-tunnel VPN setup.
-sci-libs/torchvision 0.18.1: Datasets, transforms and models to specific to computer vision
+sci-libs/torchvision 0.19.0: Datasets, transforms and models to specific to computer vision
 sys-apps/capa 7.1.0: The FLARE team's open-source tool to identify capabilities in executable files.
 sys-apps/kylemanna-systemd-utils 20220116-r1: Random systemd utilities.
 sys-apps/seatools 5.1.182: Quick diagnostic tool that checks the health of your drive.
