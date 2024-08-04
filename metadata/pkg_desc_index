@@ -11,11 +11,11 @@ app-arch/zarchive 0.1.1_p20240721: Library for creating and reading zstd-compres
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/qpxtool 0.8.1.4: Enhanced (unofficial) qpxtool version.
-app-cdr/redumper 388: Low level CD dumper utility
+app-cdr/redumper 396: Low level CD dumper utility
 app-crypt/certbot-dns-route53 2.11.0: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
 app-emulation/basiliskii 1.0.0_p20240710: 68k Macintosh emulator (updated fork).
-app-emulation/pumpkinos 20240727: 
+app-emulation/pumpkinos 20240803: 
 app-emulation/sheepshaver 1.0.0_p20240710: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.9.1: Command line csv viewer
@@ -49,15 +49,15 @@ dev-cpp/tracy 0.11.0: C++ frame profiler
 dev-db/dbeaver-bin 24.1.3: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
 dev-db/litecli 1.11.1: CLI for SQLite Databases with auto-completion and syntax highlighting.
-dev-db/snowflake-cli 2.6.1: CLI to Snowflake database.
-dev-libs/bincookie 0.1.6-r1: Library to parse Apple's binarycookies format.
+dev-db/snowflake-cli 2.7.0: CLI to Snowflake database.
+dev-libs/bincookie 0.1.7: Library to parse Apple's binarycookies format.
 dev-libs/corecrypto 2023: Low-level cryptographic primitives from Apple.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
 dev-libs/libfragmentzip 60_p20240726: A library allowing to download single files from a remote zip archive
-dev-libs/libpietendo 0.7.2: Library for parsing Nintendo file formats.
+dev-libs/libpietendo 0.8.0: Library for parsing Nintendo file formats.
 dev-libs/libtoolchain 0.7.0: Toolchain development library.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
-dev-libs/nativefiledialog-extended 1.2.0: File dialog library with C and C++ bindings, based on nativefiledialog
+dev-libs/nativefiledialog-extended 1.2.1: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 65: Stuff used in tsschecker.
 dev-libs/vulkan-memory-allocator 3.0.1_p20240718: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.7.2: Embedded SSL library.
@@ -73,7 +73,7 @@ dev-python/colored 2.2.4: Very simple Python library for color and formatting in
 dev-python/commandlines 0.4.1-r2: Routines for extracting information from fontTools glyphs
 dev-python/cxxfilt 0.3.0: Python interface to c++filt / abi::__cxa_demangle
 dev-python/decli 0.6.2: Minimal declarative cli tool.
-dev-python/django-stubs-ext 5.0.3: Monkey-patching and extensions for django-stubs.
+dev-python/django-stubs-ext 5.0.4: Monkey-patching and extensions for django-stubs.
 dev-python/dncil 1.0.2: Disassemble Common Intermediate Language (CIL) instructions.
 dev-python/dnfile 0.15.0-r1: Parse .NET executable files.
 dev-python/gooey 1.0.8.1-r3: Turn any command line program into a full GUI application with one line.
@@ -87,7 +87,7 @@ dev-python/minchoc 0.0.11: Minimal, Chocolatey-compatible NuGet server in a Djan
 dev-python/moviepy 1.0.3: Python library for video editing.
 dev-python/numba 0.60.0-r1: NumPy aware dynamic Python compiler using LLVM
 dev-python/poetry-plugin-mono-repo-deps 0.2.1: Poetry plugin for monorepos to replace path dependencies with named dependencies.
-dev-python/poetry-plugin-up 0.7.1: A plugin that allows the export of locked packages to various formats
+dev-python/poetry-plugin-up 0.7.2: A plugin that allows the export of locked packages to various formats
 dev-python/proglog 0.1.10: Progress logging system for Python.
 dev-python/pyaaf2 1.7.1-r1: Read and write Advanced Authoring Format (AAF) files.
 dev-python/pygtrie 2.5.0-r4: A pure Python trie data structure implementation.
@@ -109,7 +109,7 @@ dev-python/sounddevice 0.4.7-r1: Python bindings to PortAudio and more.
 dev-python/soundfile 0.12.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2-r1: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
-dev-python/stgpytools 1.0.0_p20240715: Collection of stuff that's useful in general Python programming.
+dev-python/stgpytools 1.0.0_p20240804: Collection of stuff that's useful in general Python programming.
 dev-python/toml 0.10.2: Python library for TOML.
 dev-python/typer 0.12.3: Create CLIs with Python type hints.
 dev-python/useful-types 0.2.1: Types that are usually re-used across projects.
@@ -133,16 +133,16 @@ dev-util/ida-free 8.4.240527: Free version of the code analyzer.
 dev-util/nihstro 20240505: 3DS shader assembler and disassembler
 dev-util/prettier 3.3.3: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
-dev-util/spirv-cross 20240715: Tool for performing reflection on SPIR-V.
+dev-util/spirv-cross 20240730: Tool for performing reflection on SPIR-V.
 dev-util/sqlfluff 3.1.0: The SQL linter for humans.
-dev-util/vcpkg-tool 2024.07.10: Library manager for C/C++ (tool only).
+dev-util/vcpkg-tool 2024.08.01: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.1.1-r1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 2.31.1: VS Code extensions manager for extension developers.
-dev-util/wakatime-cli 1.98.1: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.98.3: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20240622: A code-completion & code-comprehension server.
 dev-util/yo 5.0.0-r1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
-dev-vcs/gickup 0.10.30: Mirror Git repositories to other Git providers.
+dev-vcs/gickup 0.10.31: Mirror Git repositories to other Git providers.
 dev-vcs/git-radar 0.6_p20170108-r1: A heads up display for Git.
 dev-vcs/git-secrets 1.3.0_p20230620: Prevents you from committing sensitive info to a git repository.
 dev-vcs/git-up 2.1.0_p20230724-r1: Python implementation of git-up
@@ -155,7 +155,7 @@ games-arcade/outfox-serenity 3.0.3: The community pack content for Project OutFo
 games-arcade/stepmania 5.1.0_beta2_p20221114-r8: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 4.2: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20240727: Wii U emulator.
+games-emulation/cemu 2.0_p20240728: Wii U emulator.
 games-emulation/citra 20240725: A Nintendo 3DS emulator.
 games-emulation/dolphin 5.0_p20230810-r1: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2024.07.01: Cross-platform DOS emulation package.
@@ -176,26 +176,26 @@ games-util/cdecrypt 4.8: Decrypt Wii U NUS content
 games-util/hactool 1.4.0_p20231011: Tool for common file formats for the Nintendo Switch.
 games-util/joystickwake 0.4.2: Joystick-aware screen waker.
 games-util/kelftool 20191126: Utility for decrypt, encrypt and sign PS2 KELF and PSX KELF files.
-games-util/nstool 1.9.0: General purpose read/extract tool for Nintendo Switch file formats.
+games-util/nstool 1.9.1: General purpose read/extract tool for Nintendo Switch file formats.
 games-util/raphnet-tech-adapter-manager 2.1.29: Graphical user interface and command-line tools to manage raphnet adapters.
 games-util/sm64tools 0.3.2_p20180902: Collection of tools for Super Mario 64 ROM hacking (and others).
 games-util/switch-library-manager 1.4.0: Manage Switch backups (console only).
 games-util/wiimms-iso-tools 3.05a-r2: A set of command line tools to maniuplate Wii/Gamecube images.
 games-util/wiimms-szs-tools 2.41b: A set of command line tools to maniuplate files of various Nintendo titles.
 kde-misc/kate-jinja2-highlighting 20190428-r1: Improved Jinja2 syntax highlighting for Kate.
-kde-misc/kate-stuff 20240706: Updated and improved Kate editor syntax files and code snippets.
+kde-misc/kate-stuff 20240730: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.4.0: Time tracking with WakaTime for Kate.
 kde-misc/kwin-effects-cube 2.0.0-r3: Desktop cube effect for Kwin.
 mail-mta/sendgmail 20240314: Tool that uses Gmail in order to mimic sendmail for 'git send-email'.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
-media-fonts/noto 20240725: Google's font family that aims to support all the world's languages
+media-fonts/noto 20240804: Google's font family that aims to support all the world's languages
 media-gfx/backgroundremover 0.2.8-r1: Remove backgrounds from images and video using AI.
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728-r1: SRMD super resolution implemented with ncnn library.
 media-libs/libspng 0.7.4-r1: Simple, modern libpng alternative.
-media-libs/vs-denoise 1.0.0_p20240722: VapourSynth denoising, regression, and motion compensation functions
+media-libs/vs-denoise 1.0.0_p20240803: VapourSynth denoising, regression, and motion compensation functions
 media-libs/vsaa 1.10.0: Functions and utils related to VapourSynth.
 media-libs/vsexprtools 1.6.0: VapourSynth functions and helpers for writing RPN expressions.
 media-libs/vskernels 3.2.0: Kernel objects for scaling and format conversion within VapourSynth.
@@ -259,9 +259,9 @@ mpv-plugin/mpv-lrc 20231208: Synchronize lyrics with mpv
 mpv-plugin/mpv-netrc 0.0.2-r1: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20230116: API to allow scripts to create interactive scrollable lists in mpv player.
 mpv-plugin/reload 20240322: mpv plugin for automatic reloading of slow/stuck video streams
-mpv-plugin/shutup 20240702: Set mpv to quiet when stdout/stdout is not a TTY.
-mpv-plugin/writeedits 20240402: Writes a list of edits made to the current video file to a file
-mpv-plugin/writename 20240402: Writes a list of edits made to the current video file to a file
+mpv-plugin/shutup 20240723: Set mpv to quiet when stdout/stdout is not a TTY.
+mpv-plugin/writeedits 20240730: Writes a list of edits made to the current video file to a file
+mpv-plugin/writename 20240730: Writes a list of edits made to the current video file to a file
 mpv-shader/amd-fidelityfx-cas 20220221: AMD FidelityFX Contrast Adaptive Sharpening.
 mpv-shader/amd-fidelityfx-super-resolution 20220306: AMD FidelityFX Super Resolution v1.0.2 for mpv.
 mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
@@ -278,10 +278,10 @@ net-misc/muffet 2.10.2: Fast website link checker in Go
 net-misc/phantomjs-bin 2.1.1: Headless browser (fork) intended for use with yt-dlp.
 net-misc/wayback-machine-downloader 2.3.1_p20240208: Download an entire website from the Wayback Machine
 net-p2p/xirvik-tools 0.5.0: Tools for Xirvik servers.
-net-proxy/charles 4.6.6: Web debugging proxy application.
+net-proxy/charles 4.6.7: Web debugging proxy application.
 net-vpn/f5vpn 7245.2023.1006.1: This software can establish SSL VPN network access connection with F5 BIG-IP APM.
 net-vpn/vpn-slice 0.16.1: vpnc-script replacement for easy and secure split-tunnel VPN setup.
-sci-libs/torchvision 0.18.1: Datasets, transforms and models to specific to computer vision
+sci-libs/torchvision 0.19.0: Datasets, transforms and models to specific to computer vision
 sys-apps/capa 7.1.0: The FLARE team's open-source tool to identify capabilities in executable files.
 sys-apps/kylemanna-systemd-utils 20220116-r1: Random systemd utilities.
 sys-apps/seatools 5.1.182: Quick diagnostic tool that checks the health of your drive.
@@ -291,7 +291,7 @@ sys-auth/fprintd 1.94.3: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.7: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-devel/llvm 14.0.6-r5: Low Level Virtual Machine
-sys-kernel/msi-ec 20240710: Kernel module for the embedded controller of MSI laptops.
+sys-kernel/msi-ec 20240728: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.21-r3: Pi-hole Dashboard for stats and more
 www-apps/stash 0.26.2: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.11.2: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
