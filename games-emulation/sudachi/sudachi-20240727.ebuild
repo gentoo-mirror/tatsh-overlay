@@ -110,7 +110,8 @@ src_prepare() {
 	sed -re 's/set\(CAN_BUILD_NX_TZDB.*/set(CAN_BUILD_NX_TZDB false)/' \
 		-i externals/nx_tzdb/CMakeLists.txt || die
 	sed -re '/add_subdirectory\(externals\)/d' -i CMakeLists.txt || die
-	sed -re '707s/.*/add_subdirectory(externals)/' -i CMakeLists.txt || die
+	sed -re '706s/.*/add_subdirectory(externals)/' -i CMakeLists.txt || die
+	sed -re '/-Werror=.*/d' -i src/CMakeLists.txt || die
 	cmake_src_prepare
 	mkdir -p "${BUILD_DIR}/dist/compatibility_list" || die
 	einfo 'Using fallback compatibility list'
