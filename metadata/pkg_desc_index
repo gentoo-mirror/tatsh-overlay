@@ -281,7 +281,7 @@ net-p2p/xirvik-tools 0.5.0: Tools for Xirvik servers.
 net-proxy/charles 4.6.7: Web debugging proxy application.
 net-vpn/f5vpn 7245.2023.1006.1: This software can establish SSL VPN network access connection with F5 BIG-IP APM.
 net-vpn/vpn-slice 0.16.1: vpnc-script replacement for easy and secure split-tunnel VPN setup.
-sci-libs/torchvision 0.19.0: Datasets, transforms and models to specific to computer vision
+sci-libs/torchvision 0.18.1: Datasets, transforms and models to specific to computer vision
 sys-apps/capa 7.2.0: The FLARE team's open-source tool to identify capabilities in executable files.
 sys-apps/kylemanna-systemd-utils 20220116-r1: Random systemd utilities.
 sys-apps/seatools 5.1.182: Quick diagnostic tool that checks the health of your drive.
