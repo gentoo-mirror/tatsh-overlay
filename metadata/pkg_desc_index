@@ -136,7 +136,7 @@ dev-util/react-native-decompiler 0.2.4: React Native decompiler.
 dev-util/spirv-cross 20240823: Tool for performing reflection on SPIR-V.
 dev-util/sqlfluff 3.1.1: The SQL linter for humans.
 dev-util/vcpkg-tool 2024.08.01: Library manager for C/C++ (tool only).
-dev-util/vivisect 1.1.1-r1: A combined disassembler/static analysis/symbolic execution/debugger framework.
+dev-util/vivisect 1.2.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 3.0.0: VS Code extensions manager for extension developers.
 dev-util/wakatime-cli 1.98.3: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20240823: A code-completion & code-comprehension server.
