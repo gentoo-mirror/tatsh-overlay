@@ -8,5 +8,5 @@ LICENSE=GPL-3
 RDEPEND=>=virtual/jre-11-r2 app-mobilephone/revanced-patches
 SLOT=0
 SRC_URI=https://github.com/ReVanced/revanced-cli/releases/download/v4.6.0/revanced-cli-4.6.0-all.jar
-_eclasses_=java-utils-2	868752320f3c0e66b5fa5dc3602d7486
+_eclasses_=java-utils-2	4d4ed3633ff7d706ae7d81e5fe4e94fc
 _md5_=50c3a634138f959fe36f38181e7ef984
