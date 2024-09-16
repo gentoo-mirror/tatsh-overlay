@@ -135,6 +135,7 @@ bbolt
 bcanalyzer
 bdepend
 beautifulsoup
+becheran
 behaviour
 benbjohnson
 benc
@@ -239,7 +240,6 @@ charmbracelet
 checkpath
 chertsey
 cheshirekow
-chksums
 choco
 chocolatey
 chokidar
@@ -1168,7 +1168,6 @@ localmount
 localversions
 locutus
 lodepng
-logbuch
 logex
 logfmt
 logform
@@ -1764,6 +1763,7 @@ ryszard
 ryujinx
 sagikazarmark
 sahilm
+samber
 samplerate
 sancov
 sanitiser
@@ -1808,7 +1808,6 @@ setuid
 setuptools
 sexp
 sezanzeb
-shaderc
 sharada
 sharded
 shellcheck
@@ -2144,6 +2143,7 @@ wextra
 whatwg
 wiimm
 wiimms
+wildmatch
 willf
 winapi
 wincon
