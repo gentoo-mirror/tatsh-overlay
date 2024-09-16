@@ -3,7 +3,7 @@ acct-user/pihole 0-r1: user for pihole
 app-admin/awscli-plugin-endpoint 0.4-r4: Provides service endpoint configuration per service on profile.
 app-admin/mb8611 0.0.1: CLI tool and library for managing the Motorola MB8611 modem and other devices.
 app-admin/padd 3.11.1: PADD provides in-depth information about your Pi-hole.
-app-arch/asar 3.2.10: Create Electron app packages.
+app-arch/asar 3.2.13: Create Electron app packages.
 app-arch/bitrock-unpacker 20160622: Bitrock unpacking script.
 app-arch/pychoco 0.1.1-r1: Minimal choco command for use on non-Windows platforms.
 app-arch/unalz 0.65: Unpack ALZ archives.
@@ -14,18 +14,18 @@ app-cdr/qpxtool 0.8.1.4: Enhanced (unofficial) qpxtool version.
 app-cdr/redumper 403: Low level CD dumper utility
 app-crypt/certbot-dns-route53 2.11.0: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
-app-emulation/basiliskii 1.0.0_p20240822: 68k Macintosh emulator (updated fork).
-app-emulation/pumpkinos 20240824: 
-app-emulation/sheepshaver 1.0.0_p20240822: Macintosh emulator (updated fork).
+app-emulation/basiliskii 1.0.0_p20240903: 68k Macintosh emulator (updated fork).
+app-emulation/pumpkinos 20240914: 
+app-emulation/sheepshaver 1.0.0_p20240903: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.10.0: Command line csv viewer
 app-misc/czkawka 7.0.0: CLI frontend of Czkawka
-app-misc/deark 1.6.7: Utility to extract data from various file formats.
+app-misc/deark 1.6.8: Utility to extract data from various file formats.
 app-misc/fx 35.0.0: Terminal JSON viewer.
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r3: CLI to track a USPS shipment by SMS.
-app-misc/zwave-js-server 1.37.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
+app-misc/zwave-js-server 1.38.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-mobilephone/revanced-cli 4.6.0: Command line application to use ReVanced.
 app-mobilephone/revanced-patches 4.11.0: Patches for ReVanced.
@@ -40,16 +40,16 @@ app-portage/livecheck 0.0.13: Tool to update ebuilds.
 app-portage/upkeep 1.5.0: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 11.1.1: vim plugin: automatic time tracking with WakaTime
-app-vim/youcompleteme 20240817: A code-completion engine for Vim.
+app-vim/youcompleteme 20240914: A code-completion engine for Vim.
 dev-build/node-gyp 10.2.0: Node.js native addon build tool.
 dev-cpp/cli11 2.4.2: Command line parser for C++11
 dev-cpp/cpp-jwt 1.5.0_p20240211: JSON Web Token library for C++
 dev-cpp/cpprestsdk 2.10.19-r3: A Microsoft project for cloud-based client-server communication.
 dev-cpp/tracy 0.11.1: C++ frame profiler
-dev-db/dbeaver-bin 24.1.5: Free universal database tool (community edition).
+dev-db/dbeaver-bin 24.2.0: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
-dev-db/litecli 1.11.1: CLI for SQLite Databases with auto-completion and syntax highlighting.
-dev-db/snowflake-cli 2.7.0: CLI to Snowflake database.
+dev-db/litecli 1.12.3: CLI for SQLite Databases with auto-completion and syntax highlighting.
+dev-db/snowflake-cli 2.8.1: CLI to Snowflake database.
 dev-libs/bincookie 0.1.7: Library to parse Apple's binarycookies format.
 dev-libs/corecrypto 2023: Low-level cryptographic primitives from Apple.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
@@ -59,9 +59,9 @@ dev-libs/libtoolchain 0.7.0: Toolchain development library.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/nativefiledialog-extended 1.2.1: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 65: Stuff used in tsschecker.
-dev-libs/vulkan-memory-allocator 3.0.1_p20240820: Easy to integrate Vulkan memory allocation library
+dev-libs/vulkan-memory-allocator 3.0.1_p20240903: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.7.2: Embedded SSL library.
-dev-libs/xbyak 7.07: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-libs/xbyak 7.07.1: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-ml/cpu 2.0.0: Pin current process to given core number.
 dev-ml/iso8601 0.2.6: Parser and printer for date-times in ISO8601.
 dev-ml/mparser 1.3: A simple monadic parser combinator library for OCaml.
@@ -104,7 +104,7 @@ dev-python/realsr-ncnn-vulkan-python 1.0.6-r1: A Python FFI of nihui/realsr-ncnn
 dev-python/requirements-parser 0.11.0: Python module for parsing Pip requirement files.
 dev-python/rife-ncnn-vulkan-python 1.2.1-r1: A Python FFI of nihui/rife-ncnn-vulkan achieved with SWIG.
 dev-python/samplerate 0.2.1-r1: Python bindings for libsamplerate.
-dev-python/snowflake-connector-python 3.12.1: Snowflake database connector for Python.
+dev-python/snowflake-connector-python 3.12.2: Snowflake database connector for Python.
 dev-python/sounddevice 0.5.0: Python bindings to PortAudio and more.
 dev-python/soundfile 0.12.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
@@ -117,7 +117,7 @@ dev-python/viv-utils 0.7.9: Utilities for Vivisect.
 dev-python/vsutil 0.8.0-r3: A collection of general purpose Vapoursynth functions
 dev-python/waifu2x-ncnn-vulkan-python 1.0.4-r1: A Python FFI of nihui/waifu2x-ncnn-vulkan achieved with SWIG.
 dev-python/wingetty 1.0.0: WinGet repository server (REST API only).
-dev-qt/qtquick3d 5.15.14: Qt module and API for defining 3D content in Qt QuickTools
+dev-qt/qtquick3d 5.15.15: Qt module and API for defining 3D content in Qt QuickTools
 dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9-r1: Single file executable that provides a complete Tcl and Tk runtime.
 dev-util/bytecode-viewer-bin 2.12: JAR and Android APK reverse engineering suite.
@@ -128,17 +128,17 @@ dev-util/commitizen 3.29.0: Release management tool designed for teams (cz comma
 dev-util/create-react-app 5.0.1: Create React apps with no build configuration.
 dev-util/cruft 2.15.0: Fight back against the boilerplate monster.
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
-dev-util/flips 20240704: Floating IPS is a patcher for IPS and BPS files.
+dev-util/flips 20240905: Floating IPS is a patcher for IPS and BPS files.
 dev-util/ida-free 8.4.240527: Free version of the code analyzer.
 dev-util/nihstro 20240505: 3DS shader assembler and disassembler
 dev-util/prettier 3.3.3: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
-dev-util/spirv-cross 20240823: Tool for performing reflection on SPIR-V.
+dev-util/spirv-cross 20240910: Tool for performing reflection on SPIR-V.
 dev-util/sqlfluff 3.1.1: The SQL linter for humans.
 dev-util/vcpkg-tool 2024.08.01: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.2.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
-dev-util/vscode-vsce 3.0.0: VS Code extensions manager for extension developers.
-dev-util/wakatime-cli 1.98.3: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/vscode-vsce 3.1.0: VS Code extensions manager for extension developers.
+dev-util/wakatime-cli 1.98.5: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20240823: A code-completion & code-comprehension server.
 dev-util/yo 5.0.0-r1: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
