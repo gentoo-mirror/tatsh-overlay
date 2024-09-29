@@ -81,6 +81,7 @@ dev-python/halo 0.0.31: Beautiful spinners for terminal, IPython and Jupyter.
 dev-python/hsh 1.1.0: Hashing library.
 dev-python/ida-netnode 3.0: Humane API for storing and accessing persistent data in IDA Pro databases.
 dev-python/ida-settings 2.1.0: Fetch and set configuration values in IDA Pro IDAPython scripts.
+dev-python/jaconv 0.4.0: Pure-Python Japanese character interconverter.
 dev-python/llvmlite 0.43.0: A lightweight LLVM python binding for writing JIT compilers
 dev-python/log-symbols 0.0.14: Colored symbols for various log levels for Python.
 dev-python/minchoc 0.0.11: Minimal, Chocolatey-compatible NuGet server in a Django app.
@@ -91,6 +92,7 @@ dev-python/poetry-plugin-up 0.7.2: A plugin that allows the export of locked pac
 dev-python/proglog 0.1.10: Progress logging system for Python.
 dev-python/pyaaf2 1.7.1-r1: Read and write Advanced Authoring Format (AAF) files.
 dev-python/pygtrie 2.5.0-r4: A pure Python trie data structure implementation.
+dev-python/pykakasi 2.3.0: Transliterate Japanese to Romaji.
 dev-python/pymatting 1.1.12_p20240409: A Python library for alpha matting.
 dev-python/pynput 1.7.6-r1: Control and monitor input devices.
 dev-python/pytest-repeat 0.9.3: Plugin for Pytest to make it easy to repeat tests.
