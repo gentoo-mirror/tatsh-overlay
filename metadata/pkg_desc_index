@@ -15,7 +15,7 @@ app-cdr/redumper 411: Low level CD dumper utility
 app-crypt/certbot-dns-route53 2.11.0: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
 app-emulation/basiliskii 1.0.0_p20240903: 68k Macintosh emulator (updated fork).
-app-emulation/pumpkinos 20240927: 
+app-emulation/pumpkinos 20240930: 
 app-emulation/sheepshaver 1.0.0_p20240903: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.10.0: Command line csv viewer
@@ -287,7 +287,7 @@ sci-libs/torchvision 0.19.1: Datasets, transforms and models to specific to comp
 sys-apps/capa 7.3.0: The FLARE team's open-source tool to identify capabilities in executable files.
 sys-apps/kylemanna-systemd-utils 20220116-r1: Random systemd utilities.
 sys-apps/seatools 5.1.182: Quick diagnostic tool that checks the health of your drive.
-sys-apps/tinkup 1.0_p20220425-r2: Firmware update utility for the RetroTINK family of retro gaming devices.
+sys-apps/tinkup 1.0_p20240930: Firmware update utility for the RetroTINK family of retro gaming devices.
 sys-apps/usbkill 1.0_rc4_p20160730-r4: An kill-switch that waits for a change on your USB ports.
 sys-auth/fprintd 1.94.3: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.8: Library to add support for consumer fingerprint readers
