@@ -8,5 +8,5 @@ LICENSE=GPL-3
 RDEPEND=>=virtual/jre-11-r2
 SLOT=0
 SRC_URI=https://github.com/ReVanced/revanced-patches/releases/download/v4.11.0/revanced-patches-4.11.0.jar
-_eclasses_=java-utils-2	505f237da61d30569dcc6d5df8c51262
+_eclasses_=java-utils-2	f1da644b1cb86c9aca40b31a544a9906
 _md5_=da9e5f523bec3d7ed4d3de8c1ec6efca
