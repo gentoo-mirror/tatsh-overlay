@@ -10,5 +10,5 @@ RDEPEND=dev-libs/glib media-libs/fontconfig media-libs/freetype media-libs/libgl
 RESTRICT=strip splitdebug
 SLOT=0
 SRC_URI=https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/downloads/seatools/_shared/downloads/SeaToolsLinuxX64Installer.zip -> seatools-5.1.182.zip https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/_shared/images/seatools-icon.png
-_eclasses_=desktop	56973babb9c5f19cab0eeb53ece644c6	wrapper	8814ba474de61a773949805b4d85007d
+_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	wrapper	11a2a3bd712784986679b60a0cab34a0
 _md5_=e508a22317efd2d0834f620d779252c8

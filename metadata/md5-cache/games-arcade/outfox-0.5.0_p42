@@ -12,5 +12,5 @@ RDEPEND=app-arch/bzip2 app-arch/lz4 media-libs/alsa-lib media-libs/flac media-li
 RESTRICT=splitdebug strip
 SLOT=0
 SRC_URI=https://github.com/TeamRizu/OutFox/releases/download/OF5.0.0-042/OutFox-alpha-0.5.0-pre042-Linux-22.04-amd64-current-date-20231224.tar.gz
-_eclasses_=desktop	56973babb9c5f19cab0eeb53ece644c6	wrapper	8814ba474de61a773949805b4d85007d	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	xdg	854eae304447322625df5991e20ed18f
+_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	wrapper	11a2a3bd712784986679b60a0cab34a0	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
 _md5_=1cef17ca2e746bc4cadeae1dc8458800
