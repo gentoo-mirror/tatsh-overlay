@@ -289,7 +289,7 @@ sys-apps/kylemanna-systemd-utils 20220116-r1: Random systemd utilities.
 sys-apps/seatools 5.1.182: Quick diagnostic tool that checks the health of your drive.
 sys-apps/tinkup 1.0_p20240930: Firmware update utility for the RetroTINK family of retro gaming devices.
 sys-apps/usbkill 1.0_rc4_p20160730-r4: An kill-switch that waits for a change on your USB ports.
-sys-auth/fprintd 1.94.3: D-Bus service to access fingerprint readers
+sys-auth/fprintd 1.94.4: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.8: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-devel/llvm 14.0.6-r5: Low Level Virtual Machine
