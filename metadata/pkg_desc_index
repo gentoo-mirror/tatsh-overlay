@@ -94,7 +94,7 @@ dev-python/pyaaf2 1.7.1-r1: Read and write Advanced Authoring Format (AAF) files
 dev-python/pygtrie 2.5.0-r4: A pure Python trie data structure implementation.
 dev-python/pykakasi 2.3.0: Transliterate Japanese to Romaji.
 dev-python/pymatting 1.1.12_p20241006-r1: A Python library for alpha matting.
-dev-python/pynput 1.7.6-r1: Control and monitor input devices.
+dev-python/pynput 1.7.7: Control and monitor input devices.
 dev-python/pytest-repeat 0.9.3: Plugin for Pytest to make it easy to repeat tests.
 dev-python/python-benedict 0.33.2: Dict subclass with various extras.
 dev-python/python-flirt 0.8.10: A Python library for parsing, compiling, and matching Fast Library Identification and Recognition Technology (FLIRT) signatures.
@@ -131,7 +131,7 @@ dev-util/create-react-app 5.0.1: Create React apps with no build configuration.
 dev-util/cruft 2.15.0: Fight back against the boilerplate monster.
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 20240905: Floating IPS is a patcher for IPS and BPS files.
-dev-util/ida-free 8.4.240527: Free version of the code analyzer.
+dev-util/ida-free 9.0.240925: Free version of the code analyzer.
 dev-util/nihstro 20240505: 3DS shader assembler and disassembler
 dev-util/prettier 3.3.3: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
