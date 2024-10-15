@@ -18,7 +18,7 @@ app-emulation/basiliskii 1.0.0_p20241010: 68k Macintosh emulator (updated fork).
 app-emulation/pumpkinos 20241014: 
 app-emulation/sheepshaver 1.0.0_p20241010: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
-app-misc/csvlens 0.10.0: Command line csv viewer
+app-misc/csvlens 0.10.1: Command line csv viewer
 app-misc/czkawka 8.0.0: CLI frontend of Czkawka
 app-misc/deark 1.6.8: Utility to extract data from various file formats.
 app-misc/fx 35.0.0: Terminal JSON viewer.
@@ -28,7 +28,7 @@ app-misc/usps-track 0.0.1-r3: CLI to track a USPS shipment by SMS.
 app-misc/zwave-js-server 1.38.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-mobilephone/revanced-cli 4.6.0: Command line application to use ReVanced.
-app-mobilephone/revanced-patches 4.11.0: Patches for ReVanced.
+app-mobilephone/revanced-patches 4.16.0: Patches for ReVanced.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/altserver 0.0.5: AltServer for AltStore, but on-device.
 app-pda/ipad_charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
@@ -115,7 +115,7 @@ dev-python/stgpytools 1.0.0_p20241001: Collection of stuff that's useful in gene
 dev-python/toml 0.10.2: Python library for TOML.
 dev-python/typer 0.12.5: Create CLIs with Python type hints.
 dev-python/useful-types 0.2.1: Types that are usually re-used across projects.
-dev-python/viv-utils 0.7.9: Utilities for Vivisect.
+dev-python/viv-utils 0.7.11: Utilities for Vivisect.
 dev-python/vsutil 0.8.0-r3: A collection of general purpose Vapoursynth functions
 dev-python/waifu2x-ncnn-vulkan-python 1.0.4-r1: A Python FFI of nihui/waifu2x-ncnn-vulkan achieved with SWIG.
 dev-python/wingetty 1.0.0: WinGet repository server (REST API only).
@@ -295,7 +295,7 @@ sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with 
 sys-devel/llvm 14.0.6-r5: Low Level Virtual Machine
 sys-kernel/msi-ec 20240921: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.21-r3: Pi-hole Dashboard for stats and more
-www-apps/stash 0.26.2: An organiser for your special videos, written in Go.
+www-apps/stash 0.26.2-r1: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.12.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999-r2: Bypass Paywalls browser extension.
 x11-misc/input-remapper 2.0.1-r1: An easy to use tool to change the behaviour of your input devices.
