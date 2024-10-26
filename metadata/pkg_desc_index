@@ -187,7 +187,6 @@ games-util/wiimms-szs-tools 2.41b: A set of command line tools to maniuplate fil
 kde-misc/kate-jinja2-highlighting 20190428-r1: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20240730: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.4.0: Time tracking with WakaTime for Kate.
-kde-misc/kwin-effects-cube 2.0.0-r3: Desktop cube effect for Kwin.
 mail-mta/sendgmail 20240314: Tool that uses Gmail in order to mimic sendmail for 'git send-email'.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
 media-fonts/noto 20241014: Google's font family that aims to support all the world's languages
