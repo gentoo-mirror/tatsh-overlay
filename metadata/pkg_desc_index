@@ -51,7 +51,7 @@ dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
 dev-db/litecli 1.12.3: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-db/snowflake-cli 3.1.0: CLI to Snowflake database.
 dev-libs/bincookie 0.1.7: Library to parse Apple's binarycookies format.
-dev-libs/corecrypto 2023: Low-level cryptographic primitives from Apple.
+dev-libs/corecrypto 2023-r1: Low-level cryptographic primitives from Apple.
 dev-libs/libfat16 20191101: C++ FAT16 read library.
 dev-libs/libfragmentzip 60_p20240726: A library allowing to download single files from a remote zip archive
 dev-libs/libpietendo 0.9.0: Library for parsing Nintendo file formats.
@@ -294,7 +294,7 @@ sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with 
 sys-devel/llvm 14.0.6-r5: Low Level Virtual Machine
 sys-kernel/msi-ec 20241019: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.21-r3: Pi-hole Dashboard for stats and more
-www-apps/stash 0.26.2-r1: An organiser for your special videos, written in Go.
+www-apps/stash 0.27.2: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.12.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 www-plugins/bypass-paywalls 9999-r2: Bypass Paywalls browser extension.
 x11-misc/input-remapper 2.0.1-r1: An easy to use tool to change the behaviour of your input devices.
