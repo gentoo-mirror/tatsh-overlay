@@ -1,0 +1,14 @@
+BDEPEND=dev-qt/qtdbus:5
+DEFINED_PHASES=compile install postinst
+DESCRIPTION=Set mpv to quiet when stdout/stdout is not a TTY.
+EAPI=8
+HOMEPAGE=https://github.com/AN3223/dotfiles
+INHERIT=mpv-plugin toolchain-funcs
+IUSE=+autoload
+KEYWORDS=~amd64 ~ppc64
+LICENSE=all-rights-reserved
+RDEPEND=media-video/mpv:=[cplugins(+),libmpv]
+SLOT=0
+SRC_URI=https://github.com/AN3223/dotfiles/archive/6fc6390bc8e8f6053acc5bc753d83df13e96be2c.tar.gz -> AN3223-dotfiles-6fc6390.tar.gz
+_eclasses_=mpv-plugin	ef7c5ad8019deb98f4397f710be72dc3	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96
+_md5_=33f6cf6c25d964c569a35bbfa7e2771c
