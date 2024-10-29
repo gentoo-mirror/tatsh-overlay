@@ -38,7 +38,6 @@ src_configure() {
 		CXX="clang++-${REQUIRED_CLANG_MAJOR_VERSION}"
 		export CC CXX
 	fi
-	local mycmakeargs=( -DREDUMPER_CLANG_LINK_OPTIONS=-static )
 	cmake_src_configure
 }
 
