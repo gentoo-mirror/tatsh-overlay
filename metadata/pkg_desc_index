@@ -11,7 +11,7 @@ app-arch/zarchive 0.1.1_p20240721: Library for creating and reading zstd-compres
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/qpxtool 0.8.1.4: Enhanced (unofficial) qpxtool version.
-app-cdr/redumper 416 437: Low level CD dumper utility
+app-cdr/redumper 438: Low level CD dumper utility
 app-crypt/certbot-dns-route53 2.11.0: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
 app-emulation/basiliskii 1.0.0_p20241010: 68k Macintosh emulator (updated fork).
@@ -166,7 +166,7 @@ games-emulation/lime3ds 2119: A Nintendo 3DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20241020: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.66: PlayStation 2 emulator.
-games-emulation/rpcs3 0.0.33: PS3 emulator and debugger.
+games-emulation/rpcs3 0.0.34: PS3 emulator and debugger.
 games-emulation/sudachi 1.0.11: Nintendo Switch emulator.
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.7.132: Original Xbox emulator.
@@ -228,7 +228,7 @@ media-video/vapoursynth-bm3d 9: BM3D denoising filter for VapourSynth
 media-video/vapoursynth-dfmderainbow 2-r2: Derainbow function for VapourSynth.
 media-video/vapoursynth-eedi3 4_p20190930-r1: A very slow edge directed interpolation filter (renewed).
 media-video/vapoursynth-fft3dfilter 2: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
-media-video/vapoursynth-fluxsmooth 2-r1: A filter for smoothing of fluctuations
+media-video/vapoursynth-fluxsmooth 2-r2: A filter for smoothing of fluctuations
 media-video/vapoursynth-fsrcnn-ncnn-vulkan 20200229: FSRCNN ported to VapourSynth.
 media-video/vapoursynth-hqdn3d 20180629-r1: Port of hqdn3d from AviSynth
 media-video/vapoursynth-minideen 2: Spatial denoising filter for pourSynth
@@ -282,7 +282,7 @@ net-p2p/xirvik-tools 0.5.0: Tools for Xirvik servers.
 net-proxy/charles 4.6.7: Web debugging proxy application.
 net-vpn/f5vpn 7245.2023.1006.1: This software can establish SSL VPN network access connection with F5 BIG-IP APM.
 net-vpn/vpn-slice 0.16.1: vpnc-script replacement for easy and secure split-tunnel VPN setup.
-sci-libs/torchvision 0.19.1 0.20.0: Datasets, transforms and models to specific to computer vision
+sci-libs/torchvision 0.19.1 0.20.1: Datasets, transforms and models to specific to computer vision
 sys-apps/capa 7.4.0: The FLARE team's open-source tool to identify capabilities in executable files.
 sys-apps/kylemanna-systemd-utils 20220116-r1: Random systemd utilities.
 sys-apps/seatools 5.1.182: Quick diagnostic tool that checks the health of your drive.
