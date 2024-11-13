@@ -180,8 +180,6 @@ sys-devel/llvm:exegesis - Enable performance counter support for llvm-exegesis t
 sys-devel/llvm:ncurses - Support querying terminal properties using ncurses' terminfo
 sys-devel/llvm:xar - Support dumping LLVM bitcode sections in Mach-O files (uses app-arch/xar)
 sys-devel/llvm:z3 - Enable support for sci-mathematics/z3 constraint solver
-www-plugins/bypass-paywalls:chrome - Install file for Chrome and Chrome Beta
-www-plugins/bypass-paywalls:chromium - Install file for Chromium-based browsers
 x11-misc/rom-properties:achievements - Enable achievement pop-ups.
 x11-misc/rom-properties:astc - Enable ASTC texture support
 x11-misc/rom-properties:cli - Build rpcli command.
