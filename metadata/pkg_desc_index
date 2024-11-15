@@ -222,6 +222,7 @@ media-video/mvsfunc 10_p20230321-r2: mawen1250's VapourSynth functions
 media-video/open-in-mpv 0.1.0-r4: Host-side script for the Open in mpv Chrome extension.
 media-video/opentimelineio 0.17.0: Editorial interchange format and API (for use with Kdenlive).
 media-video/patreon-archiver 0.0.7: Tool to download data from Patreon.
+media-video/scc-tools 3.5: Scenarist Closed Caption format tools.
 media-video/scenechange 0.2.0.2-r1: Scene change detection plugin for VapourSynth
 media-video/vapoursynth 70.11: A video processing framework with simplicity in mind.
 media-video/vapoursynth-astdr 4-r3: Derainbow function for VapourSynth.
