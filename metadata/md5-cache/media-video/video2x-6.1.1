@@ -1,6 +1,6 @@
 BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-libs/ncnn dev-libs/spdlog media-video/ffmpeg
+DEPEND=dev-libs/boost:= dev-libs/ncnn:= dev-libs/spdlog:= media-gfx/realesrgan-ncnn-vulkan:= media-libs/opencv:= media-video/ffmpeg:=
 DESCRIPTION=A lossless video/GIF/image upscaler.
 EAPI=8
 HOMEPAGE=https://video2x.org/ https://github.com/k4yt3x/video2x
@@ -9,6 +9,6 @@ IUSE=nls
 KEYWORDS=~amd64
 LICENSE=GPL-3 LGPL-3
 SLOT=0
-SRC_URI=https://github.com/k4yt3x/video2x/archive/refs/tags/6.0.0.tar.gz -> video2x-6.0.0.tar.gz https://github.com/k4yt3x/libreal-esrgan-ncnn-vulkan/archive/3e633ddb4f642ad88bd0cd5352b17e64c8c32a61.tar.gz -> video2x-libreal-esrgan-ncnn-vulkan-3e633ddb4f642ad88bd0cd5352b17e64c8c32a61.tar.gz
+SRC_URI=https://github.com/k4yt3x/video2x/archive/refs/tags/6.1.1.tar.gz -> video2x-6.1.1.tar.gz https://github.com/k4yt3x/libreal-esrgan-ncnn-vulkan/archive/cd68df6f98f036fcc9e7d63597ea6faa427c2d2d.tar.gz -> video2x-libreal-esrgan-ncnn-vulkan-cd68df6f98f036fcc9e7d63597ea6faa427c2d2d.tar.gz
 _eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	10a50dfaf728b802fcfd37f8d0da9056
-_md5_=734d8c7119a68a687bb394d093a5a81a
+_md5_=0e9b265bb5e5d73275c9b9bb245801ed
