@@ -14,9 +14,9 @@ app-cdr/qpxtool 0.8.1.4: Enhanced (unofficial) qpxtool version.
 app-cdr/redumper 438: Low level CD dumper utility
 app-crypt/certbot-dns-route53 3.0.1: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
-app-emulation/basiliskii 1.0.0_p20241010: 68k Macintosh emulator (updated fork).
-app-emulation/pumpkinos 20241025: 
-app-emulation/sheepshaver 1.0.0_p20241010: Macintosh emulator (updated fork).
+app-emulation/basiliskii 1.0.0_p20241124: 68k Macintosh emulator (updated fork).
+app-emulation/pumpkinos 20241124: 
+app-emulation/sheepshaver 1.0.0_p20241124: Macintosh emulator (updated fork).
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.10.1: Command line csv viewer
 app-misc/czkawka 8.0.0: CLI frontend of Czkawka
@@ -25,7 +25,7 @@ app-misc/fx 35.0.0: Terminal JSON viewer.
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r3: CLI to track a USPS shipment by SMS.
-app-misc/zwave-js-server 1.40.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
+app-misc/zwave-js-server 1.40.2: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-mobilephone/revanced-cli 5.0.0: Command line application to use ReVanced.
 app-mobilephone/revanced-patches 5.0.2: Patches for ReVanced.
@@ -186,7 +186,7 @@ games-util/switch-library-manager 1.4.0: Manage Switch backups (console only).
 games-util/wiimms-iso-tools 3.05a-r2: A set of command line tools to maniuplate Wii/Gamecube images.
 games-util/wiimms-szs-tools 2.41b: A set of command line tools to maniuplate files of various Nintendo titles.
 kde-misc/kate-jinja2-highlighting 20190428-r1: Improved Jinja2 syntax highlighting for Kate.
-kde-misc/kate-stuff 20241108: Updated and improved Kate editor syntax files and code snippets.
+kde-misc/kate-stuff 20241108-r1: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.4.0: Time tracking with WakaTime for Kate.
 mail-mta/sendgmail 20240314: Tool that uses Gmail in order to mimic sendmail for 'git send-email'.
 media-fonts/amiri 1.000-r1: High quality Arabic Naskh-style font
