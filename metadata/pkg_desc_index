@@ -191,7 +191,7 @@ kde-misc/kate-wakatime 1.4.0: Time tracking with WakaTime for Kate.
 mail-mta/sendgmail 20240314: Tool that uses Gmail in order to mimic sendmail for 'git send-email'.
 media-fonts/amiri 1.001: High quality Arabic Naskh-style font
 media-fonts/noto 20241121: Google's font family that aims to support all the world's languages
-media-gfx/backgroundremover 0.2.8-r1: Remove backgrounds from images and video using AI.
+media-gfx/backgroundremover 0.2.8-r2: Remove backgrounds from images and video using AI.
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
