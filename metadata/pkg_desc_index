@@ -17,6 +17,7 @@ app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOM
 app-emulation/basiliskii 1.0.0_p20241124: 68k Macintosh emulator (updated fork).
 app-emulation/pumpkinos 20241124: 
 app-emulation/sheepshaver 1.0.0_p20241124: Macintosh emulator (updated fork).
+app-misc/baldwin 0.0.2: Simple home directory versioning.
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.10.1: Command line csv viewer
 app-misc/czkawka 8.0.0: CLI frontend of Czkawka
