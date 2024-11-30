@@ -282,6 +282,8 @@ net-misc/muffet 2.10.6: Fast website link checker in Go
 net-misc/phantomjs-bin 2.1.1: Headless browser (fork) intended for use with yt-dlp.
 net-misc/wayback-machine-downloader 2.3.1_p20240208: Download an entire website from the Wayback Machine
 net-p2p/xirvik-tools 0.5.0: Tools for Xirvik servers.
+net-print/epson-backend 1.2.6: Epson CUPS backend (ecbd).
+net-print/epson-printer-utility 1.1.3: Epson printer utility for USB only.
 net-proxy/charles 4.6.7: Web debugging proxy application.
 net-vpn/f5vpn 7245.2023.1006.1: This software can establish SSL VPN network access connection with F5 BIG-IP APM.
 net-vpn/vpn-slice 0.16.1: vpnc-script replacement for easy and secure split-tunnel VPN setup.
