@@ -60,7 +60,7 @@ dev-libs/libpietendo 0.9.0: Library for parsing Nintendo file formats.
 dev-libs/libtoolchain 0.8.0: Toolchain development library.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/nativefiledialog-extended 1.2.1: File dialog library with C and C++ bindings, based on nativefiledialog
-dev-libs/tihmstar-libgeneral 65: Stuff used in tsschecker.
+dev-libs/tihmstar-libgeneral 84: Stuff used in tsschecker.
 dev-libs/vulkan-memory-allocator 3.0.1_p20241028: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.7.4: Embedded SSL library.
 dev-libs/xbyak 7.22: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
@@ -162,7 +162,7 @@ games-emulation/86box 4.2.1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20241130: Wii U emulator.
 games-emulation/citra 20241029: A Nintendo 3DS emulator.
-games-emulation/dolphin 5.0_p20230810-r1: Gamecube and Wii game emulator
+games-emulation/dolphin 5.0_p20241130: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2024.10.01: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.19.1: libretro-db tools from RetroArch.
 games-emulation/lime3ds 2119.1: A Nintendo 3DS emulator.
