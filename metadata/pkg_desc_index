@@ -142,7 +142,7 @@ dev-util/spirv-cross 20241113-r1: Tool for performing reflection on SPIR-V.
 dev-util/sqlfluff 3.2.5: The SQL linter for humans.
 dev-util/vcpkg-tool 2024.11.12: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.2.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
-dev-util/vscode-vsce 2.1.2: VS Code extensions manager for extension developers.
+dev-util/vscode-vsce 3.2.1: VS Code extensions manager for extension developers.
 dev-util/wakatime-cli 1.106.0: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20241013: A code-completion & code-comprehension server.
 dev-util/yo 5.0.0-r1: CLI tool for running Yeoman generators
