@@ -23,6 +23,7 @@ app-misc/csvlens 0.10.1: Command line csv viewer
 app-misc/czkawka 8.0.0: CLI frontend of Czkawka
 app-misc/deark 1.6.8: Utility to extract data from various file formats.
 app-misc/fx 35.0.0: Terminal JSON viewer.
+app-misc/mutt-oauth2 0.0.1: Packaged, maintained version of contributed mutt_oauth2.py script.
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r3: CLI to track a USPS shipment by SMS.
