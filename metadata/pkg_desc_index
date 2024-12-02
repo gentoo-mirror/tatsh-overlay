@@ -162,7 +162,6 @@ games-emulation/86box 4.2.1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20241130: Wii U emulator.
 games-emulation/citra 20241029: A Nintendo 3DS emulator.
-games-emulation/dolphin 5.0_p20241130: Gamecube and Wii game emulator
 games-emulation/dosbox-x 2024.10.01: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.19.1: libretro-db tools from RetroArch.
 games-emulation/lime3ds 2119.1: A Nintendo 3DS emulator.
