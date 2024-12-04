@@ -75,10 +75,9 @@ src_compile() {
 		"--with-openssl=${S}/boringssl-${BORINGSSL_SHA}" \
 		"--with-zlib=${EPREFIX}/usr/$(get_libdir)" \
 		"--with-zstd=${EPREFIX}/usr/$(get_libdir)" \
-		--disable-shared \
 		--enable-ech \
 		--enable-ipv6 \
-		--enable-static \
+		--disable-static \
 		--enable-websockets \
 		LIBS="-pthread -lbrotlidec -lc++" \
 		USE_CURL_SSLKEYLOGFILE=true
@@ -87,7 +86,10 @@ src_compile() {
 }
 
 src_install() {
-	newbin "${CURL_VERSION}/${PN}-chrome-config" "${PN}-chrome"
+	pushd "${CURL_VERSION}" || die
+	emake DESTDIR="${D}" install
+	rm -fR "${D}/usr/share/man" "${D}/usr/share/aclocal" "${D}/usr/include" || die
+	popd
 	if use clients; then
 		local bn i
 		for i in chrome/curl_*; do
