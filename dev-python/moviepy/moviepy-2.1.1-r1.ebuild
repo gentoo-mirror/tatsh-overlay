@@ -23,6 +23,7 @@ RDEPEND="
 	dev-python/imageio-ffmpeg[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/proglog[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest
