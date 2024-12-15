@@ -282,7 +282,7 @@ net-im/ripcord 0.4.29-r5: Desktop chat client for Slack and Discord (not web-bas
 net-mail/gmailctl 0.10.7: Declarative configuration for Gmail filters
 net-misc/curl-impersonate 0.8.2: An active fork of curl-impersonate with more versions and build targets.
 net-misc/muffet 2.10.6: Fast website link checker in Go
-net-misc/phantomjs 20241214: Scriptable headless browser (forked and supports Qt 6).
+net-misc/phantomjs 2.1.1_p20241214: Scriptable headless browser (forked and supports Qt 6).
 net-misc/phantomjs-bin 2.1.1: Headless browser (fork) intended for use with yt-dlp.
 net-misc/wayback-machine-downloader 2.3.1_p20240208: Download an entire website from the Wayback Machine
 net-p2p/xirvik-tools 0.5.0: Tools for Xirvik servers.
