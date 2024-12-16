@@ -81,6 +81,12 @@ games-misc/render96ex:texture-fix - Enable texture bug fixes
 games-misc/render96ex:textures - Install high quality texture replacements
 games-misc/render96ex:us - Use the North American ROM
 games-util/raphnet-tech-adapter-manager:firmware - Install firmware
+llvm-core/llvm:binutils-plugin - Build the binutils plugin
+llvm-core/llvm:doc - Build and install the HTML documentation and regenerate the man pages
+llvm-core/llvm:exegesis - Enable performance counter support for llvm-exegesis tool that can be used to measure host machine instruction characteristics
+llvm-core/llvm:ncurses - Support querying terminal properties using ncurses' terminfo
+llvm-core/llvm:xar - Support dumping LLVM bitcode sections in Mach-O files (uses app-arch/xar)
+llvm-core/llvm:z3 - Enable support for sci-mathematics/z3 constraint solver
 media-fonts/noto:ancient - Install fonts for historical scripts
 media-fonts/noto:brahmi - Install font for Brahmi script
 media-fonts/noto:coptic - Install Coptic font
@@ -171,12 +177,6 @@ sys-apps/kylemanna-systemd-utils:rssh - Install rssh service
 sys-apps/kylemanna-systemd-utils:storj - Install storj-dataserv-client.service
 sys-apps/kylemanna-systemd-utils:tahoe - Install Tahoe-related services
 sys-apps/kylemanna-systemd-utils:youtube - Install YouTube TV service
-sys-devel/llvm:binutils-plugin - Build the binutils plugin
-sys-devel/llvm:doc - Build and install the HTML documentation and regenerate the man pages
-sys-devel/llvm:exegesis - Enable performance counter support for llvm-exegesis tool that can be used to measure host machine instruction characteristics
-sys-devel/llvm:ncurses - Support querying terminal properties using ncurses' terminfo
-sys-devel/llvm:xar - Support dumping LLVM bitcode sections in Mach-O files (uses app-arch/xar)
-sys-devel/llvm:z3 - Enable support for sci-mathematics/z3 constraint solver
 x11-misc/rom-properties:achievements - Enable achievement pop-ups.
 x11-misc/rom-properties:astc - Enable ASTC texture support
 x11-misc/rom-properties:cli - Build rpcli command.
