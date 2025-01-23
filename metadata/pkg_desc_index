@@ -14,7 +14,7 @@ app-cdr/qpxtool 0.8.1.6: Enhanced (unofficial) qpxtool version.
 app-cdr/redumper 452: Low level CD dumper utility
 app-crypt/certbot-dns-route53 3.1.0: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
-app-emulation/basiliskii 1.0.0_p20241230: 68k Macintosh emulator (updated fork).
+app-emulation/basiliskii 1.0.0_p20250123: 68k Macintosh emulator (updated fork).
 app-emulation/pumpkinos 20241126: 
 app-emulation/sheepshaver 1.0.0_p20250123: Macintosh emulator (updated fork).
 app-misc/baldwin 0.0.5: Simple home directory versioning.
@@ -77,7 +77,7 @@ dev-python/commandlines 0.4.1-r2: Routines for extracting information from fontT
 dev-python/curl-cffi 0.7.4: Python binding for curl-impersonate fork via cffi.
 dev-python/cxxfilt 0.3.0: Python interface to c++filt / abi::__cxa_demangle
 dev-python/decli 0.6.2: Minimal declarative cli tool.
-dev-python/django-stubs-ext 5.1.1: Monkey-patching and extensions for django-stubs.
+dev-python/django-stubs-ext 5.1.2: Monkey-patching and extensions for django-stubs.
 dev-python/dncil 1.0.2: Disassemble Common Intermediate Language (CIL) instructions.
 dev-python/dnfile 0.15.1: Parse .NET executable files.
 dev-python/gooey 1.0.8.1-r3: Turn any command line program into a full GUI application with one line.
@@ -166,10 +166,10 @@ games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20250123: Wii U emulator.
 games-emulation/citra 20241029: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2025.01.01: Cross-platform DOS emulation package.
-games-emulation/libretro-db 1.19.1: libretro-db tools from RetroArch.
+games-emulation/libretro-db 1.20.0: libretro-db tools from RetroArch.
 games-emulation/lime3ds 2119.1: A Nintendo 3DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20241110-r1: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20250108: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.68: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.34: PS3 emulator and debugger.
 games-emulation/sudachi 1.0.11-r1: Nintendo Switch emulator.
@@ -248,7 +248,7 @@ media-video/vapoursynth-realesrgan-ncnn-vulkan 20230628: RealESRGAN super resolu
 media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
-media-video/vhs-decode 0.3.0: Software defined VHS decoder.
+media-video/vhs-decode 0.3.1: Software defined VHS decoder.
 media-video/video2x 6.3.1: A lossless video/GIF/image upscaler.
 media-video/videoduplicatefinder 3.0_p20240808: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
@@ -276,7 +276,7 @@ mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
 mpv-shader/krig-bilateral 20231027: Shader for mpv.
 mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20240905: Downscaler shader for mpv.
-net-analyzer/http-toolkit-bin 1.19.3: Open source tool for debugging, testing and building with HTTP requests.
+net-analyzer/http-toolkit-bin 1.19.4: Open source tool for debugging, testing and building with HTTP requests.
 net-dns/pihole 5.18.4: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.25.2-r1: The Pi-hole FTL engine
 net-firewall/nftables-geoip 20240124: Generates nftables maps of geolocation IP address blocks.
