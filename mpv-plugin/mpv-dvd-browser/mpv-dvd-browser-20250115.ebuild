@@ -2,30 +2,28 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-LUA_COMPAT=( lua5-1 luajit )
-inherit lua
+MPV_REQ_USE="lua"
+USE_MPV="rdepend"
+inherit mpv-plugin
 
 DESCRIPTION="API to allow scripts to create interactive scrollable lists in mpv player."
-HOMEPAGE="https://github.com/CogentRedTester/mpv-scroll-list"
-SHA="1a12e4adf7ac583c9207b422d19b9c4d33f4c715"
+HOMEPAGE="https://github.com/CogentRedTester/mpv-dvd-browser"
+SHA="9d4d55b086eb1d4a92c6684060fe526ebee53630"
 SRC_URI="https://github.com/CogentRedTester/${PN}/archive/${SHA}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~ppc64"
+RDEPEND="media-video/lsdvd mpv-plugin/mpv-scroll-list"
 
-REQUIRED_USE="${LUA_REQUIRED_USE}"
-DEPEND="${LUA_DEPS}"
-RDEPEND="${DEPEND} media-video/mpv[lua]"
+MPV_PLUGIN_FILES=(
+	"${PN:4}.lua"
+)
 
 S="${WORKDIR}/${PN}-${SHA}"
 
-_install_module() {
-	insinto "$(lua_get_lmod_dir)"
-	doins "${PN:4}.lua"
-}
-
 src_install() {
-	lua_foreach_impl _install_module
-	einstalldocs
+	mpv-plugin_src_install
+	insinto /etc/mpv/script-opts
+	doins dvd_browser.conf
 }
