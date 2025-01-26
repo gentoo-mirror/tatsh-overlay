@@ -14,9 +14,9 @@ app-cdr/qpxtool 0.8.1.6: Enhanced (unofficial) qpxtool version.
 app-cdr/redumper 452: Low level CD dumper utility
 app-crypt/certbot-dns-route53 3.1.0: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
-app-emulation/basiliskii 1.0.0_p20250123: 68k Macintosh emulator (updated fork).
+app-emulation/basiliskii 1.0.0_p20250125: 68k Macintosh emulator (updated fork).
 app-emulation/pumpkinos 20241126: 
-app-emulation/sheepshaver 1.0.0_p20250123: Macintosh emulator (updated fork).
+app-emulation/sheepshaver 1.0.0_p20250125: Macintosh emulator (updated fork).
 app-misc/baldwin 0.0.5: Simple home directory versioning.
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.11.0: Command line csv viewer
@@ -30,7 +30,7 @@ app-misc/usps-track 0.0.1-r3: CLI to track a USPS shipment by SMS.
 app-misc/zwave-js-server 1.40.2: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-mobilephone/revanced-cli 5.0.0: Command line application to use ReVanced.
-app-mobilephone/revanced-patches 5.5.1: Patches for ReVanced.
+app-mobilephone/revanced-patches 5.9.0: Patches for ReVanced.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/altserver 0.0.5: AltServer for AltStore, but on-device.
 app-pda/ipad_charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
@@ -89,7 +89,7 @@ dev-python/jaconv 0.4.0: Pure-Python Japanese character interconverter.
 dev-python/llvmlite 0.43.0: A lightweight LLVM python binding for writing JIT compilers
 dev-python/log-symbols 0.0.14: Colored symbols for various log levels for Python.
 dev-python/minchoc 0.0.11: Minimal, Chocolatey-compatible NuGet server in a Django app.
-dev-python/moviepy 1.0.3 2.1.1-r1: Python library for video editing.
+dev-python/moviepy 1.0.3 2.1.2: Python library for video editing.
 dev-python/numba 0.60.0-r2: NumPy aware dynamic Python compiler using LLVM
 dev-python/poetry-plugin-mono-repo-deps 0.3.2: Poetry plugin for monorepos to replace path dependencies with named dependencies.
 dev-python/poetry-plugin-shell 1.0.1: Runs a subshell with virtual environment activated.
@@ -111,9 +111,9 @@ dev-python/realsr-ncnn-vulkan-python 1.0.6-r1: A Python FFI of nihui/realsr-ncnn
 dev-python/requirements-parser 0.11.0: Python module for parsing Pip requirement files.
 dev-python/rife-ncnn-vulkan-python 1.2.1-r1: A Python FFI of nihui/rife-ncnn-vulkan achieved with SWIG.
 dev-python/samplerate 0.2.1-r1: Python bindings for libsamplerate.
-dev-python/snowflake-connector-python 3.12.4: Snowflake database connector for Python.
+dev-python/snowflake-connector-python 3.13.0: Snowflake database connector for Python.
 dev-python/sounddevice 0.5.1: Python bindings to PortAudio and more.
-dev-python/soundfile 0.13.0: An audio library based on libsndfile, CFFI and NumPy
+dev-python/soundfile 0.13.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2-r1: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
 dev-python/stgpytools 1.0.0_p20241029: Collection of stuff that's useful in general Python programming.
@@ -143,7 +143,7 @@ dev-util/prettier 3.4.2: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
 dev-util/spirv-cross 20250123: Tool for performing reflection on SPIR-V.
 dev-util/sqlfluff 3.3.0: The SQL linter for humans.
-dev-util/vcpkg-tool 2025.01.20: Library manager for C/C++ (tool only).
+dev-util/vcpkg-tool 2025.01.24: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.2.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 3.2.1: VS Code extensions manager for extension developers.
 dev-util/wakatime-cli 1.112.1: Command line interface to WakaTime used by all WakaTime plugins
@@ -169,7 +169,7 @@ games-emulation/dosbox-x 2025.01.01: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.20.0: libretro-db tools from RetroArch.
 games-emulation/lime3ds 2119.1: A Nintendo 3DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
-games-emulation/mupen64plus-video-gliden64 4.0_p20250108: A new generation, open-source graphics plugin for N64 emulators.
+games-emulation/mupen64plus-video-gliden64 4.0_p20250125: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.68: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.34: PS3 emulator and debugger.
 games-emulation/sudachi 1.0.11-r1: Nintendo Switch emulator.
@@ -202,7 +202,7 @@ media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728-r1: SRMD super resolution implemented with ncnn library.
 media-libs/libspng 0.7.4-r1: Simple, modern libpng alternative.
-media-libs/vs-denoise 1.0.0_p20250119: VapourSynth denoising, regression, and motion compensation functions
+media-libs/vs-denoise 1.0.0_p20250125: VapourSynth denoising, regression, and motion compensation functions
 media-libs/vsaa 1.11.2: Functions and utils related to VapourSynth.
 media-libs/vsexprtools 1.7.1: VapourSynth functions and helpers for writing RPN expressions.
 media-libs/vskernels 3.3.1: Kernel objects for scaling and format conversion within VapourSynth.
