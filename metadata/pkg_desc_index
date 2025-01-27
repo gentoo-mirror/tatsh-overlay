@@ -92,7 +92,7 @@ dev-python/minchoc 0.0.11: Minimal, Chocolatey-compatible NuGet server in a Djan
 dev-python/moviepy 1.0.3 2.1.2: Python library for video editing.
 dev-python/numba 0.60.0-r2 0.61.0: NumPy aware dynamic Python compiler using LLVM
 dev-python/poetry-plugin-mono-repo-deps 0.3.2: Poetry plugin for monorepos to replace path dependencies with named dependencies.
-dev-python/poetry-plugin-shell 1.0.1: Runs a subshell with virtual environment activated.
+dev-python/poetry-plugin-shell 1.0.1-r1: Runs a subshell with virtual environment activated.
 dev-python/poetry-plugin-up 0.9.0: A plugin that allows the export of locked packages to various formats
 dev-python/proglog 0.1.10: Progress logging system for Python.
 dev-python/pyaaf2 1.7.1-r1: Read and write Advanced Authoring Format (AAF) files.
