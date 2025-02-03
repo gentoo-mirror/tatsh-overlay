@@ -11,13 +11,13 @@ app-arch/zarchive 0.1.1_p20240721: Library for creating and reading zstd-compres
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/qpxtool 0.8.1.6: Enhanced (unofficial) qpxtool version.
-app-cdr/redumper 452: Low level CD dumper utility
+app-cdr/redumper 461: Low level CD dumper utility
 app-crypt/certbot-dns-route53 3.1.0: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
-app-emulation/basiliskii 1.0.0_p20250125: 68k Macintosh emulator (updated fork).
+app-emulation/basiliskii 1.0.0_p20250131: 68k Macintosh emulator (updated fork).
 app-emulation/pumpkinos 20241126: 
-app-emulation/sheepshaver 1.0.0_p20250125: Macintosh emulator (updated fork).
-app-misc/baldwin 0.0.5: Simple home directory versioning.
+app-emulation/sheepshaver 1.0.0_p20250131: Macintosh emulator (updated fork).
+app-misc/baldwin 0.0.7: Simple home directory versioning.
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.11.0: Command line csv viewer
 app-misc/czkawka 8.0.0: CLI frontend of Czkawka
@@ -48,7 +48,7 @@ dev-cpp/cli11 2.4.2: Command line parser for C++11
 dev-cpp/cpp-jwt 1.5.0_p20240211: JSON Web Token library for C++
 dev-cpp/cpprestsdk 2.10.19-r3: A Microsoft project for cloud-based client-server communication.
 dev-cpp/tracy 0.11.1: C++ frame profiler
-dev-db/dbeaver-bin 24.3.3: Free universal database tool (community edition).
+dev-db/dbeaver-bin 24.3.4: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
 dev-db/litecli 1.14.0: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-db/snowflake-cli 3.3.0: CLI to Snowflake database.
@@ -62,7 +62,7 @@ dev-libs/libtoolchain 0.8.0: Toolchain development library.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/nativefiledialog-extended 1.2.1: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 84: Stuff used in tsschecker.
-dev-libs/vulkan-memory-allocator 3.0.1_p20250117: Easy to integrate Vulkan memory allocation library
+dev-libs/vulkan-memory-allocator 3.0.1_p20250129: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.7.6: Embedded SSL library.
 dev-libs/xbyak 7.22: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-ml/cpu 2.0.0: Pin current process to given core number.
@@ -90,7 +90,7 @@ dev-python/llvmlite 0.43.0 0.44.0: A lightweight LLVM python binding for writing
 dev-python/log-symbols 0.0.14: Colored symbols for various log levels for Python.
 dev-python/minchoc 0.0.11: Minimal, Chocolatey-compatible NuGet server in a Django app.
 dev-python/moviepy 1.0.3 2.1.2: Python library for video editing.
-dev-python/numba 0.60.0-r2 0.61.0: NumPy aware dynamic Python compiler using LLVM
+dev-python/numba 0.60.0-r2: NumPy aware dynamic Python compiler using LLVM
 dev-python/poetry-plugin-mono-repo-deps 0.3.2: Poetry plugin for monorepos to replace path dependencies with named dependencies.
 dev-python/poetry-plugin-shell 1.0.1-r1: Runs a subshell with virtual environment activated.
 dev-python/poetry-plugin-up 0.9.0: A plugin that allows the export of locked packages to various formats
@@ -111,12 +111,12 @@ dev-python/realsr-ncnn-vulkan-python 1.0.6-r1: A Python FFI of nihui/realsr-ncnn
 dev-python/requirements-parser 0.11.0: Python module for parsing Pip requirement files.
 dev-python/rife-ncnn-vulkan-python 1.2.1-r1: A Python FFI of nihui/rife-ncnn-vulkan achieved with SWIG.
 dev-python/samplerate 0.2.1-r1: Python bindings for libsamplerate.
-dev-python/snowflake-connector-python 3.13.0: Snowflake database connector for Python.
+dev-python/snowflake-connector-python 3.13.2: Snowflake database connector for Python.
 dev-python/sounddevice 0.5.1: Python bindings to PortAudio and more.
 dev-python/soundfile 0.13.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2-r1: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
-dev-python/stgpytools 1.0.0_p20241029: Collection of stuff that's useful in general Python programming.
+dev-python/stgpytools 1.0.0_p20250202: Collection of stuff that's useful in general Python programming.
 dev-python/toml 0.10.2: Python library for TOML.
 dev-python/typer 0.15.1: Create CLIs with Python type hints.
 dev-python/useful-types 0.2.1: Types that are usually re-used across projects.
@@ -132,18 +132,18 @@ dev-util/bytecode-viewer-bin 2.13.0: JAR and Android APK reverse engineering sui
 dev-util/cmake-format 0.6.13-r3: Source code formatter for CMake files.
 dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
 dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
-dev-util/commitizen 4.1.0: Release management tool designed for teams (cz command).
+dev-util/commitizen 4.1.1: Release management tool designed for teams (cz command).
 dev-util/create-react-app 5.0.1: Create React apps with no build configuration.
 dev-util/cruft 2.16.0-r1: Fight back against the boilerplate monster.
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
-dev-util/flips 20250107: Floating IPS is a patcher for IPS and BPS files.
+dev-util/flips 20250128: Floating IPS is a patcher for IPS and BPS files.
 dev-util/ida-free 9.0.240925: Free version of the code analyzer.
 dev-util/nihstro 20240505: 3DS shader assembler and disassembler
 dev-util/prettier 3.4.2: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
 dev-util/spirv-cross 20250123: Tool for performing reflection on SPIR-V.
 dev-util/sqlfluff 3.3.0: The SQL linter for humans.
-dev-util/vcpkg-tool 2025.01.24: Library manager for C/C++ (tool only).
+dev-util/vcpkg-tool 2025.01.29: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.2.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 3.2.1: VS Code extensions manager for extension developers.
 dev-util/wakatime-cli 1.112.1: Command line interface to WakaTime used by all WakaTime plugins
@@ -163,7 +163,7 @@ games-arcade/outfox-serenity 3.0.3: The community pack content for Project OutFo
 games-arcade/stepmania 5.1.0_beta2_p20221114-r8: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 4.2.1: Emulator of x86-based machines based on PCem.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20250123-r1: Wii U emulator.
+games-emulation/cemu 2.0_p20250130: Wii U emulator.
 games-emulation/citra 20241029: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2025.01.01: Cross-platform DOS emulation package.
 games-emulation/libretro-db 1.20.0: libretro-db tools from RetroArch.
@@ -195,7 +195,7 @@ kde-misc/kate-wakatime 1.4.0: Time tracking with WakaTime for Kate.
 llvm-core/llvm 14.0.6-r5: Low Level Virtual Machine
 mail-mta/sendgmail 20240314: Tool that uses Gmail in order to mimic sendmail for 'git send-email'.
 media-fonts/amiri 1.001: High quality Arabic Naskh-style font
-media-fonts/noto 20250123: Google's font family that aims to support all the world's languages
+media-fonts/noto 20250203: Google's font family that aims to support all the world's languages
 media-gfx/backgroundremover 0.2.9: Remove backgrounds from images and video using AI.
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
@@ -248,7 +248,7 @@ media-video/vapoursynth-realesrgan-ncnn-vulkan 20230628: RealESRGAN super resolu
 media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
-media-video/vhs-decode 0.3.1: Software defined VHS decoder.
+media-video/vhs-decode 0.3.2: Software defined VHS decoder.
 media-video/video2x 6.3.1: A lossless video/GIF/image upscaler.
 media-video/videoduplicatefinder 3.0_p20250107: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
@@ -301,7 +301,7 @@ sys-apps/usbkill 1.0_rc4_p20160730-r4: An kill-switch that waits for a change on
 sys-auth/fprintd 1.94.4: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.8: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
-sys-kernel/msi-ec 20250121: Kernel module for the embedded controller of MSI laptops.
+sys-kernel/msi-ec 20250127: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.21-r3: Pi-hole Dashboard for stats and more
 www-apps/stash 0.27.2: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.12.3: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
