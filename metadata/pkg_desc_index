@@ -27,7 +27,7 @@ app-misc/mutt-oauth2 0.0.2: Packaged, maintained version of contributed mutt_oau
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r3: CLI to track a USPS shipment by SMS.
-app-misc/zwave-js-server 1.40.2: Small server wrapper around Z-Wave JS to access it via a WebSocket.
+app-misc/zwave-js-server 1.40.3: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-mobilephone/revanced-cli 5.0.0: Command line application to use ReVanced.
 app-mobilephone/revanced-patches 5.9.0: Patches for ReVanced.
@@ -90,7 +90,7 @@ dev-python/llvmlite 0.43.0 0.44.0: A lightweight LLVM python binding for writing
 dev-python/log-symbols 0.0.14: Colored symbols for various log levels for Python.
 dev-python/minchoc 0.0.11: Minimal, Chocolatey-compatible NuGet server in a Django app.
 dev-python/moviepy 1.0.3 2.1.2: Python library for video editing.
-dev-python/numba 0.60.0-r2: NumPy aware dynamic Python compiler using LLVM
+dev-python/numba 0.60.0-r2 0.61.0: NumPy aware dynamic Python compiler using LLVM
 dev-python/poetry-plugin-mono-repo-deps 0.3.2: Poetry plugin for monorepos to replace path dependencies with named dependencies.
 dev-python/poetry-plugin-shell 1.0.1-r1: Runs a subshell with virtual environment activated.
 dev-python/poetry-plugin-up 0.9.0: A plugin that allows the export of locked packages to various formats
@@ -282,7 +282,7 @@ net-dns/pihole-ftl 5.25.2-r1: The Pi-hole FTL engine
 net-firewall/nftables-geoip 20240124: Generates nftables maps of geolocation IP address blocks.
 net-im/ripcord 0.4.29-r5: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.11.0: Declarative configuration for Gmail filters
-net-misc/curl-impersonate 0.9.0: An active fork of curl-impersonate with more versions and build targets.
+net-misc/curl-impersonate 0.9.1: An active fork of curl-impersonate with more versions and build targets.
 net-misc/muffet 2.10.7: Fast website link checker in Go
 net-misc/phantomjs 2.1.1_p20241214: Scriptable headless browser (forked and supports Qt 6).
 net-misc/wayback-machine-downloader 2.3.1_p20240208: Download an entire website from the Wayback Machine
