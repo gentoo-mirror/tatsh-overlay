@@ -90,6 +90,7 @@ dev-python/llvmlite 0.43.0 0.44.0: A lightweight LLVM python binding for writing
 dev-python/log-symbols 0.0.14: Colored symbols for various log levels for Python.
 dev-python/minchoc 0.0.11: Minimal, Chocolatey-compatible NuGet server in a Django app.
 dev-python/moviepy 1.0.3 2.1.2: Python library for video editing.
+dev-python/msgspec 0.19.0: Fast serialization and validation library.
 dev-python/numba 0.60.0-r2 0.61.0: NumPy aware dynamic Python compiler using LLVM
 dev-python/poetry-plugin-mono-repo-deps 0.3.2: Poetry plugin for monorepos to replace path dependencies with named dependencies.
 dev-python/poetry-plugin-shell 1.0.1-r1: Runs a subshell with virtual environment activated.
@@ -293,7 +294,7 @@ net-proxy/charles 4.6.7: Web debugging proxy application.
 net-vpn/f5vpn 7245.2023.1006.1: This software can establish SSL VPN network access connection with F5 BIG-IP APM.
 net-vpn/vpn-slice 0.16.1: vpnc-script replacement for easy and secure split-tunnel VPN setup.
 sci-libs/torchvision 0.19.1 0.20.1: Datasets, transforms and models to specific to computer vision
-sys-apps/capa 8.0.1: The FLARE team's open-source tool to identify capabilities in executable files.
+sys-apps/capa 8.0.1-r1: The FLARE team's open-source tool to identify capabilities in executable files.
 sys-apps/kylemanna-systemd-utils 20220116-r1: Random systemd utilities.
 sys-apps/seatools 5.1.182: Quick diagnostic tool that checks the health of your drive.
 sys-apps/tinkup 1.0_p20240930: Firmware update utility for the RetroTINK family of retro gaming devices.
