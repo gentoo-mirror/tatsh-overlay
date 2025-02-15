@@ -12,4 +12,4 @@ RDEPEND=dev-libs/hyphen dev-libs/icu:= dev-libs/libgcrypt dev-libs/libtasn1 dev-
 SLOT=6/6.212
 SRC_URI=https://github.com/movableink/webkit/archive/7e43fe7000b319ce68334c09eed1031642099726.tar.gz -> qtwebkit-6.212_p20241223-7e43fe7.tar.gz
 _eclasses_=toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	10a50dfaf728b802fcfd37f8d0da9056
-_md5_=613fb6e95e4cd00c567cc918033132c1
+_md5_=1c465c293a3d9faf6643cd7c1902e848
