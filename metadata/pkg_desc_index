@@ -117,6 +117,7 @@ dev-python/sounddevice 0.5.1: Python bindings to PortAudio and more.
 dev-python/soundfile 0.13.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2-r1: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
+dev-python/stashapp-tools 0.2.57: A python library for interfacing with a stashapp's API.
 dev-python/stgpytools 1.0.0_p20250202: Collection of stuff that's useful in general Python programming.
 dev-python/toml 0.10.2: Python library for TOML.
 dev-python/typer 0.15.1: Create CLIs with Python type hints.
