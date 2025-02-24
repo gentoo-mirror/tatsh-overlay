@@ -1,5 +1,6 @@
 DEFINED_PHASES=compile install prepare
 DEPEND=media-libs/libsdl2
+DESCRIPTION=PumpkinOS is a re-implementation of PalmOS.
 EAPI=8
 HOMEPAGE=https://github.com/migueletto/PumpkinOS https://pmig96.wordpress.com/category/palmos/
 INHERIT=desktop wrapper
@@ -7,6 +8,6 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=media-libs/libsdl2
 SLOT=0
-SRC_URI=https://github.com/migueletto/PumpkinOS/archive/b8c7c0c66c9664e8b8ae837b327dae823708cac3.tar.gz -> pumpkinos-b8c7c0c.tar.gz
+SRC_URI=https://github.com/migueletto/PumpkinOS/archive/c892e282d154d2598fc5c6185403ca1b11132bd9.tar.gz -> pumpkinos-c892e28.tar.gz
 _eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	wrapper	11a2a3bd712784986679b60a0cab34a0
-_md5_=24b16f453e6c58b9c05d68b847e3e453
+_md5_=673c53c722098102307654e642bc0e00

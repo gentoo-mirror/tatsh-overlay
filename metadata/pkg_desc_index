@@ -15,7 +15,7 @@ app-cdr/redumper 487: Low level CD dumper utility
 app-crypt/certbot-dns-route53 3.2.0: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
 app-emulation/basiliskii 1.0.0_p20250216: 68k Macintosh emulator (updated fork).
-app-emulation/pumpkinos 20250223: 
+app-emulation/pumpkinos 20250224: PumpkinOS is a re-implementation of PalmOS.
 app-emulation/sheepshaver 1.0.0_p20250216: Macintosh emulator (updated fork).
 app-misc/baldwin 0.0.7: Simple home directory versioning.
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
@@ -30,7 +30,7 @@ app-misc/usps-track 0.0.1-r3: CLI to track a USPS shipment by SMS.
 app-misc/zwave-js-server 1.40.3: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-mobilephone/revanced-cli 5.0.0: Command line application to use ReVanced.
-app-mobilephone/revanced-patches 5.9.0: Patches for ReVanced.
+app-mobilephone/revanced-patches 5.12.0: Patches for ReVanced.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/altserver 0.0.5: AltServer for AltStore, but on-device.
 app-pda/ipad_charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
@@ -172,7 +172,7 @@ games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulato
 games-emulation/mupen64plus-video-gliden64 4.0_p20250209: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.69: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.34: PS3 emulator and debugger.
-games-emulation/sudachi 1.0.11-r1: Nintendo Switch emulator.
+games-emulation/sudachi 1.0.14: Nintendo Switch emulator.
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.8.20: Original Xbox emulator.
 games-emulation/yuzu 0.1734-r3: Nintendo Switch emulator.
@@ -195,7 +195,7 @@ kde-misc/kate-wakatime 1.4.0: Time tracking with WakaTime for Kate.
 llvm-core/llvm 14.0.6-r5: Low Level Virtual Machine
 mail-mta/sendgmail 20240314: Tool that uses Gmail in order to mimic sendmail for 'git send-email'.
 media-fonts/amiri 1.001: High quality Arabic Naskh-style font
-media-fonts/noto 20250204: Google's font family that aims to support all the world's languages
+media-fonts/noto 20250224: Google's font family that aims to support all the world's languages
 media-gfx/backgroundremover 0.2.9: Remove backgrounds from images and video using AI.
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
@@ -303,7 +303,7 @@ sys-apps/usbkill 1.0_rc4_p20160730-r4: An kill-switch that waits for a change on
 sys-auth/fprintd 1.94.4: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.9: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
-sys-kernel/msi-ec 20250222: Kernel module for the embedded controller of MSI laptops.
+sys-kernel/msi-ec 20250224: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.21-r3: Pi-hole Dashboard for stats and more
 www-apps/stash 0.27.2: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.12.3: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
