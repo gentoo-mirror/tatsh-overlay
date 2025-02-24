@@ -143,7 +143,7 @@ dev-util/nihstro 20240505: 3DS shader assembler and disassembler
 dev-util/prettier 3.5.2: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
 dev-util/sqlfluff 3.3.1: The SQL linter for humans.
-dev-util/vcpkg-tool 2025.01.29: Library manager for C/C++ (tool only).
+dev-util/vcpkg-tool 2025.02.11: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.2.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 3.2.1: VS Code extensions manager for extension developers.
 dev-util/wakatime-cli 1.112.1: Command line interface to WakaTime used by all WakaTime plugins
@@ -222,7 +222,7 @@ media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
 media-video/fmtconv 30_p20230901: Format conversion tools for Vapoursynth
 media-video/havsfunc 33_p20241013: Holy's ported AviSynth functions for VapourSynth
 media-video/instagram-archiver 0.2.1-r1: Tool to download data from an Instagram profile you have access to.
-media-video/magewell-pro-capture 1.3.0.4390: Magewell Pro Capture driver.
+media-video/magewell-pro-capture 1.3.0.4418: Magewell Pro Capture driver.
 media-video/mvsfunc 10_p20230321-r2: mawen1250's VapourSynth functions
 media-video/open-in-mpv 0.1.0-r4: Host-side script for the Open in mpv Chrome extension.
 media-video/opentimelineio 0.17.0: Editorial interchange format and API (for use with Kdenlive).
@@ -282,7 +282,7 @@ net-dns/pihole-ftl 5.25.2-r1: The Pi-hole FTL engine
 net-firewall/nftables-geoip 20240124: Generates nftables maps of geolocation IP address blocks.
 net-im/ripcord 0.4.29-r5: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmailctl 0.11.0: Declarative configuration for Gmail filters
-net-misc/curl-impersonate 0.9.1: An active fork of curl-impersonate with more versions and build targets.
+net-misc/curl-impersonate 0.9.3: An active fork of curl-impersonate with more versions and build targets.
 net-misc/muffet 2.10.8: Fast website link checker in Go
 net-misc/phantomjs 2.1.1_p20241214: Scriptable headless browser (forked and supports Qt 6).
 net-misc/wayback-machine-downloader 2.3.1_p20240208: Download an entire website from the Wayback Machine
