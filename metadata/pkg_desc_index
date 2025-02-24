@@ -3,7 +3,7 @@ acct-user/pihole 0-r1: user for pihole
 app-admin/awscli-plugin-endpoint 0.4-r4: Provides service endpoint configuration per service on profile.
 app-admin/mb8611 0.0.1: CLI tool and library for managing the Motorola MB8611 modem and other devices.
 app-admin/padd 3.11.1: PADD provides in-depth information about your Pi-hole.
-app-arch/asar 3.2.18: Create Electron app packages.
+app-arch/asar 3.3.1: Create Electron app packages.
 app-arch/bitrock-unpacker 20160622: Bitrock unpacking script.
 app-arch/pychoco 0.1.1-r1: Minimal choco command for use on non-Windows platforms.
 app-arch/unalz 0.65: Unpack ALZ archives.
@@ -11,15 +11,15 @@ app-arch/zarchive 0.1.1_p20240721: Library for creating and reading zstd-compres
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/qpxtool 0.8.1.6: Enhanced (unofficial) qpxtool version.
-app-cdr/redumper 461: Low level CD dumper utility
-app-crypt/certbot-dns-route53 3.1.0: Route53 DNS Authenticator plugin for Certbot
+app-cdr/redumper 487: Low level CD dumper utility
+app-crypt/certbot-dns-route53 3.2.0: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
-app-emulation/basiliskii 1.0.0_p20250131: 68k Macintosh emulator (updated fork).
-app-emulation/pumpkinos 20250201: 
-app-emulation/sheepshaver 1.0.0_p20250131: Macintosh emulator (updated fork).
+app-emulation/basiliskii 1.0.0_p20250216: 68k Macintosh emulator (updated fork).
+app-emulation/pumpkinos 20250223: 
+app-emulation/sheepshaver 1.0.0_p20250216: Macintosh emulator (updated fork).
 app-misc/baldwin 0.0.7: Simple home directory versioning.
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
-app-misc/csvlens 0.11.0: Command line csv viewer
+app-misc/csvlens 0.12.0: Command line csv viewer
 app-misc/czkawka 8.0.0: CLI frontend of Czkawka
 app-misc/deark 1.6.8: Utility to extract data from various file formats.
 app-misc/fx 35.0.0: Terminal JSON viewer.
@@ -43,15 +43,15 @@ app-portage/upkeep 1.5.0: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 11.3.0: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20241216: A code-completion engine for Vim.
-dev-build/node-gyp 11.0.0: Node.js native addon build tool.
+dev-build/node-gyp 11.1.0: Node.js native addon build tool.
 dev-cpp/cli11 2.4.2: Command line parser for C++11
 dev-cpp/cpp-jwt 1.5.0_p20240211: JSON Web Token library for C++
 dev-cpp/cpprestsdk 2.10.19-r3: A Microsoft project for cloud-based client-server communication.
 dev-cpp/tracy 0.11.1: C++ frame profiler
-dev-db/dbeaver-bin 24.3.4: Free universal database tool (community edition).
+dev-db/dbeaver-bin 24.3.5: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
 dev-db/litecli 1.14.4: CLI for SQLite Databases with auto-completion and syntax highlighting.
-dev-db/snowflake-cli 3.3.0: CLI to Snowflake database.
+dev-db/snowflake-cli 3.4.1: CLI to Snowflake database.
 dev-db/snowsql 1.3.2: Lame database tool.
 dev-libs/bincookie 0.1.7: Library to parse Apple's binarycookies format.
 dev-libs/corecrypto 2023-r1: Low-level cryptographic primitives from Apple.
@@ -62,9 +62,9 @@ dev-libs/libtoolchain 0.8.0: Toolchain development library.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/nativefiledialog-extended 1.2.1: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 84: Stuff used in tsschecker.
-dev-libs/vulkan-memory-allocator 3.0.1_p20250129: Easy to integrate Vulkan memory allocation library
+dev-libs/vulkan-memory-allocator 3.0.1_p20250205: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.7.6: Embedded SSL library.
-dev-libs/xbyak 7.23: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-libs/xbyak 7.24: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-ml/cpu 2.0.0: Pin current process to given core number.
 dev-ml/iso8601 0.2.6: Parser and printer for date-times in ISO8601.
 dev-ml/mparser 1.3: A simple monadic parser combinator library for OCaml.
@@ -72,12 +72,12 @@ dev-ml/parany 14.0.1: Parallelize any computation.
 dev-ml/shell 0.17.0: Yet another implementation of fork and exec and related functionality.
 dev-ml/toml 7.1.0: OCaml library for TOML.
 dev-python/benc 2019.8.1-r4: Bencoder in 100 lines of modern Python
-dev-python/colored 2.2.5: Very simple Python library for color and formatting in terminal
+dev-python/colored 2.3.0: Very simple Python library for color and formatting in terminal
 dev-python/commandlines 0.4.1-r2: Routines for extracting information from fontTools glyphs
-dev-python/curl-cffi 0.7.2 0.7.4: Python binding for curl-impersonate fork via cffi.
+dev-python/curl-cffi 0.7.1: Python binding for curl-impersonate fork via cffi.
 dev-python/cxxfilt 0.3.0: Python interface to c++filt / abi::__cxa_demangle
 dev-python/decli 0.6.2: Minimal declarative cli tool.
-dev-python/django-stubs-ext 5.1.2: Monkey-patching and extensions for django-stubs.
+dev-python/django-stubs-ext 5.1.3: Monkey-patching and extensions for django-stubs.
 dev-python/dncil 1.0.2: Disassemble Common Intermediate Language (CIL) instructions.
 dev-python/dnfile 0.15.1: Parse .NET executable files.
 dev-python/gooey 1.0.8.1-r3: Turn any command line program into a full GUI application with one line.
@@ -99,12 +99,12 @@ dev-python/proglog 0.1.10: Progress logging system for Python.
 dev-python/pyaaf2 1.7.1-r1: Read and write Advanced Authoring Format (AAF) files.
 dev-python/pygtrie 2.5.0-r4: A pure Python trie data structure implementation.
 dev-python/pykakasi 2.3.0: Transliterate Japanese to Romaji.
-dev-python/pymatting 1.1.12_p20241110-r1: A Python library for alpha matting.
+dev-python/pymatting 1.1.13: A Python library for alpha matting.
 dev-python/pynput 1.7.7: Control and monitor input devices.
 dev-python/pytest-repeat 0.9.3: Plugin for Pytest to make it easy to repeat tests.
 dev-python/python-benedict 0.34.1: Dict subclass with various extras.
-dev-python/python-flirt 0.9.2: A Python library for parsing, compiling, and matching Fast Library Identification and Recognition Technology (FLIRT) signatures.
-dev-python/python-fsutil 0.14.1: High-level file-system operations.
+dev-python/python-flirt 0.9.7: A Python library for parsing, compiling, and matching Fast Library Identification and Recognition Technology (FLIRT) signatures.
+dev-python/python-fsutil 0.15.0: High-level file-system operations.
 dev-python/questionary 2.1.0: Python library to build command line user prompts.
 dev-python/re-wx 0.1.0-r2: A library for building modern declarative desktop applications in WX.
 dev-python/realcugan-ncnn-vulkan-python 1.0.2-r2: A Python FFI of nihui/realcugan-ncnn-vulkan achieved with SWIG.
