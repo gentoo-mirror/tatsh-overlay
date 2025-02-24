@@ -10,4 +10,4 @@ RDEPEND=media-video/mpv[lua]
 SLOT=0
 SRC_URI=https://github.com/4e6/mpv-reload/archive/60e6fb1c578aa9af80d725857dac8e439095b033.tar.gz -> reload-20250207.tar.gz
 _eclasses_=mpv-plugin	ef7c5ad8019deb98f4397f710be72dc3
-_md5_=bf0eca26c8721ec9b35d6fe90b693908
+_md5_=f0e2dd960dca0ce979d7cc904e6317df
