@@ -42,7 +42,6 @@ src_prepare() {
 
 src_configure() {
 	local mycmakeargs=(
-		-DBUILD_SHARED_LIBS=OFF
 		-DUSE_SYSTEM_NCNN=ON
 		-Wno-dev
 	)
