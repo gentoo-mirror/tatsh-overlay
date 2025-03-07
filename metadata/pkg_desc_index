@@ -171,7 +171,7 @@ games-emulation/lime3ds 2119.1: A Nintendo 3DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20250302: A new generation, open-source graphics plugin for N64 emulators.
 games-emulation/play 0.69: PlayStation 2 emulator.
-games-emulation/rpcs3 0.0.34: PS3 emulator and debugger.
+games-emulation/rpcs3 0.0.34 0.0.35: PS3 emulator and debugger.
 games-emulation/sudachi 1.0.14: Nintendo Switch emulator.
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.8.20: Original Xbox emulator.
@@ -249,7 +249,7 @@ media-video/vapoursynth-realesrgan-ncnn-vulkan 20230628: RealESRGAN super resolu
 media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
-media-video/vhs-decode 0.3.2: Software defined VHS decoder.
+media-video/vhs-decode 0.3.3: Software defined VHS decoder.
 media-video/video2x 6.4.0: A lossless video/GIF/image upscaler.
 media-video/video2x-qt6 6.4.0: Qt 6 GUI for Video2x.
 media-video/videoduplicatefinder 3.0_p20250107: Video duplicate finder.
@@ -278,7 +278,7 @@ mpv-shader/fsrcnnx 1.1: Shaders implemnting FSRCNNX for upscaling.
 mpv-shader/krig-bilateral 20231027: Shader for mpv.
 mpv-shader/nvscaler 20220224: NVIDIA image scaling v1.0.2 for mpv.
 mpv-shader/ssim-downscaler 20240905: Downscaler shader for mpv.
-net-analyzer/http-toolkit-bin 1.19.5: Open source tool for debugging, testing and building with HTTP requests.
+net-analyzer/http-toolkit-bin 1.20.0: Open source tool for debugging, testing and building with HTTP requests.
 net-dns/pihole 5.18.4: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.25.2-r1: The Pi-hole FTL engine
 net-firewall/nftables-geoip 20240124: Generates nftables maps of geolocation IP address blocks.
