@@ -1,6 +1,6 @@
 BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/poetry-core-1.9.0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?]
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=>=dev-python/gitpython-3.1.8 >=dev-python/colorama-0.3.7 >=dev-python/termcolor-2.0.0 >=dev-python/six-1.10.0 >=dev-python/click-8.0.1
+DEPEND=>=dev-python/gitpython-3.1.8[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/colorama-0.3.7[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/termcolor-2.0.0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/six-1.10.0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/click-8.0.1[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?]
 DESCRIPTION=Python implementation of git-up
 EAPI=8
 HOMEPAGE=https://github.com/msiemens/PyGitUp
@@ -8,10 +8,10 @@ INHERIT=distutils-r1
 IUSE=test python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
 KEYWORDS=~amd64 ~ppc64 ~x86
 LICENSE=MIT
-RDEPEND=>=dev-python/gitpython-3.1.8 >=dev-python/colorama-0.3.7 >=dev-python/termcolor-2.0.0 >=dev-python/six-1.10.0 >=dev-python/click-8.0.1 python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
+RDEPEND=>=dev-python/gitpython-3.1.8[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/colorama-0.3.7[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/termcolor-2.0.0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/six-1.10.0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/click-8.0.1[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/msiemens/PyGitUp/archive/eb7b155e3396ac645dc075665e87b16bc34e6827.tar.gz -> git-up-2.1.0_p20241007.tar.gz
 _eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	b7726144f5af59e186d66746d0f513e5	python-r1	fa2daad0051275fa416115c76e53b1de	distutils-r1	85ccd3b54a6533fb120ee52b7c76a3df
-_md5_=0ea4cf1df5d7edc4bb4de88ea0af3cf6
+_md5_=df65fb028b798c68b8235f120333cca5
