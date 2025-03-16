@@ -119,6 +119,7 @@ dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2-r1: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
 dev-python/stashapp-tools 0.2.57: A python library for interfacing with a stashapp's API.
 dev-python/stgpytools 1.0.0_p20250202: Collection of stuff that's useful in general Python programming.
+dev-python/teletype 1.3.4: A high-level cross platform tty library.
 dev-python/toml 0.10.2: Python library for TOML.
 dev-python/typer 0.15.2: Create CLIs with Python type hints.
 dev-python/useful-types 0.2.1: Types that are usually re-used across projects.
@@ -193,6 +194,7 @@ games-util/wiimms-szs-tools 2.42a: A set of command line tools to maniuplate fil
 kde-misc/kate-jinja2-highlighting 20250120: Improved Jinja2 syntax highlighting for Kate.
 kde-misc/kate-stuff 20241108-r1: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.4.0: Time tracking with WakaTime for Kate.
+kde-misc/kdotool 0.2.1: A xdotool-like tool to manipulate windows on KDE Wayland.
 llvm-core/llvm 14.0.6-r5: Low Level Virtual Machine
 mail-mta/sendgmail 20250306: Tool that uses Gmail in order to mimic sendmail for 'git send-email'.
 media-fonts/amiri 1.001: High quality Arabic Naskh-style font
@@ -225,6 +227,7 @@ media-video/fmtconv 30_p20230901: Format conversion tools for Vapoursynth
 media-video/havsfunc 33_p20241013: Holy's ported AviSynth functions for VapourSynth
 media-video/instagram-archiver 0.2.1-r1: Tool to download data from an Instagram profile you have access to.
 media-video/magewell-pro-capture 1.3.0.4418: Magewell Pro Capture driver.
+media-video/mnamer 2.5.5: Media file renaming and organising tool.
 media-video/mvsfunc 10_p20230321-r2: mawen1250's VapourSynth functions
 media-video/open-in-mpv 0.1.0-r4: Host-side script for the Open in mpv Chrome extension.
 media-video/opentimelineio 0.17.0: Editorial interchange format and API (for use with Kdenlive).
