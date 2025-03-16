@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Script that assists the user in configuring a selection of parameters with the purpose of increasing system performance.
+EAPI=8
+HOMEPAGE=https://gitlab.com/cscs/maxperfwiz
+KEYWORDS=~amd64
+LICENSE=CSL-1
+SLOT=0
+SRC_URI=https://gitlab.com/cscs/maxperfwiz/-/archive/68134696722510ef5ebd157fe44f4eac7c317166/maxperfwiz-68134696722510ef5ebd157fe44f4eac7c317166.tar.gz -> maxperfwiz-20241220.tar.gz
+_md5_=dccba1d0846a14a8d7b983ffac3f4414

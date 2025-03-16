@@ -298,6 +298,7 @@ net-vpn/vpn-slice 0.16.1: vpnc-script replacement for easy and secure split-tunn
 sci-libs/coinhsl 2.2.5: Harwell Solver Library (HSL).
 sys-apps/capa 9.1.0: The FLARE team's open-source tool to identify capabilities in executable files.
 sys-apps/kylemanna-systemd-utils 20220116-r1: Random systemd utilities.
+sys-apps/maxperfwiz 20241220: Script that assists the user in configuring a selection of parameters with the purpose of increasing system performance.
 sys-apps/seatools 5.1.182: Quick diagnostic tool that checks the health of your drive.
 sys-apps/tinkup 1.0_p20240930: Firmware update utility for the RetroTINK family of retro gaming devices.
 sys-apps/udev-usb-sync 0.12: Fine tune write cache and impose buffer limits when USB storage device is plugged.
