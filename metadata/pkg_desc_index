@@ -227,7 +227,7 @@ media-video/fmtconv 30_p20230901: Format conversion tools for Vapoursynth
 media-video/havsfunc 33_p20241013: Holy's ported AviSynth functions for VapourSynth
 media-video/instagram-archiver 0.2.1-r1: Tool to download data from an Instagram profile you have access to.
 media-video/magewell-pro-capture 1.3.0.4418: Magewell Pro Capture driver.
-media-video/mnamer 2.5.5: Media file renaming and organising tool.
+media-video/mnamer 2.5.5-r1: Media file renaming and organising tool.
 media-video/mvsfunc 10_p20230321-r2: mawen1250's VapourSynth functions
 media-video/open-in-mpv 0.1.0-r4: Host-side script for the Open in mpv Chrome extension.
 media-video/opentimelineio 0.17.0: Editorial interchange format and API (for use with Kdenlive).
