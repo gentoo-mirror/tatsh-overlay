@@ -198,7 +198,7 @@ llvm-core/llvm 14.0.6-r5: Low Level Virtual Machine
 mail-mta/sendgmail 20250306: Tool that uses Gmail in order to mimic sendmail for 'git send-email'.
 media-fonts/amiri 1.001: High quality Arabic Naskh-style font
 media-fonts/noto 20250321: Google's font family that aims to support all the world's languages
-media-gfx/backgroundremover 0.2.9: Remove backgrounds from images and video using AI.
+media-gfx/backgroundremover 0.2.9-r1: Remove backgrounds from images and video using AI.
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
 media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
@@ -215,7 +215,7 @@ media-video/domesday-duplicator 2.3_p20250305: Software for the 40Mhz USB-3.0 RF
 media-video/ffms2 5.0: An FFmpeg based library and VapourSynth plugin for easy frame accurate access
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
 media-video/fmtconv 30_p20230901: Format conversion tools for Vapoursynth
-media-video/havsfunc 33_p20250224: Holy's ported AviSynth functions for VapourSynth
+media-video/havsfunc 33_p20250224-r1: Holy's ported AviSynth functions for VapourSynth
 media-video/instagram-archiver 0.2.1-r1: Tool to download data from an Instagram profile you have access to.
 media-video/magewell-pro-capture 1.3.0.4418: Magewell Pro Capture driver.
 media-video/mnamer 2.5.5-r1: Media file renaming and organising tool.
@@ -302,7 +302,7 @@ sys-auth/libfprint 1.94.9: Library to add support for consumer fingerprint reade
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-kernel/msi-ec 20250318: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.21-r3: Pi-hole Dashboard for stats and more
-www-apps/stash 0.27.2: An organiser for your special videos, written in Go.
+www-apps/stash 0.28.1: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.13.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 x11-misc/input-remapper 2.1.1: An easy to use tool to change the behaviour of your input devices.
 x11-misc/mimeo 2023-r1: Open files by MIME-type or file name using regular expressions.

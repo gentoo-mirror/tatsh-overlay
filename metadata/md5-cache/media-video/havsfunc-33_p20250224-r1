@@ -2,15 +2,15 @@ BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_pytho
 DEFINED_PHASES=compile configure install prepare test
 DESCRIPTION=Holy's ported AviSynth functions for VapourSynth
 EAPI=8
-HOMEPAGE=http://forum.doom9.org/showthread.php?t=166582
+HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/havsfunc
 INHERIT=distutils-r1
 IUSE=python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
 KEYWORDS=~amd64
 LICENSE=GPL-2
-RDEPEND=>=media-video/ffms2-2.23.1 >=media-video/fmtconv-20 >=media-video/mvsfunc-8[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=media-video/scenechange-0.2.0-r2 >=media-video/vapoursynth-37[vspipe] >=media-video/vapoursynth-mvtools-17 >=media-video/vapoursynth-nnedi3-11 dev-python/vsutil[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] media-libs/vs-denoise[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] media-video/vapoursynth-eedi3 media-video/vapoursynth-fft3dfilter media-video/vs-miscfilters-obsolete media-video/znedi3 python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
+RDEPEND=>=media-video/ffms2-2.23.1 >=media-video/fmtconv-20 >=media-video/mvsfunc-8[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=media-video/scenechange-0.2.0-r2 >=media-video/vapoursynth-37[vspipe] >=media-video/vapoursynth-mvtools-17 >=media-video/vapoursynth-nnedi3-11 dev-python/vsutil[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] media-video/vs-jetpack[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] media-video/vapoursynth-eedi3 media-video/vapoursynth-fft3dfilter media-video/vs-miscfilters-obsolete media-video/znedi3 python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/havsfunc/archive/e06ee8a42269945d5fa0495539b1c13798390287.tar.gz -> havsfunc-33_p20250224.tar.gz
 _eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	b7726144f5af59e186d66746d0f513e5	python-r1	fa2daad0051275fa416115c76e53b1de	distutils-r1	85ccd3b54a6533fb120ee52b7c76a3df
-_md5_=3a68eb6c3626ddf477616e7495464857
+_md5_=7bb4b3b3796691cfad474cbc8f9ea7b5
