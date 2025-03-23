@@ -26,10 +26,10 @@ app-misc/mutt-oauth2 0.0.2: Packaged, maintained version of contributed mutt_oau
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.1-r3: CLI to track a USPS shipment by SMS.
-app-misc/zwave-js-server 1.40.3: Small server wrapper around Z-Wave JS to access it via a WebSocket.
+app-misc/zwave-js-server 3.0.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-mobilephone/revanced-cli 5.0.0: Command line application to use ReVanced.
-app-mobilephone/revanced-patches 5.13.0: Patches for ReVanced.
+app-mobilephone/revanced-patches 5.15.0: Patches for ReVanced.
 app-office/glabels 3.99_p20210206-r2: glabels label designer (now in Qt).
 app-pda/altserver 0.0.5: AltServer for AltStore, but on-device.
 app-pda/ipad_charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
@@ -116,7 +116,7 @@ dev-python/sounddevice 0.5.1: Python bindings to PortAudio and more.
 dev-python/soundfile 0.13.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2-r1: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
-dev-python/stashapp-tools 0.2.57: A python library for interfacing with a stashapp's API.
+dev-python/stashapp-tools 0.2.58: A python library for interfacing with a stashapp's API.
 dev-python/stgpytools 1.0.0_p20250202: Collection of stuff that's useful in general Python programming.
 dev-python/teletype 1.3.4: A high-level cross platform tty library.
 dev-python/toml 0.10.2: Python library for TOML.
