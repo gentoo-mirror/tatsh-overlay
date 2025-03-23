@@ -49,7 +49,6 @@ dev-cpp/cpprestsdk 2.10.19-r3: A Microsoft project for cloud-based client-server
 dev-cpp/tracy 0.11.1: C++ frame profiler
 dev-db/dbeaver-bin 25.0.0: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
-dev-db/litecli 1.14.4: CLI for SQLite Databases with auto-completion and syntax highlighting.
 dev-db/snowflake-cli 3.4.1: CLI to Snowflake database.
 dev-db/snowsql 1.3.2: Lame database tool.
 dev-libs/bincookie 0.1.7: Library to parse Apple's binarycookies format.
@@ -255,7 +254,6 @@ media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
 media-video/vhs-decode 0.3.3: Software defined VHS decoder.
 media-video/video2x 6.4.0: A lossless video/GIF/image upscaler.
 media-video/video2x-qt6 6.4.0: Qt 6 GUI for Video2x.
-media-video/videoduplicatefinder 3.0_p20250107: Video duplicate finder.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-video/ytarchive 0.5.0: Garbage YouTube live stream downloader.
