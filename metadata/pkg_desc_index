@@ -22,6 +22,7 @@ app-misc/csvlens 0.12.0: Command line csv viewer
 app-misc/czkawka 8.0.0: CLI frontend of Czkawka
 app-misc/deark 1.7.0: Utility to extract data from various file formats.
 app-misc/fx 35.0.0: Terminal JSON viewer.
+app-misc/mcontrolcenter 0.5.0: Allows you to change the settings of MSI laptops.
 app-misc/mutt-oauth2 0.0.2: Packaged, maintained version of contributed mutt_oauth2.py script.
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
@@ -117,7 +118,6 @@ dev-python/soundfile 0.13.1: An audio library based on libsndfile, CFFI and NumP
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
 dev-python/srmd-ncnn-vulkan-python 1.0.2-r1: A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG.
 dev-python/stashapp-tools 0.2.58: A python library for interfacing with a stashapp's API.
-dev-python/stgpytools 1.0.0_p20250202: Collection of stuff that's useful in general Python programming.
 dev-python/teletype 1.3.4: A high-level cross platform tty library.
 dev-python/toml 0.10.2: Python library for TOML.
 dev-python/typer 0.15.2: Create CLIs with Python type hints.
