@@ -12,7 +12,6 @@ app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/qpxtool 0.8.1.6: Enhanced (unofficial) qpxtool version.
 app-cdr/redumper 490: Low level CD dumper utility
-app-crypt/certbot-dns-route53 3.2.0: Route53 DNS Authenticator plugin for Certbot
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
 app-emulation/basiliskii 1.0.0_p20250216: 68k Macintosh emulator (updated fork).
 app-emulation/pumpkinos 20250224: PumpkinOS is a re-implementation of PalmOS.
