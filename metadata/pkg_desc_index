@@ -169,6 +169,7 @@ games-emulation/cemu 2.0_p20250319: Wii U emulator.
 games-emulation/citra 20241029: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2025.02.01: Cross-platform DOS emulation package.
 games-emulation/gopher64 1.0.13: N64 emulator written in Rust.
+games-emulation/gopher64-netplay-server 1.0.0: Netplay server for N64 emulators.
 games-emulation/libretro-db 1.20.0: libretro-db tools from RetroArch.
 games-emulation/lime3ds 2119.1: A Nintendo 3DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
