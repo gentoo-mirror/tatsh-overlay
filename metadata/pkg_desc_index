@@ -126,6 +126,7 @@ dev-python/viv-utils 0.8.0: Utilities for Vivisect.
 dev-python/vsutil 0.8.0-r3: A collection of general purpose Vapoursynth functions
 dev-python/waifu2x-ncnn-vulkan-python 1.0.4-r1: A Python FFI of nihui/waifu2x-ncnn-vulkan achieved with SWIG.
 dev-python/wingetty 1.0.0: WinGet repository server (REST API only).
+dev-qt/qdbus-symlink 0: Symbolic link qdbus -> qdbus6.
 dev-qt/qtquick3d 5.15.16: Qt module and API for defining 3D content in Qt QuickTools
 dev-qt/qtwebkit 6.212_p20241223: Community fork of QtWebKit.
 dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.

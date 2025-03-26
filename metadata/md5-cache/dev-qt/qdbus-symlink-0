@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Symbolic link qdbus -> qdbus6.
+EAPI=8
+HOMEPAGE=https://www.qt.io/
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=dev-qt/qttools:6
+SLOT=0
+_md5_=55e91e9e4ad68119d6a4260f99cc12f5
