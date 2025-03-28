@@ -306,6 +306,7 @@ sys-auth/fprintd 1.94.5: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.9: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-kernel/msi-ec 20250318: Kernel module for the embedded controller of MSI laptops.
+www-apps/anubis 1.15.0: Weighs the soul of incoming HTTP requests using proof-of-work to stop AI crawlers.
 www-apps/pihole-admin-lte 5.21-r3: Pi-hole Dashboard for stats and more
 www-apps/stash 0.28.1: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.13.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
