@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=media-libs/libsndfile media-libs/openal media-libs/glew:0 media-sound/mpg123-base >=media-libs/glfw-3.3.2 opus? ( media-libs/opus media-libs/opusfile ) sndfile? ( media-libs/libsndfile )
 SLOT=0
 SRC_URI=https://web.archive.org/web/20210903220219/https://github.com/GTAmodding/re3/archive/33abd1b4e7a7b19e2d09c796c481c3325c1e2902.zip -> relcs-20210902.zip https://github.com/aap/librw/archive/5501c4fdc7425ff926be59369a13593bb6c81b54.tar.gz -> relcs-librw-5501c4fdc7425ff926be59369a13593bb6c81b54.tar.gz
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	c0c9c21d01b8a96d2d736c554daedc57
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	c0c9c21d01b8a96d2d736c554daedc57
 _md5_=1ed22d355cc41aedabec7a2a623fe45c
