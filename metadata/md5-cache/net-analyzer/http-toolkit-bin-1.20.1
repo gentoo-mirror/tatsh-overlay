@@ -1,0 +1,16 @@
+DEFINED_PHASES=install postinst postrm preinst
+DESCRIPTION=Open source tool for debugging, testing and building with HTTP requests.
+EAPI=8
+HOMEPAGE=https://github.com/httptoolkit/httptoolkit-desktop https://httptoolkit.com/
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=desktop multilib-build pax-utils xdg
+IUSE=suid abi_x86_64
+KEYWORDS=-* ~amd64
+LICENSE=AGPL-3
+RDEPEND=app-accessibility/at-spi2-core:2[abi_x86_64(-)?] dev-libs/expat:0[abi_x86_64(-)?] dev-libs/glib:2[abi_x86_64(-)?] dev-libs/nspr:0[abi_x86_64(-)?] dev-libs/nss:0[abi_x86_64(-)?] dev-libs/wayland[abi_x86_64(-)?] media-libs/alsa-lib:0[abi_x86_64(-)?] media-libs/mesa:0[abi_x86_64(-)?] net-print/cups:0[abi_x86_64(-)?] sys-apps/dbus:0[abi_x86_64(-)?] sys-libs/zlib[abi_x86_64(-)?] x11-libs/cairo:0[abi_x86_64(-)?] x11-libs/gdk-pixbuf:2[abi_x86_64(-)?] x11-libs/gtk+:3[abi_x86_64(-)?] x11-libs/libdrm:0[abi_x86_64(-)?] x11-libs/libX11:0[abi_x86_64(-)?] x11-libs/libxcb:0/1.12[abi_x86_64(-)?] x11-libs/libXcomposite:0[abi_x86_64(-)?] x11-libs/libXdamage:0[abi_x86_64(-)?] x11-libs/libXext:0[abi_x86_64(-)?] x11-libs/libXfixes:0[abi_x86_64(-)?] x11-libs/libxkbcommon:0[abi_x86_64(-)?] x11-libs/libxkbfile:0[abi_x86_64(-)?] x11-libs/libXrandr:0[abi_x86_64(-)?] x11-libs/pango:0[abi_x86_64(-)?]
+REQUIRED_USE=|| ( abi_x86_64 )
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/httptoolkit/httptoolkit-desktop/releases/download/v1.20.1/HttpToolkit-1.20.1-linux-x64.zip -> http-toolkit-bin-1.20.1.zip https://raw.githubusercontent.com/httptoolkit/httptoolkit-desktop/main/src/icons/icon.svg https://raw.githubusercontent.com/httptoolkit/httptoolkit-desktop/main/src/icons/icon.png
+_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	multilib-build	9ac26ea006828266d235e2f0135429b5	pax-utils	5555f2e75744739fe100ee62c22d28fe	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
+_md5_=c45a4c12024fc04258fb1a6f9df276a0

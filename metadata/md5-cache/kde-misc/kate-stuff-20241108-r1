@@ -1,9 +1,0 @@
-DEFINED_PHASES=install
-DESCRIPTION=Updated and improved Kate editor syntax files and code snippets.
-EAPI=8
-HOMEPAGE=https://github.com/zaufi/kate-stuff
-KEYWORDS=~amd64 ~ppc64 ~x86
-LICENSE=MIT
-SLOT=0
-SRC_URI=https://github.com/zaufi/kate-stuff/archive/e49cd767daf63b93693ea39b22c65c430d78ab82.tar.gz -> kate-stuff-20241108.tar.gz
-_md5_=624aaae88d11c9325efb72961b2a2598

@@ -1,0 +1,17 @@
+BDEPEND=kde? ( dev-qt/qtbase ) app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-libs/nettle media-libs/libjpeg-turbo media-libs/libpng net-misc/curl sys-libs/libseccomp sys-libs/zlib gtk? ( x11-libs/gtk+:3 ) kde? ( dev-qt/qtcore dev-qt/qtdbus dev-qt/qtgui dev-qt/qtwidgets ) lz4? ( app-arch/lz4 ) lzo? ( dev-libs/lzo ) nls? ( sys-devel/gettext ) xfce? ( xfce-base/tumbler[curl] ) xml? ( dev-libs/tinyxml2 ) zstd? ( app-arch/zstd )
+DESCRIPTION=Shell extension for file managers to manage game ROMs and disc images.
+EAPI=8
+HOMEPAGE=https://github.com/GerbilSoft/rom-properties
+INHERIT=cmake
+IUSE=achievements +astc cli +crypt gtk kde nls +lz4 +lzo +pvr test +unice68 +xbox-360 xfce +xml +zstd
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/nettle media-libs/libjpeg-turbo media-libs/libpng net-misc/curl sys-libs/libseccomp sys-libs/zlib gtk? ( x11-libs/gtk+:3 ) kde? ( dev-qt/qtcore dev-qt/qtdbus dev-qt/qtgui dev-qt/qtwidgets ) lz4? ( app-arch/lz4 ) lzo? ( dev-libs/lzo ) nls? ( sys-devel/gettext ) xfce? ( xfce-base/tumbler[curl] ) xml? ( dev-libs/tinyxml2 ) zstd? ( app-arch/zstd )
+REQUIRED_USE=pvr? ( astc ) || ( cli gtk kde xfce )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/GerbilSoft/rom-properties/archive/refs/tags/v2.5.tar.gz -> rom-properties-2.5.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	c0c9c21d01b8a96d2d736c554daedc57
+_md5_=2beac12a6337b547c96e83fc46b7cd7c
