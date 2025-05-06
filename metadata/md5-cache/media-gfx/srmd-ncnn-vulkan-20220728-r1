@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=media-libs/vulkan-loader media-libs/libwebp:= dev-libs/ncnn:=[vulkan]
 SLOT=0
 SRC_URI=https://github.com/nihui/srmd-ncnn-vulkan/archive/refs/tags/20220728.tar.gz -> srmd-ncnn-vulkan-20220728.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f
 _md5_=f5dbc712c41eb2c4b6770c3b20f9a802
