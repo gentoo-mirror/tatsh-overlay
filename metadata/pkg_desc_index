@@ -171,7 +171,7 @@ games-emulation/cemu 2.0_p20250509: Wii U emulator.
 games-emulation/citra 20241029: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2025.05.03: Cross-platform DOS emulation package.
 games-emulation/gopher64 1.0.16: N64 emulator written in Rust.
-games-emulation/gopher64-netplay-server 1.0.0: Netplay server for N64 emulators.
+games-emulation/gopher64-netplay-server 1.0.2: Netplay server for N64 emulators.
 games-emulation/libretro-db 1.21.0: libretro-db tools from RetroArch.
 games-emulation/lime3ds 2119.1: A Nintendo 3DS emulator.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
@@ -309,7 +309,7 @@ sys-auth/libfprint 1.94.9: Library to add support for consumer fingerprint reade
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-kernel/installkernel-wsl 0.0.3: Script and installkernel hook to copy Linux kernel to the host system and update .wslconfig.
 sys-kernel/msi-ec 20250502: Kernel module for the embedded controller of MSI laptops.
-www-apps/anubis 1.16.0: Weighs the soul of incoming HTTP requests using proof-of-work to stop AI crawlers.
+www-apps/anubis 1.17.1: Weighs the soul of incoming HTTP requests using proof-of-work to stop AI crawlers.
 www-apps/pihole-admin-lte 5.21-r3: Pi-hole Dashboard for stats and more
 www-apps/stash 0.28.1: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.13.4: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
