@@ -133,7 +133,6 @@ dev-qt/qtwebkit 6.212_p20241223: Community fork of QtWebKit.
 dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9-r1: Single file executable that provides a complete Tcl and Tk runtime.
 dev-util/bytecode-viewer-bin 2.13.1: JAR and Android APK reverse engineering suite.
-dev-util/cmake-format 0.6.13-r3: Source code formatter for CMake files.
 dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
 dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
 dev-util/commitizen 4.6.3: Release management tool designed for teams (cz command).
