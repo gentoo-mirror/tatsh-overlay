@@ -126,7 +126,7 @@ dev-python/viv-utils 0.8.0: Utilities for Vivisect.
 dev-python/vsutil 0.8.0-r3: A collection of general purpose Vapoursynth functions
 dev-python/waifu2x-ncnn-vulkan-python 1.0.4-r1: A Python FFI of nihui/waifu2x-ncnn-vulkan achieved with SWIG.
 dev-python/wingetty 1.0.0: WinGet repository server (REST API only).
-dev-python/yt-dlp-utils 0.0.1: Utilities for programmatic use of yt-dlp.
+dev-python/yt-dlp-utils 0.0.3: Utilities for programmatic use of yt-dlp.
 dev-qt/qdbus-symlink 0: Symbolic link qdbus -> qdbus6.
 dev-qt/qtquick3d 5.15.16: Qt module and API for defining 3D content in Qt QuickTools
 dev-qt/qtwebkit 6.212_p20241223: Community fork of QtWebKit.
@@ -227,9 +227,9 @@ media-video/instagram-archiver 0.2.1-r1: Tool to download data from an Instagram
 media-video/magewell-pro-capture 1.3.0.4418: Magewell Pro Capture driver.
 media-video/mnamer 2.5.5-r1: Media file renaming and organising tool.
 media-video/mvsfunc 10_p20230321-r2: mawen1250's VapourSynth functions
-media-video/open-in-mpv 0.1.0-r4: Host-side script for the Open in mpv Chrome extension.
+media-video/open-in-mpv 0.1.2: Host-side script for the Open in mpv Chrome extension.
 media-video/opentimelineio 0.17.0: Editorial interchange format and API (for use with Kdenlive).
-media-video/patreon-archiver 0.1.1: Tool to download data from Patreon.
+media-video/patreon-archiver 0.1.2: Tool to download data from Patreon.
 media-video/scc-tools 3.5: Scenarist Closed Caption format tools.
 media-video/scenechange 0.2.0.2-r1: Scene change detection plugin for VapourSynth
 media-video/vapoursynth 70.11: A video processing framework with simplicity in mind.
