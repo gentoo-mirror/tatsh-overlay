@@ -167,7 +167,7 @@ games-emulation/86box 4.2.1: Emulator of x86-based machines based on PCem.
 games-emulation/ares 143: A cross-platform, open source, multi-system emulator, focusing on accuracy and preservation.
 games-emulation/azahar 2120.1: A Nintendo 3DS emulator.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
-games-emulation/cemu 2.0_p20250416: Wii U emulator.
+games-emulation/cemu 2.0_p20250509: Wii U emulator.
 games-emulation/citra 20241029: A Nintendo 3DS emulator.
 games-emulation/dosbox-x 2025.02.01: Cross-platform DOS emulation package.
 games-emulation/gopher64 1.0.16: N64 emulator written in Rust.
