@@ -16,7 +16,7 @@ app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOM
 app-emulation/basiliskii 1.0.0_p20250417: 68k Macintosh emulator (updated fork).
 app-emulation/pumpkinos 20250224: PumpkinOS is a re-implementation of PalmOS.
 app-emulation/sheepshaver 1.0.0_p20250417: Macintosh emulator (updated fork).
-app-misc/baldwin 0.0.8: Simple home directory versioning.
+app-misc/baldwin 0.0.9: Simple home directory versioning.
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.12.0: Command line csv viewer
 app-misc/czkawka 8.0.0: CLI frontend of Czkawka
@@ -283,6 +283,7 @@ net-dns/pihole 5.18.4: Network-wide ad blocking (core).
 net-dns/pihole-ftl 5.25.2-r1: The Pi-hole FTL engine
 net-firewall/nftables-geoip 20240124: Generates nftables maps of geolocation IP address blocks.
 net-im/ripcord 0.4.29-r5: Desktop chat client for Slack and Discord (not web-based).
+net-mail/gmail-archiver 0.0.3: Locally archive Gmail emails.
 net-mail/gmailctl 0.11.0: Declarative configuration for Gmail filters
 net-misc/curl-impersonate 0.9.5: An active fork of curl-impersonate with more versions and build targets.
 net-misc/muffet 2.10.9: Fast website link checker in Go
