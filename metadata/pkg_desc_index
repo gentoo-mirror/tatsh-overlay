@@ -61,7 +61,6 @@ dev-libs/libpietendo 0.9.0: Library for parsing Nintendo file formats.
 dev-libs/libtoolchain 0.8.0: Toolchain development library.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/nativefiledialog-extended 1.2.1: File dialog library with C and C++ bindings, based on nativefiledialog
-dev-libs/pugixml 1.15: Light-weight, simple, and fast XML parser for C++ with XPath support
 dev-libs/tihmstar-libgeneral 84: Stuff used in tsschecker.
 dev-libs/vulkan-memory-allocator 3.0.1_p20250508: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.8.0: Embedded SSL library.
