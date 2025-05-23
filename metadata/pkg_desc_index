@@ -10,7 +10,7 @@ app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.1_p20240721: Library for creating and reading zstd-compressed file archives (.zar)
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
-app-cdr/gendisc 0.0.3: Simple home directory versioning.
+app-cdr/gendisc 0.0.4: Simple home directory versioning.
 app-cdr/qpxtool 0.8.1.6: Enhanced (unofficial) qpxtool version.
 app-cdr/redumper 567: Low level CD dumper utility
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
