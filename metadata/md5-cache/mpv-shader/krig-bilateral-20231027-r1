@@ -1,0 +1,13 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=install postinst
+DESCRIPTION=Shader for mpv.
+EAPI=8
+HOMEPAGE=https://gist.github.com/igv/a015fc885d5c22e6891820ad89555637
+INHERIT=mpv-shader
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=media-video/mpv
+SLOT=0
+SRC_URI=https://gist.github.com/igv/a015fc885d5c22e6891820ad89555637/archive/038064821c5f768dfc6c00261535018d5932cdd5.zip -> krig-bilateral-20231027-0380648.zip
+_eclasses_=mpv-shader	ef5067b81dcb41f0bbd04b889c80f30c
+_md5_=ce60751168d69c6250d4e4f3c12cfc22

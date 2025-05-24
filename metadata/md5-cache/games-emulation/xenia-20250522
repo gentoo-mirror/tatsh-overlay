@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DEPEND=app-arch/snappy app-arch/zarchive app-arch/zstd dev-cpp/catch:0 dev-cpp/tomlplusplus dev-libs/capstone dev-libs/cxxopts dev-libs/date dev-libs/disruptorplus dev-libs/libfmt:= dev-libs/pugixml dev-libs/rapidcsv dev-libs/rapidjson dev-libs/tabulate dev-libs/utfcpp dev-libs/vulkan-memory-allocator dev-libs/xbyak dev-libs/xxhash dev-util/DirectXShaderCompiler dev-util/vulkan-headers media-libs/libsdl2 media-video/ffmpeg:= sys-libs/zlib
+DESCRIPTION=Xbox 360 emulator research project (Canary version).
+EAPI=8
+HOMEPAGE=https://github.com/xenia-canary/xenia-canary https://xenia.jp/
+LICENSE=MIT
+RDEPEND=app-arch/snappy app-arch/zarchive app-arch/zstd dev-cpp/catch:0 dev-cpp/tomlplusplus dev-libs/capstone dev-libs/cxxopts dev-libs/date dev-libs/disruptorplus dev-libs/libfmt:= dev-libs/pugixml dev-libs/rapidcsv dev-libs/rapidjson dev-libs/tabulate dev-libs/utfcpp dev-libs/vulkan-memory-allocator dev-libs/xbyak dev-libs/xxhash dev-util/DirectXShaderCompiler dev-util/vulkan-headers media-libs/libsdl2 media-video/ffmpeg:= sys-libs/zlib
+SLOT=0
+SRC_URI=https://github.com/xenia-canary/xenia-canary/archive/de10b9ef911b6e0abff615315421d72fb787ef85.tar.gz -> xenia-20250522-de10b9e.tar.gz
+_md5_=2a4c455fc47b5a06f3df3ddce539ddd1

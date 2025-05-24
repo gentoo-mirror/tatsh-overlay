@@ -1,0 +1,13 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=install postinst
+DESCRIPTION=Downscaler shader for mpv.
+EAPI=8
+HOMEPAGE=https://gist.github.com/igv/36508af3ffc84410fe39761d6969be10
+INHERIT=mpv-shader
+KEYWORDS=~amd64
+LICENSE=LGPL-3
+RDEPEND=media-video/mpv
+SLOT=0
+SRC_URI=https://gist.github.com/igv/36508af3ffc84410fe39761d6969be10/archive/38992bce7f9ff844f800820df0908692b65bb74a.zip -> ssim-downscaler-20240905-38992bc.zip
+_eclasses_=mpv-shader	ef5067b81dcb41f0bbd04b889c80f30c
+_md5_=be89bb47b306f6df492ad6ed1ac9dc1b
