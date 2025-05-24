@@ -129,7 +129,6 @@ dev-python/wakepy 0.10.1: Cross-platform wakelock / keep-awake / stay-awake writ
 dev-python/wingetty 1.0.0: WinGet repository server (REST API only).
 dev-python/yt-dlp-utils 0.0.3: Utilities for programmatic use of yt-dlp.
 dev-qt/qdbus-symlink 0: Symbolic link qdbus -> qdbus6.
-dev-qt/qtquick3d 5.15.16: Qt module and API for defining 3D content in Qt QuickTools
 dev-qt/qtwebkit 6.212_p20241223: Community fork of QtWebKit.
 dev-tcltk/sdx 20110317: A utility for making and unpacking starkits.
 dev-tcltk/tclkit 8.6.4.9-r1: Single file executable that provides a complete Tcl and Tk runtime.
@@ -290,7 +289,7 @@ net-mail/gmail-archiver 0.0.3: Locally archive Gmail emails.
 net-mail/gmailctl 0.11.0: Declarative configuration for Gmail filters
 net-misc/curl-impersonate 0.9.5: An active fork of curl-impersonate with more versions and build targets.
 net-misc/muffet 2.10.9: Fast website link checker in Go
-net-misc/phantomjs 2.1.1_p20241214: Scriptable headless browser (forked and supports Qt 6).
+net-misc/phantomjs 2.1.1_p20241215: Scriptable headless browser (forked and supports Qt 6).
 net-misc/wayback-machine-downloader 2.3.1_p20240208: Download an entire website from the Wayback Machine
 net-p2p/xirvik-tools 0.5.1: Tools for Xirvik servers.
 net-print/epson-backend 1.2.6: Epson CUPS backend (ecbd).
