@@ -39,7 +39,7 @@ app-pda/libimobiledevice-glue 1.3.1: Support library for libimobiledevice projec
 app-pda/libplist 2.7.0: Support library to deal with Apple Property Lists (Binary & XML)
 app-pda/libtatsu 1.0.4: Library handling the communication with Apple's Tatsu Signing Server (TSS).
 app-pda/netmuxd 0.1.4: A replacement/addition to usbmuxd.
-app-portage/livecheck 0.0.13-r1: Tool to update ebuilds.
+app-portage/livecheck 0.1.0: Tool to update ebuilds.
 app-portage/upkeep 1.6.1: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 11.3.0: vim plugin: automatic time tracking with WakaTime
