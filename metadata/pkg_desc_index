@@ -90,7 +90,7 @@ dev-python/jetpytools 1.4.0: Collection of stuff that's useful in general Python
 dev-python/llvmlite 0.43.0 0.44.0: A lightweight LLVM python binding for writing JIT compilers
 dev-python/log-symbols 0.0.14: Colored symbols for various log levels for Python.
 dev-python/minchoc 0.0.11: Minimal, Chocolatey-compatible NuGet server in a Django app.
-dev-python/moviepy 1.0.3 2.2.1: Python library for video editing.
+dev-python/moviepy 2.2.1: Python library for video editing.
 dev-python/msgspec 0.19.0: Fast serialization and validation library.
 dev-python/numba 0.60.0-r2 0.61.2: NumPy aware dynamic Python compiler using LLVM
 dev-python/poetry-plugin-shell 1.0.1-r1: Runs a subshell with virtual environment activated.
