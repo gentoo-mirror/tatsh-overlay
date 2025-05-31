@@ -10,6 +10,6 @@ KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=app-arch/brotli:= dev-libs/nss:= llvm-runtimes/libcxx:= net-libs/nghttp2:=
 SLOT=0
-SRC_URI=https://github.com/lexiforest/curl-impersonate/archive/refs/tags/v0.9.5.tar.gz -> curl-impersonate-0.9.5.tar.gz https://github.com/google/boringssl/archive/23768dca563c4e62d48bb3675e49e34955dced12.tar.gz -> boringssl-23768dca563c4e62d48bb3675e49e34955dced12.tar.gz https://github.com/curl/curl/archive/curl-8_7_1.tar.gz -> curl-8.7.1.tar.gz
+SRC_URI=https://github.com/lexiforest/curl-impersonate/archive/refs/tags/v1.0.0.tar.gz -> curl-impersonate-1.0.0.tar.gz https://github.com/google/boringssl/archive/673e61fc215b178a90c0e67858bbf162c8158993.tar.gz -> boringssl-673e61fc215b178a90c0e67858bbf162c8158993.tar.gz https://github.com/curl/curl/archive/curl-8_13_0.tar.gz -> curl-8.13.0.tar.gz
 _eclasses_=gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	libtool	c81bd096be5f4c82f4e8f156ef112402	autotools	955b29ccd82c1df4755e5f37748d2fa6	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f
-_md5_=53f8168094b53c9f2cc1d74dda12c180
+_md5_=f04958b3e54761485d76f10f3ac15d5b
