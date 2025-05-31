@@ -165,7 +165,7 @@ games-arcade/outfox-serenity 3.0.3: The community pack content for Project OutFo
 games-arcade/stepmania 5.1.0_beta2_p20221114-r8: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 4.2.1: Emulator of x86-based machines based on PCem.
 games-emulation/ares 144: A cross-platform, open source, multi-system emulator, focusing on accuracy and preservation.
-games-emulation/azahar 2121.1: A Nintendo 3DS emulator.
+games-emulation/azahar 2121.2: A Nintendo 3DS emulator.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
 games-emulation/cemu 2.0_p20250517: Wii U emulator.
 games-emulation/citra 20241029: A Nintendo 3DS emulator.
