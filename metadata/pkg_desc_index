@@ -22,6 +22,7 @@ app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.12.0: Command line csv viewer
 app-misc/czkawka 8.0.0: CLI frontend of Czkawka
 app-misc/deark 1.7.0: Utility to extract data from various file formats.
+app-misc/deltona 0.0.1: A lot of uncategorised utilities.
 app-misc/fx 36.0.3: Terminal JSON viewer.
 app-misc/mcontrolcenter 0.5.0: Allows you to change the settings of MSI laptops.
 app-misc/mutt-oauth2 0.1.0: Packaged, maintained version of contributed mutt_oauth2.py script.
@@ -105,6 +106,7 @@ dev-python/pytest-repeat 0.9.4: Plugin for Pytest to make it easy to repeat test
 dev-python/python-benedict 0.34.1: Dict subclass with various extras.
 dev-python/python-flirt 0.9.7: A Python library for parsing, compiling, and matching Fast Library Identification and Recognition Technology (FLIRT) signatures.
 dev-python/python-fsutil 0.15.0: High-level file-system operations.
+dev-python/python-xz 0.5.0: Pure Python implementation of the XZ file format with random access support.
 dev-python/questionary 2.1.0: Python library to build command line user prompts.
 dev-python/re-wx 0.1.0-r2: A library for building modern declarative desktop applications in WX.
 dev-python/realcugan-ncnn-vulkan-python 1.0.2-r2: A Python FFI of nihui/realcugan-ncnn-vulkan achieved with SWIG.
