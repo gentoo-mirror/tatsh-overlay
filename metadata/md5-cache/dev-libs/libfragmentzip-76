@@ -9,6 +9,6 @@ KEYWORDS=~amd64 ~ppc64 ~x86
 LICENSE=LGPL-3
 RDEPEND=dev-libs/libzip net-misc/curl dev-libs/tihmstar-libgeneral sys-libs/zlib
 SLOT=0
-SRC_URI=https://github.com/tihmstar/libfragmentzip/archive/92f184e631c7156113850afdb9c68a2d892e35b6.tar.gz -> libfragmentzip-60_p20240726.tar.gz
+SRC_URI=https://github.com/tihmstar/libfragmentzip/archive/92f184e631c7156113850afdb9c68a2d892e35b6.tar.gz -> libfragmentzip-76.tar.gz
 _eclasses_=gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	libtool	c81bd096be5f4c82f4e8f156ef112402	autotools	955b29ccd82c1df4755e5f37748d2fa6
 _md5_=090b63d615df3e52a4e95b46be7436ba

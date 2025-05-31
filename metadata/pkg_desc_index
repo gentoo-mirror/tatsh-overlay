@@ -3,7 +3,7 @@ acct-user/pihole 0-r1: user for pihole
 app-admin/awscli-plugin-endpoint 0.4-r4: Provides service endpoint configuration per service on profile.
 app-admin/mb8611 0.0.2: CLI tool and library for managing the Motorola MB8611 modem and other devices.
 app-admin/padd 3.11.1: PADD provides in-depth information about your Pi-hole.
-app-arch/asar 3.4.1: Create Electron app packages.
+app-arch/asar 4.0.0: Create Electron app packages.
 app-arch/bitrock-unpacker 20160622: Bitrock unpacking script.
 app-arch/pychoco 0.1.3: Minimal choco command for use on non-Windows platforms.
 app-arch/unalz 0.65: Unpack ALZ archives.
@@ -22,7 +22,7 @@ app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.12.0: Command line csv viewer
 app-misc/czkawka 8.0.0: CLI frontend of Czkawka
 app-misc/deark 1.7.0: Utility to extract data from various file formats.
-app-misc/fx 35.0.0: Terminal JSON viewer.
+app-misc/fx 36.0.3: Terminal JSON viewer.
 app-misc/mcontrolcenter 0.5.0: Allows you to change the settings of MSI laptops.
 app-misc/mutt-oauth2 0.1.0: Packaged, maintained version of contributed mutt_oauth2.py script.
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
@@ -56,7 +56,7 @@ dev-db/snowsql 1.3.3: Lame database tool.
 dev-libs/bincookie 0.1.7: Library to parse Apple's binarycookies format.
 dev-libs/corecrypto 2023-r1: Low-level cryptographic primitives from Apple.
 dev-libs/libfat16 20250103: C++ FAT16 read library.
-dev-libs/libfragmentzip 60_p20240726: A library allowing to download single files from a remote zip archive
+dev-libs/libfragmentzip 76: A library allowing to download single files from a remote zip archive
 dev-libs/libpietendo 0.9.0: Library for parsing Nintendo file formats.
 dev-libs/libtoolchain 0.8.0: Toolchain development library.
 dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C++17.
@@ -175,7 +175,7 @@ games-emulation/gopher64-netplay-server 1.0.2: Netplay server for N64 emulators.
 games-emulation/libretro-db 1.21.0: libretro-db tools from RetroArch.
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20250512: A new generation, open-source graphics plugin for N64 emulators.
-games-emulation/play 0.69: PlayStation 2 emulator.
+games-emulation/play 0.70: PlayStation 2 emulator.
 games-emulation/rpcs3 0.0.36: PS3 emulator and debugger.
 games-emulation/ryujinx 1.3.29: Experimental Nintendo Switch Emulator written in C#
 games-emulation/sudachi 1.0.15: Nintendo Switch emulator.
@@ -316,5 +316,5 @@ www-apps/stash 0.28.1: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.13.4: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 x11-misc/input-remapper 2.1.1: An easy to use tool to change the behaviour of your input devices.
 x11-misc/mimeo 2023-r1: Open files by MIME-type or file name using regular expressions.
-x11-misc/rom-properties 2.5: Shell extension for file managers to manage game ROMs and disc images.
+x11-misc/rom-properties 2.5.1: Shell extension for file managers to manage game ROMs and disc images.
 x11-themes/apple-cursor 2.0.1: macOS cursor theme.
