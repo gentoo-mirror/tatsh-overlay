@@ -259,6 +259,7 @@ media-video/video2x-qt6 6.4.0: Qt 6 GUI for Video2x.
 media-video/vs-jetpack 0.4.0: Full suite of filters, wrappers, and helper functions for filtering video using VapourSynth.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
+media-video/youtube-unofficial 0.3.0: Access parts of your account unavailable through normal YouTube API access.
 media-video/ytarchive 0.5.0: Garbage YouTube live stream downloader.
 media-video/znedi3 2.1_p20250517: nnedi3 filter.
 media-video/zvbi2raw 20150529-r1: A quick-and-dirty tool for capturing VBI data using libzvbi.
