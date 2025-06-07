@@ -22,7 +22,7 @@ app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.12.0: Command line csv viewer
 app-misc/czkawka 8.0.0: CLI frontend of Czkawka
 app-misc/deark 1.7.0: Utility to extract data from various file formats.
-app-misc/deltona 0.0.1: A lot of uncategorised utilities.
+app-misc/deltona 0.0.2: A lot of uncategorised utilities.
 app-misc/fx 36.0.3: Terminal JSON viewer.
 app-misc/mcontrolcenter 0.5.0: Allows you to change the settings of MSI laptops.
 app-misc/mutt-oauth2 0.1.0: Packaged, maintained version of contributed mutt_oauth2.py script.
