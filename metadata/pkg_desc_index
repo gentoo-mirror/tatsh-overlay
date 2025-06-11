@@ -193,6 +193,7 @@ games-util/hactool 1.4.0_p20231011: Tool for common file formats for the Nintend
 games-util/joystickwake 0.4.2: Joystick-aware screen waker.
 games-util/kelftool 20191126: Utility for decrypt, encrypt and sign PS2 KELF and PSX KELF files.
 games-util/nstool 1.9.2: General purpose read/extract tool for Nintendo Switch file formats.
+games-util/nsw2usb-con 20250609: A minimal Python CLI tool to enable Switch 2-Pro-Controller and NSO GameCube controller input streaming via USB.
 games-util/raphnet-tech-adapter-manager 2.1.29-r1: Graphical user interface and command-line tools to manage raphnet adapters.
 games-util/sm64tools 0.3.2_p20180902: Collection of tools for Super Mario 64 ROM hacking (and others).
 games-util/switch-library-manager 1.4.0: Manage Switch backups (console only).

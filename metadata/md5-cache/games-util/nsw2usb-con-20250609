@@ -1,0 +1,15 @@
+BDEPEND=python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) dev-python/pyusb[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] virtual/pkgconfig
+DEFINED_PHASES=install
+DESCRIPTION=A minimal Python CLI tool to enable Switch 2-Pro-Controller and NSO GameCube controller input streaming via USB.
+EAPI=8
+HOMEPAGE=https://github.com/djedditt/nsw2usb-con
+INHERIT=python-r1 udev
+IUSE=python_targets_python3_11 python_targets_python3_12 python_targets_python3_13
+KEYWORDS=~amd64
+LICENSE=BSD-1
+RDEPEND=python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) dev-python/pyusb[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?]
+REQUIRED_USE=|| ( python_targets_python3_11 python_targets_python3_12 python_targets_python3_13 )
+SLOT=0
+SRC_URI=https://github.com/djedditt/nsw2usb-con/archive/6768e0566cbbbb4666a3ebed3e9abcd2fef0f131.tar.gz -> nsw2usb-con-6768e05.tar.gz
+_eclasses_=out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	b043191f3a82642545249acea7318e03	python-r1	0e15b2ab9cfc87d7474678201d6bca38	udev	f3d9a4376ebd22131726a68e1a0a058f
+_md5_=1953efeccde8c2bfbf76b782b5d9ebb2
