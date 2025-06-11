@@ -35,7 +35,7 @@ app-mobilephone/revanced-cli 5.0.1: Command line application to use ReVanced.
 app-mobilephone/revanced-patches 5.25.0: Patches for ReVanced.
 app-office/glabels 3.99_p20250526: glabels label designer (now in Qt).
 app-pda/altserver 0.0.5: AltServer for AltStore, but on-device.
-app-pda/ipad_charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
+app-pda/ipad-charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
 app-pda/libimobiledevice-glue 1.3.1: Support library for libimobiledevice projects
 app-pda/libplist 2.7.0: Support library to deal with Apple Property Lists (Binary & XML)
 app-pda/libtatsu 1.0.4: Library handling the communication with Apple's Tatsu Signing Server (TSS).
@@ -202,7 +202,6 @@ kde-misc/kate-jinja2-highlighting 20250120: Improved Jinja2 syntax highlighting 
 kde-misc/kate-stuff 20250409: Updated and improved Kate editor syntax files and code snippets.
 kde-misc/kate-wakatime 1.4.1: Time tracking with WakaTime for Kate.
 kde-misc/kdotool 0.2.1: A xdotool-like tool to manipulate windows on KDE Wayland.
-llvm-core/llvm 14.0.6-r5: Low Level Virtual Machine
 mail-mta/sendgmail 20250306: Tool that uses Gmail in order to mimic sendmail for 'git send-email'.
 media-fonts/amiri 1.002: High quality Arabic Naskh-style font
 media-fonts/noto 20250509: Google's font family that aims to support all the world's languages
