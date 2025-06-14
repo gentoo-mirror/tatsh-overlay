@@ -12,7 +12,7 @@ app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/gendisc 0.0.13: Simple home directory versioning.
 app-cdr/qpxtool 0.8.1.6: Enhanced (unofficial) qpxtool version.
-app-cdr/redumper 597: Low level CD dumper utility
+app-cdr/redumper 610: Low level CD dumper utility
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
 app-emulation/basiliskii 1.0.0_p20250516: 68k Macintosh emulator (updated fork).
 app-emulation/pumpkinos 20250224: PumpkinOS is a re-implementation of PalmOS.
@@ -32,7 +32,7 @@ app-misc/usps-track 0.0.2: CLI to track a USPS shipment by SMS.
 app-misc/zwave-js-server 3.0.2: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-mobilephone/revanced-cli 5.0.1: Command line application to use ReVanced.
-app-mobilephone/revanced-patches 5.25.0: Patches for ReVanced.
+app-mobilephone/revanced-patches 5.27.0: Patches for ReVanced.
 app-office/glabels 3.99_p20250526: glabels label designer (now in Qt).
 app-pda/altserver 0.0.5: AltServer for AltStore, but on-device.
 app-pda/ipad-charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
@@ -40,7 +40,7 @@ app-pda/libimobiledevice-glue 1.3.1: Support library for libimobiledevice projec
 app-pda/libplist 2.7.0: Support library to deal with Apple Property Lists (Binary & XML)
 app-pda/libtatsu 1.0.4: Library handling the communication with Apple's Tatsu Signing Server (TSS).
 app-pda/netmuxd 0.1.4: A replacement/addition to usbmuxd.
-app-portage/livecheck 0.1.0: Tool to update ebuilds.
+app-portage/livecheck 0.1.1: Tool to update ebuilds.
 app-portage/upkeep 1.6.1: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 11.3.0: vim plugin: automatic time tracking with WakaTime
@@ -49,10 +49,10 @@ dev-build/node-gyp 11.2.0: Node.js native addon build tool.
 dev-cpp/cli11 2.5.0: Command line parser for C++11
 dev-cpp/cpp-jwt 1.5.0_p20250422: JSON Web Token library for C++
 dev-cpp/cpprestsdk 2.10.19-r3: A Microsoft project for cloud-based client-server communication.
-dev-cpp/tracy 0.12.0: C++ frame profiler
-dev-db/dbeaver-bin 25.0.5: Free universal database tool (community edition).
+dev-cpp/tracy 0.12.1: C++ frame profiler
+dev-db/dbeaver-bin 25.1.0: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
-dev-db/snowflake-cli 3.9.0: CLI to Snowflake database.
+dev-db/snowflake-cli 3.9.1: CLI to Snowflake database.
 dev-db/snowsql 1.3.3: Lame database tool.
 dev-libs/bincookie 0.1.7: Library to parse Apple's binarycookies format.
 dev-libs/corecrypto 2023-r1: Low-level cryptographic primitives from Apple.
@@ -65,7 +65,7 @@ dev-libs/nativefiledialog-extended 1.2.1: File dialog library with C and C++ bin
 dev-libs/tihmstar-libgeneral 84: Stuff used in tsschecker.
 dev-libs/vulkan-memory-allocator 3.3.0: Easy to integrate Vulkan memory allocation library
 dev-libs/wolfssl 5.8.0: Embedded SSL library.
-dev-libs/xbyak 7.24.2: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-libs/xbyak 7.26: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-ml/cpu 2.0.0: Pin current process to given core number.
 dev-ml/iso8601 0.2.6: Parser and printer for date-times in ISO8601.
 dev-ml/mparser 1.3: A simple monadic parser combinator library for OCaml.
@@ -77,7 +77,7 @@ dev-python/colored 2.3.0: Very simple Python library for color and formatting in
 dev-python/commandlines 0.4.1-r2: Routines for extracting information from fontTools glyphs
 dev-python/curl-cffi 0.11.1: Python binding for curl-impersonate fork via cffi.
 dev-python/cxxfilt 0.3.0: Python interface to c++filt / abi::__cxa_demangle
-dev-python/decli 0.6.2: Minimal declarative cli tool.
+dev-python/decli 0.6.3: Minimal declarative cli tool.
 dev-python/django-stubs-ext 5.2.0: Monkey-patching and extensions for django-stubs.
 dev-python/dncil 1.0.2: Disassemble Common Intermediate Language (CIL) instructions.
 dev-python/dnfile 0.15.1: Parse .NET executable files.
@@ -137,7 +137,7 @@ dev-tcltk/tclkit 8.6.4.9-r1: Single file executable that provides a complete Tcl
 dev-util/bytecode-viewer-bin 2.13.1: JAR and Android APK reverse engineering suite.
 dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
 dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
-dev-util/commitizen 4.8.2: Release management tool designed for teams (cz command).
+dev-util/commitizen 4.8.3: Release management tool designed for teams (cz command).
 dev-util/cruft 2.16.0-r1: Fight back against the boilerplate monster.
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 198: Floating IPS is a patcher for IPS and BPS files.
@@ -145,7 +145,7 @@ dev-util/ida-free 9.0.241217: Free version of the code analyzer.
 dev-util/nihstro 20240505: 3DS shader assembler and disassembler
 dev-util/prettier 3.5.3: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
-dev-util/sqlfluff 3.4.0: The SQL linter for humans.
+dev-util/sqlfluff 3.4.1: The SQL linter for humans.
 dev-util/vcpkg-tool 2025.04.16: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.2.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 3.2.1: VS Code extensions manager for extension developers.
@@ -204,7 +204,7 @@ kde-misc/kate-stuff 20250409: Updated and improved Kate editor syntax files and 
 kde-misc/kate-wakatime 1.4.1: Time tracking with WakaTime for Kate.
 kde-misc/kdotool 0.2.1: A xdotool-like tool to manipulate windows on KDE Wayland.
 mail-mta/sendgmail 20250306: Tool that uses Gmail in order to mimic sendmail for 'git send-email'.
-media-fonts/amiri 1.002: High quality Arabic Naskh-style font
+media-fonts/amiri 1.003: High quality Arabic Naskh-style font
 media-fonts/noto 20250509: Google's font family that aims to support all the world's languages
 media-gfx/backgroundremover 0.3.4: Remove backgrounds from images and video using AI.
 media-gfx/flash-player-projector 32.0.0.465-r3: Stand-alone viewer of SWF files.
@@ -212,7 +212,7 @@ media-gfx/pngdefry 1.2-r3: Convert iOS and macOS compressed PNG files to normal.
 media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented with ncnn library.
 media-gfx/srmd-ncnn-vulkan 20220728-r1: SRMD super resolution implemented with ncnn library.
 media-libs/libspng 0.7.4-r1: Simple, modern libpng alternative.
-media-libs/vspyplugin 1.4.4: Package for simplifying writing VapourSynth 'plugins' in python.
+media-libs/vspyplugin 1.4.5: Package for simplifying writing VapourSynth 'plugins' in python.
 media-libs/wineasio 1.2.0: ASIO to JACK driver for Wine.
 media-libs/zimg 3.0.5: Scaling, colorspace conversion, and dithering library
 media-sound/clem2itunes 0.1.2: Crazy way to synchronise a remote Strawberry rated library to Music.app using Python, JXA and SSH.
@@ -234,7 +234,7 @@ media-video/opentimelineio 0.17.0: Editorial interchange format and API (for use
 media-video/patreon-archiver 0.1.3: Tool to download data from Patreon.
 media-video/scc-tools 3.5: Scenarist Closed Caption format tools.
 media-video/scenechange 0.2.0.2-r1: Scene change detection plugin for VapourSynth
-media-video/vapoursynth 71: A video processing framework with simplicity in mind.
+media-video/vapoursynth 72: A video processing framework with simplicity in mind.
 media-video/vapoursynth-astdr 4-r3: Derainbow function for VapourSynth.
 media-video/vapoursynth-bm3d 9: BM3D denoising filter for VapourSynth
 media-video/vapoursynth-dfmderainbow 2-r2: Derainbow function for VapourSynth.
@@ -290,7 +290,7 @@ net-firewall/nftables-geoip 20240124: Generates nftables maps of geolocation IP 
 net-im/ripcord 0.4.29-r5: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmail-archiver 0.0.4: Locally archive Gmail emails.
 net-mail/gmailctl 0.11.0: Declarative configuration for Gmail filters
-net-misc/curl-impersonate 1.0.0: An active fork of curl-impersonate with more versions and build targets.
+net-misc/curl-impersonate 1.0.2: An active fork of curl-impersonate with more versions and build targets.
 net-misc/muffet 2.10.9: Fast website link checker in Go
 net-misc/phantomjs 2.1.1_p20241215: Scriptable headless browser (forked and supports Qt 6).
 net-misc/wayback-machine-downloader 2.3.1_p20240208: Download an entire website from the Wayback Machine
@@ -301,7 +301,7 @@ net-proxy/charles 5.0.1: Web debugging proxy application.
 net-vpn/f5vpn 7245.2023.1006.1: This software can establish SSL VPN network access connection with F5 BIG-IP APM.
 net-vpn/vpn-slice 0.16.1: vpnc-script replacement for easy and secure split-tunnel VPN setup.
 sci-libs/coinhsl 2.2.5: Harwell Solver Library (HSL).
-sys-apps/capa 9.1.0: The FLARE team's open-source tool to identify capabilities in executable files.
+sys-apps/capa 9.2.1: The FLARE team's open-source tool to identify capabilities in executable files.
 sys-apps/kylemanna-systemd-utils 20220116-r1: Random systemd utilities.
 sys-apps/maxperfwiz 20241220: Script that assists the user in configuring a selection of parameters with the purpose of increasing system performance.
 sys-apps/seatools 5.1.182: Quick diagnostic tool that checks the health of your drive.
