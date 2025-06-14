@@ -14,9 +14,9 @@ app-cdr/gendisc 0.0.13: Simple home directory versioning.
 app-cdr/qpxtool 0.8.1.6: Enhanced (unofficial) qpxtool version.
 app-cdr/redumper 610: Low level CD dumper utility
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
-app-emulation/basiliskii 1.0.0_p20250516: 68k Macintosh emulator (updated fork).
+app-emulation/basiliskii 1.0.0_p20250608: 68k Macintosh emulator (updated fork).
 app-emulation/pumpkinos 20250224: PumpkinOS is a re-implementation of PalmOS.
-app-emulation/sheepshaver 1.0.0_p20250516: Macintosh emulator (updated fork).
+app-emulation/sheepshaver 1.0.0_p20250608: Macintosh emulator (updated fork).
 app-misc/baldwin 0.0.9: Simple home directory versioning.
 app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.13.0: Command line csv viewer
