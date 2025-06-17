@@ -137,6 +137,7 @@ dev-util/cmakerc 2.0.1: A resource compiler in a single CMake script.
 dev-util/comby 1.8.1: A code rewrite tool for structural search and replace that supports ~every language.
 dev-util/commitizen 4.8.3: Release management tool designed for teams (cz command).
 dev-util/cruft 2.16.0-r1: Fight back against the boilerplate monster.
+dev-util/docsonnet 0.0.5: Experimental Jsonnet docs generator (library only).
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 198: Floating IPS is a patcher for IPS and BPS files.
 dev-util/ida-free 9.0.241217: Free version of the code analyzer.
