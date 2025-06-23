@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
+EAPI=7
+HOMEPAGE=https://github.com/libretro/libretro-uae
+INHERIT=libretro-core
+IUSE=custom-cflags debug
+KEYWORDS=~amd64 ~x86 ~arm64
+LICENSE=GPL-2
+RDEPEND=games-emulation/libretro-info
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/libretro-uae/archive/ebbef1ffced12d6925f41455b51fb31fc51bc6ea.tar.gz -> puae2021-libretro-1.0_pre20250614.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	libretro	34ebee9454c6e7863f0f6a1d8b478a17	libretro-core	9a011e3fbe81b5757bae4eaa8cca5c45
+_md5_=dd779567b2d0c10bb55f7f4196934740

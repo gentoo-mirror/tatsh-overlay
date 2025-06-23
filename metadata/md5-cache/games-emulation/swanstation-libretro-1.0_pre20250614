@@ -1,0 +1,16 @@
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=media-libs/vulkan-loader
+DESCRIPTION=Fast Sony Playstation emulator.
+EAPI=7
+HOMEPAGE=https://github.com/libretro/swanstation
+INHERIT=libretro-core cmake flag-o-matic
+IUSE=custom-cflags debug
+KEYWORDS=~amd64 ~arm64
+LICENSE=GPL-3
+RDEPEND=media-libs/vulkan-loader games-emulation/libretro-info
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/swanstation/archive/05cee5f56c37eaa3a243e0906d2082b025598056.tar.gz -> swanstation-libretro-1.0_pre20250614.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	libretro	34ebee9454c6e7863f0f6a1d8b478a17	libretro-core	9a011e3fbe81b5757bae4eaa8cca5c45	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	02a4b2b45c23260fb969448904a8d9d9
+_md5_=847c2706cbc08d5dccacdc926618c87e

@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=libretro implementation of TyrQuake. (Quake)
+EAPI=7
+HOMEPAGE=https://github.com/libretro/tyrquake
+INHERIT=libretro-core
+IUSE=custom-cflags debug
+KEYWORDS=~amd64 ~x86 ~arm64
+LICENSE=GPL-2
+RDEPEND=games-emulation/libretro-info
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/tyrquake/archive/dfdae65c0ab5cf5d459155e8fefe796105229959.tar.gz -> tyrquake-libretro-1.0_pre20250527.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	libretro	34ebee9454c6e7863f0f6a1d8b478a17	libretro-core	9a011e3fbe81b5757bae4eaa8cca5c45
+_md5_=850311de4f8ec757e8101ee319488a47

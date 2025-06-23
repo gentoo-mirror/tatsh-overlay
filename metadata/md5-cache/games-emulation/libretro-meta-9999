@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DESCRIPTION=Meta package for various libretro implementations
+EAPI=8
+HOMEPAGE=http://www.libretro.com/
+IUSE=dolphin dosbox flycast fmsx fuse mednafen-psx mednafen-psx-hw mupen64 pcsx-rearmed ppsspp puae puae2021 snes9x swanstation tyrquake vice-x64 vice-x64sc
+KEYWORDS=~amd64 ~x86 ~arm64
+LICENSE=metapackage
+RDEPEND=dolphin? ( games-emulation/dolphin-libretro ) dosbox? ( games-emulation/libretro-dosbox ) flycast? ( games-emulation/flycast-libretro ) fmsx? ( games-emulation/fmsx-libretro ) fuse? ( games-emulation/fuse-libretro ) mednafen-psx? ( games-emulation/mednafen-psx-libretro ) mednafen-psx-hw? ( games-emulation/mednafen-psx-hw-libretro ) mupen64? ( games-emulation/mupen64next-libretro ) pcsx-rearmed? ( games-emulation/pcsx-rearmed-libretro ) ppsspp? ( games-emulation/ppsspp-libretro ) puae? ( games-emulation/puae-libretro ) puae2021? ( games-emulation/puae2021-libretro ) snes9x? ( games-emulation/libretro-snes9x ) swanstation? ( games-emulation/swanstation-libretro ) tyrquake? ( games-emulation/tyrquake-libretro ) vice-x64? ( games-emulation/vice-x64-libretro ) vice-x64sc? ( games-emulation/vice-x64sc-libretro )
+SLOT=0
+_md5_=62f2dd03854e39bea1e0c1f1a3d20d2c

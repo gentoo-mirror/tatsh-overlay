@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=Standalone port/fork of Mednafen PSX to the Libretro API.
+EAPI=7
+HOMEPAGE=https://github.com/libretro/beetle-psx-libretro
+INHERIT=libretro-core
+IUSE=opengl vulkan cdrom custom-cflags debug
+KEYWORDS=~amd64 ~x86 ~arm64
+LICENSE=GPL-2
+RDEPEND=games-emulation/libretro-info
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/beetle-psx-libretro/archive/22ba62e8a2e0fb7a8d05b4eec039e58de46924de.tar.gz -> mednafen-psx-hw-libretro-1.0_pre20250620.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	libretro	34ebee9454c6e7863f0f6a1d8b478a17	libretro-core	9a011e3fbe81b5757bae4eaa8cca5c45
+_md5_=3f682f4eaa62e54d856e9ecfe92a9666

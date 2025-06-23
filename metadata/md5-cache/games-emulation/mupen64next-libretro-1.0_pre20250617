@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=media-libs/mesa:0= media-libs/libpng:0= dev-lang/nasm:0= games-emulation/libretro-info
+DESCRIPTION=Improved mupen64plus libretro core reimplementation
+EAPI=8
+HOMEPAGE=https://github.com/libretro/mupen64plus-libretro-nx
+INHERIT=libretro-core
+IUSE=rpi rpi2 rpi3 rpi3_64 rpi4 rpi4_64 gles2 gles3 custom-cflags debug
+KEYWORDS=~amd64 ~arm64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/mesa:0= media-libs/libpng:0=
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/mupen64plus-libretro-nx/archive/0346d3ef26016bb4de604cf918d004bd791447ee.tar.gz -> mupen64next-libretro-1.0_pre20250617.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	libretro	34ebee9454c6e7863f0f6a1d8b478a17	libretro-core	9a011e3fbe81b5757bae4eaa8cca5c45
+_md5_=02b4d883f1002fe39052cc2e79726217

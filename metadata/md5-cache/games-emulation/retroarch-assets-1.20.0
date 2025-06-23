@@ -1,0 +1,10 @@
+DEFINED_PHASES=prepare
+DESCRIPTION=Assets needed for RetroArch. Also contains the official branding.
+EAPI=7
+HOMEPAGE=https://github.com/libretro/retroarch-assets
+IUSE=materialui ozone rgui xmb
+KEYWORDS=~amd64 ~x86 ~arm64
+LICENSE=CC-BY-4.0
+SLOT=0
+SRC_URI=https://github.com/libretro/retroarch-assets/archive/refs/tags/v1.20.0.tar.gz
+_md5_=c2c38b0c53c8838edcc799022a8a0649

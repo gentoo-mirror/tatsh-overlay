@@ -1,0 +1,16 @@
+BDEPEND=dev-build/ninja dev-build/cmake
+DEFINED_PHASES=compile configure install unpack
+DEPEND=opengl? ( virtual/opengl ) vulkan? ( media-libs/vulkan-loader )
+DESCRIPTION=Multiplatform Sega Dreamcast emulator
+EAPI=7
+HOMEPAGE=https://github.com/flyinghead/flycast
+INHERIT=ninja-utils
+IUSE=gles +opengl vulkan
+KEYWORDS=~amd64 ~x86 ~arm64
+LICENSE=GPL-2
+RDEPEND=opengl? ( virtual/opengl ) vulkan? ( media-libs/vulkan-loader )
+REQUIRED_USE=|| ( gles opengl ) opengl? ( !gles )
+SLOT=0
+SRC_URI=https://github.com/flyinghead/flycast/archive/v2.5.tar.gz -> flycast-libretro-2.5.tar.gz https://github.com/libsdl-org/SDL/archive/2359383fc187386204c3bb22de89655a494cd128.tar.gz -> flycast-libretro-2.5-core_deps_SDL.tar.gz https://github.com/KhronosGroup/Vulkan-Headers/archive/85c2334e92e215cce34e8e0ed8b2dce4700f4a50.tar.gz -> flycast-libretro-2.5-core_deps_Vulkan-Headers.tar.gz https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator/archive/6eb62e1515072827db992c2befd80b71b2d04329.tar.gz -> flycast-libretro-2.5-core_deps_VulkanMemoryAllocator.tar.gz https://github.com/flyinghead/mingw-breakpad/archive/1ab24bcc817ebe629bf77daa53529d02361cb1e9.tar.gz -> flycast-libretro-2.5-core_deps_breakpad.tar.gz https://github.com/KhronosGroup/glslang/archive/76b52ebf77833908dc4c0dd6c70a9c357ac720bd.tar.gz -> flycast-libretro-2.5-core_deps_glslang.tar.gz https://github.com/flyinghead/libchdr/archive/5f82799f2c8cad1e9cd26d39a0f8d36369a5534b.tar.gz -> flycast-libretro-2.5-core_deps_libchdr.tar.gz https://github.com/vinniefalco/LuaBridge/archive/5d21e35633a1f87ed08af115b07d3386096f792b.tar.gz -> flycast-libretro-2.5-core_deps_luabridge.tar.gz https://github.com/flyinghead/asio/archive/d3402006e84efb6114ff93e4f2b8508412ed80d5.tar.gz -> flycast-libretro-2.5-core_deps_asio.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6
+_md5_=4627046b1abe8615c9feffa95275c319
