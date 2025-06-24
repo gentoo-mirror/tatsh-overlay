@@ -317,6 +317,7 @@ net-print/epson-backend 1.2.6: Epson CUPS backend (ecbd).
 net-print/epson-printer-utility 1.1.3: Epson printer utility for USB only.
 net-proxy/charles 5.0.1: Web debugging proxy application.
 net-vpn/f5vpn 7245.2023.1006.1: This software can establish SSL VPN network access connection with F5 BIG-IP APM.
+net-vpn/ifup-systemd-resolved 0.0.1: Hook application for (patched) openfortivpn to support systemd-resolved.
 net-vpn/vpn-slice 0.16.1: vpnc-script replacement for easy and secure split-tunnel VPN setup.
 sci-libs/coinhsl 2.2.5: Harwell Solver Library (HSL).
 sys-apps/capa 9.2.1: The FLARE team's open-source tool to identify capabilities in executable files.
