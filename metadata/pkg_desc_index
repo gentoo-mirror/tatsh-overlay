@@ -48,7 +48,6 @@ dev-cpp/cli11 2.5.0: Command line parser for C++11
 dev-cpp/cpp-jwt 1.5.0_p20250422: JSON Web Token library for C++
 dev-cpp/cpprestsdk 2.10.19-r3: A Microsoft project for cloud-based client-server communication.
 dev-cpp/tracy 0.12.1: C++ frame profiler
-dev-db/dbeaver-bin 25.1.0: Free universal database tool (community edition).
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
 dev-db/snowflake-cli 3.9.1: CLI to Snowflake database.
 dev-db/snowsql 1.3.3: Lame database tool.
