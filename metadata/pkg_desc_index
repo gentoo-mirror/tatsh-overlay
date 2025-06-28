@@ -23,7 +23,7 @@ app-misc/csvlens 0.13.0: Command line csv viewer
 app-misc/deark 1.7.0: Utility to extract data from various file formats.
 app-misc/deltona 0.0.2: A lot of uncategorised utilities.
 app-misc/fx 36.0.3: Terminal JSON viewer.
-app-misc/mcontrolcenter 0.5.0: Allows you to change the settings of MSI laptops.
+app-misc/mcontrolcenter 0.5.0-r1: Allows you to change the settings of MSI laptops.
 app-misc/mutt-oauth2 0.1.0: Packaged, maintained version of contributed mutt_oauth2.py script.
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
@@ -330,7 +330,7 @@ sys-auth/fprintd 1.94.5: D-Bus service to access fingerprint readers
 sys-auth/libfprint 1.94.9: Library to add support for consumer fingerprint readers
 sys-block/superdrive-enabler 20230714: Hack for Apple's Superdrive to work with other systems than OS X.
 sys-kernel/installkernel-wsl 0.0.3: Script and installkernel hook to copy Linux kernel to the host system and update .wslconfig.
-sys-kernel/msi-ec 20250520: Kernel module for the embedded controller of MSI laptops.
+sys-kernel/msi-ec 20250627: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.21-r3: Pi-hole Dashboard for stats and more
 www-apps/stash 0.28.1: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.14.0: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
