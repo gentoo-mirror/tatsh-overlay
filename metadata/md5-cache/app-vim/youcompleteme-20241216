@@ -11,5 +11,5 @@ RDEPEND=|| ( >=app-editors/vim-7.3[python] >=app-editors/gvim-7.3[python] ) pyth
 REQUIRED_USE=^^ ( python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 )
 SLOT=0
 SRC_URI=https://github.com/ycm-core/YouCompleteMe/archive/131b1827354871a4e984c1660b6af0fefca755c3.tar.gz -> youcompleteme-20241216.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	9c45b7a544652d5b47888c9a419c6ccc	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	5ffe8ec396a751540949b565de0f048c	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57
 _md5_=a956bb6e2d1422ed5664e2756f743b15
