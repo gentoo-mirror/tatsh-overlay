@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=sys-apps/hdparm virtual/udev
 SLOT=0
 SRC_URI=https://gitlab.manjaro.org/fhdk/udev-usb-sync/-/archive/1.0/udev-usb-sync-1.0.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	udev	f3d9a4376ebd22131726a68e1a0a058f
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	udev	f3d9a4376ebd22131726a68e1a0a058f
 _md5_=d5b6eef4ddf543e16fdb901c53e643fa

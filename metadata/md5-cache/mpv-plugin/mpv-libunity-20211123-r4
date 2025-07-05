@@ -10,5 +10,5 @@ LICENSE=all-rights-reserved
 RDEPEND=media-video/mpv[cplugins(+),libmpv]
 SLOT=0
 SRC_URI=https://github.com/mrlotfi/mpv-libunity/archive/e111b49e7d4ace2c6b19baf5ff0a70353aa28776.tar.gz -> mpv-libunity-20211123.tar.gz
-_eclasses_=mpv-plugin	ef7c5ad8019deb98f4397f710be72dc3	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
+_eclasses_=mpv-plugin	ef7c5ad8019deb98f4397f710be72dc3	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772
 _md5_=47b415f8435cc5e3e34e4567f695dfb7

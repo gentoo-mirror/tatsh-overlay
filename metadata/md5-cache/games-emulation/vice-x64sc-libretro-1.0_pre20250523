@@ -10,5 +10,5 @@ RDEPEND=games-emulation/libretro-info
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/vice-libretro/archive/f27798806c60f024ce25dc9b8478f12b4d1aa0b6.tar.gz -> vice-x64sc-libretro-1.0_pre20250523.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	libretro	34ebee9454c6e7863f0f6a1d8b478a17	libretro-core	36e75d7f78d1f3adb751412b4a6cfd7b
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	libretro	34ebee9454c6e7863f0f6a1d8b478a17	libretro-core	36e75d7f78d1f3adb751412b4a6cfd7b
 _md5_=6b802ad332e7c8f72e2832c8c9c269d5
