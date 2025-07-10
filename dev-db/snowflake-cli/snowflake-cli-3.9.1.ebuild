@@ -17,12 +17,14 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 RDEPEND="dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requirements-parser[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
+	dev-python/snowflake-core[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[secure-local-storage,${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
