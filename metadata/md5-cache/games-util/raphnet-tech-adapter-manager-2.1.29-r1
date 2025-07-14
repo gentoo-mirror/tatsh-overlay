@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-libs/glib dev-libs/hidapi media-libs/harfbuzz sys-libs/zlib virtual/udev x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+:3 x11-libs/pango x11-libs/wxGTK:3.2-gtk3
+DESCRIPTION=Graphical user interface and command-line tools to manage raphnet adapters.
+EAPI=8
+HOMEPAGE=https://github.com/raphnet/gcn64tools
+INHERIT=udev wxwidgets
+IUSE=firmware
+KEYWORDS=~amd64 ~arm64 ~ppc64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-libs/glib dev-libs/hidapi media-libs/harfbuzz sys-libs/zlib virtual/udev x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+:3 x11-libs/pango x11-libs/wxGTK:3.2-gtk3
+SLOT=0
+SRC_URI=https://github.com/raphnet/gcn64tools/archive/refs/tags/v2.1.29.tar.gz -> raphnet-tech-adapter-manager-2.1.29.tar.gz
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	udev	f3d9a4376ebd22131726a68e1a0a058f	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	wxwidgets	c48bf68858bd3c27c272ff034eb1e14d
+_md5_=a2cb1ebc5207fd080796f94a1202f072
