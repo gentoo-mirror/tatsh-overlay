@@ -28,7 +28,7 @@ app-misc/mutt-oauth2 0.1.0: Packaged, maintained version of contributed mutt_oau
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.2: CLI to track a USPS shipment by SMS.
-app-misc/zwave-js-server 3.0.2: Small server wrapper around Z-Wave JS to access it via a WebSocket.
+app-misc/zwave-js-server 3.1.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-mobilephone/revanced-cli 5.0.1: Command line application to use ReVanced.
 app-mobilephone/revanced-patches 5.31.1: Patches for ReVanced.
@@ -142,13 +142,13 @@ dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a file
 dev-util/flips 198: Floating IPS is a patcher for IPS and BPS files.
 dev-util/ida-free 9.0.241217: Free version of the code analyzer.
 dev-util/nihstro 20240505: 3DS shader assembler and disassembler
-dev-util/prettier 3.5.3: Prettier is an opinionated code formatter
+dev-util/prettier 3.6.2: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
 dev-util/sqlfluff 3.4.2: The SQL linter for humans.
 dev-util/vcpkg-tool 2025.6.20: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.2.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 3.2.1: VS Code extensions manager for extension developers.
-dev-util/wakatime-cli 1.115.3: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.115.6: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20241214: A code-completion & code-comprehension server.
 dev-util/yo 5.1.0: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
@@ -165,7 +165,7 @@ games-arcade/outfox 0.4.19-r1 0.5.0_p42: Advanced rhythm game. Designed for both
 games-arcade/outfox-serenity 3.0.3: The community pack content for Project OutFox (includes volume 1.5)
 games-arcade/stepmania 5.1.0_beta2_p20221114-r8: Advanced rhythm game. Designed for both home and arcade use
 games-emulation/86box 4.2.1: Emulator of x86-based machines based on PCem.
-games-emulation/ares 144: A cross-platform, open source, multi-system emulator, focusing on accuracy and preservation.
+games-emulation/ares 145: A cross-platform, open source, multi-system emulator, focusing on accuracy and preservation.
 games-emulation/azahar 2122.1: A Nintendo 3DS emulator.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
 games-emulation/cemu 2.6: Wii U emulator.
