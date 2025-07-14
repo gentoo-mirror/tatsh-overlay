@@ -11,5 +11,5 @@ RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang
 REQUIRED_USE=|| ( lua_targets_luajit lua_targets_lua5-1 )
 SLOT=0
 SRC_URI=https://github.com/CogentRedTester/mpv-scroll-list/archive/b8a3498b35fbb1d1d08aff98079acdb0da672277.tar.gz -> mpv-scroll-list-20250110.tar.gz
-_eclasses_=out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	lua-utils	7c89927eda6f21c4c48136247077ab37	lua	3414f66fe14a8c3ffdb5a894097068c6
+_eclasses_=out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	lua-utils	7c89927eda6f21c4c48136247077ab37	lua	3414f66fe14a8c3ffdb5a894097068c6
 _md5_=e60a576fdeb5f5aa4a457a8338a33558

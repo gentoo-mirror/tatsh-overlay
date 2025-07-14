@@ -10,5 +10,5 @@ RDEPEND=games-emulation/libretro-info
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/fuse-libretro/archive/cad85b7b1b864c65734f71aa4a510b6f6536881c.tar.gz -> fuse-libretro-1.0_pre20241124.tar.gz
-_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	libretro	34ebee9454c6e7863f0f6a1d8b478a17	libretro-core	36e75d7f78d1f3adb751412b4a6cfd7b
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	libretro	34ebee9454c6e7863f0f6a1d8b478a17	libretro-core	36e75d7f78d1f3adb751412b4a6cfd7b
 _md5_=cd3eaf17905e4b89c2c391899a70020a

@@ -10,5 +10,5 @@ LICENSE=MPL-2.0 MIT BSD public-domain ZLIB BSD-2 Apache-2.0
 RDEPEND=dev-libs/glib media-libs/alsa-lib media-libs/libao media-libs/libglvnd media-libs/libpulse media-libs/libsdl2 media-libs/openal virtual/udev x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+ x11-libs/libX11 x11-libs/libXrandr x11-libs/pango
 SLOT=0
 SRC_URI=https://github.com/ares-emulator/ares/archive/refs/tags/v145.tar.gz -> ares-145.tar.gz https://github.com/ares-emulator/ares-deps/releases/download/2025-05-22/ares-deps-linux-universal.tar.xz -> ares-145-deps.tar.xz
-_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
 _md5_=a24631a369bb73a8f575ec5413d2158f
