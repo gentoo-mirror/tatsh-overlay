@@ -22,7 +22,7 @@ app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.13.0: Command line csv viewer
 app-misc/deark 1.7.0: Utility to extract data from various file formats.
 app-misc/deltona 0.0.2: A lot of uncategorised utilities.
-app-misc/fx 36.0.3: Terminal JSON viewer.
+app-misc/fx 37.0.1: Terminal JSON viewer.
 app-misc/mcontrolcenter 0.5.0-r1: Allows you to change the settings of MSI laptops.
 app-misc/mutt-oauth2 0.1.0: Packaged, maintained version of contributed mutt_oauth2.py script.
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
@@ -75,7 +75,7 @@ dev-python/commandlines 0.4.1-r2: Routines for extracting information from fontT
 dev-python/curl-cffi 0.12.0: Python binding for curl-impersonate fork via cffi.
 dev-python/cxxfilt 0.3.0: Python interface to c++filt / abi::__cxa_demangle
 dev-python/decli 0.6.3: Minimal declarative cli tool.
-dev-python/django-stubs-ext 5.2.0: Monkey-patching and extensions for django-stubs.
+dev-python/django-stubs-ext 5.2.1: Monkey-patching and extensions for django-stubs.
 dev-python/dncil 1.0.2: Disassemble Common Intermediate Language (CIL) instructions.
 dev-python/dnfile 0.16.4: Parse .NET executable files.
 dev-python/gooey 1.0.8.1-r3: Turn any command line program into a full GUI application with one line.
