@@ -10,5 +10,5 @@ RDEPEND=games-emulation/libretro-info
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/fmsx-libretro/archive/9eb5f25df5397212a3e3088ca1a64db0740bbe5f.tar.gz -> fmsx-libretro-1.0_pre20241021.tar.gz
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	libretro	34ebee9454c6e7863f0f6a1d8b478a17	libretro-core	36e75d7f78d1f3adb751412b4a6cfd7b
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	libretro	3482907140a807ecd4cd5fd729664601	libretro-core	36e75d7f78d1f3adb751412b4a6cfd7b
 _md5_=762be11ee9c568db4c03238e17c9a369

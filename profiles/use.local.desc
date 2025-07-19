@@ -202,7 +202,9 @@ games-emulation/mupen64next-libretro:gles2 - Enable GLES2 support
 games-emulation/mupen64next-libretro:vulkan - Enable vulkan support
 games-emulation/play:libretro - Build libretro core
 games-emulation/play:vulkan - Enable Vulkan graphics library support
-games-emulation/ppsspp-libretro:gles2 - Enable GLES2 support
+games-emulation/ppsspp-libretro:gbm - Use the Graphics Buffer Manager for EGL on KMS.
+games-emulation/ppsspp-libretro:gles2 - Enable GLES2 support.
+games-emulation/ppsspp-libretro:system-ffmpeg - Use system ffmpeg.
 games-emulation/retroarch:cg - Enable Cg shader support
 games-emulation/retroarch:egl - Enable EGL context support
 games-emulation/retroarch:freetype - Enable FreeType support
