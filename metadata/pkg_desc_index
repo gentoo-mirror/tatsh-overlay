@@ -70,7 +70,7 @@ dev-ml/parany 14.0.1: Parallelize any computation.
 dev-ml/shell 0.17.0: Yet another implementation of fork and exec and related functionality.
 dev-ml/toml 7.1.0: OCaml library for TOML.
 dev-python/benc 2019.8.1-r4: Bencoder in 100 lines of modern Python
-dev-python/colored 2.3.0: Very simple Python library for color and formatting in terminal
+dev-python/colored 2.3.1: Very simple Python library for color and formatting in terminal
 dev-python/commandlines 0.4.1-r2: Routines for extracting information from fontTools glyphs
 dev-python/curl-cffi 0.12.0: Python binding for curl-impersonate fork via cffi.
 dev-python/cxxfilt 0.3.0: Python interface to c++filt / abi::__cxa_demangle
