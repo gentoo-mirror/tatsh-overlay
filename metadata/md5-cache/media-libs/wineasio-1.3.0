@@ -7,6 +7,6 @@ KEYWORDS=~amd64
 LICENSE=GPL-2 LGPL-2.1 MIT
 RDEPEND=virtual/jack virtual/wine
 SLOT=0
-SRC_URI=https://github.com/wineasio/wineasio/releases/download/v1.2.0/wineasio-1.2.0.tar.gz https://github.com/falkTX/rtaudio/archive/e03448bd15c1c34e842459939d755f5f89e880ed.tar.gz -> wineasio-1.2.0-rtaudio-e03448bd15c1c34e842459939d755f5f89e880ed.tar.gz
+SRC_URI=https://github.com/wineasio/wineasio/releases/download/v1.3.0/wineasio-1.3.0.tar.gz https://github.com/falkTX/rtaudio/archive/e03448bd15c1c34e842459939d755f5f89e880ed.tar.gz -> wineasio-1.3.0-rtaudio-e03448bd15c1c34e842459939d755f5f89e880ed.tar.gz
 _eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672
 _md5_=bb59d8d00f064f37fb6313fc27412ccb

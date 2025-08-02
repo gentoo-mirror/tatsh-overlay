@@ -12,7 +12,7 @@ app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
 app-cdr/cdirip 0.6.2-r2: Converts DiscJuggler CDI files to various disc image formats.
 app-cdr/gendisc 0.0.13: Simple home directory versioning.
 app-cdr/qpxtool 0.8.1.6: Enhanced (unofficial) qpxtool version.
-app-cdr/redumper 631: Low level CD dumper utility
+app-cdr/redumper 646: Low level CD dumper utility
 app-crypt/lssecret 20230105-r1: List all secret items using libsecret (e.g. GNOME Keyring).
 app-emulation/basiliskii 1.0.0_p20250608: 68k Macintosh emulator (updated fork).
 app-emulation/pumpkinos 20250224: PumpkinOS is a re-implementation of PalmOS.
@@ -22,17 +22,17 @@ app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.13.0: Command line csv viewer
 app-misc/deark 1.7.0: Utility to extract data from various file formats.
 app-misc/deltona 0.0.2: A lot of uncategorised utilities.
-app-misc/fx 37.0.1: Terminal JSON viewer.
-app-misc/mcontrolcenter 0.5.0-r1: Allows you to change the settings of MSI laptops.
-app-misc/mutt-oauth2 0.1.0: Packaged, maintained version of contributed mutt_oauth2.py script.
+app-misc/fx 38.0.0: Terminal JSON viewer.
+app-misc/mcontrolcenter 0.5.1: Allows you to change the settings of MSI laptops.
+app-misc/mutt-oauth2 0.1.1: Packaged, maintained version of contributed mutt_oauth2.py script.
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.2: CLI to track a USPS shipment by SMS.
 app-misc/zwave-js-server 3.1.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-mobilephone/revanced-cli 5.0.1: Command line application to use ReVanced.
-app-mobilephone/revanced-patches 5.31.1: Patches for ReVanced.
-app-office/glabels 3.99_p20250625: glabels label designer (now in Qt).
+app-mobilephone/revanced-patches 5.32.0: Patches for ReVanced.
+app-office/glabels 3.99_p20250801: glabels label designer (now in Qt).
 app-pda/altserver 0.0.5: AltServer for AltStore, but on-device.
 app-pda/ipad-charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
 app-pda/libplist 2.7.0-r1: Support library to deal with Apple Property Lists (Binary & XML)
@@ -49,7 +49,7 @@ dev-cpp/cpp-jwt 1.5.0_p20250422: JSON Web Token library for C++
 dev-cpp/cpprestsdk 2.10.19-r3: A Microsoft project for cloud-based client-server communication.
 dev-cpp/tracy 0.12.2: C++ frame profiler
 dev-db/dbeaver-creds 0.0.3: Recover your DBeaver saved credentials.
-dev-db/snowflake-cli 3.9.1: CLI to Snowflake database.
+dev-db/snowflake-cli 3.10.0: CLI to Snowflake database.
 dev-db/snowsql 1.3.3: Lame database tool.
 dev-libs/bincookie 0.1.7: Library to parse Apple's binarycookies format.
 dev-libs/corecrypto 2023-r1: Low-level cryptographic primitives from Apple.
@@ -61,8 +61,8 @@ dev-libs/mp 1.0_p20210810: A small, 0BSD-licensed metaprogramming library for C+
 dev-libs/nativefiledialog-extended 1.2.1: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/tihmstar-libgeneral 84: Stuff used in tsschecker.
 dev-libs/vulkan-memory-allocator 3.3.0: Easy to integrate Vulkan memory allocation library
-dev-libs/wolfssl 5.8.0: Embedded SSL library.
-dev-libs/xbyak 7.27: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
+dev-libs/wolfssl 5.8.2: Embedded SSL library.
+dev-libs/xbyak 7.28: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-ml/cpu 2.0.0: Pin current process to given core number.
 dev-ml/iso8601 0.2.6: Parser and printer for date-times in ISO8601.
 dev-ml/mparser 1.3: A simple monadic parser combinator library for OCaml.
@@ -75,7 +75,7 @@ dev-python/commandlines 0.4.1-r2: Routines for extracting information from fontT
 dev-python/curl-cffi 0.12.0: Python binding for curl-impersonate fork via cffi.
 dev-python/cxxfilt 0.3.0: Python interface to c++filt / abi::__cxa_demangle
 dev-python/decli 0.6.3: Minimal declarative cli tool.
-dev-python/django-stubs-ext 5.2.1: Monkey-patching and extensions for django-stubs.
+dev-python/django-stubs-ext 5.2.2: Monkey-patching and extensions for django-stubs.
 dev-python/dncil 1.0.2: Disassemble Common Intermediate Language (CIL) instructions.
 dev-python/dnfile 0.16.4: Parse .NET executable files.
 dev-python/gooey 1.0.8.1-r3: Turn any command line program into a full GUI application with one line.
@@ -112,7 +112,7 @@ dev-python/requirements-parser 0.13.0: Python module for parsing Pip requirement
 dev-python/rife-ncnn-vulkan-python 1.2.1-r1: A Python FFI of nihui/rife-ncnn-vulkan achieved with SWIG.
 dev-python/samplerate 0.2.1-r1: Python bindings for libsamplerate.
 dev-python/snowflake-connector-python 3.16.0: Snowflake database connector for Python.
-dev-python/snowflake-core 1.6.0: Python access to Snowflake entity metadata.
+dev-python/snowflake-core 1.7.0: Python access to Snowflake entity metadata.
 dev-python/sounddevice 0.5.2: Python bindings to PortAudio and more.
 dev-python/soundfile 0.13.1: An audio library based on libsndfile, CFFI and NumPy
 dev-python/spinners 0.0.24: More than 60 spinners for terminal.
@@ -146,10 +146,10 @@ dev-util/nihstro 20240505: 3DS shader assembler and disassembler
 dev-util/prettier 3.6.2: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
 dev-util/sqlfluff 3.4.2: The SQL linter for humans.
-dev-util/vcpkg-tool 2025.6.20: Library manager for C/C++ (tool only).
+dev-util/vcpkg-tool 2025.7.21: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.2.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 3.2.1: VS Code extensions manager for extension developers.
-dev-util/wakatime-cli 1.118.0: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.127.0: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20241214: A code-completion & code-comprehension server.
 dev-util/yo 5.1.0: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
@@ -233,7 +233,7 @@ media-gfx/realsr-ncnn-vulkan 20220728-r1: RealSR super resolution implemented wi
 media-gfx/srmd-ncnn-vulkan 20220728-r1: SRMD super resolution implemented with ncnn library.
 media-libs/libspng 0.7.4-r1: Simple, modern libpng alternative.
 media-libs/vspyplugin 1.4.5: Package for simplifying writing VapourSynth 'plugins' in python.
-media-libs/wineasio 1.2.0: ASIO to JACK driver for Wine.
+media-libs/wineasio 1.3.0: ASIO to JACK driver for Wine.
 media-libs/zimg 3.0.5: Scaling, colorspace conversion, and dithering library
 media-sound/clem2itunes 0.1.2: Crazy way to synchronise a remote Strawberry rated library to Music.app using Python, JXA and SSH.
 media-sound/librespot 0.6.0: An open source client library for Spotify, with support for Spotify Connect
@@ -277,7 +277,7 @@ media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
 media-video/vhs-decode 0.3.5.1: Software defined VHS decoder.
 media-video/video2x 6.4.0: A lossless video/GIF/image upscaler.
 media-video/video2x-qt6 6.4.0: Qt 6 GUI for Video2x.
-media-video/vs-jetpack 0.5.2: Full suite of filters, wrappers, and helper functions for filtering video using VapourSynth.
+media-video/vs-jetpack 0.5.3: Full suite of filters, wrappers, and helper functions for filtering video using VapourSynth.
 media-video/vs-miscfilters-obsolete 2_p20220124: Obsolete miscfilters package for VapourSynth.
 media-video/vs-removegrain 1_p20221028: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-video/youtube-unofficial 0.3.0: Access parts of your account unavailable through normal YouTube API access.
