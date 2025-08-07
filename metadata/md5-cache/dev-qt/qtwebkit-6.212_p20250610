@@ -1,0 +1,15 @@
+BDEPEND=dev-lang/ruby app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-db/sqlite dev-libs/hyphen dev-libs/icu:= dev-libs/libgcrypt dev-libs/libtasn1 dev-libs/libxml2 dev-libs/libxslt dev-qt/qtbase:6[X?,gui,network] dev-qt/qtpositioning:6 dev-qt/qtprintsupport:6 dev-qt/qtsensors:6 media-libs/harfbuzz media-libs/libjpeg-turbo media-libs/libpng media-libs/libwebp media-libs/woff2 sys-libs/zlib
+DESCRIPTION=Community fork of QtWebKit.
+EAPI=8
+HOMEPAGE=https://github.com/movableink/webkit
+INHERIT=cmake flag-o-matic
+IUSE=X
+KEYWORDS=~amd64
+LICENSE=LGPL-2 BSD-2
+RDEPEND=dev-db/sqlite dev-libs/hyphen dev-libs/icu:= dev-libs/libgcrypt dev-libs/libtasn1 dev-libs/libxml2 dev-libs/libxslt dev-qt/qtbase:6[X?,gui,network] dev-qt/qtpositioning:6 dev-qt/qtprintsupport:6 dev-qt/qtsensors:6 media-libs/harfbuzz media-libs/libjpeg-turbo media-libs/libpng media-libs/libwebp media-libs/woff2 sys-libs/zlib
+SLOT=6/6.212
+SRC_URI=https://github.com/movableink/webkit/archive/88e74762f8e6ffe8046facc88949bf21237f8f31.tar.gz -> qtwebkit-6.212_p20250610-88e7476.tar.gz
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
+_md5_=fa2c3d3665872d64bab5575d5255ccbd
