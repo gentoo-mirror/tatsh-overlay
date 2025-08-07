@@ -1,11 +1,11 @@
 acct-group/pihole 0-r1: System group: pihole
 acct-user/pihole 0-r1: user for pihole
 app-admin/awscli-plugin-endpoint 0.4-r4: Provides service endpoint configuration per service on profile.
-app-admin/mb8611 0.0.2: CLI tool and library for managing the Motorola MB8611 modem and other devices.
+app-admin/mb8611 0.0.2-r1: CLI tool and library for managing the Motorola MB8611 modem and other devices.
 app-admin/padd 3.11.1: PADD provides in-depth information about your Pi-hole.
 app-arch/asar 4.0.0: Create Electron app packages.
 app-arch/bitrock-unpacker 20160622: Bitrock unpacking script.
-app-arch/pychoco 0.1.3: Minimal choco command for use on non-Windows platforms.
+app-arch/pychoco 0.1.3-r1: Minimal choco command for use on non-Windows platforms.
 app-arch/unalz 0.65: Unpack ALZ archives.
 app-arch/zarchive 0.1.2: Library for creating and reading zstd-compressed file archives (.zar)
 app-cdr/cdi2nero 0.9.9-r1: Converts DiscJuggler CDI files to NRG (Nero).
@@ -39,7 +39,7 @@ app-pda/libplist 2.7.0-r1: Support library to deal with Apple Property Lists (Bi
 app-pda/libtatsu 1.0.5: Library handling the communication with Apple's Tatsu Signing Server (TSS).
 app-pda/netmuxd 0.2.1: A replacement/addition to usbmuxd.
 app-portage/livecheck 0.1.1: Tool to update ebuilds.
-app-portage/upkeep 1.6.1: Helper commands to automate updating with Portage.
+app-portage/upkeep 1.6.1-r1: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 11.3.0: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20241216: A code-completion engine for Vim.
@@ -86,7 +86,7 @@ dev-python/jaconv 0.4.0: Pure-Python Japanese character interconverter.
 dev-python/jetpytools 1.5.0: Collection of stuff that's useful in general Python programming.
 dev-python/llvmlite 0.43.0 0.44.0: A lightweight LLVM python binding for writing JIT compilers
 dev-python/log-symbols 0.0.14: Colored symbols for various log levels for Python.
-dev-python/minchoc 0.0.11: Minimal, Chocolatey-compatible NuGet server in a Django app.
+dev-python/minchoc 0.0.11-r1: Minimal, Chocolatey-compatible NuGet server in a Django app.
 dev-python/moviepy 2.2.1: Python library for video editing.
 dev-python/msgspec 0.19.0: Fast serialization and validation library.
 dev-python/numba 0.61.2: NumPy aware dynamic Python compiler using LLVM
@@ -247,11 +247,11 @@ media-video/ffms2 5.0: An FFmpeg based library and VapourSynth plugin for easy f
 media-video/flaldf-bin 0.1b: GPU accelerated compression to FLAC
 media-video/fmtconv 30_p20230901: Format conversion tools for Vapoursynth
 media-video/havsfunc 33_p20250508: Holy's ported AviSynth functions for VapourSynth
-media-video/instagram-archiver 0.3.2: Tool to download data from an Instagram profile you have access to.
+media-video/instagram-archiver 0.3.2-r1: Tool to download data from an Instagram profile you have access to.
 media-video/magewell-pro-capture 1.3.0.4479: Magewell Pro Capture driver.
 media-video/mnamer 2.5.5-r1: Media file renaming and organising tool.
 media-video/mvsfunc 10_p20230321-r2: mawen1250's VapourSynth functions
-media-video/open-in-mpv 0.1.3: Host-side script for the Open in mpv Chrome extension.
+media-video/open-in-mpv 0.1.3-r1: Host-side script for the Open in mpv Chrome extension.
 media-video/opentimelineio 0.17.0: Editorial interchange format and API (for use with Kdenlive).
 media-video/patreon-archiver 0.1.3-r1: Tool to download data from Patreon.
 media-video/scc-tools 3.5: Scenarist Closed Caption format tools.
@@ -317,7 +317,7 @@ net-misc/curl-impersonate 1.0.2: An active fork of curl-impersonate with more ve
 net-misc/muffet 2.10.9: Fast website link checker in Go
 net-misc/phantomjs 2.1.1_p20241215: Scriptable headless browser (forked and supports Qt 6).
 net-misc/wayback-machine-downloader 2.3.1_p20240208: Download an entire website from the Wayback Machine
-net-p2p/xirvik-tools 0.5.1: Tools for Xirvik servers.
+net-p2p/xirvik-tools 0.5.1-r1: Tools for Xirvik servers.
 net-print/epson-backend 1.2.6: Epson CUPS backend (ecbd).
 net-print/epson-printer-utility 1.1.3: Epson printer utility for USB only.
 net-proxy/charles 5.0.1: Web debugging proxy application.
