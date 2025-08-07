@@ -172,6 +172,7 @@ games-emulation/cemu 2.6: Wii U emulator.
 games-emulation/citra 20241029: A Nintendo 3DS emulator.
 games-emulation/dolphin-libretro 1.0_pre20250616: A Gamecube/Wii emulator core for libretro
 games-emulation/dosbox-x 2025.05.03: Cross-platform DOS emulation package.
+games-emulation/eden 0.0.3_rc2: Nintendo Switch emulator.
 games-emulation/flycast-libretro 2.5: Multiplatform Sega Dreamcast emulator
 games-emulation/fmsx-libretro 1.0_pre20241021: Port of fMSX to the libretro API.
 games-emulation/fuse-libretro 1.0_pre20241124: A port of the Fuse Unix Spectrum Emulator to libretro
@@ -251,7 +252,7 @@ media-video/mnamer 2.5.5-r1: Media file renaming and organising tool.
 media-video/mvsfunc 10_p20230321-r2: mawen1250's VapourSynth functions
 media-video/open-in-mpv 0.1.3: Host-side script for the Open in mpv Chrome extension.
 media-video/opentimelineio 0.17.0: Editorial interchange format and API (for use with Kdenlive).
-media-video/patreon-archiver 0.1.3: Tool to download data from Patreon.
+media-video/patreon-archiver 0.1.3-r1: Tool to download data from Patreon.
 media-video/scc-tools 3.5: Scenarist Closed Caption format tools.
 media-video/scenechange 0.2.0.2-r1: Scene change detection plugin for VapourSynth
 media-video/vapoursynth 72: A video processing framework with simplicity in mind.
@@ -273,6 +274,7 @@ media-video/vapoursynth-realesrgan-ncnn-vulkan 20230628: RealESRGAN super resolu
 media-video/vapoursynth-realsr-ncnn-vulkan 3-r1: RealSR super resolution plugin for VapourSynth.
 media-video/vapoursynth-srmd-ncnn-vulkan 3-r2: SRMD super resolution plugin for VapourSynth
 media-video/vapoursynth-waifu2x-ncnn-vulkan 5-r1: Waifu2x filter for VapourSynth
+media-video/vcrtool 0.0.1: Control a JLIP device such as a VCR.
 media-video/vhs-decode 0.3.5.1: Software defined VHS decoder.
 media-video/video2x 6.4.0: A lossless video/GIF/image upscaler.
 media-video/video2x-qt6 6.4.0: Qt 6 GUI for Video2x.

@@ -62,6 +62,9 @@ games-emulation/dosbox-x:screenshots - Screenshots and movie recording
 games-emulation/dosbox-x:slirp - Enable libslirp support
 games-emulation/dosbox-x:unaligned - Enable unaligned memory access
 games-emulation/dosbox-x:xbrz - Enable support for xBRZ pixel scaler
+games-emulation/eden:cubeb - 
+games-emulation/eden:web-service - 
+games-emulation/eden:webengine - 
 games-emulation/libretro-meta:2048 - 2048 Game Clone
 games-emulation/libretro-meta:3dengine - Test Core - 3D Engine
 games-emulation/libretro-meta:81 - Sinclair - ZX 81 (EightyOne)

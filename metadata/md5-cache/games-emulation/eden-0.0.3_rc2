@@ -1,0 +1,15 @@
+BDEPEND=app-arch/unzip dev-cpp/cpp-jwt dev-cpp/nlohmann_json dev-cpp/robin-map >=dev-util/vulkan-headers-1.3.275 dev-util/spirv-headers app-text/dos2unix app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
+DEPEND=>=app-arch/zstd-1.5.0:= app-arch/lz4 cubeb? ( media-libs/cubeb ) web-service? ( dev-cpp/cpp-httplib ) dev-libs/boost:=[context] >=dev-libs/libfmt-9.1.0:= dev-libs/libzip dev-libs/openssl:= dev-libs/vulkan-memory-allocator:= dev-util/vulkan-utility-libraries dev-util/glslang dev-qt/qtbase:6 dev-qt/qtmultimedia:6 media-libs/libsdl2 media-libs/libva media-libs/opus net-libs/enet:= sys-libs/zlib virtual/libusb:= x11-libs/libX11 x11-libs/libdrm x11-libs/libvdpau webengine? ( dev-qt/qtwebengine:6 ) llvm-libunwind? ( llvm-runtimes/libunwind ) !llvm-libunwind? ( sys-libs/libunwind:= )
+DESCRIPTION=Nintendo Switch emulator.
+EAPI=8
+HOMEPAGE=https://eden-emu.dev/ https://git.eden-emu.dev/eden-emu/eden
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=cmake flag-o-matic xdg
+IUSE=+cubeb llvm-libunwind +web-service +webengine
+LICENSE=BSD GPL-2 GPL-2+ LGPL-2.1
+RDEPEND=>=app-arch/zstd-1.5.0:= app-arch/lz4 cubeb? ( media-libs/cubeb ) web-service? ( dev-cpp/cpp-httplib ) dev-libs/boost:=[context] >=dev-libs/libfmt-9.1.0:= dev-libs/libzip dev-libs/openssl:= dev-libs/vulkan-memory-allocator:= dev-util/vulkan-utility-libraries dev-util/glslang dev-qt/qtbase:6 dev-qt/qtmultimedia:6 media-libs/libsdl2 media-libs/libva media-libs/opus net-libs/enet:= sys-libs/zlib virtual/libusb:= x11-libs/libX11 x11-libs/libdrm x11-libs/libvdpau webengine? ( dev-qt/qtwebengine:6 ) llvm-libunwind? ( llvm-runtimes/libunwind ) !llvm-libunwind? ( sys-libs/libunwind:= ) media-libs/vulkan-loader
+SLOT=0
+SRC_URI=https://git.eden-emu.dev/eden-emu/eden/archive/v0.0.3-rc2.tar.gz -> eden-0.0.3_rc2.tar.gz https://github.com/herumi/xbyak/archive/refs/tags/v7.05.tar.gz -> eden-7.05.tar.gz https://github.com/FFmpeg/FFmpeg/archive/cc6fb1643d7e14c6f76a48e0cffad96394cb197c.tar.gz -> eden-ffmpeg-cc6fb16.tar.gz https://github.com/zyantific/zydis/archive/c2d2bab0255e53a7c3e9b615f4eb69449eb942df.tar.gz -> eden-zydis-c2d2bab.tar.gz https://github.com/Lizzie841/unordered_dense/archive/e59d30b7b12e1d04cc2fc9c6219e35bda447c17e.tar.gz -> eden-unordered_dense-e59d30b.tar.gz https://github.com/zyantific/zycore-c/archive/75a36c45ae1ad382b0f4e0ede0af84c11ee69928.tar.gz -> eden-zycore-c-75a36c4.tar.gz
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	xdg	3ef49a87c52c8b77c476351195dfe575
+_md5_=f2b1974e6505d230b6f9bf45a07ed56e
