@@ -1,27 +1,23 @@
-# Copyright 2023 Gentoo Authors
+# Copyright 2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=( python3_1{0,1,2,3} )
+
 DISTUTILS_USE_PEP517=poetry
+PYTHON_COMPAT=( python3_1{1,2,3} )
 inherit distutils-r1
 
-DESCRIPTION="Minimal choco command for use on non-Windows platforms."
-HOMEPAGE="https://github.com/Tatsh/pychoco"
+DESCRIPTION="CLI tool and library for managing the Motorola MB8611 modem and other devices."
+HOMEPAGE="https://github.com/Tatsh/mb8611"
 SRC_URI="https://github.com/Tatsh/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
 
-DEPEND="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyxdg[${PYTHON_USEDEP}]
+RDEPEND="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]"
-RDEPEND="${DEPEND}"
+	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="test? (
 	dev-python/mock[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
@@ -30,3 +26,8 @@ BDEPEND="test? (
 )"
 
 distutils_enable_tests pytest
+
+src_install() {
+	doman "man/${PN}.1"
+	distutils-r1_src_install
+}
