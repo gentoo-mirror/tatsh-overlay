@@ -147,7 +147,7 @@ dev-util/sqlfluff 3.4.2: The SQL linter for humans.
 dev-util/vcpkg-tool 2025.7.21: Library manager for C/C++ (tool only).
 dev-util/vivisect 1.2.1: A combined disassembler/static analysis/symbolic execution/debugger framework.
 dev-util/vscode-vsce 3.2.1: VS Code extensions manager for extension developers.
-dev-util/wakatime-cli 1.127.0: Command line interface to WakaTime used by all WakaTime plugins
+dev-util/wakatime-cli 1.131.0: Command line interface to WakaTime used by all WakaTime plugins
 dev-util/ycmd 20241214: A code-completion & code-comprehension server.
 dev-util/yo 5.1.0: CLI tool for running Yeoman generators
 dev-vcs/blackbox 1.20220610-r1: Safely store secrets in Git/Mercurial/Subversion
@@ -173,7 +173,7 @@ games-emulation/dosbox-x 2025.05.03: Cross-platform DOS emulation package.
 games-emulation/flycast-libretro 2.5: Multiplatform Sega Dreamcast emulator
 games-emulation/fmsx-libretro 1.0_pre20241021: Port of fMSX to the libretro API.
 games-emulation/fuse-libretro 1.0_pre20241124: A port of the Fuse Unix Spectrum Emulator to libretro
-games-emulation/gopher64 1.1.1: N64 emulator written in Rust.
+games-emulation/gopher64 1.1.5: N64 emulator written in Rust.
 games-emulation/gopher64-netplay-server 1.0.29: Netplay server for N64 emulators.
 games-emulation/libretro-common-overlays 1_pre20250527: Collection of overlay files for use with RetroArch
 games-emulation/libretro-database 1.21.1: Repository containing cheat code files, content data files, etc.
@@ -311,7 +311,7 @@ net-mail/gmail-archiver 0.0.4: Locally archive Gmail emails.
 net-mail/gmailctl 0.11.0: Declarative configuration for Gmail filters
 net-misc/curl-impersonate 1.0.2: An active fork of curl-impersonate with more versions and build targets.
 net-misc/ipv6-config-update 0.1.1: Update IPv6 CIDR in config files and restart relevant systemd units.
-net-misc/muffet 2.10.9: Fast website link checker in Go
+net-misc/muffet 2.11.0: Fast website link checker in Go
 net-misc/phantomjs 2.1.1_p20241215: Scriptable headless browser (forked and supports Qt 6).
 net-misc/wayback-machine-downloader 2.3.1_p20240208: Download an entire website from the Wayback Machine
 net-p2p/xirvik-tools 0.5.1-r1: Tools for Xirvik servers.
@@ -336,7 +336,7 @@ sys-kernel/installkernel-wsl 0.0.3: Script and installkernel hook to copy Linux 
 sys-kernel/msi-ec 20250804: Kernel module for the embedded controller of MSI laptops.
 www-apps/pihole-admin-lte 5.21-r3: Pi-hole Dashboard for stats and more
 www-apps/stash 0.28.1: An organiser for your special videos, written in Go.
-www-apps/wakapi 2.14.0: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+www-apps/wakapi 2.14.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 x11-misc/input-remapper 2.1.1: An easy to use tool to change the behaviour of your input devices.
 x11-misc/mimeo 2023-r1: Open files by MIME-type or file name using regular expressions.
 x11-misc/rom-properties 2.5.1: Shell extension for file managers to manage game ROMs and disc images.
