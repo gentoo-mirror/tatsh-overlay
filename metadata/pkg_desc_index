@@ -43,6 +43,7 @@ app-portage/upkeep 1.6.1-r1: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 11.3.0: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20241216: A code-completion engine for Vim.
+dev-build/node-gyp 11.4.2: Node.js native addon build tool.
 dev-cpp/cli11 2.5.0: Command line parser for C++11
 dev-cpp/cpp-jwt 1.5.0_p20250422: JSON Web Token library for C++
 dev-cpp/cpprestsdk 2.10.19-r3: A Microsoft project for cloud-based client-server communication.
