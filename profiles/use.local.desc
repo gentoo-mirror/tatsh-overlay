@@ -42,8 +42,6 @@ games-emulation/86box:dynrec - Enable dynamic recompiler
 games-emulation/86box:fluidsynth - Use media-sound/fluidsynth for MIDI emulation
 games-emulation/86box:mt-32 - Use media-libs/munt-mt32emu for MT-32 emulation
 games-emulation/86box:new-dynrec - Use the PCem v15 ("new") dynamic recompiler
-games-emulation/azahar:scripting - Enable RPC server for scripting
-games-emulation/azahar:web-service - Enable web services (telemetry, etc.)
 games-emulation/bsnes-hd:libretro - Build libretro core
 games-emulation/cemu:cubeb - Enable cubeb audio support
 games-emulation/cemu:discord - Enable rich Discord presence
@@ -233,10 +231,6 @@ games-emulation/rpcs3:faudio - Enable audio rendering with app-emulation/faudio
 games-emulation/rpcs3:joystick - Enable support for input devices with evdev
 games-emulation/rpcs3:llvm - LLVM recompiler support
 games-emulation/rpcs3:vulkan - Enable Vulkan graphics library support
-games-emulation/sudachi:compatibility-reporting - 
-games-emulation/sudachi:cubeb - 
-games-emulation/sudachi:web-service - 
-games-emulation/sudachi:webengine - 
 games-emulation/xemu:aio - Add support for AIO
 games-emulation/xemu:io-uring - Enable efficient I/O via sys-libs/liburing
 games-emulation/xemu:malloc-trim - Enable malloc_trim() support
