@@ -177,7 +177,7 @@ games-emulation/flycast-libretro 2.5: Multiplatform Sega Dreamcast emulator
 games-emulation/fmsx-libretro 1.0_pre20241021: Port of fMSX to the libretro API.
 games-emulation/fuse-libretro 1.0_pre20241124: A port of the Fuse Unix Spectrum Emulator to libretro
 games-emulation/gopher64 1.1.1: N64 emulator written in Rust.
-games-emulation/gopher64-netplay-server 1.0.12: Netplay server for N64 emulators.
+games-emulation/gopher64-netplay-server 1.0.29: Netplay server for N64 emulators.
 games-emulation/libretro-common-overlays 1_pre20250527: Collection of overlay files for use with RetroArch
 games-emulation/libretro-database 1.21.1: Repository containing cheat code files, content data files, etc.
 games-emulation/libretro-db 1.21.0: libretro-db tools from RetroArch.
