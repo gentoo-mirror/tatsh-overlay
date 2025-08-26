@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/xenia-canary/xenia-canary https://xenia.jp/
 LICENSE=MIT
 RDEPEND=app-arch/snappy app-arch/zarchive app-arch/zstd dev-cpp/catch:0 dev-cpp/tomlplusplus dev-libs/capstone dev-libs/cxxopts dev-libs/date dev-libs/disruptorplus dev-libs/libfmt:= dev-libs/pugixml dev-libs/rapidcsv dev-libs/rapidjson dev-libs/tabulate dev-libs/utfcpp media-libs/VulkanMemoryAllocator dev-libs/xbyak dev-libs/xxhash dev-util/DirectXShaderCompiler dev-util/vulkan-headers media-libs/libsdl2 media-video/ffmpeg:= sys-libs/zlib
 SLOT=0
-SRC_URI=https://github.com/xenia-canary/xenia-canary/archive/de10b9ef911b6e0abff615315421d72fb787ef85.tar.gz -> xenia-20250522-de10b9e.tar.gz
-_md5_=1e16efd2fa277a3787e1b012e9a162ca
+SRC_URI=https://github.com/xenia-canary/xenia-canary/archive/765073021a3fd0ec193f89ff224aad5a3af31551.tar.gz -> xenia-20250822-7650730.tar.gz
+_md5_=28e5965b479f1b2a989fbf9dade7b333

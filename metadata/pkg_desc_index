@@ -199,7 +199,7 @@ games-emulation/vice-x64-libretro 1.0_pre20250523: Versatile Commodore 8-bit Emu
 games-emulation/vice-x64sc-libretro 1.0_pre20250523: Versatile Commodore 8-bit Emulator as a libretro core
 games-emulation/vita3k 20230408-r2: Experimental PlayStation Vita emulator.
 games-emulation/xemu 0.8.48: Original Xbox emulator.
-games-emulation/xenia 20250522: Xbox 360 emulator research project (Canary version).
+games-emulation/xenia 20250822: Xbox 360 emulator research project (Canary version).
 games-emulation/yuzu 0.1734-r3: Nintendo Switch emulator.
 games-misc/render96ex 20241202: Fork of sm64-port with additional features (alpha branch).
 games-misc/smw 0.1-r1: Reimplementation of Super Mario World.
@@ -316,7 +316,7 @@ net-misc/phantomjs 2.1.1_p20241215: Scriptable headless browser (forked and supp
 net-misc/wayback-machine-downloader 2.3.1_p20240208: Download an entire website from the Wayback Machine
 net-p2p/xirvik-tools 0.5.1-r1: Tools for Xirvik servers.
 net-print/epson-backend 1.2.6: Epson CUPS backend (ecbd).
-net-print/epson-printer-utility 1.1.3: Epson printer utility for USB only.
+net-print/epson-printer-utility 1.2.2: Epson printer utility for USB only.
 net-proxy/charles 5.0.2: Web debugging proxy application.
 net-vpn/f5vpn 7245.2023.1006.1: This software can establish SSL VPN network access connection with F5 BIG-IP APM.
 net-vpn/ifup-systemd-resolved 0.0.2: Hook application for (patched) openfortivpn to support systemd-resolved.
