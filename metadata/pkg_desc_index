@@ -308,7 +308,7 @@ net-firewall/nftables-geoip 20240124: Generates nftables maps of geolocation IP 
 net-im/ripcord 0.4.29-r5: Desktop chat client for Slack and Discord (not web-based).
 net-mail/gmail-archiver 0.0.4: Locally archive Gmail emails.
 net-mail/gmailctl 0.11.0: Declarative configuration for Gmail filters
-net-misc/curl-impersonate 1.0.2: An active fork of curl-impersonate with more versions and build targets.
+net-misc/curl-impersonate 1.2.2: An active fork of curl-impersonate with more versions and build targets.
 net-misc/ipv6-config-update 0.1.1: Update IPv6 CIDR in config files and restart relevant systemd units.
 net-misc/muffet 2.11.0: Fast website link checker in Go
 net-misc/phantomjs 2.1.1_p20241215: Scriptable headless browser (forked and supports Qt 6).
