@@ -185,7 +185,7 @@ games-emulation/mednafen-psx-libretro 1.0_pre20250620: Standalone port/fork of M
 games-emulation/mupen64next-libretro 1.0_pre20250617: Improved mupen64plus libretro core reimplementation
 games-emulation/mupen64plus-input-raphnetraw 1.1.0-r1: Plugin to let the emulator communicate with the controllers directly.
 games-emulation/mupen64plus-video-gliden64 4.0_p20250809: A new generation, open-source graphics plugin for N64 emulators.
-games-emulation/play 0.70: PlayStation 2 emulator.
+games-emulation/play 0.71: PlayStation 2 emulator.
 games-emulation/ppsspp-libretro 1.19.2-r1 1.19.3: Libretro port of PPSSPP
 games-emulation/puae-libretro 1.0_pre20250614: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
 games-emulation/puae2021-libretro 1.0_pre20250614: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
