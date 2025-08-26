@@ -3,7 +3,7 @@ acct-user/pihole 0-r1: user for pihole
 app-admin/awscli-plugin-endpoint 0.4-r4: Provides service endpoint configuration per service on profile.
 app-admin/mb8611 0.0.2-r1: CLI tool and library for managing the Motorola MB8611 modem and other devices.
 app-admin/padd 3.11.1: PADD provides in-depth information about your Pi-hole.
-app-arch/asar 4.0.0: Create Electron app packages.
+app-arch/asar 4.0.1: Create Electron app packages.
 app-arch/bitrock-unpacker 20160622: Bitrock unpacking script.
 app-arch/pychoco 0.1.3-r1: Minimal choco command for use on non-Windows platforms.
 app-arch/unalz 0.65: Unpack ALZ archives.
@@ -22,13 +22,13 @@ app-misc/cmdpack 1.0_p20230123-r1: Neill Corlett's command-line pack.
 app-misc/csvlens 0.13.0: Command line csv viewer
 app-misc/deark 1.7.1: Utility to extract data from various file formats.
 app-misc/deltona 0.0.2: A lot of uncategorised utilities.
-app-misc/fx 38.0.0: Terminal JSON viewer.
+app-misc/fx 39.0.2: Terminal JSON viewer.
 app-misc/mcontrolcenter 0.5.1: Allows you to change the settings of MSI laptops.
 app-misc/mutt-oauth2 0.1.1: Packaged, maintained version of contributed mutt_oauth2.py script.
 app-misc/pyrescene 0.7-r3: Mechanism to restore metadata from certain releasesd files.
 app-misc/tasksh 1.2.0-r1: Shell command that wraps Taskwarrior commands
 app-misc/usps-track 0.0.2: CLI to track a USPS shipment by SMS.
-app-misc/zwave-js-server 3.1.0: Small server wrapper around Z-Wave JS to access it via a WebSocket.
+app-misc/zwave-js-server 3.2.1: Small server wrapper around Z-Wave JS to access it via a WebSocket.
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-mobilephone/revanced-cli 5.0.1: Command line application to use ReVanced.
 app-mobilephone/revanced-patches 5.34.0: Patches for ReVanced.
@@ -43,7 +43,6 @@ app-portage/upkeep 1.6.1-r1: Helper commands to automate updating with Portage.
 app-vim/kotlin-vim 20221230: Kotlin plugin for Vim.
 app-vim/vim-wakatime 11.3.0: vim plugin: automatic time tracking with WakaTime
 app-vim/youcompleteme 20241216: A code-completion engine for Vim.
-dev-build/node-gyp 11.2.0: Node.js native addon build tool.
 dev-cpp/cli11 2.5.0: Command line parser for C++11
 dev-cpp/cpp-jwt 1.5.0_p20250422: JSON Web Token library for C++
 dev-cpp/cpprestsdk 2.10.19-r3: A Microsoft project for cloud-based client-server communication.
