@@ -67,6 +67,7 @@ dev-ml/mparser 1.3: A simple monadic parser combinator library for OCaml.
 dev-ml/parany 14.0.1: Parallelize any computation.
 dev-ml/shell 0.17.0: Yet another implementation of fork and exec and related functionality.
 dev-ml/toml 7.1.0: OCaml library for TOML.
+dev-python/bascom 0.0.1: Core library used in Tatsh projects.
 dev-python/benc 2019.8.1-r4: Bencoder in 100 lines of modern Python
 dev-python/colored 2.3.1: Very simple Python library for color and formatting in terminal
 dev-python/commandlines 0.4.1-r2: Routines for extracting information from fontTools glyphs
