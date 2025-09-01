@@ -168,7 +168,7 @@ games-emulation/86box 5.0: Emulator of x86-based machines based on PCem.
 games-emulation/ares 145: A cross-platform, open source, multi-system emulator, focusing on accuracy and preservation.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
 games-emulation/cemu 2.6: Wii U emulator.
-games-emulation/citra 20241029: A Nintendo 3DS emulator.
+games-emulation/citra 20241029-r1: A Nintendo 3DS emulator.
 games-emulation/dolphin-libretro 1.0_pre20250616: A Gamecube/Wii emulator core for libretro
 games-emulation/dosbox-x 2025.05.03: Cross-platform DOS emulation package.
 games-emulation/flycast-libretro 2.5: Multiplatform Sega Dreamcast emulator
