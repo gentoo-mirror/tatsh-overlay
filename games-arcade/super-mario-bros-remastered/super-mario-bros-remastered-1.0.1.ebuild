@@ -67,6 +67,6 @@ src_install() {
 	doins build/SMB1R.pck
 	make_wrapper SMB1R ./SMB1R "/usr/share/${PN}"
 	newicon -s 256 icon.png "${PN}.png"
-	make_desktop_entry SM1R 'Super Mario Bros. Remastered' "${PN}"
+	make_desktop_entry SMB1R 'Super Mario Bros. Remastered' "${PN}"
 	einstalldocs
 }
