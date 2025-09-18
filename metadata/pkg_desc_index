@@ -32,7 +32,7 @@ app-misc/zwave-js-server 3.2.1: Small server wrapper around Z-Wave JS to access 
 app-mobilephone/better-adb-sync 1.4.0-r1: Completely rewritten adbsync with proper --exclude.
 app-mobilephone/revanced-cli 5.0.1: Command line application to use ReVanced.
 app-mobilephone/revanced-patches 5.34.0: Patches for ReVanced.
-app-office/glabels 3.99_p20250826: glabels label designer (now in Qt).
+app-office/glabels 3.99_p20250913: glabels label designer (now in Qt).
 app-pda/altserver 0.0.5: AltServer for AltStore, but on-device.
 app-pda/ipad-charge 20210107-r1: Helper utility to enable charging with Apple mobile devices such as the iPad.
 app-pda/libplist 2.7.0-r1: Support library to deal with Apple Property Lists (Binary & XML)
@@ -141,7 +141,7 @@ dev-util/cz-path 0.0.1: Commitizen plugin that prefixes commit messages with the
 dev-util/docsonnet 0.0.6: Experimental Jsonnet docs generator (library only).
 dev-util/ffs 0.1.2-r1: Lets you mount semi-structured data (like JSON) as a filesystem
 dev-util/flips 198: Floating IPS is a patcher for IPS and BPS files.
-dev-util/ida-free 9.0.241217: Free version of the code analyzer.
+dev-util/ida-free 9.0.241217-r1: Free version of the code analyzer.
 dev-util/prettier 3.6.2: Prettier is an opinionated code formatter
 dev-util/react-native-decompiler 0.2.4: React Native decompiler.
 dev-util/sqlfluff 3.4.2: The SQL linter for humans.
@@ -165,7 +165,7 @@ games-arcade/outfox 0.4.19-r1 0.5.0_p43: Advanced rhythm game. Designed for both
 games-arcade/outfox-serenity 3.0.3: The community pack content for Project OutFox (includes volume 1.5)
 games-arcade/stepmania 5.1.0_beta2_p20221114-r8: Advanced rhythm game. Designed for both home and arcade use
 games-arcade/super-mario-bros-remastered 1.0.1: Unofficial remaster of the original game.
-games-emulation/86box 5.0: Emulator of x86-based machines based on PCem.
+games-emulation/86box 5.1: Emulator of x86-based machines based on PCem.
 games-emulation/ares 145: A cross-platform, open source, multi-system emulator, focusing on accuracy and preservation.
 games-emulation/bsnes-hd 10.6_beta: bsnes fork that adds HD video features.
 games-emulation/cemu 2.6: Wii U emulator.
@@ -290,7 +290,7 @@ mpv-plugin/crop 20250309: Crop the current video in a visual manner.
 mpv-plugin/delete-file 20240212: Queue files for deletion on quit.
 mpv-plugin/mpv-copytime 20220308-r1: Queue files for deletion on quit.
 mpv-plugin/mpv-dvd-browser 20250115: API to allow scripts to create interactive scrollable lists in mpv player.
-mpv-plugin/mpv-libunity 20211123-r4: Shows progress on a panel following libunity specification.
+mpv-plugin/mpv-libunity 20211123-r5: Shows progress on a panel following libunity specification.
 mpv-plugin/mpv-lrc 20231208: Synchronize lyrics with mpv
 mpv-plugin/mpv-netrc 0.0.2-r1: Reads ~/.netrc and sets up authorisation for URIs.
 mpv-plugin/mpv-scroll-list 20250110: API to allow scripts to create interactive scrollable lists in mpv player.
