@@ -341,5 +341,5 @@ www-apps/stash 0.28.1: An organiser for your special videos, written in Go.
 www-apps/wakapi 2.14.1: A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 x11-misc/input-remapper 2.1.1: An easy to use tool to change the behaviour of your input devices.
 x11-misc/mimeo 2023-r1: Open files by MIME-type or file name using regular expressions.
-x11-misc/rom-properties 2.5.1: Shell extension for file managers to manage game ROMs and disc images.
+x11-misc/rom-properties 2.5.1-r1: Shell extension for file managers to manage game ROMs and disc images.
 x11-themes/apple-cursor 2.0.1: macOS cursor theme.
