@@ -210,7 +210,7 @@ games-util/cdecrypt 4.8: Decrypt Wii U NUS content
 games-util/hactool 1.4.0_p20231011: Tool for common file formats for the Nintendo Switch.
 games-util/joystickwake 0.4.2: Joystick-aware screen waker.
 games-util/kelftool 20191126: Utility for decrypt, encrypt and sign PS2 KELF and PSX KELF files.
-games-util/nstool 1.9.2: General purpose read/extract tool for Nintendo Switch file formats.
+games-util/nstool 1.9.2-r1: General purpose read/extract tool for Nintendo Switch file formats.
 games-util/nsw2usb-con 20250609: A minimal Python CLI tool to enable Switch 2-Pro-Controller and NSO GameCube controller input streaming via USB.
 games-util/raphnet-tech-adapter-manager 2.1.29-r1: Graphical user interface and command-line tools to manage raphnet adapters.
 games-util/re3-installer 0.2.2: Install GTA III files from ISO or directories for use with re3.
