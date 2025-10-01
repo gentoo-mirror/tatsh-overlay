@@ -19,6 +19,7 @@ DEPEND="app-arch/lz4
 RDEPEND="${DEPEND}"
 
 src_prepare() {
+	# shellcheck disable=SC2016
 	sed -re 's/^(PROJECT_DEPEND.*)/\1 mbedcrypto-3/' \
 		-e 's/@\$\(CXX\)/$(CXX)/g' \
 		-e '/\t@echo .*/d' \
