@@ -8,4 +8,4 @@ LICENSE=MIT
 RDEPEND=app-arch/lz4 net-libs/mbedtls:3 dev-libs/libfmt dev-libs/libtoolchain dev-libs/libpietendo
 SLOT=0
 SRC_URI=https://github.com/jakcron/nstool/archive/refs/tags/v1.9.2.tar.gz -> nstool-1.9.2.tar.gz
-_md5_=c608b45ffd133c3e275d1b4476029968
+_md5_=798ea9dd61238466e63995c766817e86
