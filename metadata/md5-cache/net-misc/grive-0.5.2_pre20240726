@@ -1,0 +1,14 @@
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-libs/boost:= dev-libs/expat >=dev-libs/json-c-0.11-r1:= dev-libs/libgcrypt:0= dev-libs/yajl || ( net-misc/curl[curl_ssl_openssl] net-misc/curl[curl_ssl_gnutls] ) sys-libs/binutils-libs:0= sys-libs/glibc
+DESCRIPTION=An open source Linux client for Google Drive
+EAPI=8
+HOMEPAGE=https://github.com/vitalif/grive2
+INHERIT=cmake vcs-snapshot
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/boost:= dev-libs/expat >=dev-libs/json-c-0.11-r1:= dev-libs/libgcrypt:0= dev-libs/yajl || ( net-misc/curl[curl_ssl_openssl] net-misc/curl[curl_ssl_gnutls] ) sys-libs/binutils-libs:0= sys-libs/glibc
+SLOT=0
+SRC_URI=https://github.com/vitalif/grive2/archive/be52cb21a7ea5c16db0d5f3b22f1864629ff36ae.tar.gz -> grive-0.5.2_pre20240726.tar.gz
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
+_md5_=235f77b33f0259e5fe993bf46ea3aba7

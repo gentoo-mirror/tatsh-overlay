@@ -313,6 +313,7 @@ net-irc/lith 1.6.13: Multiplatform, mobile-focused WeeChat relay client.
 net-mail/gmail-archiver 0.0.4: Locally archive Gmail emails.
 net-mail/gmailctl 0.11.0: Declarative configuration for Gmail filters
 net-misc/curl-impersonate 1.2.2: An active fork of curl-impersonate with more versions and build targets.
+net-misc/grive 0.5.2_pre20240726: An open source Linux client for Google Drive
 net-misc/ipv6-config-update 0.1.1: Update IPv6 CIDR in config files and restart relevant systemd units.
 net-misc/muffet 2.11.0: Fast website link checker in Go
 net-misc/phantomjs 2.1.1_p20241215: Scriptable headless browser (forked and supports Qt 6).
