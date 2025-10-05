@@ -1,4 +1,4 @@
-BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.28.5
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=dev-libs/boost:= dev-libs/ncnn:= dev-libs/spdlog:= media-gfx/realesrgan-ncnn-vulkan:= media-libs/opencv:= media-video/ffmpeg:= dev-libs/libfmt media-libs/vulkan-loader
 DESCRIPTION=A lossless video/GIF/image upscaler.
@@ -10,5 +10,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-3 LGPL-3
 SLOT=0
 SRC_URI=https://github.com/k4yt3x/video2x/archive/refs/tags/6.4.0.tar.gz -> video2x-6.4.0.tar.gz https://github.com/k4yt3x/libreal-esrgan-ncnn-vulkan/archive/c1f255524f79566c40866b38e5e65b40adf77eee.tar.gz -> video2x-libreal-esrgan-ncnn-vulkan-c1f255524f79566c40866b38e5e65b40adf77eee.tar.gz https://github.com/k4yt3x/librife-ncnn-vulkan/archive/3f7bcb44f38b2acda6fa5e575a6d12517ac16b94.tar.gz -> video2x-librife-ncnn-vulkan-3f7bcb44f38b2acda6fa5e575a6d12517ac16b94.tar.gz https://github.com/k4yt3x/librealcugan-ncnn-vulkan/archive/d9c5a7eb4c8475af6110496c27c3d1f702f9b96a.tar.gz -> video2x-librealcugan-ncnn-vulkan-d9c5a7eb4c8475af6110496c27c3d1f702f9b96a.tar.gz
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	cf95ad72ab207889c1668fc0d1bee181
 _md5_=ca9780ec283f640f58c0f50e46b470e4

@@ -1,4 +1,4 @@
-BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.28.5
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=<dev-libs/libfmt-10 dev-libs/lzo media-libs/libpng media-libs/mesa net-libs/mbedtls net-misc/curl sys-libs/readline sys-libs/zlib X? ( x11-libs/libXext x11-libs/libXi x11-libs/libXrandr dev-qt/qtconcurrent ) opengl? ( virtual/opengl ) vulkan? ( media-libs/vulkan-loader ) virtual/libusb
 DESCRIPTION=A Gamecube/Wii emulator core for libretro
@@ -12,5 +12,5 @@ RDEPEND=<dev-libs/libfmt-10 dev-libs/lzo media-libs/libpng media-libs/mesa net-l
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/dolphin/archive/a09f78f735f0d2184f64ba5b134abe98ee99c65f.tar.gz -> dolphin-libretro-1.0_pre20250616.tar.gz
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	libretro	3482907140a807ecd4cd5fd729664601	libretro-core	36e75d7f78d1f3adb751412b4a6cfd7b	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	libretro	3482907140a807ecd4cd5fd729664601	libretro-core	36e75d7f78d1f3adb751412b4a6cfd7b	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	cf95ad72ab207889c1668fc0d1bee181
 _md5_=989164099cc55f7bb462c1347ee702e4
